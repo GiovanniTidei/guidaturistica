@@ -1,12 +1,411 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guida Turistica
-    </title>
+    <title>Guida Turistica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .audio-btn {
+        background: #000;
+        color: #fff;
+        border: none;
+        border-radius: 2rem;
+        padding: 0.5rem 2rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+        transition: background 0.2s, color 0.2s;
+      }
+      .audio-btn:hover, .audio-btn:focus {
+        background: #222 !important;
+        color: #fff !important;
+        outline: none !important;
+      }
+    </style>
 </head>
 <body>
-    Guida Turistica
+    <div class="container py-5" id="main-content"></div>
+    <script>
+      // Percorsi dei dati locali
+      const DATI_SITI = 'dati.json';
+      const DATI_MUSEI = 'dati_musei.json';
+      const DATI_SIMULAZIONI = 'dati_simulazioni.json';
+
+      let datiSiti = [];
+      let datiMusei = [];
+      let datiSimulazioni = [];
+
+      // Karaoke highlighting variables
+      let currentWordIndex = 0;
+      let words = [];
+      let highlightInterval;
+      let synth = window.speechSynthesis;
+      let utterance;
+      let selectedVoice = null;
+
+      // Stato della vista: 'home', 'siti', 'musei', 'simulazioni'
+      let currentView = 'home';
+
+      // Carica tutti i dati e mostra la home
+      Promise.all([
+        fetch(DATI_SITI).then(r => r.json()).catch(() => []),
+        fetch(DATI_MUSEI).then(r => r.json()).catch(() => []),
+        fetch(DATI_SIMULAZIONI).then(r => r.json()).catch(() => [])
+      ]).then(([siti, musei, simulazioni]) => {
+        datiSiti = siti;
+        datiMusei = musei;
+        datiSimulazioni = simulazioni;
+        mostraHome();
+      }).catch(() => {
+        document.getElementById('main-content').innerHTML = '<div class="alert alert-danger">Errore nel caricamento dei dati locali.</div>';
+      });
+
+      // Voce italiana per audio
+      function setVoice() {
+        const voices = synth.getVoices();
+        selectedVoice = voices.find(v => v.lang.startsWith('it') && v.name.toLowerCase().includes('google'));
+        if (!selectedVoice) {
+          selectedVoice = voices.find(v => v.lang.startsWith('it'));
+        }
+      }
+      if (typeof speechSynthesis !== "undefined") {
+        speechSynthesis.onvoiceschanged = setVoice;
+        setVoice();
+      }
+
+      function wrapWordsInSpans(text) {
+        return text.split(/(\s+)/).map((word, index) => {
+          if (word.trim()) {
+            return `<span class="word" data-index="${Math.floor(index/2)}">${word}</span>`;
+          }
+          return word;
+        }).join('');
+      }
+
+      function highlightReadText(currentIndex) {
+        document.querySelectorAll('.word').forEach((word, index) => {
+          const wordIndex = parseInt(word.dataset.index);
+          if (wordIndex < currentIndex) {
+            word.classList.remove('current');
+            word.classList.add('read');
+          } else if (wordIndex === currentIndex) {
+            word.classList.remove('read');
+            word.classList.add('current');
+            word.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+          } else {
+            word.classList.remove('read', 'current');
+          }
+        });
+      }
+
+      function startHighlighting() {
+        const wordsPerMinute = 150;
+        const millisecondsPerWord = (60 / wordsPerMinute) * 1000;
+        highlightInterval = setInterval(() => {
+          if (currentWordIndex < words.length) {
+            highlightReadText(currentWordIndex);
+            currentWordIndex++;
+          } else {
+            stopHighlighting();
+          }
+        }, millisecondsPerWord);
+      }
+
+      function stopHighlighting() {
+        if (highlightInterval) {
+          clearInterval(highlightInterval);
+          highlightInterval = null;
+        }
+        document.querySelectorAll('.word').forEach(word => {
+          word.classList.remove('read', 'current');
+        });
+        currentWordIndex = 0;
+      }
+
+      // Stop audio su qualsiasi click, tranne Play/Stop
+      document.addEventListener('click', function(e) {
+        if (
+          e.target.id === 'playBtn' ||
+          e.target.id === 'stopBtn'
+        ) return;
+        stopAudio();
+      }, true);
+
+      // Play sempre funzionante e sempre riparte dall'inizio
+      function playAudio() {
+        stopAudio();
+        if (!words || words.length === 0) return;
+        const text = words.join(' ');
+        utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = "it-IT";
+        if(selectedVoice) utterance.voice = selectedVoice;
+        utterance.rate = 1.1;
+        utterance.pitch = 1;
+        currentWordIndex = 0;
+        startHighlighting();
+        utterance.onend = function() { stopHighlighting(); };
+        utterance.onerror = function() { stopHighlighting(); };
+        synth.speak(utterance);
+      }
+      function stopAudio() {
+        if(synth.speaking) synth.cancel();
+        stopHighlighting();
+      }
+
+      document.addEventListener('click', function(e) {
+        if (
+          e.target.id === 'playBtn' ||
+          e.target.id === 'stopBtn'
+        ) return;
+        stopAudio();
+      });
+
+      // Home con un solo pulsante nero per ogni sezione
+      function mostraHome() {
+        currentView = 'home';
+        document.getElementById('main-content').innerHTML = `
+          <h1 class="mb-4 text-center">Guida Turistica</h1>
+          <div class="d-flex flex-column align-items-center" style="max-width: 400px; margin: 0 auto;">
+            <button class="audio-btn main-link w-100 mb-3" data-type="siti">Siti</button>
+            <div class="w-100 d-flex align-items-center justify-content-center my-2">
+              <hr class="flex-grow-1" style="border-top: 2px solid #bbb; margin: 0 1rem;">
+            </div>
+            <button class="audio-btn main-link w-100 mb-3" data-type="musei">Musei</button>
+            <div class="w-100 d-flex align-items-center justify-content-center my-2">
+              <hr class="flex-grow-1" style="border-top: 2px solid #bbb; margin: 0 1rem;">
+            </div>
+            <button class="audio-btn main-link w-100" data-type="simulazioni">Simulazioni</button>
+          </div>
+        `;
+        document.querySelectorAll('.main-link').forEach(el => {
+          el.addEventListener('click', function() {
+            if (el.dataset.type === 'siti') mostraRegioni('siti');
+            if (el.dataset.type === 'musei') mostraRegioni('musei');
+            if (el.dataset.type === 'simulazioni') mostraRegioni('simulazioni');
+          });
+        });
+      }
+
+      // Mostra le regioni per la categoria scelta
+      function mostraRegioni(tipo) {
+        currentView = tipo;
+        let dati, titolo;
+        if (tipo === 'siti') {
+          dati = datiSiti;
+          titolo = 'Siti';
+        } else if (tipo === 'musei') {
+          dati = datiMusei;
+          titolo = 'Musei';
+        } else {
+          dati = datiSimulazioni;
+          titolo = 'Simulazioni';
+        }
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backHome" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna alla home
+          </button>
+          <h2 class="mb-3">${titolo} per regione</h2>
+          <ul class="list-group" id="regioni-list">
+            ${[...new Set(dati.map(s => s.regione))].sort((a, b) => a.localeCompare(b, 'it')).map(regione =>
+              `<li class="list-group-item region-link" data-region="${regione}">${regione}</li>`
+            ).join('')}
+          </ul>
+        `;
+        document.getElementById('backHome').onclick = mostraHome;
+        document.querySelectorAll('.region-link').forEach(el => {
+          el.addEventListener('click', function() {
+            if (tipo === 'siti') mostraSiti(el.dataset.region);
+            if (tipo === 'musei') mostraMusei(el.dataset.region);
+            if (tipo === 'simulazioni') mostraSimulazioni(el.dataset.region);
+          });
+        });
+      }
+
+      // Mostra i siti di una regione
+      function mostraSiti(region) {
+        const siti = datiSiti.filter(s => s.regione === region);
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backRegioni" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna alle regioni
+          </button>
+          <h2 class="mb-3">${region}</h2>
+          <ul class="list-group mb-3">
+            ${siti.map((sito, idx) => `<li class="list-group-item site-link" data-site="${idx}">${sito.nome}</li>`).join('')}
+          </ul>
+        `;
+        document.getElementById('backRegioni').onclick = () => mostraRegioni('siti');
+        document.querySelectorAll('.site-link').forEach((el, idx) => {
+          el.addEventListener('click', function() {
+            mostraDettaglioSito(region, idx);
+          });
+        });
+      }
+
+      // Mostra i musei di una regione
+      function mostraMusei(region) {
+        const musei = datiMusei.filter(s => s.regione === region);
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backRegioni" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna alle regioni
+          </button>
+          <h2 class="mb-3">${region}</h2>
+          <ul class="list-group mb-3">
+            ${musei.map((museo, idx) => `<li class="list-group-item museo-link" data-museo="${idx}">${museo.nome}</li>`).join('')}
+          </ul>
+        `;
+        document.getElementById('backRegioni').onclick = () => mostraRegioni('musei');
+        document.querySelectorAll('.museo-link').forEach((el, idx) => {
+          el.addEventListener('click', function() {
+            mostraDettaglioMuseo(region, idx);
+          });
+        });
+      }
+
+      // Mostra le simulazioni di una regione
+      function mostraSimulazioni(region) {
+        const simulazioni = datiSimulazioni.filter(s => s.regione === region);
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backRegioni" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna alle regioni
+          </button>
+          <h2 class="mb-3">${region}</h2>
+          <ul class="list-group mb-3">
+            ${simulazioni.map((sim, idx) => `<li class="list-group-item simulazione-link" data-simulazione="${idx}">${sim.nome}</li>`).join('')}
+          </ul>
+        `;
+        document.getElementById('backRegioni').onclick = () => mostraRegioni('simulazioni');
+        document.querySelectorAll('.simulazione-link').forEach((el, idx) => {
+          el.addEventListener('click', function() {
+            mostraDettaglioSimulazione(region, idx);
+          });
+        });
+      }
+
+      // Dettaglio sito con audio
+      function mostraDettaglioSito(region, idx) {
+        const sitiRegione = datiSiti.filter(s => s.regione === region);
+        const sito = sitiRegione[idx];
+        const wrappedText = wrapWordsInSpans(sito.descrizione || "");
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backSiti" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna ai siti
+          </button>
+          <h2 class="mb-3">${sito.nome}</h2>
+          <button class="audio-btn me-2" id="playBtn">Play</button>
+          <button class="audio-btn" id="stopBtn">Stop</button>
+          <div id="descrizione">${wrappedText}</div>
+        `;
+        words = Array.from(document.querySelectorAll('.word')).map(span => span.textContent.trim());
+        document.getElementById('playBtn').addEventListener('click', function(e){
+          e.stopPropagation();
+          playAudio();
+        });
+        document.getElementById('stopBtn').addEventListener('click', function(e){
+          e.stopPropagation();
+          stopAudio();
+        });
+        document.getElementById('backSiti').onclick = () => mostraSiti(region);
+      }
+
+      // Dettaglio museo con audio
+      function mostraDettaglioMuseo(region, idx) {
+        const museiRegione = datiMusei.filter(s => s.regione === region);
+        const museo = museiRegione[idx];
+        const wrappedText = wrapWordsInSpans(museo.descrizione || "");
+        document.getElementById('main-content').innerHTML = `
+          <button class="modern-back mb-3" id="backMusei" type="button">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+            Torna ai musei
+          </button>
+          <h2 class="mb-3">${museo.nome}</h2>
+          <button class="audio-btn me-2" id="playBtn">Play</button>
+          <button class="audio-btn" id="stopBtn">Stop</button>
+          <div id="descrizioneMuseo">${wrappedText}</div>
+        `;
+        words = Array.from(document.querySelectorAll('.word')).map(span => span.textContent.trim());
+        document.getElementById('playBtn').addEventListener('click', function(e){
+          e.stopPropagation();
+          playAudio();
+        });
+        document.getElementById('stopBtn').addEventListener('click', function(e){
+          e.stopPropagation();
+          stopAudio();
+        });
+        document.getElementById('backMusei').onclick = () => mostraMusei(region);
+      }
+
+      // Dettaglio simulazione con audio e switch lingua senza auto-play
+      function mostraDettaglioSimulazione(region, idx) {
+        const simulazioniRegione = datiSimulazioni.filter(s => s.regione === region);
+        const simulazione = simulazioniRegione[idx];
+        let lingua = 'it'; // default italiano
+
+        function renderSimulazione(lang) {
+          const testo = lang === 'fr' ? (simulazione.descrizione_fr || "") : (simulazione.descrizione || "");
+          const wrappedText = wrapWordsInSpans(testo);
+          document.getElementById('main-content').innerHTML = `
+            <button class="modern-back mb-3" id="backSimulazioni" type="button">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+              Torna alle simulazioni
+            </button>
+            <h2 class="mb-3">${simulazione.nome}</h2>
+            <div class="mb-3">
+              <span id="flag-it" style="cursor:pointer;font-size:1.7em;" title="Italiano">🇮🇹</span>
+              <span id="flag-fr" style="cursor:pointer;font-size:1.7em;margin-left:0.5em;" title="Francese">🇫🇷</span>
+            </div>
+            <button class="audio-btn me-2" id="playBtn">Play</button>
+            <button class="audio-btn" id="stopBtn">Stop</button>
+            <div id="descrizioneSimulazione">${wrappedText}</div>
+          `;
+          words = Array.from(document.querySelectorAll('.word')).map(span => span.textContent.trim());
+          document.getElementById('playBtn').addEventListener('click', function(e){
+            e.stopPropagation();
+            playAudioSimulazione(lang);
+          });
+          document.getElementById('stopBtn').addEventListener('click', function(e){
+            e.stopPropagation();
+            stopAudio();
+          });
+          document.getElementById('backSimulazioni').onclick = () => mostraSimulazioni(region);
+          document.getElementById('flag-it').onclick = () => {
+            lingua = 'it';
+            renderSimulazione('it');
+          };
+          document.getElementById('flag-fr').onclick = () => {
+            lingua = 'fr';
+            renderSimulazione('fr');
+          };
+        }
+
+        function playAudioSimulazione(lang) {
+          stopAudio();
+          const text = lang === 'fr'
+            ? (simulazione.descrizione_fr || "")
+            : (simulazione.descrizione || "");
+          words = text.split(/\s+/);
+          utterance = new SpeechSynthesisUtterance(text);
+          utterance.lang = lang === 'fr' ? "fr-FR" : "it-IT";
+          const voices = synth.getVoices();
+          let voice = voices.find(v => v.lang.startsWith(lang === 'fr' ? 'fr' : 'it') && v.name.toLowerCase().includes('google'));
+          if (!voice) voice = voices.find(v => v.lang.startsWith(lang === 'fr' ? 'fr' : 'it'));
+          if (voice) utterance.voice = voice;
+          utterance.rate = 1.1;
+          utterance.pitch = 1;
+          currentWordIndex = 0;
+          startHighlighting();
+          utterance.onend = function() { stopHighlighting(); };
+          utterance.onerror = function() { stopHighlighting(); };
+          synth.speak(utterance);
+        }
+
+        renderSimulazione('it');
+      }
+    </script>
 </body>
 </html>

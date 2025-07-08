@@ -1,0 +1,350 @@
+[
+  {
+    "regione": "Abruzzo",
+    "nome": "Alba Fucens",
+    "descrizione": "Il Parco Archeologico di Alba Fucens è uno dei siti più importanti dell'Abruzzo, con resti di una città romana fondata nel 303 a.C."
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Area Archeologica di Capestrano",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Centro Storico di Scanno e il suo Lago",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Castello di Roccascalegna",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Castello Piccolomini",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Centro Storico dell'Aquila",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco del Gran Sasso",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco delle Gole del Sagittario",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Costa dei Trabocchi",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Fortezza di Civitella del Tronto",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco Archeologico di Amiternum",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Abbazia di San Martino in Valle",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco Archeologico di Iuvanum",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco Archeologico di Peltuinum",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Complesso Archeologico di Corfinium",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Terme Romane di Vasto",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Parco Archeologico di Ocriticum",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Basilica di Santa Maria Assunta di Atri",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Grotte di Stiffe",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Eremo di San Bartolomeo in Legio",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Basilica del Volto Santo",
+    "descrizione": ""
+  },
+  {
+    "regione": "Abruzzo",
+    "nome": "Centro storico di Chieti",
+    "descrizione": ""
+  },
+
+  {
+    "regione": "Basilicata",
+    "nome": "Borgo Abbandonato di Craco",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Dolomiti Lucane",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Parco Archeologico delle Chiese Rupestri del Materano",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Complesso Archeologico di Metaponto",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Museo Archeologico e Castello di Melfi",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Palazzo De Lieto, Monte San Biagio, Statua del Redentore e Castello di Castrocucco",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Parco Nazionale del Pollino",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Percorsi Naturalistici nel Vulture e Laghi di Monticchio",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Parco Archeologico e Museo di Venosa",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Sassi di Matera",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Parco Archeologico di Grumentum",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Parco Archeologico e Museo della Siritide",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Santuario della Dea Mefite",
+    "descrizione": ""
+  },
+  {
+    "regione": "Basilicata",
+    "nome": "Riserva Regionale dei Calanchi di Montalbano Jonico",
+    "descrizione": ""
+  },
+
+  {
+    "regione": "Calabria",
+    "nome": "Centro storico di Gerace",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Grotta del Romito",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Museo e Parco Archeologico di Locri Epizefiri",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico Nazionale di Scolacium",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Nazionale dell'Aspromonte",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Centro Storico di Scilla",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico di Kaulon/Caulonia",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Mura Greche di Hipponion e Museo Archeologico Nazionale Vito Capialbi",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico dei Tauriani",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Cattolica di Stilo",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico di Sibari",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Museo e Parco Archeologico Nazionale di Capo Colonna",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico di Laos",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Villa Romana di Larderia",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Area Archeologica di Casignana",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Castello di Santa Severina",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Archeologico Archeoderi di San Pasquale",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Le Castella (Isola di Capo Rizzuto)",
+    "descrizione": ""
+  },
+  {
+    "regione": "Calabria",
+    "nome": "Parco Nazionale della Sila",
+    "descrizione": ""
+  },
+
+  {
+    "regione": "Lazio",
+    "nome": "Basilica di San Giovanni in Laterano",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Castel Gandolfo",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Castello Orsini di Bracciano",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Cattedrale di Anagni",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Circo Massimo e Terme di Caracalla",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Civita di Bagnoregio",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Parco Archeologico del Colosseo",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Giardini di Ninfa",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Monasteri Benedettini di Subiaco",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Necropoli di Tarquinia",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Necropoli di Cerveteri",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Parco Archeologico di Ostia Antica",
+    "descrizione": ""
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Pantheon",
+    "descrizione": "Il Pantheon si paga"
+  },
+  {
+    "regione": "Lazio",
+    "nome": "Castel sant'angelo",
+    "descrizione": "ciao"
+  }
+]
