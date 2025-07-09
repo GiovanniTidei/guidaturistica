@@ -25,7 +25,14 @@
     </style>
 </head>
 <body>
-    <div class="container py-5" id="main-content"></div>
+    <div class="container py-5" id="main-content">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;" id="loader">
+  <div class="spinner-border text-dark" role="status" style="width: 4rem; height: 4rem;">
+    <span class="visually-hidden">Caricamento...</span>
+  </div>
+</div>
+
+    </div>
     <script>
   // URL del tuo Apps Script pubblicato come Web App
   const DATI_SITI = 'https://script.google.com/macros/s/AKfycbz_vCmqTW28sEUDcEj-kg48TBAKpDt_cgmfxRyKDy8P31f1-AD2JfxX__bniSnCBz0P/exec';
@@ -293,6 +300,8 @@ fetch(DATI_SIMULAZIONI)
         ${musei.map((museo, idx) => `<li class="list-group-item museo-link" data-museo="${idx}">${museo.nome}</li>`).join('')}
       </ul>
     `;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
     document.getElementById('backRegioni').onclick = () => mostraRegioni('musei');
     document.querySelectorAll('.museo-link').forEach((el, idx) => {
       el.addEventListener('click', function() {
