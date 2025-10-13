@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -454,6 +454,340 @@ fetch(DATI_SIMULAZIONI)
 
     renderSimulazione('it');
   }
+    </script>
+</body>
+</html> -->
+
+<!-- test inglese -->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test di Inglese B2</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px 0; background: #f8f9fa; }
+        .question-card { margin-bottom: 30px; background: white; }
+        .option { cursor: pointer; transition: all 0.3s; padding: 15px; border-radius: 8px; margin: 8px 0; border: 2px solid #dee2e6; }
+        .option:hover:not(.disabled) { background: #f8f9fa; transform: translateX(5px); }
+        .correct { background: #d4edda !important; border-color: #28a745 !important; }
+        .incorrect { background: #f8d7da !important; border-color: #dc3545 !important; }
+        .disabled { pointer-events: none; opacity: 0.7; }
+        .explanation { margin-top: 15px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0d6efd; display: none; }
+        .badge-level { font-size: 0.9rem; }
+        .reading-passage { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; line-height: 1.8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center mb-5">
+            <h1 class="display-4">Test di Inglese B2</h1>
+            <p class="lead">Preparazione al concorso - 30 quesiti</p>
+            <span class="badge bg-primary badge-level">Livello B2 - Upper Intermediate</span>
+        </div>
+
+        <div id="questions-container"></div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary btn-lg" onclick="location.reload()">
+                <i class="bi bi-arrow-clockwise"></i> Ricarica Test
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                type: "phrasal",
+                text: "When planning a new event, it is always essential to work ________ the total costs in advance.",
+                options: ["away", "under", "in", "out"],
+                correct: 3,
+                explanation: "Il phrasal verb 'work out' significa 'calcolare' o 'determinare'. È comune nel contesto di costi e calcoli finanziari. Altri phrasal verbs come 'work away' (lavorare continuamente) o 'work under' (lavorare sotto qualcuno) non hanno senso in questo contesto."
+            },
+            {
+                type: "reading",
+                passage: "Despite the chaos of lockdown, by the end of 2020 overall sales of print books in the UK were up 5% year-on-year, according to industry watchers Nielsen BookScan. More particularly, fiction did extremely well – adult fiction increased 8% in volume terms, with 147 million books sold. So too did children's books, up 7%, to 109 million books. Overall, the British public spent £1.8 billion on 202 million print books. Digital sales soared, ebooks growing 16% and audiobook sales 21% year on year.",
+                text: "'Soared' in this context means:",
+                options: ["stayed the same", "went up quickly", "decreased slightly", "dropped steadily"],
+                correct: 1,
+                explanation: "'Soared' significa 'salire rapidamente' o 'schizzare in alto'. Nel contesto delle vendite digitali che crescono del 16-21%, indica un aumento rapido e significativo. È un verbo forte usato per enfatizzare una crescita importante."
+            },
+            {
+                type: "reading",
+                passage: "The long wait is over for students and academics, who return to face-to-face teaching this term, in a place that truly has the benefits of meeting in the real world. The new Marshall Building, which looks out over Lincoln's Inn Fields like a shiny white palazzo, houses some of the finest spaces that any London university has to offer. The project is the latest addition to the London School of Economics' (LSE) impressive stable of recent commissions, which comprise the Centre Building's steel-framed blocks.",
+                text: "The Marshall Building is:",
+                options: ["London University's new headquarters", "LSE's latest architectural project", "home to LSE's Department of Law", "going to replace the Centre Building"],
+                correct: 1,
+                explanation: "Il testo afferma chiaramente che 'the project is the latest addition to the London School of Economics' (LSE) impressive stable of recent commissions', quindi è l'ultimo progetto architettonico della LSE. Non è il quartier generale, né specificamente per legge, né sostituisce il Centre Building."
+            },
+            {
+                type: "reading",
+                passage: "Parents or teachers of teenagers may find it hard to believe that sarcasm is a sign of a flexible and inventive mind. Yet, that is exactly what psychologists and neuroscientists have been arguing. They have found that sarcasm requires the brain to create numerous connections to arrive at a correct interpretation, requiring more brainpower than literal statements. Although it is often considered juvenile irreverence, sarcasm is actually evidence of maturity – because it takes years for a child's developing brain to fully understand and master it.",
+                text: "According to the text, sarcasm:",
+                options: ["denotes a lack of respect for people and things", "requires a child's brain to be better understood", "is a sign of intelligence and of a maturing brain", "is evidence that a teenager's brain has not developed yet"],
+                correct: 2,
+                explanation: "Il testo dice che il sarcasmo 'is actually evidence of maturity' e richiede più potenza cerebrale. È un segno di intelligenza e di un cervello che matura, non di mancanza di rispetto o di sviluppo incompleto."
+            },
+            {
+                type: "relative",
+                text: "This is the most expensive mobile ______ they had in store. I only buy the best technology at this point.",
+                options: ["then", "than", "thus", "that"],
+                correct: 3,
+                explanation: "'That' è il pronome relativo corretto per introdurre una proposizione relativa restrittiva. 'Than' si usa per comparazioni, 'then' per sequenze temporali, 'thus' significa 'quindi'. La struttura è: superlativo + that + clausola relativa."
+            },
+            {
+                type: "tense",
+                text: "When I travel to England next year, I ____________ English for 6 years, so I will be able to speak the language fluently.",
+                options: ["will have studied", "study", "have studying", "studies"],
+                correct: 0,
+                explanation: "Il Future Perfect ('will have studied') indica un'azione che sarà completata prima di un momento futuro. La struttura 'for 6 years' indica durata e richiede questo tempo. Si usa per esprimere un'esperienza completata prima di un punto futuro."
+            },
+            {
+                type: "infinitive",
+                text: "My new boss didn't let ____________ on holiday during the emergency at work.",
+                options: ["me go", "to go", "me to go", "me going"],
+                correct: 0,
+                explanation: "Il verbo 'let' è seguito dall'oggetto + infinito senza 'to' (bare infinitive). La struttura è: let + oggetto + verbo base. Altri verbi come 'allow' richiederebbero 'to' (allow me to go), ma 'let' no."
+            },
+            {
+                type: "phrasal",
+                text: "You have to ____________ with this issue, so we can go on with the plan.",
+                options: ["make", "beat", "solve", "deal"],
+                correct: 3,
+                explanation: "'Deal with' significa 'occuparsi di' o 'gestire' un problema. È il phrasal verb corretto per problemi o questioni. 'Solve' si usa senza preposizione (solve the problem), mentre 'deal with' richiede 'with'."
+            },
+            {
+                type: "gerund",
+                text: "____________ the radio helps me improve my receptive skills.",
+                options: ["Listen to", "Listening to", "Listened to", "Have listened to"],
+                correct: 1,
+                explanation: "Quando un verbo è soggetto della frase, si usa il gerundio (-ing form). 'Listening to the radio' è il soggetto della frase. Il gerundio rende il verbo un sostantivo e può funzionare come soggetto, oggetto o complemento."
+            },
+            {
+                type: "vocabulary",
+                text: "Large cruise ships are usually run with a ____________ of at least 200 people.",
+                options: ["crew", "cast", "squad", "gang"],
+                correct: 0,
+                explanation: "'Crew' è il termine specifico per il personale di una nave. 'Cast' si usa per attori, 'squad' per squadre sportive o militari, 'gang' ha connotazione negativa (banda criminale). Ogni contesto ha il suo termine specifico."
+            },
+            {
+                type: "vocabulary",
+                text: "Have you ever been ____________ while travelling abroad?",
+                options: ["shoplifted", "vandalised", "mugged", "stolen"],
+                correct: 2,
+                explanation: "'Mugged' significa essere rapinato per strada con violenza. 'Shoplifted' è rubare nei negozi (non si usa con persone come soggetto passivo), 'vandalised' è danneggiare proprietà, 'stolen' non si usa in forma passiva con persone."
+            },
+            {
+                type: "tense",
+                text: "The old woman _______________ the burglar and scared him off.",
+                options: ["shouted at", "will shout at", "whispered", "had whispered"],
+                correct: 0,
+                explanation: "Il Past Simple 'shouted at' è corretto perché descrive due azioni passate in sequenza. 'Scared him off' (lo spaventò via) è anch'esso Past Simple, indicando che le due azioni sono avvenute nello stesso momento nel passato."
+            },
+            {
+                type: "verb-pattern",
+                text: "She doesn't ____________ looking after the baby for us next weekend, does she?",
+                options: ["hope", "mind", "object", "stand"],
+                correct: 1,
+                explanation: "'Mind' + gerundio significa 'dispiacersi di fare qualcosa'. Si usa spesso in domande o frasi negative: 'Do you mind...?' / 'I don't mind...'. 'Object to' richiederebbe la preposizione 'to', 'hope' non si usa in questo pattern."
+            },
+            {
+                type: "correlative",
+                text: "Sarah could attend _________________ the morning meeting nor the afternoon session today.",
+                options: ["neither", "both", "either", "nor"],
+                correct: 0,
+                explanation: "'Neither...nor' è una struttura correlativa che significa 'né...né'. Si usa per negare entrambe le opzioni. 'Either...or' sarebbe per situazioni affermative. La struttura richiede 'neither' all'inizio quando si nega."
+            },
+            {
+                type: "vocabulary",
+                text: "I called him to ____________ him about the train strike.",
+                options: ["warn", "say", "speak", "advertise"],
+                correct: 0,
+                explanation: "'Warn someone about something' significa avvisare qualcuno di un pericolo o problema. 'Say' e 'speak' non si usano con questa struttura (say something to someone / speak to someone about something). 'Advertise' significa fare pubblicità."
+            },
+            {
+                type: "conditional",
+                text: "If I ____________ more time, I would have finished the project yesterday.",
+                options: ["have had", "had", "had had", "would have"],
+                correct: 2,
+                explanation: "Il Third Conditional (if + past perfect, would have + past participle) esprime situazioni ipotetiche nel passato. 'Had had' è il Past Perfect di 'have', necessario per indicare che la condizione era nel passato prima di un altro evento passato."
+            },
+            {
+                type: "preposition",
+                text: "The company specializes ____________ renewable energy solutions.",
+                options: ["on", "in", "at", "with"],
+                correct: 1,
+                explanation: "'Specialize in' è la costruzione corretta. Molti verbi hanno preposizioni specifiche: depend on, succeed in, excel at. Queste collocazioni devono essere memorizzate perché non seguono sempre una logica prevedibile."
+            },
+            {
+                type: "modal",
+                text: "You ____________ have told me about the meeting! I missed it completely.",
+                options: ["should", "must", "would", "can"],
+                correct: 0,
+                explanation: "'Should have + past participle' esprime un rimpianto o una critica per qualcosa che non è stato fatto nel passato. È diverso da 'must have' (deduzione forte) o 'would have' (condizionale passato)."
+            },
+            {
+                type: "passive",
+                text: "The new regulations ____________ by the government next month.",
+                options: ["will implement", "will be implementing", "will be implemented", "are implementing"],
+                correct: 2,
+                explanation: "La forma passiva futura 'will be implemented' è corretta perché le regolazioni 'vengono implementate' (azione subita dal soggetto). La struttura è: will + be + past participle. Il passivo si usa quando il focus è sull'azione, non su chi la compie."
+            },
+            {
+                type: "reported-speech",
+                text: "She told me that she ____________ to Paris the following week.",
+                options: ["will go", "would go", "goes", "is going"],
+                correct: 1,
+                explanation: "Nel discorso indiretto, 'will' diventa 'would' quando il verbo principale è al passato. Questo è chiamato 'backshift' o concordanza dei tempi. 'The following week' è l'equivalente di 'next week' nel discorso indiretto."
+            },
+            {
+                type: "vocabulary",
+                text: "The witness gave a very ____________ account of what happened that night.",
+                options: ["detailed", "details", "detailing", "detail"],
+                correct: 0,
+                explanation: "'Detailed' è l'aggettivo che significa 'dettagliato'. Gli aggettivi modificano i sostantivi ('detailed account'). 'Details' è il sostantivo plurale, 'detailing' è il gerundio, 'detail' è il sostantivo singolare o verbo."
+            },
+            {
+                type: "phrasal",
+                text: "I can't ____________ with this noise anymore. I need to find a quieter place to work.",
+                options: ["put up", "put on", "put off", "put down"],
+                correct: 0,
+                explanation: "'Put up with' significa 'tollerare' o 'sopportare'. Altri phrasal verbs: 'put on' (indossare), 'put off' (rimandare o disgustare), 'put down' (posare o criticare). I phrasal verbs spesso hanno significati non letterali."
+            },
+            {
+                type: "article",
+                text: "She plays ____________ piano beautifully, but she can't play ____________ guitar.",
+                options: ["the / the", "a / a", "the / a", "— / the"],
+                correct: 0,
+                explanation: "Gli strumenti musicali richiedono l'articolo 'the' quando si parla di suonarli: 'play the piano', 'play the guitar'. È un'eccezione alle regole generali degli articoli e deve essere memorizzata."
+            },
+            {
+                type: "comparative",
+                text: "The ____________ you practice, the ____________ you'll become at speaking English.",
+                options: ["more / better", "most / best", "more / best", "much / good"],
+                correct: 0,
+                explanation: "'The more...the better' è una struttura comparativa parallela che indica una correlazione proporzionale. Entrambe le parti usano la forma comparativa. La struttura è: the + comparativo + subject + verb, the + comparativo + subject + verb."
+            },
+            {
+                type: "vocabulary",
+                text: "The professor's lecture was so ____________ that half the students fell asleep.",
+                options: ["bored", "boring", "bore", "boredom"],
+                correct: 1,
+                explanation: "'Boring' (participio presente) descrive ciò che causa noia. 'Bored' (participio passato) descrive chi prova noia. Regola generale: -ing per la causa, -ed per l'effetto (interesting/interested, exciting/excited)."
+            },
+            {
+                type: "conjunction",
+                text: "____________ it was raining heavily, we decided to go hiking.",
+                options: ["Despite", "Although", "However", "In spite"],
+                correct: 1,
+                explanation: "'Although' è una congiunzione seguita da soggetto + verbo. 'Despite' e 'in spite of' sono seguiti da sostantivo/gerundio. 'However' è un avverbio che collega frasi, non clausole. La struttura determina la scelta."
+            },
+            {
+                type: "wish",
+                text: "I wish I ____________ more attention in my English classes when I was younger.",
+                options: ["paid", "had paid", "would pay", "pay"],
+                correct: 1,
+                explanation: "'Wish + past perfect' esprime un rimpianto per il passato. Si usa per situazioni che non si possono cambiare. 'Wish + past simple' è per il presente, 'wish + would' per situazioni future o comportamenti fastidiosi."
+            },
+            {
+                type: "quantifier",
+                text: "There is ____________ information available about this topic online.",
+                options: ["many", "much", "few", "a few"],
+                correct: 1,
+                explanation: "'Much' si usa con sostantivi non numerabili ('information', 'water', 'money'). 'Many' è per numerabili plurali ('books', 'people'). 'Few/a few' sono per numerabili plurali. La distinzione numerabile/non numerabile è fondamentale."
+            },
+            {
+                type: "causative",
+                text: "I need to ____________ my laptop repaired before the presentation tomorrow.",
+                options: ["make", "have", "let", "get"],
+                correct: 3,
+                explanation: "'Get something done' è una struttura causativa che significa 'far fare qualcosa da qualcun altro'. 'Have something done' è simile ma più formale. 'Make' e 'let' non si usano in questa struttura passiva."
+            },
+            {
+                type: "vocabulary",
+                text: "The company's profits have ____________ by 30% compared to last year.",
+                options: ["raised", "risen", "aroused", "arisen"],
+                correct: 1,
+                explanation: "'Rise' (intransitivo - risen al participio) significa 'aumentare' da solo. 'Raise' (transitivo) significa 'aumentare qualcosa' e richiede un oggetto. 'Arise' significa 'sorgere/emergere', 'arouse' significa 'suscitare/provocare'."
+            }
+        ];
+
+        function shuffle(array) {
+            const arr = [...array];
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questions-container');
+            const shuffled = shuffle(questions);
+            
+            shuffled.forEach((q, idx) => {
+                const card = document.createElement('div');
+                card.className = 'card question-card';
+                
+                let content = `
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Domanda ${idx + 1} <small class="float-end">${q.type}</small></h5>
+                    </div>
+                    <div class="card-body">
+                `;
+                
+                if (q.passage) {
+                    content += `<div class="reading-passage">${q.passage}</div>`;
+                }
+                
+                content += `
+                        <p class="lead">${q.text}</p>
+                        <div class="options">
+                `;
+                
+                q.options.forEach((opt, i) => {
+                    content += `
+                        <div class="option" onclick="checkAnswer(${idx}, ${i})">
+                            <strong>${String.fromCharCode(65 + i)}.</strong> ${opt}
+                        </div>
+                    `;
+                });
+                
+                content += `
+                        </div>
+                        <div class="explanation" id="exp-${idx}">
+                            <strong>📚 Spiegazione:</strong> ${q.explanation}
+                        </div>
+                    </div>
+                `;
+                
+                card.innerHTML = content;
+                container.appendChild(card);
+            });
+        }
+
+        function checkAnswer(qIdx, optIdx) {
+            const q = shuffle(questions)[qIdx];
+            const options = document.querySelectorAll('.question-card')[qIdx].querySelectorAll('.option');
+            const explanation = document.getElementById(`exp-${qIdx}`);
+            
+            options.forEach((opt, i) => {
+                opt.classList.add('disabled');
+                if (i === q.correct) {
+                    opt.classList.add('correct');
+                }
+            });
+            
+            if (optIdx !== q.correct) {
+                options[optIdx].classList.add('incorrect');
+            }
+            
+            explanation.style.display = 'block';
+        }
+
+        renderQuestions();
     </script>
 </body>
 </html>
