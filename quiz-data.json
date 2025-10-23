@@ -1,0 +1,1448 @@
+{
+    "abruzzo": [
+    {
+      "domanda": "In quale anno fu fondata Alba Fucens e quale via controllava strategicamente?",
+      "opzioni": ["303 a.C. - Via Valeria", "250 a.C. - Via Appia", "150 a.C. - Via Salaria", "100 a.C. - Via Tiburtina"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Alba Fucens fu fondata nel 303 a.C. come colonia latina in posizione strategica per controllare la Via Valeria e le comunicazioni tra Lazio e Adriatico."
+    },
+    {
+      "domanda": "Quale importante reperto scultoreo fu rinvenuto ad Alba Fucens dalla missione belga?",
+      "opzioni": ["Ercole epitebanio", "Statua di Augusto", "Guerriero di Capestrano", "Venere di Vasto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi avviati nel 1949 dalla missione belga portarono alla luce l'Ercole epitebanio e numerose iscrizioni che documentano la vita della colonia."
+    },
+    {
+      "domanda": "Quale celebre scoperta caratterizza l'area archeologica di Capestrano?",
+      "opzioni": ["Il Guerriero di Capestrano", "La Tavola di Heraclea", "I Bronzi di Riace", "La Chimera di Arezzo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel 1934 fu rinvenuto il Guerriero di Capestrano, straordinaria scultura italica in pietra alta 2 metri, oggi al Museo Archeologico di Chieti."
+    },
+    {
+      "domanda": "A quale popolazione apparteneva la necropoli di Capestrano?",
+      "opzioni": ["Vestini", "Sanniti", "Etruschi", "Romani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'area archeologica conserva la necropoli vestina (VI-III sec. a.C.) che testimonia la cultura di questo popolo italico prima della romanizzazione."
+    },
+    {
+      "domanda": "A quale altezza si trova il Castello di Rocca Scalegna?",
+      "opzioni": ["1460 metri", "1200 metri", "1000 metri", "800 metri"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello di Rocca Scalegna (XII sec.), arroccato a 1460 metri, è tra le fortezze più alte d'Italia con struttura aragonese su basi medievali."
+    },
+    {
+      "domanda": "A quale leggenda è legato il Castello di Rocca Scalegna?",
+      "opzioni": ["Leggenda della Regina Giovanna", "Leggenda di Re Artù", "Leggenda della Dama Bianca", "Leggenda del Cavaliere Rosso"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il castello è legato alla leggenda della Regina Giovanna ed è oggi meta turistica e set cinematografico."
+    },
+    {
+      "domanda": "Quale famiglia volle la costruzione del Castello Piccolomini di Celano?",
+      "opzioni": ["Famiglia Piccolomini", "Famiglia Medici", "Famiglia Farnese", "Famiglia Borgia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Piccolomini (XV sec.) fu voluto da Antonio Piccolomini, nipote di Papa Pio II, e unisce eleganza quattrocentesca a funzionalità militare."
+    },
+    {
+      "domanda": "Quale museo ospita oggi il Castello Piccolomini?",
+      "opzioni": ["Museo d'Arte Sacra della Marsica", "Museo Archeologico", "Museo della Transumanza", "Museo di Storia Naturale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il castello ospita il Museo d'Arte Sacra della Marsica con reperti dal Neolitico al Medioevo, tra cui la Madonna di Luco (XIII sec.)."
+    },
+    {
+      "domanda": "In quale anno fu fondata la città dell'Aquila?",
+      "opzioni": ["1254", "1200", "1300", "1150"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il centro storico dell'Aquila fu fondato nel 1254 ed è un capolavoro di urbanistica medievale con impianto a scacchiera."
+    },
+    {
+      "domanda": "Quale famosa fontana medievale è simbolo dell'Aquila?",
+      "opzioni": ["Fontana delle 99 cannelle", "Fontana di Trevi", "Fontana del Nettuno", "Fontana dei Quattro Fiumi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Fontana delle 99 cannelle (XIII sec.) è uno dei simboli della città, insieme alla Basilica di San Bernardino (XV sec.)."
+    },
+    {
+      "domanda": "Quale è la vetta più alta del Parco del Gran Sasso?",
+      "opzioni": ["Corno Grande", "Monte Amaro", "Monte Velino", "Monte Sirente"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco del Gran Sasso è caratterizzato da vette maestose come il Corno Grande e dalla Piana di Campo Imperatore."
+    },
+    {
+      "domanda": "Come è soprannominata Campo Imperatore nel Parco del Gran Sasso?",
+      "opzioni": ["Piccolo Tibet", "Piccola Svizzera", "Piccola Siberia", "Piccola Patagonia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Campo Imperatore è detta 'Piccolo Tibet' per i suoi panorami unici e habitat per lupi e camosci."
+    },
+    {
+      "domanda": "Quale rara specie botanica cresce nel Parco delle Gole del Sagittario?",
+      "opzioni": ["Scarpetta di Venere", "Orchidea selvatica", "Genziana", "Stella alpina"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco delle Gole del Sagittario ospita rare specie botaniche come la Scarpetta di Venere in un canyon spettacolare."
+    },
+    {
+      "domanda": "Quale poeta celebrò le bellezze di Anversa degli Abruzzi?",
+      "opzioni": ["Gabriele D'Annunzio", "Giosuè Carducci", "Giovanni Pascoli", "Luigi Pirandello"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'oasi di Anversa degli Abruzzi, con il suo borgo medievale arroccato, fu celebrata dal poeta Gabriele D'Annunzio."
+    },
+    {
+      "domanda": "Quali caratteristiche strutture di pesca caratterizzano la Costa dei Trabocchi?",
+      "opzioni": ["Trabocchi", "Tonnare", "Palafitte", "Ponte di barche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco dei Trabocchi custodisce i celebri ponti di pesca sospesi sul mare, architetture in legno simbolo della costa teatina."
+    },
+    {
+      "domanda": "Quale importante riserva naturale si trova nella Costa dei Trabocchi?",
+      "opzioni": ["Riserva di Punta Aderci", "Riserva del Circeo", "Riserva di Miramare", "Riserva di Vendicari"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Tra calette selvagge e pinete, il parco protegge la Riserva di Punta Aderci con dune fossili e spiagge ciottolose."
+    },
+    {
+      "domanda": "Quale evento storico segnò la caduta della Fortezza di Civitella del Tronto?",
+      "opzioni": ["Unità d'Italia (1861)", "Prima Guerra Mondiale", "Seconda Guerra Mondiale", "Risorgimento napoletano"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Fortezza di Civitella del Tronto (XVI sec.) fu l'ultimo baluardo borbonico a cadere nel 1861."
+    },
+    {
+      "domanda": "Quanto è estesa la Fortezza di Civitella del Tronto?",
+      "opzioni": ["25.000 m²", "15.000 m²", "10.000 m²", "5.000 m²"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La fortezza è tra le più grandi opere militari d'Europa con i suoi 25.000 m² di estensione, cisterne e caserme."
+    },
+    {
+      "domanda": "Quale antico popolo fondò Amiternum?",
+      "opzioni": ["Sabini", "Vestini", "Peligni", "Marrucini"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco archeologico di Amiternum fu antica città sabina poi romana (III sec. a.C.) con anfiteatro e ville con mosaici."
+    },
+    {
+      "domanda": "Quale storico romano era originario di Amiternum?",
+      "opzioni": ["Sallustio", "Tito Livio", "Tacito", "Plutarco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Amiternum diede i natali allo storico Sallustio, importante figura della letteratura latina."
+    },
+    {
+      "domanda": "In quale periodo fu fondata l'Abbazia di San Martino in Valle?",
+      "opzioni": ["VIII-IX secolo", "X-XI secolo", "XII-XIII secolo", "VI-VII secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Abbazia di San Martino in Valle (VIII-IX sec.) è un gioiello altomedievale che fonde elementi longobardi e carolingi."
+    },
+    {
+      "domanda": "Quali elementi architettonici caratterizzano l'Abbazia di San Martino?",
+      "opzioni": ["Cripta con capitelli scolpiti", "Campanile gotico", "Facciata barocca", "Chiostro rinascimentale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'abbazia conserva la cripta con capitelli scolpiti e tracce di pitture sacre (XI-XII sec.), oltre a un mosaico pavimentale tardoantico."
+    },
+    {
+      "domanda": "Quale popolazione italica fondò Iuvanum?",
+      "opzioni": ["Carvini", "Vestini", "Peligni", "Marrucini"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Archeologico di Iuvanum (II sec. a.C.) fu antica città dei Carvini nel cuore della Maiella."
+    },
+    {
+      "domanda": "Quali strutture si conservano nel Parco di Iuvanum?",
+      "opzioni": ["Foro con tempio italico e teatro", "Anfiteatro e terme", "Basilica paleocristiana", "Necropoli rupestre"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Iuvanum conserva il foro con tempio italico, una basilica romana e un piccolo teatro, oltre a iscrizioni osche."
+    },
+    {
+      "domanda": "Dove si trova il Parco archeologico di Peltuinum?",
+      "opzioni": ["Lungo il Tratturo Magno", "Sulla Via Valeria", "Presso la costa adriatica", "Nella Valle dell'Aterno"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Peltuinum, città vestina poi romana, sorgeva lungo il Tratturo Magno, importante via della transumanza."
+    },
+    {
+      "domanda": "Quale via romana attraversava Peltuinum?",
+      "opzioni": ["Via Claudia Nova", "Via Appia", "Via Flaminia", "Via Salaria"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco conserva tratti del lastricato della Via Claudia Nova, oltre al teatro e al tempio italico-romano."
+    },
+    {
+      "domanda": "Quale ruolo ebbe Corfinium durante la Guerra Sociale?",
+      "opzioni": ["Capitale degli Italici ribelli", "Rifugio dei Romani", "Base cartaginese", "Centro etrusco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Corfinium fu ribattezzata Italica durante la Guerra Sociale (91-88 a.C.) e divenne capitale della resistenza italica contro Roma."
+    },
+    {
+      "domanda": "Quale importante primato ebbe Corfinium?",
+      "opzioni": ["Prima monetazione con il nome Italia", "Primo senato romano", "Prima università", "Prima biblioteca pubblica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Corfinium ospitò la prima monetazione con il nome Italia, simbolo della rivolta dei popoli italici contro Roma."
+    },
+    {
+      "domanda": "Quale reperto scultoreo è stato rinvenuto nelle Terme Romane di Vasto?",
+      "opzioni": ["Venere di Vasto", "Ercole in riposo", "Diana cacciatrice", "Apollo del Belvedere"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dagli scavi delle Terme Romane di Vasto è emersa la 'Venere di Vasto' (II sec. d.C.), testimonianza del lusso dell'antica Histonium."
+    },
+    {
+      "domanda": "A quale popolazione apparteneva l'antica Histonium?",
+      "opzioni": ["Frentani", "Vestini", "Peligni", "Sanniti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le terme rivelano il lusso di Histonium, città dei Frentani, con complessi termali dotati di calidarium e mosaici geometrici."
+    },
+    {
+      "domanda": "Quale divinità era venerata nel santuario di Ocriticum?",
+      "opzioni": ["Ercole e Giove", "Apollo e Diana", "Marte e Venere", "Minerva e Vulcano"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Ocriticum era un santuario italico-romano dedicato al culto di Ercole e Giove, come testimoniano gli ex voto bronzei rinvenuti."
+    },
+    {
+      "domanda": "Quale caratteristica unica presenta Ocriticum?",
+      "opzioni": ["Thesaurus per offerte votive", "Anfiteatro naturale", "Terme sacre", "Biblioteca rituale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi rivelano un thesaurus per offerte e tracce di rituali pagani sovrapposti al cristianesimo con un oratorio altomedievale."
+    },
+    {
+      "domanda": "Quale ciclo di affreschi decora la Basilica di Santa Maria Assunta di Atri?",
+      "opzioni": ["Ciclo di Andrea De Litio", "Ciclo di Giotto", "Ciclo del Beato Angelico", "Ciclo di Masaccio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La basilica custodisce il Ciclo di affreschi di Andrea De Litio (XV sec.), gioiello del Rinascimento meridionale."
+    },
+    {
+      "domanda": "Su quali resti antichi fu edificata la Basilica di Atri?",
+      "opzioni": ["Criptoportico romano", "Tempio greco", "Terme romane", "Foro italico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La cattedrale fu edificata su resti romani, riutilizzando un criptoportico romano come fondazione."
+    },
+    {
+      "domanda": "Quale fenomeno geologico caratterizza le Grotte di Stiffe?",
+      "opzioni": ["Cascate sotterranee", "Geyser termali", "Vulcani di fango", "Gayser calcarei"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le Grotte di Stiffe offrono spettacolari cascate sotterranee e laghi cristallini modellati dal torrente omonimo."
+    },
+    {
+      "domanda": "Da quale periodo le Grotte di Stiffe sono abitate?",
+      "opzioni": ["Paleolitico", "Neolitico", "Età del Bronzo", "Età del Ferro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le grotte sono abitate fin dal Paleolitico e conservano tracce di insediamenti preistorici e antiche fornaci per metalli."
+    },
+    {
+      "domanda": "Chi fondò l'Eremo di San Bartolomeo in Legio?",
+      "opzioni": ["Pietro da Morrone", "San Francesco", "San Benedetto", "San Romualdo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'eremo fu fondato da Pietro da Morrone (futuro Papa Celestino V) ed è un gioiello di architettura rupestre."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica distingue l'Eremo di San Bartolomeo?",
+      "opzioni": ["Facciata scavata nella roccia", "Campanile pendente", "Chiostro sotterraneo", "Abside rotondo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'eremo presenta una facciata scavata direttamente nella roccia della Majella, con affreschi trecenteschi."
+    },
+    {
+      "domanda": "Quale reliquia è conservata nella Basilica del Volto Santo di Manoppello?",
+      "opzioni": ["Velo della Veronica", "Sindone di Torino", "Tunica inconsutile", "Sacra Cintola"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La basilica custodisce il misterioso 'Velo della Veronica', un velo di bisso con l'immagine di Cristo di origine inspiegabile."
+    },
+    {
+      "domanda": "Quale materiale compone il Velo della Veronica?",
+      "opzioni": ["Bisso", "Lino", "Seta", "Cotone"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il velo è realizzato in bisso, una pregiata fibra marina, e mostra un'immagine di Cristo simile alla Sindone."
+    },
+    {
+      "domanda": "Quale antico popolo fondò l'insediamento di Chieti?",
+      "opzioni": ["Marrucini", "Vestini", "Peligni", "Sanniti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il centro storico di Chieti conserva stratificazioni dall'antica Teate Marrucinorum (IV sec. a.C.), città dei Marrucini."
+    },
+    {
+      "domanda": "Quale importante reperto è esposto nel Museo Archeologico di Chieti?",
+      "opzioni": ["Guerriero di Capestrano", "Ercole epitebanio", "Venere di Vasto", "Tavola di Heraclea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo Archeologico Nazionale di Chieti espone il Guerriero di Capestrano e altri importanti reperti abruzzesi."
+    }
+  
+  ,
+    {
+      "domanda": "Dove è alloggiato il Museo Nazionale d'Abruzzo?",
+      "opzioni": ["Forte Spagnolo dell'Aquila", "Villa Frigerj", "Palazzo Ducale", "Castello Cinquecentesco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo Nazionale d'Abruzzo è alloggiato nell'imponente Forte Spagnolo dell'Aquila, principale istituto museale regionale."
+    },
+    {
+      "domanda": "Quale è il pezzo più celebre del Museo Nazionale d'Abruzzo?",
+      "opzioni": ["Scheletro di Mammuthus meridionalis", "Guerriero di Capestrano", "Cristo ebbro", "Madonna con Bambino"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pezzo più celebre è lo scheletro di un Mammuthus meridionalis, tra i più completi d'Europa, simbolo delle collezioni paleontologiche."
+    },
+    {
+      "domanda": "Quale importante reperto epigrafico romano è conservato nella sezione archeologica del Museo Nazionale d'Abruzzo?",
+      "opzioni": ["Calendario Amiternino", "Tavola di Heraclea", "Cippo graccano", "Lex Aquilia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella sezione archeologica si conserva il Calendario Amiternino in marmo, databile al I secolo d.C., insieme a rilievi con gladiatori."
+    },
+    {
+      "domanda": "Quale opera trecentesca di Saturnino Gatti è esposta nel museo?",
+      "opzioni": ["Cristo ebbro", "Madonna di Fossa", "Trittico di Beffi", "San Sebastiano"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo vanta capolavori come il trecentesco Cristo ebbro di Saturnino Gatti, importante esempio di scultura medievale abruzzese."
+    },
+    {
+      "domanda": "Quale celebre scultura italica è esposta al Museo Archeologico di Villa Frigerj?",
+      "opzioni": ["Guerriero di Capestrano", "Ercole epitebanio", "Dama di Capestrano", "Stele di Guardiagrele"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Al piano terra di Villa Frigerj è collocata la celebre statua del Guerriero di Capestrano, straordinaria testimonianza della scultura italica del VI secolo a.C."
+    },
+    {
+      "domanda": "In quale tipo di edificio è ospitato il Museo Archeologico di Villa Frigerj?",
+      "opzioni": ["Villa neoclassica", "Forte spagnolo", "Palazzo rinascimentale", "Monastero medievale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo è ospitato in una villa neoclassica costruita intorno al 1830 per il barone Ferrante Frigerj su progetto dell'architetto Enrico Riccio."
+    },
+    {
+      "domanda": "Quale importante reperto bronzeo proviene da Amiternum?",
+      "opzioni": ["Letto funerario in bronzo ageminato", "Statua di Ercole", "Aquila legionaria", "Maschere teatrali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Di particolare rilievo sono il letto funerario in bronzo ageminato da Amiternum e la statua monumentale di Ercole da Alba Fucens."
+    },
+    {
+      "domanda": "Quali popolazioni italiche sono rappresentate al primo piano di Villa Frigerj?",
+      "opzioni": ["Vestini, Peligni, Marrucini, Frentani", "Etruschi, Sanniti, Latini, Umbri", "Greci, Cartaginesi, Fenici, Celti", "Veneti, Liguri, Galli, Reti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Al primo piano si trovano i materiali delle popolazioni italiche dell'Abruzzo: Vestini, Peligni, Marrucini, Carricini, Frentani, Sabini ed Equi."
+    },
+    {
+      "domanda": "Quale opera della sezione medievale è definita 'ultimo esempio di gotico-romanico in Abruzzo'?",
+      "opzioni": ["Cristo deposto in legno policromo da Penne", "Madonna de Ambro", "Madonna di Lettopalena", "Dormitio Virginis"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Un'opera significativa è il Cristo deposto in legno policromo da Penne, fine XIII secolo, ultimo esempio di gotico-romanico in Abruzzo."
+    },
+    {
+      "domanda": "Quale trittico quattrocentesco è attribuito a Leonardo di Sabino?",
+      "opzioni": ["Trittico di Beffi (1410-1415)", "Trittico di Andrea De Litio", "Polittico di San Giovanni", "Pala della Sacra Parentela"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel Quattrocento emergono pitture su fondo oro zecchino come il celebre trittico di Beffi (1410-1415), attribuito a Leonardo di Sabino."
+    },
+    {
+      "domanda": "Quali artisti napoletani del Seicento sono rappresentati nel museo?",
+      "opzioni": ["Mattia Preti, Jusepe de Ribera, Massimo Stanzione", "Caravaggio, Artemisia Gentileschi, Salvator Rosa", "Guido Reni, Guercino, Domenichino", "Tiziano, Tintoretto, Veronese"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel Seicento sono esposte tele di artisti napoletani come Mattia Preti, Bernardo Cavallino, Jusepe de Ribera, Andrea Vaccaro, Massimo Stanzione."
+    },
+    {
+      "domanda": "Quale opera ottocentesca di Francesco Paolo Michetti è esposta?",
+      "opzioni": ["I morticelli (1880)", "La lavandaia (1888)", "Il ciabattino", "Madonna del Carmine"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Tra le acquisizioni moderne ottocentesche sono esposti Francesco Paolo Michetti ('I morticelli' 1880) e Pasquale Celommi ('La lavandaia' 1888)."
+    },
+    {
+      "domanda": "Quale importante reperto accompagna il Guerriero di Capestrano a Villa Frigerj?",
+      "opzioni": ["Dama di Capestrano", "Stele di Guardiagrele", "Torso di Rapino", "Ercole di Alba Fucens"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Oltre al Guerriero di Capestrano, il museo espone la Dama di Capestrano, la stele funeraria di Guardiagrele e il torso di Rapino."
+    },
+    {
+      "domanda": "Quale collezione privata arricchisce il Museo di Villa Frigerj?",
+      "opzioni": ["Collezione Pansa", "Collezione Frigerj", "Collezione Riccio", "Collezione De Litio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo conserva la ricca collezione Pansa composta da bronzetti, vetri, gioielli e oggetti di uso quotidiano."
+    },
+    {
+      "domanda": "Quali reperti numismatici sono ospitati a Villa Frigerj?",
+      "opzioni": ["Monete dal IV secolo a.C. all'età contemporanea", "Monete solo romane", "Monete medievali e rinascimentali", "Monete greche e magnogreche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Altre sale ospitano la collezione numismatica con monete dal IV secolo a.C. fino all'età contemporanea."
+    },
+    {
+      "domanda": "Quale simbolo militare romano è conservato a Villa Frigerj?",
+      "opzioni": ["Aquila legionaria in bronzo", "Stendardo cartaginese", "Insegna bizantina", "Gonfalone medievale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Tra le opere principali spiccano le teste ritratto di Augusto, ritratti maschili da Foruli e un'aquila legionaria in bronzo."
+    }
+  ]
+
+  ,
+  "basilicata": [
+    {
+      "domanda": "Per quale motivo il borgo medievale di Craco fu abbandonato nel XX secolo?",
+      "opzioni": ["A causa di frane", "Per epidemie", "Per invasioni", "Per guerre"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il borgo medievale di Craco (VIII sec.), arroccato su uno sperone argilloso, fu abbandonato nel XX secolo a causa di frane che ne compromisero la stabilità."
+    },
+    {
+      "domanda": "Quale caratteristica ha reso Craco un set cinematografico ideale?",
+      "opzioni": ["Il suo aspetto spettrale", "La posizione costiera", "I colori vivaci", "Le architetture barocche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il suo aspetto spettrale, dovuto all'abbandono e alla posizione drammatica, ha reso Craco una location cinematografica ideale per numerose produzioni."
+    },
+    {
+      "domanda": "Quali borghi arroccati caratterizzano le Dolomiti Lucane?",
+      "opzioni": ["Castelmezzano e Pietrapertosa", "Craco e Pisticci", "Matera e Montalbano", "Melfi e Venosa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le Dolomiti Lucane sono caratterizzate da borghi arroccati come Castelmezzano e Pietrapertosa, inseriti in un paesaggio unico di guglie rocciose di arenaria."
+    },
+    {
+      "domanda": "Quali rapaci nidificano nelle Dolomiti Lucane?",
+      "opzioni": ["Falchi pellegrini e lanari", "Aquile reali e poiane", "Gufi reali e civette", "Sparvieri e astori"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Regionale delle Dolomiti Lucane protegge habitat rupestri dove nidificano falchi pellegrini e lanari, oltre a conservare antiche tradizioni legate alla transumanza."
+    },
+    {
+      "domanda": "Quante chiese rupestri conserva il Parco archeologico del Materano?",
+      "opzioni": ["Oltre 150", "Circa 50", "Circa 80", "Oltre 200"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco archeologico delle chiese rupestri di Matera conserva oltre 150 edifici sacri scavati nella roccia tra l'VIII e il XIII secolo con affreschi bizantini."
+    },
+    {
+      "domanda": "Quale periodo storico rappresentano le chiese rupestri di Matera?",
+      "opzioni": ["Monachesimo orientale bizantino", "Periodo rinascimentale", "Età barocca", "Epoca normanna"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le chiese rupestri testimoniano l'evoluzione del monachesimo orientale in Italia meridionale, con strutture monastiche basiliane e affreschi bizantini."
+    },
+    {
+      "domanda": "In quale secolo fu fondata Metaponto come colonia greca?",
+      "opzioni": ["VII secolo a.C.", "VIII secolo a.C.", "VI secolo a.C.", "V secolo a.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Metaponto fu fondata come colonia greca nel VII sec. a.C. e divenne un importante centro magnogreco, celebre per il tempio dorico delle Tavole Palatine."
+    },
+    {
+      "domanda": "Quale famosa scuola filosofica ebbe sede a Metaponto?",
+      "opzioni": ["Scuola pitagorica", "Scuola platonica", "Scuola eleatica", "Scuola stoica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La scuola pitagorica ebbe sede a Metaponto, testimoniando il ruolo culturale della città nell'antichità magnogreca."
+    },
+    {
+      "domanda": "Quale importante codice fu promulgato da Federico II nel castello di Melfi?",
+      "opzioni": ["Costituzioni di Melfi", "Codice Giustiniano", "Editto di Rotari", "Prammatica Sanzione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Federico II promulgò le Costituzioni di Melfi nel castello normanno-svevo, che fu anche sede del Concilio del 1059."
+    },
+    {
+      "domanda": "Quale celebre statua legata al culto italico è conservata nel museo di Melfi?",
+      "opzioni": ["La Mefite", "L'Ercole italico", "La Dea Lucana", "Il Guerriero sannita"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo archeologico di Melfi custodisce la celebre Mefite, statua legata al culto della dea italica, oltre a reperti dalla preistoria all'età medievale."
+    },
+    {
+      "domanda": "In quale stile architettonico è realizzato Palazzo de Lieto?",
+      "opzioni": ["Barocco", "Rinascimentale", "Gotico", "Neoclassico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo de Lieto (XVIII sec.) è un esempio di architettura nobiliare settecentesca, con facciata barocca e interni decorati nel borgo di Monte San Biagio."
+    },
+    {
+      "domanda": "Quale popolazione preromana ha lasciato tracce nel territorio di Monte San Biagio?",
+      "opzioni": ["Volsci", "Etruschi", "Greci", "Sanniti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il territorio circostante Monte San Biagio conserva testimonianze preromane, tra cui mura megalitiche e tracce del passaggio dei Volsci."
+    },
+    {
+      "domanda": "Quale vista domina la Statua del Redentore sul Monte Biagio?",
+      "opzioni": ["Golfo di Policastro", "Golfo di Taranto", "Mar Ionio", "Mar Adriatico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Statua del Redentore (XX sec.), posta sulla vetta del Monte Biagio, domina il Golfo di Policastro ed è meta di pellegrinaggi."
+    },
+    {
+      "domanda": "Quali popoli si sono avvicendati nel Castello di Castrocucco?",
+      "opzioni": ["Longobardi, Bizantini e Normanni", "Fenici, Greci e Romani", "Arabi, Svevi e Angioini", "Etruschi, Sanniti e Lucani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello di Castrocucco (XI sec.) testimonia l'incrocio di culture tra Bizantini, Longobardi e Normanni che controllavano la costa tirrenica."
+    },
+    {
+      "domanda": "Quale albero millenario caratterizza il Parco Nazionale del Pollino?",
+      "opzioni": ["Pino loricato", "Abete bianco", "Faggio secolare", "Quercia roverella"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Nazionale del Pollino è celebre per i pini loricati, alberi millenari adattati alle quote elevate tra Basilicata e Calabria."
+    },
+    {
+      "domanda": "Quale raro animale è protetto nel Parco del Pollino?",
+      "opzioni": ["Capriolo italico", "Orso marsicano", "Lupo appenninico", "Camoscio d'Abruzzo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'area ospita lupi, aquile reali e il raro capriolo italico, oltre a conservare tradizioni arbëreshë nei borghi come Rotonda e Castrovillari."
+    },
+    {
+      "domanda": "Quale rara farfalla è protetta nei Laghi di Monticchio?",
+      "opzioni": ["Bramea", "Apollo", "Maculinea", "Podalirio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I due laghi di Monticchio (Piccolo e Grande) sono habitat della rara farfalla Bramea, nel contesto del vulcano spento del Vulture."
+    },
+    {
+      "domanda": "Quale antica abbazia sorge sulle pendici del Vulture?",
+      "opzioni": ["Abbazia di San Michele", "Abbazia della Trinità", "Abbazia di Santa Maria", "Abbazia di San Benedetto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Abbazia di San Michele (VIII sec.), grotta-santuario longobarda, sorge sulle pendici del vulcano spento del Vulture."
+    },
+    {
+      "domanda": "Quale famoso poeta romano era originario di Venosa?",
+      "opzioni": ["Orazio", "Virgilio", "Ovidio", "Catullo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Venosa fu città natale di Orazio e importante municipio romano, con un parco archeologico che include Terme, anfiteatro e la SS. Trinità."
+    },
+    {
+      "domanda": "Come è chiamata la cattedrale normanna incompiuta di Venosa?",
+      "opzioni": ["L'Incompiuta", "Il Duomo Nuovo", "La Cattedrale Abbandonata", "La Chiesa di San Lorenzo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Notevole è l'Incompiuta, cattedrale normanna mai terminata, che rappresenta un esempio eccezionale di stratificazione romana, longobarda e medievale."
+    },
+    {
+      "domanda": "Da quale periodo i Sassi di Matera sono abitati continuativamente?",
+      "opzioni": ["Paleolitico", "Neolitico", "Età del Bronzo", "Età del Ferro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Sassi, Patrimonio UNESCO, sono un insediamento rupestre continuamente abitato dal paleolitico, con case-grotta e chiese ipogee."
+    },
+    {
+      "domanda": "Quale sistema ingegneristico caratterizza i Sassi di Matera?",
+      "opzioni": ["Sistemi di raccolta idrica", "Ponti e viadotti", "Mura difensive", "Torri di avvistamento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Sassi mostrano sistemi di raccolta idrica come il Palombaro Lungo, cisterna medievale che testimonia l'adattamento all'ambiente carsico."
+    },
+    {
+      "domanda": "In quale secolo fu fondata Grumentum come colonia romana?",
+      "opzioni": ["III secolo a.C.", "II secolo a.C.", "IV secolo a.C.", "I secolo a.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Grumentum (III sec. a.C.) fu colonia romana nella Val d'Agri e conserva il teatro, il Capitolium e un anfiteatro con mosaici."
+    },
+    {
+      "domanda": "Quale via romana passava per Grumentum?",
+      "opzioni": ["Via Herculea", "Via Appia", "Via Valeria", "Via Traiana"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Grumentum fu nodo viario fondamentale sulla Via Herculea durante le guerre puniche, con un'urbanistica tipicamente romana in area lucana."
+    },
+    {
+      "domanda": "Quale importante reperto bronzeo è conservato nel Museo della Siritide?",
+      "opzioni": ["Tavola bronzea di Heraclea", "Statua di Apollo", "Scudo sannita", "Elmo daunio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo espone la Tavola bronzea di Heraclea, testo in greco su confini sacri, e corredi daunii dall'antica Siris (VII sec. a.C.)."
+    },
+    {
+      "domanda": "Quale antica colonia greca precedeva Heraclea nella Siritide?",
+      "opzioni": ["Siris", "Sibari", "Crotone", "Metaponto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco comprende l'antica Siris (VII sec. a.C.), colonia greca poi confluita in Heraclea (IV sec. a.C.), con resti del tempio di Demetra."
+    },
+    {
+      "domanda": "Quale dea era venerata nel Santuario della Valle d'Ansanto?",
+      "opzioni": ["Mefitis", "Demetra", "Era", "Atena"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Valle d'Ansanto era sede del culto della dea Mefitis (VI sec. a.C.), divinità legata alle emissioni gassose sulfuree e ai rituali di passaggio."
+    },
+    {
+      "domanda": "Quale caratteristica geologica caratterizza il Santuario di Mefite?",
+      "opzioni": ["Emissioni gassose sulfuree", "Sorgenti termali", "Grotte calcaree", "Formazioni basaltiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'area sulfurea con emissioni gassose era ritenuta sacra da Sanniti e Romani, che vi depositavano ex voto in terracotta e bronzetti."
+    },
+    {
+      "domanda": "Quali reperti fossili si trovano nei Calanchi di Montalbano Jonico?",
+      "opzioni": ["Fossili di balene ed elefanti antichi", "Fossili di dinosauri", "Fossili di ammoniti", "Fossili di orsi delle caverne"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I calanchi, formazioni argillose erose, creano un paesaggio lunare ricco di fossili pliocenici come balene ed elefanti antichi."
+    },
+    {
+      "domanda": "Cosa sono i 'grigi' nei Calanchi di Montalbano?",
+      "opzioni": ["Stratificazioni geologiche", "Tipi di piante", "Specie di uccelli", "Formazioni rocciose"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I 'grigi' sono stratificazioni geologiche visibili fondamentali per studi paleoclimatici, in un equilibrio fragile tra erosione e biodiversità."
+    }, 
+    {
+      "domanda": "A chi è intitolato il Museo Archeologico Nazionale della Basilicata a Potenza?",
+      "opzioni": ["Dinu Adamesteanu", "Domenico Ridola", "Camillo d'Errico", "Carlo Levi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo è intitolato a Dinu Adamesteanu, considerato il padre dell'archeologia lucana moderna, e offre un viaggio completo nella storia del territorio dalla preistoria all'epoca romana."
+    },
+    {
+      "domanda": "Da quale importante sito provengono i reperti dell'età del Bronzo esposti nella sezione preistorica?",
+      "opzioni": ["Toppo Daguzzo e San Francesco", "Murgecchia e Murgia Timone", "Timmari e Trasano", "Rossano di Vaglio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione preistorica espone eccezionali corredi funerari dell'età del Bronzo da Toppo Daguzzo e San Francesco, con vasi d'impasto e ornamenti in bronzo e ambra che testimoniano antiche reti di scambio."
+    },
+    {
+      "domanda": "Quale celebre ceramica greca è esposta nella sezione dedicata a Metaponto?",
+      "opzioni": ["Cratere del Pittore di Pothos", "Anfora del Pittore di Andokides", "Kylix di Eufronio", "Hydria del Pittore di Berlino"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella sezione greca sono esposti splendidi esempi di ceramica attica a figure rosse, tra cui un celebre cratere del Pittore di Pothos da Metaponto, oltre a terrecotte architettoniche e ornamenti in oro."
+    },
+    {
+      "domanda": "Quali reperti testimoniano il legame con Roma nella sezione romana?",
+      "opzioni": ["Ritratti della famiglia imperiale da Rossano di Vaglio", "Statue di imperatori da Potentia", "Busti consolari da Metaponto", "Monumenti onorari da Grumentum"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione romana espone ritratti scultorei di personaggi della famiglia imperiale rinvenuti a Rossano di Vaglio, che sottolineano il legame sempre più stretto della Lucania con Roma."
+    },
+    {
+      "domanda": "In quale edificio storico è allestito il Museo Nazionale d'Arte Medievale e Moderna di Matera?",
+      "opzioni": ["Palazzo Lanfranchi", "Palazzo dell'Annunziata", "Palazzo Sedile", "Palazzo Bernardini"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo è allestito nel seicentesco Palazzo Lanfranchi e unisce archeologia, arte sacra e collezionismo riflettendo la stratificazione storica e culturale della Basilicata."
+    },
+    {
+      "domanda": "Quale grande opera di arte sacra domina la relativa sezione?",
+      "opzioni": ["Giudizio Universale di Francesco da Matera", "Trittico di Carlo Levi", "Pala d'altare di Luca Giordano", "Polittico di Jusepe de Ribera"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione di arte sacra è dominata dalla grande pala d'altare del Giudizio Universale, opera di Francesco da Matera del 1540, proveniente dalla distrutta chiesa di San Francesco."
+    },
+    {
+      "domanda": "Quale importante collezione privata forma il nucleo originario del museo?",
+      "opzioni": ["Collezione Camillo d'Errico", "Collezione Domenico Ridola", "Collezione Dinu Adamesteanu", "Collezione Carlo Levi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il nucleo originario del museo è la collezione Camillo d'Errico, composta da oltre 400 dipinti di scuola napoletana, fiamminga e veneta dal Cinquecento all'Ottocento."
+    },
+    {
+      "domanda": "Quale celebre opera di Carlo Levi è esposta nella sezione di arte contemporanea?",
+      "opzioni": ["Lucania 61", "Cristo si è fermato a Eboli", "I Sassi di Matera", "Il mondo dei vinti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Spicca il grande trittico di Carlo Levi, Lucania 61, dipinto per il palazzo stesso, che rappresenta una sintesi poetica e potente del suo sguardo sulla civiltà contadina."
+    },
+    {
+      "domanda": "Chi fondò il Museo Archeologico Nazionale Domenico Ridola di Matera?",
+      "opzioni": ["Il senatore e medico Domenico Ridola", "L'archeologo Dinu Adamesteanu", "Il collezionista Camillo d'Errico", "L'artista Carlo Levi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo fu fondato nel 1911 dal senatore e medico Domenico Ridola, che donò allo Stato le sue collezioni, ed è il più antico museo della Basilicata."
+    },
+    {
+      "domanda": "Quale periodo storico è principalmente documentato nel Museo Ridola?",
+      "opzioni": ["Preistoria e protostoria", "Età romana e medievale", "Periodo greco e magnogreco", "Rinascimento e barocco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo è dedicato principalmente alla preistoria e alla protostoria del territorio materano, con particolare attenzione all'habitat rupestre e alle culture indigene."
+    },
+    {
+      "domanda": "Da quali importanti siti neolitici provengono i reperti più significativi?",
+      "opzioni": ["Murgecchia, Murgia Timone e Tirlecchia", "Toppo Daguzzo e San Francesco", "Metaponto e Heraclea", "Potentia e Grumentum"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione neolitica è tra le più ricche d'Italia, con reperti eccezionali dagli abitati trincerati di Murgecchia, Murgia Timone e Tirlecchia."
+    },
+    {
+      "domanda": "Quale materiale proveniente dalle isole Eolie testimonia antichi commerci?",
+      "opzioni": ["Ossidiana", "Ambracane", "Bronzo", "Marmo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo espone strumenti in ossidiana proveniente dalle isole Eolie, prova di antichissimi commerci già attivi in epoca preistorica."
+    }
+  
+  ]
+
+  ,
+  "calabria": [
+    {
+      "domanda": "Quale elemento caratterizza il centro storico di Gerace?",
+      "opzioni": ["Impianto urbano normanno con cattedrale XI-XII sec.", "Insediamento greco con templi dorici", "Città rinascimentale con palazzi barocchi", "Porto romano con darsene antiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il centro storico di Gerace conserva un impianto urbano normanno e la cattedrale costruita tra XI e XII secolo."
+    },
+    {
+      "domanda": "Quale origine ha il castello che domina Gerace?",
+      "opzioni": ["Origini bizantine poi ampliato dai Normanni", "Costruzione romana del I secolo", "Edificio rinascimentale aragonese", "Fortezza moderna del XIX secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il castello di Gerace ha origini bizantine ed è stato ampliato dai Normanni."
+    },
+    {
+      "domanda": "A cosa sono associate le incisioni della Grotta del Romito?",
+      "opzioni": ["Raffigurazioni di bovidi selvatici del Paleolitico", "Affreschi bizantini medievali", "Mosaici romani tardoantichi", "Iscrizioni greche arcaiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Grotta del Romito è un sito paleolitico con incisioni rupestri raffiguranti bovidi selvatici datate a circa 12.000 anni fa."
+    },
+    {
+      "domanda": "Quali reperti sono emersi dagli scavi nella Grotta del Romito?",
+      "opzioni": ["Sepolture umane, strumenti litici e resti faunistici", "Tombe imperiali romane", "Reperti etruschi in bronzo", "Codici medievali su pergamena"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi hanno portato alla luce sepolture umane, strumenti litici e resti faunistici, utili per lo studio del Paleolitico superiore."
+    },
+    {
+      "domanda": "Quando fu fondata Locri Epizefiri e quale santuario conserva il parco?",
+      "opzioni": ["VII secolo a.C. - santuario di Persefone", "V secolo a.C. - santuario di Zeus", "III secolo a.C. - santuario di Apollo", "I secolo d.C. - santuario di Hera"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Locri Epizefiri fu fondata nel VII secolo a.C. e il parco conserva il santuario di Persefone."
+    },
+    {
+      "domanda": "Quali oggetti sono esposti nel museo di Locri Epizefiri?",
+      "opzioni": ["Statue votive, pinakes e ceramiche locali", "Bronzi etruschi, monete celtiche, gladii romani", "Mosaici rinascimentali e tele barocche", "Reperti paleolitici e strumenti di selce"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo espone statue votive, pinakes (tavolette in terracotta) e ceramiche di produzione locale."
+    },
+    {
+      "domanda": "Quale nome antico aveva Scolacium e quale tipologia di resti conserva?",
+      "opzioni": ["Skylletion / teatro romano, anfiteatro e basilica bizantina", "Taras / templi dorici e palazzi regali", "Rhegion / mura e porti imperiali", "Locri / santuari e necropoli arcaiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Scolacium fu anticamente Skylletion e conserva teatro romano, anfiteatro e resti di una basilica bizantina."
+    },
+    {
+      "domanda": "Quale importante personaggio storico nacque a Scolacium?",
+      "opzioni": ["Cassiodoro", "Alessandro Magno", "Plinio il Vecchio", "Cicerone"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Scolacium è storicamente noto per aver dato i natali a Cassiodoro, scrittore e politico del VI secolo d.C."
+    },
+    {
+      "domanda": "Qual è una caratteristica naturale dell'area dell'Aspromonte?",
+      "opzioni": ["Foreste di faggio, abete bianco e pino laricio", "Zone desertiche con dune sabbiose", "Vaste pianure alluvionali", "Coste basse con scogliere basaltiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Nazionale dell'Aspromonte è caratterizzato da foreste di faggio, abete bianco e pino laricio."
+    },
+    {
+      "domanda": "Quale specie animale protetta è presente nell'Aspromonte?",
+      "opzioni": ["Lupo appenninico", "Elefante", "Orso polare", "Canguro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco ospita specie protette come il lupo appenninico, il gatto selvatico e l'aquila reale."
+    },
+    {
+      "domanda": "A quale periodo risalgono le mura greche di Hipponion?",
+      "opzioni": ["V secolo a.C.", "I secolo a.C.", "XII secolo d.C.", "VIII secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le imponenti mura greche di Hipponion risalgono al V secolo a.C. e sono significative per l'architettura militare della Magna Grecia."
+    },
+    {
+      "domanda": "Cosa conserva il Museo Archeologico Nazionale di Vito Capialbi?",
+      "opzioni": ["Vasi attici, statuette votive e materiali dai santuari", "Collezione di dipinti rinascimentali", "Macchine industriali del XIX secolo", "Resti fossili marini prefossili"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo conserva vasi attici a figure rosse, statuette votive e materiali provenienti dai santuari extraurbani."
+    },
+    {
+      "domanda": "Qual è una caratteristica del centro storico di Scilla?",
+      "opzioni": ["Borgo marinaro arroccato sullo Stretto di Messina", "Piana agricola con canali romani", "Centro termale romano con sorgenti", "Città industriale moderna"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Scilla è un borgo marinaro arroccato su uno sperone roccioso sullo Stretto di Messina, con strette viuzze e case addossate."
+    },
+    {
+      "domanda": "Quale fortezza domina Scilla e di quale origine è?",
+      "opzioni": ["Castello Ruffo - origine normanna, rimaneggiato in epoca aragonese", "Forte Spagnolo - costruzione ottocentesca", "Torre Saracena - costruzione romana", "Fortezza Bizantina - costruzione micenea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Ruffo di origine normanna, rimaneggiato in epoca aragonese, domina il panorama di Scilla."
+    },
+    {
+      "domanda": "Chi fondò Kaulon/Caulonia e quando?",
+      "opzioni": ["Coloni achei nell'VIII secolo a.C.", "Romani nel II secolo a.C.", "Bizantini nel X secolo d.C.", "Longobardi nel VI secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Kaulon fu fondata da coloni achei nell'VIII secolo a.C. ed è uno dei principali siti magnogreci della Calabria."
+    },
+    {
+      "domanda": "Quale elemento pavimentale famoso è conservato a Kaulon?",
+      "opzioni": ["Il mosaico del drago", "Il mosaico del centauro", "Il mosaico della battaglia navale", "Il mosaico delle stagioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel parco di Kaulon spicca il famoso mosaico del drago tra i pavimenti rinvenuti."
+    },
+    {
+      "domanda": "A quale popolo è associato il sito di Tauriani?",
+      "opzioni": ["I Bretti", "I Romani", "I Greci", "I Fenici"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Tauriani fu un importante centro della popolazione italica dei Bretti tra IV e III secolo a.C."
+    },
+    {
+      "domanda": "Quale attività artigianale è attestata a Tauriani?",
+      "opzioni": ["Metallurgia", "Vetreria", "Tessitura della seta", "Lavorazione del marmo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le necropoli e gli scavi documentano attività artigianali legate alla metallurgia."
+    },
+    {
+      "domanda": "A quale epoca è databile la Cattolica di Stilo?",
+      "opzioni": ["X secolo d.C.", "III secolo a.C.", "XVIII secolo", "V secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cattolica di Stilo è databile al X secolo ed è un eccellente esempio di architettura bizantina in Calabria."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica distingue la Cattolica di Stilo?",
+      "opzioni": ["Pianta quadrata con cinque cupole disposte a croce", "Navata unica con abside semicircolare", "Facciata gotica a due torri", "Edificio a pianta basilicale romana"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cattolica presenta una pianta quadrata con cinque cupole disposte a croce, tipica dell'architettura bizantina."
+    },
+    {
+      "domanda": "Cosa caratterizza il Parco Archeologico di Sibari?",
+      "opzioni": ["Sovrapposizione di tre città e sistemi idrici avanzati", "Grande necropoli etrusca", "Castello medievale ben conservato", "Villa romana con affreschi rinascimentali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco mostra la sovrapposizione di Sybaris, Thurii e Copia e sistemi idrici avanzati, testimonianza dell'opulenza antica."
+    },
+    {
+      "domanda": "Per cosa era celebre l'antica Sybaris?",
+      "opzioni": ["Per l'opulenza e i fasti della sua élite", "Per la grande flotta navale", "Per la produzione di ferro", "Per gli spalti degli ippodromi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Sybaris era celebre per la sua opulenza, ricchezze e vivacità culturale e artigianale."
+    },
+    {
+      "domanda": "A quale divinità era dedicato il santuario di Capo Colonna?",
+      "opzioni": ["Hera Lacinia", "Zeus Olimpico", "Atena", "Apollo Delfico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Capo Colonna ospitava un importante santuario dedicato a Hera Lacinia; oggi rimane una colonna superstite."
+    },
+    {
+      "domanda": "Quale reperto prezioso è esposto nel museo di Capo Colonna?",
+      "opzioni": ["Lastra aurea con dedica a Hera", "Scultura in marmo dell'imperatore", "Libro pergamenaceo del V secolo", "Maschera funeraria in oro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo espone reperti dell'area sacra, tra cui la preziosa lastra aurea con dedica a Hera."
+    },
+    {
+      "domanda": "Chi fondò la città di Laos e quando?",
+      "opzioni": ["Profughi sibariti nel VI secolo a.C.", "Coloni romani nel I secolo a.C.", "Bizantini nel X secolo d.C.", "Longobardi nel VI secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Laos fu fondata nel VI secolo a.C. da profughi sibariti ed è importante per la colonizzazione greca nel Sud."
+    },
+    {
+      "domanda": "Cosa hanno rivelato le necropoli di Laos?",
+      "opzioni": ["Ricchi corredi funerari con armi e gioielli", "Affreschi paleocristiani", "Fossili marini", "Resti di un palazzo reale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le necropoli hanno restituito ricchi corredi funerari con armi, gioielli e ceramiche locali e importate."
+    },
+    {
+      "domanda": "Di quale periodo è la Villa Romana di Larderia?",
+      "opzioni": ["I-IV secolo d.C.", "VIII secolo a.C.", "XII secolo d.C.", "XV secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "La villa è databile tra il I e il IV secolo d.C. e mostra mosaici e un sistema ipocausto."
+    },
+    {
+      "domanda": "Quale struttura termale è presente a Larderia?",
+      "opzioni": ["Complesso termale privato con mosaici e ipocausto", "Grande terme pubbliche con natatio", "Solo un frigidarium esterno", "Nessuna struttura termale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La villa comprende un complesso termale privato con mosaici e un sistema di riscaldamento ipocausto."
+    },
+    {
+      "domanda": "Cosa distingue i mosaici della villa di Casignana?",
+      "opzioni": ["Scena marina con Nereidi e mostri marini", "Mosaico geometrico semplice", "Mosaico a motivi floreali rinascimentali", "Mosaico in bianco e nero di epoca romana tardiva"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Casignana è nota per mosaici policromi eccezionali, tra cui una grande scena marina con Nereidi e mostri marini."
+    },
+    {
+      "domanda": "Quali ambienti termali sono stati individuati a Casignana?",
+      "opzioni": ["Frigidarium, tepidarium e calidarium", "Solo un piccolo calidarium", "Terme pubbliche imperiali con palestra", "Nessun ambiente termale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi hanno rivelato un impianto termale completo con frigidarium, tepidarium e calidarium."
+    },
+    {
+      "domanda": "Qual è l'origine del Castello di Santa Severina?",
+      "opzioni": ["Normanna (XI secolo) su strutture bizantine", "Greca arcaica del VII secolo a.C.", "Edificio romano repubblicano", "Costruzione moderna del XIX secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il castello è normanno (XI secolo) costruito su preesistenze bizantine e conserva elementi medievali e aragonesi."
+    },
+    {
+      "domanda": "Quale cappella si trova all'interno del castello di Santa Severina?",
+      "opzioni": ["Cappella palatina di Santa Filomena con affreschi bizantino-normanni", "Cappella barocca di San Pietro", "Cappella rinascimentale di San Marco", "Cappella gotica del XIII secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "All'interno si trova la cappella palatina di Santa Filomena, con affreschi bizantino-normanni."
+    },
+    {
+      "domanda": "Quale scoperta particolare caratterizza il sito di San Pasquale?",
+      "opzioni": ["Resti di una sinagoga con mosaici e iscrizioni ebraiche", "Un grande tempio romano dedicato a Giove", "Una fortezza medievale aragonese", "Un complesso termale etrusco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "San Pasquale conserva i resti di una sinagoga del IV secolo d.C. con mosaici pavimentali e iscrizioni in greco ed ebraico."
+    },
+    {
+      "domanda": "Perché il sito di San Pasquale è significativo storicamente?",
+      "opzioni": ["Documenta la convivenza di comunità ebraiche, greche e latine in età tardoantica", "È il più antico santuario pagano della Calabria", "Contiene la più grande necropoli romana", "È un importante sito preistorico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il sito è fondamentale per lo studio delle minoranze religiose e della convivenza culturale in Calabria tardoantica."
+    },
+    {
+      "domanda": "Di quale epoca è la fortezza de La Castella sull'isolotto?",
+      "opzioni": ["XVI secolo (aragonese) costruita su precedenti fortificazioni", "III secolo a.C. (ellenistica)", "X secolo (bizantino)", "XIX secolo (moderna)"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La fortezza aragonese di La Castella è del XVI secolo e incorpora resti di precedenti fortificazioni greche e normanne."
+    },
+    {
+      "domanda": "Qual era la funzione principale de La Castella in epoca moderna?",
+      "opzioni": ["Protezione costiera contro le incursioni ottomane", "Centro commerciale internazionale", "Sede di una scuola filosofica", "Villa residenziale estiva"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La fortezza fu potenziata per contrastare le incursioni ottomane e difendere la costa."
+    },
+    {
+      "domanda": "Quali alberi caratterizzano il Parco Nazionale della Sila?",
+      "opzioni": ["Pino laricio secolare", "Palme mediterranee", "Ulivi centenari", "Cedri himalayani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sila è nota per i boschi di pino laricio secolari, uno dei più antichi complessi forestali d'Italia."
+    },
+    {
+      "domanda": "Quale fauna importante è protetta nella Sila?",
+      "opzioni": ["Lupo appenninico e capriolo italico", "Elefante e rinoceronte", "Canguro e koala", "Pinguini e foche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sila ospita specie come il lupo appenninico e il capriolo italico, oltre a numerose specie forestali."
+    }
+  ,
+    {
+      "domanda": "In quale anno sono stati rinvenuti i Bronzi di Riace?",
+      "opzioni": ["1972", "1965", "1980", "1950"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Bronzi di Riace sono stati rinvenuti nel mare di Riace nel 1972, come indicato nel testo."
+    },
+    {
+      "domanda": "Cosa rappresentano le due statue dei Bronzi di Riace?",
+      "opzioni": ["Due filosofi greci", "Due guerrieri eroici nudi", "Due atleti olimpici", "Due divinità greche"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le due statue, denominate Statua A e Statua B, rappresentano due guerrieri eroici nudi del V secolo a.C."
+    },
+    {
+      "domanda": "Dove sono conservati i Bronzi di Riace all'interno del museo?",
+      "opzioni": ["Nell'atrio principale", "In una sala appositamente climatizzata", "Nella sezione preistorica", "Nel giardino del museo"],
+      "rispostaCorretta": 1,
+      "spiegazione": "I Bronzi di Riace sono esposti in una sala appositamente climatizzata che ne esalta la maestosità."
+    },
+    {
+      "domanda": "A quale periodo storico appartengono i Bronzi di Riace?",
+      "opzioni": ["Periodo ellenistico", "Periodo arcaico", "V secolo a.C.", "III secolo a.C."],
+      "rispostaCorretta": 2,
+      "spiegazione": "I Bronzi di Riace sono capolavori scultorei in bronzo del V secolo a.C., considerati tra gli esempi più alti dell'arte greca classica."
+    },
+    {
+      "domanda": "Quale fauna importante è protetta nella Sila?",
+      "opzioni": ["Lupo appenninico e capriolo italico", "Elefante e rinoceronte", "Canguro e koala", "Pinguini e foche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sila ospita specie come il lupo appenninico e il capriolo italico, oltre a numerose specie forestali."
+    },
+    {
+      "domanda": "Dove è stato rinvenuto il Tesoro di Hera?",
+      "opzioni": ["Nel santuario di Hera Lacinia a Capo Colonna", "Nel centro storico di Crotone", "Nel relitto di Porticello", "Nel villaggio di Broglio di Trebisacce"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Tesoro di Hera è stato rinvenuto nel santuario di Hera Lacinia a Capo Colonna, come indicato nel testo."
+    },
+    {
+      "domanda": "Cosa comprende il Tesoro di Hera?",
+      "opzioni": ["Solo monete antiche", "Solo armi in bronzo", "Gioielli e oggetti preziosi in oro, argento e ambra", "Solo ceramiche dipinte"],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il Tesoro di Hera comprende gioielli e oggetti preziosi in oro, argento e ambra, tra cui diademi, orecchini, anelli e collane."
+    },
+    {
+      "domanda": "A quale periodo risale il Tesoro di Hera?",
+      "opzioni": ["Tra il VI e il IV secolo a.C.", "Tra il II e il I secolo a.C.", "Periodo romano imperiale", "Età del Ferro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il tesoro è databile tra il VI e il IV secolo a.C. ed era costituito da offerte votive donate alla dea Hera."
+    },
+    {
+      "domanda": "Quale famoso atleta era originario di Kroton?",
+      "opzioni": ["Leonida di Rodi", "Milone", "Alessandro il Grande", "Fidia"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Kroton era patria del leggendario atleta Milone, come menzionato nella sezione dedicata alla città."
+    },
+    {
+      "domanda": "Cosa documentano le statuette votive in terracotta e bronzo nella sezione greca del Museo di Crotone?",
+      "opzioni": ["Le tecniche di agricoltura", "I culti religiosi praticati", "I metodi di pesca", "Le battaglie storiche"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le statuette votive in terracotta e bronzo documentano i culti religiosi praticati nell'antica Kroton."
+    },
+    {
+      "domanda": "Quale famosa scuola filosofica era associata a Kroton?",
+      "opzioni": ["Scuola stoica", "Scuola pitagorica", "Scuola epicurea", "Scuola platonica"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il testo fa riferimento alla scuola pitagorica come una delle caratteristiche culturali di Kroton."
+    },
+    {
+      "domanda": "In quale anno Crotone divenne colonia romana?",
+      "opzioni": ["194 a.C.", "146 a.C.", "270 a.C.", "100 a.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Crotone divenne una colonia romana nel 194 a.C. con il nome di Croto, come indicato nella sezione romana."
+    }
+  ], "campania": 
+[
+  {
+    "domanda": "Quale caratteristica architettonica della Certosa di San Giacomo riflette la sua fondazione trecentesca?",
+    "opzioni": ["L'unione di elementi gotici e rinascimentali", "La presenza di cupole barocche", "Lo stile neoclassico predominante", "Le torri di avvistamento normanne"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La Certosa di San Giacomo, fondata nel 1363 sull'isola di Capri, rappresenta una sintesi dell'architettura monastica campana del XIV secolo con chiostri che mostrano la transizione dal gotico al rinascimentale."
+  },
+  {
+    "domanda": "Quale evidenza archeologica collega la Grotta Azzurra all'epoca romana?",
+    "opzioni": ["Resti di un ninfeo imperiale sommerso", "Statue di marmo di divinità marine", "Iscrizioni latine sulle pareti", "Mosaici con scene mitologiche"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La Grotta Azzurra conserva nel suo specchio d'acqua i resti sommersi di un ninfeo romano del I secolo d.C., testimoniando il suo utilizzo come luogo di culto e otium in età imperiale."
+  },
+  {
+    "domanda": "Quale elemento del Duomo di Amalfi testimonia gli scambi culturali mediterranei?",
+    "opzioni": ["Lo stile romanico-arabo", "Le vetrate gotiche francesi", "I marmi bizantini", "Le cupole normanne"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il Duomo di Amalfi, costruito tra IX e XIII secolo, fonde elementi architettonici romanici con decorazioni arabo-normanne, riflettendo i contatti commerciali della Repubblica Marinara nel Mediterraneo medievale."
+  },
+  {
+    "domanda": "Cosa rende unici i giardini di Villa Rufolo a Ravello?",
+    "opzioni": ["L'ispirazione wagneriana e la posizione a picco sul mare", "Le piante esotiche tropicali", "I giochi d'acqua barocchi", "Le sculture moderne"],
+    "rispostaCorretta": 0,
+    "spiegazione": "I giardini pensili di Villa Rufolo, realizzati nel XIII secolo, si sviluppano su terrazzamenti a strapiombo sul mare di Positano e ispirarono a Wagner il giardino di Klingsor nel Parsifal durante il suo soggiorno del 1880."
+  },
+  {
+    "domanda": "Quale caratteristica geologica distingue il complesso di Pertosa-Auletta?",
+    "opzioni": ["Le formazioni carsiche sviluppatesi in 35 milioni di anni", "La presenza di lava solidificata", "Le rocce metamorfiche rare", "I cristalli di gesso giganti"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il sistema ipogeo di Pertosa-Auletta, nel Vallo di Diano, si è formato nel corso di 35 milioni di anni attraverso processi carsici che hanno creato gallerie e sale con concrezioni calcaree uniche in Campania."
+  },
+  {
+    "domanda": "Quale ritrovamento archeologico rende unica la Grotta di Pertosa in Italia?",
+    "opzioni": ["Resti di palafitte preistoriche nel lago interno", "Tombe principesche dell'età del Ferro", "Affreschi rupestri paleolitici", "Necropoli romana intatta"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La grotta conserva i resti di un villaggio palafitticolo del II millennio a.C. costruito sulle sponde del lago sotterraneo, unico esempio in Italia di insediamento preistorico in ambiente ipogeo."
+  },
+  {
+    "domanda": "Quale periodo storico è documentato dall'Antro della Sibilla a Cuma?",
+    "opzioni": ["L'epoca della colonizzazione greca in Italia", "Il periodo etrusco dominante", "L'era romana imperiale", "Il medioevo bizantino"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'Antro della Sibilla, scavato nel tufo dei Campi Flegrei nel VI secolo a.C., rappresenta uno dei principali luoghi oracolari della Magna Grecia, frequentato fino all'età romana per consultare la profetessa cumana."
+  },
+  {
+    "domanda": "Cosa testimonia l'Acropoli di Cuma riguardo all'architettura religiosa?",
+    "opzioni": ["La sovrapposizione di templi di diverse epoche", "L'uso esclusivo di marmo pentelico", "La pianta circolare dei santuari", "Le decorazioni etrusche"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'Acropoli di Cuma mostra stratificazioni archeologiche dal Tempio di Giove del V secolo a.C. a trasformazioni in chiesa paleocristiana, documentando l'evoluzione dell'architettura sacra dal periodo greco al cristianesimo."
+  },
+  {
+    "domanda": "Quale caratteristica difensiva distingue Terra Murata a Procida?",
+    "opzioni": ["Le mura aragonesi del XV secolo", "I bastioni veneziani", "Le torri normanne isolate", "I fossati rinascimentali"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Terra Murata, sviluppatasi tra XI e XV secolo, è circondata da imponenti mura aragonesi che proteggevano l'Abbazia di San Michele Arcangelo e il borgo dagli attacchi pirateschi nel Golfo di Napoli."
+  },
+  {
+    "domanda": "Quale funzione aveva il Palazzo d'Avalos a Terra Murata?",
+    "opzioni": ["Carcere borbonico nel XIX secolo", "Residenza estiva dei viceré spagnoli", "Arsenale della marina", "Scuola teologica"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il Palazzo d'Avalos, costruito nel Cinquecento, fu trasformato in carcere borbonico nel 1815 e rimase attivo fino al 1988, simbolo del controllo borbonico sul territorio campano."
+  },
+  {
+    "domanda": "Quale aspetto della Villa di Pausilypon la rende esemplare dell'architettura romana?",
+    "opzioni": ["L'integrazione tra architettura e paesaggio costiero", "Le dimensioni ridotte rispetto alle ville flegree", "L'assenza di terme private", "Lo stile greco puro"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La villa marittima di Publio Vedio Pollione, costruita nel I secolo a.C., si distingue per il teatro e l'odeion scavati nella roccia tufacea di Posillipo, creando una simbiosi unica tra architettura romana e panorama sul golfo di Napoli."
+  },
+  {
+    "domanda": "Quale opera ingegneristica romana è rappresentata dalla Grotta di Seiano?",
+    "opzioni": ["Galleria artificiale di 770 metri scavata nel tufo", "Ponte ad arcate multiple", "Acquedotto sotterraneo", "Sistema di cisterne pluviali"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La Grotta di Seiano, realizzata in età augustea, è una galleria lunga 770 metri che attraversa la collina di Posillipo collegando i Campi Flegrei al mare, capolavoro di ingegneria romana per il taglio nella roccia vulcanica."
+  },
+  {
+    "domanda": "Quale innovazione idraulica caratterizza la Reggia di Caserta?",
+    "opzioni": ["L'acquedotto Carolino del 1762", "Le cisterne romane riutilizzate", "I mulini ad acqua vanvitelliani", "Le fontane a riciclo continuo"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'acquedotto Carolino, voluto da Carlo di Borbone e progettato da Luigi Vanvitelli nel 1752, si estende per 38 km dalle sorgenti del Fizzo ai giardini reali, rappresentando il più importante sistema idraulico del Settecento europeo."
+  },
+  {
+    "domanda": "Quale elemento del parco della Reggia simboleggia i Borbone?",
+    "opzioni": ["Le fontane monumentali con gruppi scultorei", "Il labirinto di siepi", "Il giardino dei semplici", "Il roseto internazionale"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Le fontane monumentali come quella di Diana e Atteone, realizzate tra 1770-1780, celebrano attraverso la mitologia classica il potere della dinastia borbonica e il controllo sul territorio campano."
+  },
+  {
+    "domanda": "Quale fenomeno vulcanico ha creato il parco sommerso di Baia?",
+    "opzioni": ["Il bradisismo dei Campi Flegrei", "L'eruzione del Vesuvio del 79 d.C.", "Il terremoto del 62 d.C.", "Lo tsunami antico"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il lento movimento bradisismico dei Campi Flegrei, tra II e IV secolo d.C., ha sommerso di 6-8 metri il porto e le ville romane di Baia, creando un eccezionale museo subacqueo nel golfo di Pozzuoli."
+  },
+  {
+    "domanda": "Cosa rende uniche le terme romane di Baia?",
+    "opzioni": ["I sistemi ipocausti e le decorazioni marmoree di lusso", "Le acque sulfuree curative", "Le dimensioni ridotte", "L'assenza di mosaici"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Le terme di Baia, frequentate dall'aristocrazia romana tra I secolo a.C. e II secolo d.C., presentano complessi sistemi di riscaldamento ipocausto e rivestimenti in marmi pregiati provenienti dalle cave imperiali."
+  },
+  {
+    "domanda": "Quale evidenza archeologica del bradisismo è visibile al Macellum di Pozzuoli?",
+    "opzioni": ["Fori dei litodomi sulle colonne marmoree", "Pavimenti inclinati a diverse quote", "Mura curvate dalla pressione", "Affreschi deformati"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Le colonne in marmo del Macellum (II secolo d.C.) mostrano fori scavati dai litodomi tra IX e XV secolo, quando il monumento era parzialmente sommerso dal mare a causa del bradisismo flegreo."
+  },
+  {
+    "domanda": "Quale caratteristica rende l'Anfiteatro Flavio di Pozzuoli eccezionale?",
+    "opzioni": ["I sotterranei conservati con sistemi per giochi gladiatori", "La facciata esterna intatta", "La capienza superiore al Colosseo", "L'arena girevole"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'anfiteatro del I secolo d.C., terzo per dimensioni in Italia, conserva ipogei con elevatori e gabbie per belve, testimoniando le tecnologie per i munera gladiatora nel principale porto commerciale romano."
+  },
+  {
+    "domanda": "Quale materiale organico unico è conservato a Ercolano?",
+    "opzioni": ["Legno carbonizzato di mobili e strutture", "Tessuti di lino egiziano", "Pelli animali lavorate", "Corde di canapa"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'eruzione del 79 d.C. ha carbonizzato travi, porte e mobili in legno di Ercolano, conservando in modo unico al mondo l'architettura domestica e gli arredi della città romana sepolta sotto 20 metri di materiale piroclastico."
+  },
+  {
+    "domanda": "Cosa rende eccezionale la Villa dei Papiri di Ercolano?",
+    "opzioni": ["La biblioteca con papiri filosofici epicurei", "Le statue bronzee complete", "I mosaici policromi intatti", "Gli affreschi del terzo stile"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La villa del I secolo a.C. ha restituito oltre 1800 papiri carbonizzati con testi filosofici greci, principalmente di Filodemo di Gadara, formando la sola biblioteca antica sopravvissuta dall'età classica."
+  },
+  {
+    "domanda": "Quale caratteristica distingue gli affreschi della Villa di Poppea a Oplontis?",
+    "opzioni": ["Il II stile pompeiano con architetture illusionistiche", "I temi cristiani primitivi", "Le decorazioni a stucco invece che pittoriche", "L'uso esclusivo del blu egiziano"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La villa del I secolo a.C., attribuita a Poppea Sabina, conserva cicli pittorici del II stile che creano finte architetture e prospettive per ampliare visivamente gli spazi, rappresentando l'apice della pittura romana in Campania."
+  },
+  {
+    "domanda": "Cosa testimonia la Villa di Lucius Crassius Tertius a Oplontis?",
+    "opzioni": ["Attività commerciali e produttive romane", "Culto imperiale ufficiale", "Scuola filosofica privata", "Presidio militare costiero"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La villa del I secolo d.C. ha restituito 400 anfore vinarie e tesoretti monetali, documentando le attività commerciali del proprietario nel porto di Oplontis e l'economia agricola della piana vesuviana prima del 79 d.C."
+  },
+  {
+    "domanda": "Quale tempio di Paestum è considerato il più antico?",
+    "opzioni": ["La Basilica (tempio di Hera) del 550 a.C.", "Il tempio di Nettuno del 450 a.C.", "Il tempio di Cerere del 500 a.C.", "Il tempio di Athena del 470 a.C."],
+    "rispostaCorretta": 0,
+    "spiegazione": "La cosiddetta Basilica, in realtà tempio di Hera del 550 a.C., è il più antico dei tre templi dorici di Paestum, caratterizzato da colonne massicce e capitelli arcaici che segnano la fase più antica della colonia greca di Poseidonia."
+  },
+  {
+    "domanda": "Cosa rende unica la Tomba del Tuffatore di Paestum?",
+    "opzioni": ["L'unica pittura greca con tema figurativo del V secolo a.C.", "La presenza di iscrizioni etrusche", "I mosaici invece di affreschi", "Le dimensioni monumentali"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La tomba del 480 a.C. scoperta nel 1968 conserva l'unico esempio di pittura greca con scene figurative del periodo classico, rappresentante un tuffatore simbolo del passaggio alla vita ultraterrena nella colonia lucana."
+  },
+  {
+    "domanda": "Quale evento storico è legato all'Anfiteatro Campano di Santa Maria Capua Vetere?",
+    "opzioni": ["La rivolta di Spartaco del 73 a.C.", "Le guerre puniche", "La guerra sociale", "Le invasioni barbariche"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'anfiteatro del I secolo a.C., secondo solo al Colosseo, fu il luogo dove il gladiatore trace Spartaco iniziò la rivolta servile che coinvolse 120.000 schiavi e terrorizzò Roma per due anni."
+  },
+  {
+    "domanda": "Quale culto orientale è documentato nel Mitreo di Santa Maria Capua Vetere?",
+    "opzioni": ["Il culto mitraico con affreschi del II secolo d.C.", "Il culto di Cibele", "Il culto di Iside", "Il culto di Serapide"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il mitreo capuano, scoperto nel 1922, conserva affreschi del 170-180 d.C. che raffigurano il dio Mitra che uccide il toro, testimoniando la diffusione dei culti misterici orientali nell'antica Capua."
+  },
+  {
+    "domanda": "Quale imperatore fece costruire il Teatro Romano di Benevento?",
+    "opzioni": ["Adriano nel 126 d.C.", "Augusto nel 10 a.C.", "Traiano nel 110 d.C.", "Nerone nel 60 d.C."],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il teatro fu voluto dall'imperatore Adriano e completato nel 126 d.C. sotto Caracalla, con una capienza di 10.000 spettatori per rappresentazioni nel principale centro sannita-romano della Via Appia."
+  },
+  {
+    "domanda": "Quale via romana celebra l'Arco di Traiano a Benevento?",
+    "opzioni": ["La Via Traiana del 114 d.C.", "La Via Appia Antica", "La Via Latina", "La Via Flaminia"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'arco fu eretto nel 114 d.C. per celebrare l'apertura della Via Traiana, variante della Via Appia che accorciava il percorso tra Benevento e Brindisi, con bassorilievi che illustrano le imprese dell'imperatore nelle province."
+  },
+  {
+    "domanda": "Quale innovazione architettonica caratterizza il Teatro di San Gennaro?",
+    "opzioni": ["Uno dei primi teatri pubblici d'Europa del 1614", "Il tetto retrattile", "L'acustica perfetta senza amplificazione", "I palchi mobili"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il teatro, costruito nel 1614 nel Palazzo Reale di Napoli, rappresenta uno dei primi esempi di teatro pubblico europeo con struttura stabile, anticipando di decenni i teatri d'opera italiani e influenzando lo sviluppo del melodramma."
+  },
+  {
+    "domanda": "Quale reliquia è conservata nella Reale Cappella di San Gennaro?",
+    "opzioni": ["Il sangue del santo patrono di Napoli", "La croce di Costantino", "La spada di San Michele", "Il mantello di Sant'Antonio"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La cappella del 1646 conserva le ampolle con il sangue di San Gennaro, oggetto del culto napoletano dal XIII secolo e simbolo della protezione della città dalle eruzioni vesuviane."
+  },
+  {
+    "domanda": "Quale caratteristica geologica distingue il Parco del Vesuvio?",
+    "opzioni": ["Il suolo vulcanico fertile con biodiversità endemica", "Le rocce calcaree mesozoiche", "I ghiacciai perenni", "Le sorgenti termali"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il Vesuvio, unico vulcano attivo d'Europa continentale, possiede un suolo ricco di potassio e fosforo che sostiene 610 specie vegetali, tra cui l'elicriso vesuviano endemico, adattatesi al ambiente vulcanico nel corso di 25.000 anni."
+  },
+  {
+    "domanda": "Quale eruzione storica del Vesuvio ha modificato il paesaggio campano?",
+    "opzioni": ["L'eruzione pliniana del 79 d.C.", "L'eruzione del 1631", "L'eruzione del 1944", "L'eruzione del 472"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'eruzione del 79 d.C., descritta da Plinio il Giovane, seppellì Pompei, Ercolano e Stabiae sotto metri di pomici e ceneri, modificando permanentemente la costa campana e conservando intatte città romane per secoli."
+  },
+  {
+    "domanda": "Quale caratteristica architettonica distingue Villa San Marco a Stabiae?",
+    "opzioni": ["Vasti peristili e terme private con affreschi", "La biblioteca greca", "Il tempio domestico", "Le sculture ellenistiche"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La villa del I secolo a.C., scavata dal 1749, si estende per 11.000 m² con peristili colonnati, piscine e terme decorate da affreschi del III stile, rappresentando il lusso dell'aristocrazia romana nella baia di Stabiae."
+  },
+  {
+    "domanda": "Cosa rende unico il panorama da Villa Arianna a Stabiae?",
+    "opzioni": ["L'affaccio diretto sul golfo di Napoli da un dirupo", "La vista sul Vesuvio innevato", "La visuale sui templi di Paestum", "La prospettiva su Capri"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Villa Arianna, costruita sul ciglio della collina di Varano a 50 metri sul mare, offre un portico panoramico che domina l'intero golfo di Napoli da Punta Campanella ai Campi Flegrei, sfruttando la posizione strategica per l'otium romano."
+  },
+  {
+    "domanda": "Quale scuola filosofica fu fondata a Velia?",
+    "opzioni": ["La scuola eleatica di Parmenide nel V secolo a.C.", "La scuola pitagorica", "Lo stoicismo romano", "L'epicureismo"],
+    "rispostaCorretta": 0,
+    "spiegazione": "L'antica Elea, colonia focea del 540 a.C., diede i natali a Parmenide e Zenone, fondatori della scuola eleatica che rivoluzionò il pensiero presocratico con la dottrina dell'essere e i paradossi sul movimento."
+  },
+  {
+    "domanda": "Quale struttura unica è conservata a Velia?",
+    "opzioni": ["La Porta Rosa, unico arco greco a tutto sesto", "Il teatro romano intatto", "Le mura ciclopiche", "L'agorà completa"],
+    "rispostaCorretta": 0,
+    "spiegazione": "La Porta Rosa del IV secolo a.C., scoperta nel 1964, è l'unico esempio di arco greco a tutto sesto perfettamente conservato, che collegava l'acropoli alla città bassa nell'insediamento di Elea-Velia nel Cilento."
+  },
+  {
+    "domanda": "Quale periodo storico documenta Napoli Sotterranea?",
+    "opzioni": ["2400 anni di stratificazione urbana", "Solo l'epoca borbonica", "Il medioevo normanno", "Il Rinascimento aragonese"],
+    "rispostaCorretta": 0,
+    "spiegazione": "I sotterranei napoletani conservano cisterne greche del IV secolo a.C., cave di tufo romane, rifugi antiaerei del 1943 e percorsi rituali, documentando l'evoluzione della città dal periodo magnogreco al Novecento."
+  },
+  {
+    "domanda": "Come furono utilizzate le cisterne greche di Napoli durante la WWII?",
+    "opzioni": ["Rifugi antiaerei per 10.000 persone", "Ospedali militari", "Depositi alimentari", "Prigioni segrete"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Le antiche cisterne greche del IV secolo a.C. sotto il quartiere Sanità furono adattate a rifugi durante i 200 bombardamenti alleati del 1940-43, salvando migliaia di napoletani e conservando graffiti storici dell'occupazione."
+  },
+  {
+    "domanda": "Quale santo è sepolto nel complesso paleocristiano di Cimitile?",
+    "opzioni": ["San Felice, vescovo di Nola del III secolo", "San Gennaro", "Sant'Agostino", "San Benedetto"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Il complesso sorse nel IV secolo d.C. sulla tomba di San Felice, sacerdote nolano martirizzato nel 260 d.C., diventando meta di pellegrinaggio e centro monastico tra i più importanti dell'Italia meridionale altomedievale."
+  },
+  {
+    "domanda": "Quale ciclo pittorico distingue le basiliche di Cimitile?",
+    "opzioni": ["Affreschi paleocristiani e altomedievali del V-IX secolo", "Mosaici bizantini", "Dipinti rinascimentali", "Sculture romaniche"],
+    "rispostaCorretta": 0,
+    "spiegazione": "Le sette basiliche conservano affreschi del V-IX secolo che mostrano l'evoluzione dell'arte sacra campana, dalla basilica di San Felice con scene veterotestamentarie alle decorazioni longobarde della basilica dei Santi Martiri."
+  }, {
+      "domanda": "Quale caratteristica architettonica rende unico Castel Sant'Elmo nel panorama napoletano?",
+      "opzioni": ["La pianta stellare a sei punte", "L'altezza sul livello del mare", "I giardini pensili", "Le mura di tufo giallo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Castel Sant'Elmo presenta una rara pianta stellare esagonale, risultato della ricostruzione cinquecentesca voluta dal viceré spagnolo Don Pedro de Toledo."
+    },
+    {
+      "domanda": "Quale movimento artistico è rappresentato nel Museo del Novecento da Enrico Prampolini?",
+      "opzioni": ["Il Futurismo", "Il Cubismo", "Il Surrealismo", "L'Astrattismo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Enrico Prampolini fu uno dei principali esponenti del Futurismo napoletano, esplorando il dinamismo e la simultaneità delle sensazioni."
+    },
+    {
+      "domanda": "Quale gruppo artistico napoletano caratterizza la sezione del Novecentismo?",
+      "opzioni": ["Il Gruppo dei Sei", "La Scuola di Posillipo", "I Macchiaioli", "I Neorealisti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Gruppo dei Sei di Napoli, con artisti come Carlo Socrate, proponeva una pittura tonale e intimista in contrapposizione alle avanguardie."
+    },
+    {
+      "domanda": "Da quale punto di Castel Sant'Elmo si gode il panorama più celebre su Napoli?",
+      "opzioni": ["Dai bastioni della fortezza", "Dalle antiche prigioni", "Dal cortile principale", "Dalla torre di guardia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I bastioni della fortezza offrono una vista mozzafiato che spazia dal golfo di Napoli al Vesuvio, sfruttando la posizione dominante sul Vomero."
+    },
+    {
+      "domanda": "Quale architetto progettò la Reggia di Caserta per Carlo di Borbone?",
+      "opzioni": ["Luigi Vanvitelli", "Ferdinando Fuga", "Filippo Juvarra", "Nicola Salvi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Luigi Vanvitelli firmò nel 1752 il progetto della Reggia, il più grande palazzo reale al mondo per volume."
+    },
+    {
+      "domanda": "Quale ambiente della Reggia era dedicato alle udienze ufficiali del sovrano?",
+      "opzioni": ["La Sala del Trono", "La Biblioteca Palatina", "Il Teatrino di Corte", "La Sala di Astrea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sala del Trono, fastosamente decorata con stucchi e affreschi, rappresentava il cuore cerimoniale del potere borbonico."
+    },
+    {
+      "domanda": "Chi volle la realizzazione del Giardino Inglese nella Reggia?",
+      "opzioni": ["La regina Maria Carolina d'Austria", "Carlo di Borbone", "Ferdinando IV", "Luigi Vanvitelli"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Maria Carolina d'Austria, moglie di Ferdinando IV, promosse nel 1782 la creazione del Giardino Inglese come espressione del nuovo gusto romantico."
+    },
+    {
+      "domanda": "Quale patrimonio documentario conserva la Biblioteca Palatina?",
+      "opzioni": ["I disegni originali di Vanvitelli", "Gli archivi segreti borbonici", "I manoscritti angioini", "Le bolle papali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Biblioteca conserva i preziosi disegni progettuali di Luigi Vanvitelli che documentano le fasi costruttive della Reggia."
+    },
+    {
+      "domanda": "In quale secolo fu costruito il Palazzo Reale di Napoli?",
+      "opzioni": ["Nel XVII secolo", "Nel XVI secolo", "Nel XV secolo", "Nel XVIII secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La costruzione del Palazzo Reale iniziò nel 1600 per volere del viceré spagnolo Fernando Ruiz de Castro."
+    },
+    {
+      "domanda": "Quale artista affrescò numerose sale dell'Appartamento di Etichetta?",
+      "opzioni": ["Luca Giordano", "Caravaggio", "Jusepe de Ribera", "Battistello Caracciolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Luca Giordano, massimo esponente del barocco napoletano, decorò tra il 1682 e il 1684 diverse sale del piano nobile."
+    },
+    {
+      "domanda": "A quale celebre tenore è dedicato il museo allestito nel palazzo?",
+      "opzioni": ["Enrico Caruso", "Tito Schipa", "Beniamino Gigli", "Giuseppe Di Stefano"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo Caruso celebra attraverso cimeli e costumi di scena il leggendario tenore napoletano Enrico Caruso."
+    },
+    {
+      "domanda": "Cosa documenta il Museo della Fabbrica del Palazzo Reale?",
+      "opzioni": ["La storia costruttiva del palazzo", "Le manifatture borboniche", "L'archivio reale", "Le porcellane di Capodimonte"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo della Fabbrica illustra attraverso modelli e documenti le trasformazioni architettoniche del palazzo dal Seicento all'Ottocento."
+    },
+    {
+      "domanda": "In quale periodo la Certosa di San Martino subì la principale trasformazione barocca?",
+      "opzioni": ["Nel Seicento", "Nel Quattrocento", "Nel Settecento", "Nel Cinquecento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Certosa trecentesca fu radicalmente trasformata nel Seicento da architetti come Cosimo Fanzago, che le diedero l'attuale aspetto barocco."
+    },
+    {
+      "domanda": "Quale è il presepe più celebre conservato nel museo?",
+      "opzioni": ["Il Presepe Cuciniello", "Il Presepe Reale", "Il Presepe del Re", "Il Presepe di Capodimonte"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Presepe Cuciniello, donato da Michele Cuciniello nel 1879, conta oltre 800 pezzi in un suggestivo allestimento notturno."
+    },
+    {
+      "domanda": "In quale ambiente è ospitata la Sezione Navale del museo?",
+      "opzioni": ["Nell'antica cucina dei monaci", "Nel refettorio", "Nella sala capitolare", "Nelle celle"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sezione Navale è allestita nell'ex cucina seicentesca, spazio caratterizzato da grandi camini per la preparazione dei pasti."
+    },
+    {
+      "domanda": "Quale scultore settecentesco è rappresentato nella collezione presepiale?",
+      "opzioni": ["Giuseppe Sanmartino", "Antonio Canova", "Vincenzo Gemito", "Francesco Jerace"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Giuseppe Sanmartino, noto per il Cristo Velato, realizzò raffinati pastori in terracotta per i presepi napoletani del Settecento."
+    },
+    {
+      "domanda": "Quale viceré spagnolo iniziò la costruzione del Palazzo Reale di Napoli?",
+      "opzioni": ["Fernando Ruiz de Castro", "Don Pedro de Toledo", "Il duca d'Alba", "Il marchese del Vasto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Fernando Ruiz de Castro, viceré spagnolo, avviò nel 1600 la costruzione del Palazzo Reale come simbolo del potere vicereale."
+    },
+    {
+      "domanda": "Quale sala del Palazzo Reale era dedicata alle rappresentazioni teatrali di corte?",
+      "opzioni": ["Il Teatrino di Corte", "La Sala del Trono", "La Cappella Reale", "La Sala degli Ambasciatori"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Teatrino di Corte, riccamente decorato, ospitava le rappresentazioni teatrali per la corte borbonica nel Settecento."
+    },
+    {
+      "domanda": "Quale stile artistico caratterizza gli Appartamenti Reali della Reggia di Caserta?",
+      "opzioni": ["Dal Rococò al Neoclassico", "Dal Gotico al Rinascimentale", "Dal Barocco al Liberty", "Dal Romanico al Bizantino"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli Appartamenti Reali mostrano l'evoluzione del gusto dal Rococò settecentesco al Neoclassico ottocentesco."
+    },
+    {
+      "domanda": "Quale botanico collaborò alla realizzazione del Giardino Inglese?",
+      "opzioni": ["John Andrew Graefer", "Joseph Banks", "Linneo", "Andrea Vaccà"],
+      "rispostaCorretta": 0,
+      "spiegazione": "John Andrew Graefer, botanico inglese, collaborò con Carlo Vanvitelli alla progettazione del Giardino Inglese per Maria Carolina d'Austria."
+    },
+    {
+      "domanda": "Quale artista futurista è presente con le sue 'costruzioni audaci' nel Museo del Novecento?",
+      "opzioni": ["Fortunato Depero", "Giacomo Balla", "Umberto Boccioni", "Carlo Carrà"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Fortunato Depero è rappresentato nel museo con le sue costruzioni di forme e colori audaci tipiche del Futurismo."
+    },
+    {
+      "domanda": "Quale panorama si può ammirare dai bastioni di Castel Sant'Elmo?",
+      "opzioni": ["L'intero golfo di Napoli e il Vesuvio", "Solo il centro storico", "Esclusivamente il Vesuvio", "Soltanto il porto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dai bastioni si gode di una vista completa che abbraccia l'intero golfo di Napoli, dalle isole al Vesuvio."
+    },
+    {
+      "domanda": "Quale re borbonico utilizzò la Reggia di Caserta come residenza principale?",
+      "opzioni": ["Ferdinando IV", "Carlo di Borbone", "Francesco I", "Ferdinando II"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Ferdinando IV trasformò la Reggia nella residenza principale della corte borbonica a partire dagli anni Ottanta del Settecento."
+    },
+    {
+      "domanda": "Quale elemento architettonico caratterizza il Parco della Reggia?",
+      "opzioni": ["Le fontane monumentali", "I labirinti di siepi", "I padiglioni orientali", "Le serre tropicali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco è celebre per le sue fontane monumentali come quella di Diana e Atteone, che scandiscono il percorso verso la cascata."
+    },
+    {
+      "domanda": "Quale periodo storico è documentato nella Sezione storica della Certosa di San Martino?",
+      "opzioni": ["Dalle rivolte masanielliane all'Unità d'Italia", "Solo il periodo borbonico", "Esclusivamente l'età angioina", "Soltanto il Rinascimento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sezione storica documenta i momenti cruciali di Napoli dalle rivolte del Seicento al processo di Unificazione italiana."
+    },
+    {
+      "domanda": "Quale tecnica caratterizza i pastori dei presepi napoletani del Settecento?",
+      "opzioni": ["Terracotta vestita con stoffe preziose", "Marmo scolpito", "Bronzo fuso", "Legno intagliato"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I pastori settecenteschi sono realizzati in terracotta con arti snodabili e vestiti con stoffe preziose, secondo la tradizione napoletana."
+    },
+    {
+      "domanda": "Quale tipo di imbarcazioni è documentato nella Sezione Navale?",
+      "opzioni": ["Dalle galere alle prime navi a vapore", "Solo velieri ottocenteschi", "Esclusivamente navi da guerra", "Soltanto pescherecci"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione navale documenta l'evoluzione della marineria dal XVII al XIX secolo, dalle galere alle prime navi a vapore borboniche."
+    },
+    {
+      "domanda": "Quale architetto fu protagonista della trasformazione barocca della Certosa?",
+      "opzioni": ["Cosimo Fanzago", "Luigi Vanvitelli", "Ferdinando Sanfelice", "Domenico Antonio Vaccaro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Cosimo Fanzago diresse i lavori di rinnovamento barocco della Certosa per oltre trent'anni, a partire dal 1623."
+    },
+    {
+      "domanda": "Quale funzione aveva originariamente Castel Sant'Elmo?",
+      "opzioni": ["Fortezza militare di controllo", "Residenza reale", "Monastero", "Osservatorio astronomico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Castel Sant'Elmo nacque come fortezza militare per il controllo della città e del porto, funzione che mantenne per secoli."
+    },
+    {
+      "domanda": "Quale artista rappresenta il Novecentismo non napoletano nel museo?",
+      "opzioni": ["Mario Sironi", "Giorgio De Chirico", "Amedeo Modigliani", "Gino Severini"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Mario Sironi, sebbene non napoletano, è rappresentato con opere che mostrano le diverse declinazioni del ritorno all'ordine negli anni Venti."
+    },
+    {
+      "domanda": "Quale materiale è predominante nelle sculture futuriste del museo?",
+      "opzioni": ["Bronzo e altri metalli", "Marmo di Carrara", "Legno di noce", "Terracotta"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le sculture futuriste spesso utilizzano bronzo e metalli per esprimere il dinamismo e la modernità tipici del movimento."
+    },
+    {
+      "domanda": "Quale evento storico è particolarmente documentato nella Certosa di San Martino?",
+      "opzioni": ["La Repubblica Partenopea del 1799", "La rivolta di Masaniello", "Le Cinque Giornate di Napoli", "I moti del 1820"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo conserva importanti testimonianze della Repubblica Partenopea del 1799, momento cruciale della storia napoletana."
+    },
+    {
+      "domanda": "Quale tecnica espositiva caratterizza il Presepe Cuciniello?",
+      "opzioni": ["Allestimento in ambiente notturno", "Illuminazione naturale", "Scenografia mobile", "Proiezioni luminose"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Presepe Cuciniello è famoso per il suo allestimento in ambiente notturno che crea effetti di grande suggestione."
+    },
+    {
+      "domanda": "Quale era la destinazione d'uso originaria degli spazi che ora ospitano il Museo del Novecento?",
+      "opzioni": ["Carcere e caserma", "Residenza nobiliare", "Monastero", "Ospedale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Prima di diventare museo, Castel Sant'Elmo fu utilizzato come carcere e caserma fino alla metà del Novecento."
+    },
+    {
+      "domanda": "Quale aspetto della cultura napoletana è rappresentato dai presepi?",
+      "opzioni": ["La vita popolare e le tradizioni", "Solo la religione", "Esclusivamente la nobiltà", "Soltanto il mondo rurale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I presepi napoletani settecenteschi rappresentano non solo la Natività ma tutto il mondo popolare con taverne, artigiani e scene di vita quotidiana."
+    },
+    {
+      "domanda": "Quale periodo artistico è maggiormente rappresentato nel Museo del Novecento?",
+      "opzioni": ["Il primo Novecento", "Il secondo dopoguerra", "Il periodo contemporaneo", "L'Ottocento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo si concentra particolarmente sul primo Novecento, con i movimenti d'avanguardia e il ritorno all'ordine."
+    },
+    {
+      "domanda": "Quale caratteristica distingue il Giardino Inglese dal Parco all'italiana?",
+      "opzioni": ["L'aspetto paesistico e naturale", "La geometria perfetta", "Le siepi potate", "I viali rettilinei"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Giardino Inglese si contrappone al Parco all'italiana con il suo aspetto paesistico che imita la natura selvaggia."
+    },
+    {
+      "domanda": "Quale tecnica costruttiva caratterizza la Reggia di Caserta?",
+      "opzioni": ["L'uso del tufo e del piperno", "Il mattone faccia a vista", "Il cemento armato", "La pietra calcarea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Reggia fu costruita principalmente con tufo e piperno, materiali tradizionali dell'architettura campana."
+    },
+    {
+      "domanda": "Quale aspetto della corte borbonica è documentato negli Appartamenti Reali?",
+      "opzioni": ["Il cerimoniale e l'etichetta", "La vita privata familiare", "Le attività economiche", "Le strategie militari"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli Appartamenti Reali mostrano il rigido cerimoniale di corte e l'etichetta che regolava la vita pubblica dei sovrani borbonici."
+    },
+    {
+      "domanda": "Quale elemento decorativo è predominante nelle sale di rappresentanza del Palazzo Reale?",
+      "opzioni": ["Gli affreschi mitologici", "Le sculture bronzee", "I mosaici pavimentali", "Le vetrate artistiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le sale di rappresentanza sono caratterizzate da grandi cicli di affreschi a soggetto mitologico e storico."
+    },
+    {
+      "domanda": "Quale periodo storico vide la Certosa di San Martino trasformarsi in museo?",
+      "opzioni": ["Dopo l'Unità d'Italia", "Durante il periodo borbonico", "Sotto i francesi", "Nel secondo dopoguerra"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Certosa divenne museo dopo l'Unità d'Italia, quando lo Stato italiano acquisì il complesso monastico soppresso."
+    },
+    {
+      "domanda": "Quale tipo di modelli navali è conservato nella Sezione Navale?",
+      "opzioni": ["Modelli per progettazione e didattica", "Solo modelli decorativi", "Esclusivamente modelli di velieri", "Soltanto modelli moderni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I modelli navali erano utilizzati nei cantieri per la progettazione e nelle scuole per la didattica nautica."
+    },
+    {
+      "domanda": "Quale artista del Gruppo dei Sei è presente nel Museo del Novecento?",
+      "opzioni": ["Carlo Socrate", "Giorgio Morandi", "Renato Guttuso", "Giacomo Balla"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Carlo Socrate fu uno dei membri del Gruppo dei Sei di Napoli, rappresentato nel museo con opere di pittura tonale."
+    },
+    {
+      "domanda": "Quale aspetto della modernità è celebrato dal Futurismo nel museo?",
+      "opzioni": ["La velocità e la macchina", "La tradizione classica", "Il mondo rurale", "L'artigianato"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Futurismo celebra la modernità attraverso l'esaltazione della velocità, della macchina e del dinamismo della vita contemporanea."
+    },
+    {
+      "domanda": "Quale funzione aveva la Cappella Reale nel Palazzo Reale?",
+      "opzioni": ["Le funzioni religiose di corte", "Le udienze private", "I concerti", "Le riunioni di governo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cappella Reale era destinata alle funzioni religiose della corte borbonica e alle celebrazioni ufficiali."
+    },
+    {
+      "domanda": "Quale caratteristica rende unico il patrimonio della Biblioteca Palatina?",
+      "opzioni": ["La collezione vanvitelliana", "I manoscritti miniati", "Le edizioni principi", "I libri rari"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Biblioteca Palatina conserva la preziosa collezione di disegni e progetti di Luigi Vanvitelli per la Reggia."
+    },
+    {
+      "domanda": "Quale evento segnò il passaggio di Castel Sant'Elmo a museo?",
+      "opzioni": ["La riconversione nel 1982", "L'Unità d'Italia", "La seconda guerra mondiale", "Il periodo francese"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Castel Sant'Elmo divenne sede museale nel 1982 dopo un lungo restauro che lo restituì alla città."
+    },
+    {
+      "domanda": "Quale aspetto della cultura marinara è documentato nella Sezione Navale?",
+      "opzioni": ["La tecnologia navale borbonica", "La pesca tradizionale", "I commerci marittimi", "Le esplorazioni geografiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione documenta l'evoluzione della tecnologia navale nel Regno delle Due Sicilie attraverso modelli e strumenti nautici."
+    }
+  ]
+
+
+}
+

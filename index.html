@@ -1,750 +1,241 @@
-<!-- <!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guida Turistica</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <style>
-      .audio-btn {
-        background: #000;
-        color: #fff;
-        border: none;
-        border-radius: 2rem;
-        padding: 0.5rem 2rem;
-        font-weight: 500;
-        margin-bottom: 1rem;
-        transition: background 0.2s, color 0.2s;
-      }
-      .audio-btn:hover, .audio-btn:focus {
-        background: #222 !important;
-        color: #fff !important;
-        outline: none !important;
-      }
-    </style>
-</head>
-<body>
-    <div class="container py-5" id="main-content">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;" id="loader">
-  <div class="spinner-border text-dark" role="status" style="width: 4rem; height: 4rem;">
-    <span class="visually-hidden">Caricamento...</span>
-  </div>
-</div>
-
-    </div>
-    <script>
-  // URL del tuo Apps Script pubblicato come Web App
-  const DATI_SITI = 'https://script.google.com/macros/s/AKfycbz_vCmqTW28sEUDcEj-kg48TBAKpDt_cgmfxRyKDy8P31f1-AD2JfxX__bniSnCBz0P/exec';
-  const DATI_SIMULAZIONI = 'https://script.google.com/macros/s/AKfycbx3vz33LsWKl9OuhFbtIQbzAm3dPdU8aZPGoWeUFjioT93oJDNZUtowCf_XAMOhofnd/exec';
- const DATI_MUSEI = 'https://script.google.com/macros/s/AKfycbytsQmB3X8E6HkvmI7ZlBbbbOMiiRwm_PxznEUXv5f5ZVonAHLmPdje1B-2MHf857aa/exec';
-  let datiSiti = [];
-  let datiMusei = [];
-  let datiSimulazioni = [];
-
-  // Karaoke highlighting variables
-  let currentWordIndex = 0;
-  let words = [];
-  let highlightInterval;
-  let synth = window.speechSynthesis;
-  let utterance;
-  let selectedVoice = null;
-
-  // Stato della vista: 'home', 'siti', 'musei', 'simulazioni'
-  let currentView = 'home';
-
-  // Carica i dati dei siti da Apps Script
-  fetch(DATI_SITI)
-    .then(r => r.json())
-    .then(data => {
-      // Adatta i dati al formato atteso dal frontend
-      datiSiti = data.map(row => ({
-        regione: row['Regione'],
-        nome: row['Nome sito'],
-        descrizione: row['Descrizione']
-      }));
-      mostraHome();
-    })
-    .catch(() => {
-      document.getElementById('main-content').innerHTML = '<div class="alert alert-danger">Errore nel caricamento dei dati dal foglio Google.</div>';
-    });
-
-    fetch(DATI_MUSEI)
-  .then(r => r.json())
-  .then(data => {
-    datiMusei = data.map(row => ({
-      regione: row['Regione'],
-      nome: row['Nome sito'],
-      descrizione: row['Descrizione']
-    }));
-  });
-
-fetch(DATI_SIMULAZIONI)
-  .then(r => r.json())
-  .then(data => {
-    console.log(data); // 🔍 mostra cosa ricevi dal foglio
-    datiSimulazioni = data.map(row => ({
-      regione: row['Regione'],
-      nome: row['Nome sito'],
-      descrizione: row['Descrizione'],
-      descrizione_fr: row['Descrizione_fr']
-    }));
-  });
-
-  // Voce italiana per audio
-  function setVoice() {
-    const voices = synth.getVoices();
-    selectedVoice = voices.find(v => v.lang.startsWith('it') && v.name.toLowerCase().includes('google'));
-    if (!selectedVoice) {
-      selectedVoice = voices.find(v => v.lang.startsWith('it'));
-    }
-  }
-  if (typeof speechSynthesis !== "undefined") {
-    speechSynthesis.onvoiceschanged = setVoice;
-    setVoice();
-  }
-
-  function wrapWordsInSpans(text) {
-    return text.split(/(\s+)/).map((word, index) => {
-      if (word.trim()) {
-        return `<span class="word" data-index="${Math.floor(index/2)}">${word}</span>`;
-      }
-      return word;
-    }).join('');
-  }
-
-  function highlightReadText(currentIndex) {
-    document.querySelectorAll('.word').forEach((word, index) => {
-      const wordIndex = parseInt(word.dataset.index);
-      if (wordIndex < currentIndex) {
-        word.classList.remove('current');
-        word.classList.add('read');
-      } else if (wordIndex === currentIndex) {
-        word.classList.remove('read');
-        word.classList.add('current');
-        word.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
-      } else {
-        word.classList.remove('read', 'current');
-      }
-    });
-  }
-
-  function startHighlighting() {
-    const wordsPerMinute = 150;
-    const millisecondsPerWord = (60 / wordsPerMinute) * 1000;
-    highlightInterval = setInterval(() => {
-      if (currentWordIndex < words.length) {
-        highlightReadText(currentWordIndex);
-        currentWordIndex++;
-      } else {
-        stopHighlighting();
-      }
-    }, millisecondsPerWord);
-  }
-
-  function stopHighlighting() {
-    if (highlightInterval) {
-      clearInterval(highlightInterval);
-      highlightInterval = null;
-    }
-    document.querySelectorAll('.word').forEach(word => {
-      word.classList.remove('read', 'current');
-    });
-    currentWordIndex = 0;
-  }
-
-  // Stop audio su qualsiasi click, tranne Play/Stop
-  document.addEventListener('click', function(e) {
-    if (
-      e.target.id === 'playBtn' ||
-      e.target.id === 'stopBtn'
-    ) return;
-    stopAudio();
-  }, true);
-
-  // Play sempre funzionante e sempre riparte dall'inizio
-  function playAudio(textOverride) {
-    stopAudio();
-    let text = "";
-    if (typeof textOverride === "string" && textOverride.trim().length > 0) {
-      text = textOverride.trim();
-      words = text.split(/\s+/);
-    } else if (words && words.length > 0) {
-      text = words.join(' ');
-    } else {
-      let descr = document.getElementById('descrizione') || document.getElementById('descrizioneMuseo');
-      if (descr) {
-        text = descr.innerText || descr.textContent || "";
-        words = text.trim().split(/\s+/);
-      }
-      if (!text.trim()) return;
-    }
-    utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "it-IT";
-    if(selectedVoice) utterance.voice = selectedVoice;
-    utterance.rate = 0.98; // più naturale e meno veloce
-    utterance.pitch = 1;   // tono naturale
-    utterance.volume = 1;
-    currentWordIndex = 0;
-    startHighlighting();
-    utterance.onend = function() { stopHighlighting(); };
-    utterance.onerror = function() { stopHighlighting(); };
-    synth.speak(utterance);
-  }
-  function stopAudio() {
-    if(synth.speaking) synth.cancel();
-    stopHighlighting();
-  }
-
-  document.addEventListener('click', function(e) {
-    if (
-      e.target.id === 'playBtn' ||
-      e.target.id === 'stopBtn'
-    ) return;
-    stopAudio();
-  });
-
-  // Home con un solo pulsante nero per ogni sezione
-  function mostraHome() {
-    currentView = 'home';
-    document.getElementById('main-content').innerHTML = `
-      <h1 class="mb-4 text-center">Guida Turistica</h1>
-      <div class="d-flex flex-column align-items-center" style="max-width: 400px; margin: 0 auto;">
-        <button class="audio-btn main-link w-100 mb-3" data-type="siti">Siti</button>
-        <div class="w-100 d-flex align-items-center justify-content-center my-2">
-          <hr class="flex-grow-1" style="border-top: 2px solid #bbb; margin: 0 1rem;">
-        </div>
-        <button class="audio-btn main-link w-100 mb-3" data-type="musei">Musei</button>
-        <div class="w-100 d-flex align-items-center justify-content-center my-2">
-          <hr class="flex-grow-1" style="border-top: 2px solid #bbb; margin: 0 1rem;">
-        </div>
-        <button class="audio-btn main-link w-100" data-type="simulazioni">Simulazioni</button>
-      </div>
-    `;
-    document.querySelectorAll('.main-link').forEach(el => {
-      el.addEventListener('click', function() {
-        if (el.dataset.type === 'siti') mostraRegioni('siti');
-        if (el.dataset.type === 'musei') mostraRegioni('musei');
-        if (el.dataset.type === 'simulazioni') mostraRegioni('simulazioni');
-      });
-    });
-  }
-
-  // Mostra le regioni per la categoria scelta
-  function mostraRegioni(tipo) {
-    currentView = tipo;
-    let dati, titolo;
-    if (tipo === 'siti') {
-      dati = datiSiti;
-      titolo = 'Siti';
-    } else if (tipo === 'musei') {
-      dati = datiMusei;
-      titolo = 'Musei';
-    } else {
-      dati = datiSimulazioni;
-      titolo = 'Simulazioni';
-    }
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backHome" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna alla home
-      </button>
-      <h2 class="mb-3">${titolo} per regione</h2>
-      <ul class="list-group" id="regioni-list">
-        ${[...new Set(dati.map(s => s.regione))].sort((a, b) => a.localeCompare(b, 'it')).map(regione =>
-          `<li class="list-group-item region-link" data-region="${regione}">${regione}</li>`
-        ).join('')}
-      </ul>
-    `;
-    document.getElementById('backHome').onclick = mostraHome;
-    document.querySelectorAll('.region-link').forEach(el => {
-      el.addEventListener('click', function() {
-        if (tipo === 'siti') mostraSiti(el.dataset.region);
-        if (tipo === 'musei') mostraMusei(el.dataset.region);
-        if (tipo === 'simulazioni') mostraSimulazioni(el.dataset.region);
-      });
-    });
-  }
-
-  // Mostra i siti di una regione
-  function mostraSiti(region) {
-    const siti = datiSiti.filter(s => s.regione === region);
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backRegioni" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna alle regioni
-      </button>
-      <h2 class="mb-3">${region}</h2>
-      <ul class="list-group mb-3">
-        ${siti.map((sito, idx) => `<li class="list-group-item site-link" data-site="${idx}">${sito.nome}</li>`).join('')}
-      </ul>
-    `;
-    document.getElementById('backRegioni').onclick = () => mostraRegioni('siti');
-    document.querySelectorAll('.site-link').forEach((el, idx) => {
-      el.addEventListener('click', function() {
-        mostraDettaglioSito(region, idx);
-      });
-    });
-  }
-
-  // Mostra i musei di una regione
-  function mostraMusei(region) {
-    const musei = datiMusei.filter(s => s.regione === region);
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backRegioni" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna alle regioni
-      </button>
-      <h2 class="mb-3">${region}</h2>
-      <ul class="list-group mb-3">
-        ${musei.map((museo, idx) => `<li class="list-group-item museo-link" data-museo="${idx}">${museo.nome}</li>`).join('')}
-      </ul>
-    `;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    document.getElementById('backRegioni').onclick = () => mostraRegioni('musei');
-    document.querySelectorAll('.museo-link').forEach((el, idx) => {
-      el.addEventListener('click', function() {
-        mostraDettaglioMuseo(region, idx);
-      });
-    });
-  }
-
-  // Mostra le simulazioni di una regione
-  function mostraSimulazioni(region) {
-    const simulazioni = datiSimulazioni.filter(s => s.regione === region);
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backRegioni" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna alle regioni
-      </button>
-      <h2 class="mb-3">${region}</h2>
-      <ul class="list-group mb-3">
-        ${simulazioni.map((sim, idx) => `<li class="list-group-item simulazione-link" data-simulazione="${idx}">${sim.nome}</li>`).join('')}
-      </ul>
-    `;
-    document.getElementById('backRegioni').onclick = () => mostraRegioni('simulazioni');
-    document.querySelectorAll('.simulazione-link').forEach((el, idx) => {
-      el.addEventListener('click', function() {
-        mostraDettaglioSimulazione(region, idx);
-      });
-    });
-  }
-
-  // Dettaglio sito con audio
-  function mostraDettaglioSito(region, idx) {
-    const sitiRegione = datiSiti.filter(s => s.regione === region);
-    const sito = sitiRegione[idx];
-    // FIX: Rimuovi eventuali caratteri speciali che possono bloccare TTS
-    const descrizioneTesto = (sito.descrizione || "").replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
-    const wrappedText = wrapWordsInSpans(sito.descrizione || "");
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backSiti" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna ai siti
-      </button>
-      <h2 class="mb-3">${sito.nome}</h2>
-      <button class="audio-btn me-2" id="playBtn">Play</button>
-      <button class="audio-btn" id="stopBtn">Stop</button>
-      <div id="descrizione">${wrappedText}</div>
-    `;
-    words = descrizioneTesto.length > 0 ? descrizioneTesto.split(/\s+/) : [];
-    document.getElementById('playBtn').addEventListener('click', function(e){
-      e.stopPropagation();
-      playAudio(descrizioneTesto);
-    });
-    document.getElementById('stopBtn').addEventListener('click', function(e){
-      e.stopPropagation();
-      stopAudio();
-    });
-    document.getElementById('backSiti').onclick = () => mostraSiti(region);
-  }
-
-  // Dettaglio museo con audio
-  function mostraDettaglioMuseo(region, idx) {
-    const museiRegione = datiMusei.filter(s => s.regione === region);
-    const museo = museiRegione[idx];
-    const wrappedText = wrapWordsInSpans(museo.descrizione || "");
-    document.getElementById('main-content').innerHTML = `
-      <button class="modern-back mb-3" id="backMusei" type="button">
-        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-        Torna ai musei
-      </button>
-      <h2 class="mb-3">${museo.nome}</h2>
-      <button class="audio-btn me-2" id="playBtn">Play</button>
-      <button class="audio-btn" id="stopBtn">Stop</button>
-      <div id="descrizioneMuseo">${wrappedText}</div>
-    `;
-    words = Array.from(document.querySelectorAll('.word')).map(span => span.textContent.trim());
-    document.getElementById('playBtn').addEventListener('click', function(e){
-      e.stopPropagation();
-      playAudio();
-    });
-    document.getElementById('stopBtn').addEventListener('click', function(e){
-      e.stopPropagation();
-      stopAudio();
-    });
-    document.getElementById('backMusei').onclick = () => mostraMusei(region);
-  }
-
-  // Dettaglio simulazione con audio e switch lingua senza auto-play
-  function mostraDettaglioSimulazione(region, idx) {
-    const simulazioniRegione = datiSimulazioni.filter(s => s.regione === region);
-    const simulazione = simulazioniRegione[idx];
-    let lingua = 'it'; // default italiano
-
-    function renderSimulazione(lang) {
-      const testo = lang === 'fr' ? (simulazione.descrizione_fr || "") : (simulazione.descrizione || "");
-      const wrappedText = wrapWordsInSpans(testo);
-      document.getElementById('main-content').innerHTML = `
-        <button class="modern-back mb-3" id="backSimulazioni" type="button">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-          Torna alle simulazioni
-        </button>
-        <h2 class="mb-3">${simulazione.nome}</h2>
-        <div class="mb-3">
-          <span id="flag-it" style="cursor:pointer;font-size:1.7em;" title="Italiano">🇮🇹</span>
-          <span id="flag-fr" style="cursor:pointer;font-size:1.7em;margin-left:0.5em;" title="Francese">🇫🇷</span>
-        </div>
-        <button class="audio-btn me-2" id="playBtn">Play</button>
-        <button class="audio-btn" id="stopBtn">Stop</button>
-        <div id="descrizioneSimulazione">${wrappedText}</div>
-      `;
-      words = Array.from(document.querySelectorAll('.word')).map(span => span.textContent.trim());
-      document.getElementById('playBtn').addEventListener('click', function(e){
-        e.stopPropagation();
-        playAudioSimulazione(lang);
-      });
-      document.getElementById('stopBtn').addEventListener('click', function(e){
-        e.stopPropagation();
-        stopAudio();
-      });
-      document.getElementById('backSimulazioni').onclick = () => mostraSimulazioni(region);
-      document.getElementById('flag-it').onclick = () => {
-        lingua = 'it';
-        renderSimulazione('it');
-      };
-      document.getElementById('flag-fr').onclick = () => {
-        lingua = 'fr';
-        renderSimulazione('fr');
-      };
-    }
-
-    function playAudioSimulazione(lang) {
-      stopAudio();
-      const text = lang === 'fr'
-        ? (simulazione.descrizione_fr || "")
-        : (simulazione.descrizione || "");
-      words = text.split(/\s+/);
-      utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang === 'fr' ? "fr-FR" : "it-IT";
-      const voices = synth.getVoices();
-      let voice = voices.find(v => v.lang.startsWith(lang === 'fr' ? 'fr' : 'it') && v.name.toLowerCase().includes('google'));
-      if (!voice) voice = voices.find(v => v.lang.startsWith(lang === 'fr' ? 'fr' : 'it'));
-      if (voice) utterance.voice = voice;
-      utterance.rate = 0.98; // più naturale e meno veloce
-      utterance.pitch = 1;
-      utterance.volume = 1;
-      currentWordIndex = 0;
-      startHighlighting();
-      utterance.onend = function() { stopHighlighting(); };
-      utterance.onerror = function() { stopHighlighting(); };
-      synth.speak(utterance);
-    }
-
-    renderSimulazione('it');
-  }
-    </script>
-</body>
-</html> -->
-
-<!-- test inglese -->
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Concorso PNRR 3</title>
+    <title>Quiz Regioni d'Italia</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { padding: 20px 0; background: #f8f9fa; }
-        .question-card { margin-bottom: 30px; background: white; }
-        .option { cursor: pointer; transition: all 0.3s; padding: 15px; border-radius: 8px; margin: 8px 0; border: 2px solid #dee2e6; }
-        .option:hover:not(.disabled) { background: #f8f9fa; transform: translateX(5px); }
-        .correct { background: #d4edda !important; border-color: #28a745 !important; }
-        .incorrect { background: #f8d7da !important; border-color: #dc3545 !important; }
-        .disabled { pointer-events: none; opacity: 0.7; }
-        .explanation { margin-top: 15px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0d6efd; display: none; }
-        .badge-level { font-size: 0.9rem; }
-        .reading-passage { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; line-height: 1.8; }
-        .menu-section { margin-bottom: 40px; }
-        .test-btn { min-width: 250px; height: 80px; font-size: 1.2rem; }
-        .back-btn { margin-bottom: 20px; }
+        body { 
+            padding: 20px 0; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; }
+        .question-card { 
+            margin-bottom: 30px; 
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .option { 
+            cursor: pointer; 
+            transition: all 0.3s; 
+            padding: 15px; 
+            border-radius: 10px; 
+            margin: 10px 0; 
+            border: 3px solid #dee2e6;
+            background: white;
+        }
+        .option:hover:not(.disabled) { 
+            background: #f8f9fa; 
+            transform: translateX(8px);
+            border-color: #667eea;
+        }
+        .correct { 
+            background: #d4edda !important; 
+            border-color: #28a745 !important;
+            animation: correctPulse 0.5s ease;
+        }
+        .incorrect { 
+            background: #f8d7da !important; 
+            border-color: #dc3545 !important;
+            animation: shake 0.5s ease;
+        }
+        @keyframes correctPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+        .disabled { pointer-events: none; opacity: 0.8; }
+        .explanation { 
+            margin-top: 20px; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+            border-left: 5px solid #00acc1; 
+            display: none;
+            border-radius: 10px;
+            animation: slideDown 0.4s ease;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .menu-section { 
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .region-btn { 
+            width: 100%;
+            height: 70px; 
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: all 0.3s;
+            border: none;
+            color: white;
+        }
+        .region-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .back-btn { 
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 10px 25px;
+        }
+        .test-section {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .score-badge {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .region-colors-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .region-colors-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .region-colors-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .region-colors-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .region-colors-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .general-test-btn {
+            background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+            font-size: 1.3rem;
+            padding: 25px;
+            border-radius: 15px;
+            font-weight: bold;
+            border: none;
+            color: white;
+            box-shadow: 0 10px 30px rgba(253, 160, 133, 0.4);
+        }
+        .general-test-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(253, 160, 133, 0.6);
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Menu iniziale -->
-        <div id="menu" class="menu-section text-center">
-            <h1 class="display-4 mb-4">Test Concorso PNRR 3</h1>
-            <p class="lead mb-5">Scegli la tipologia di test per iniziare la preparazione</p>
-            <div class="row justify-content-center g-4">
-                <div class="col-md-5">
-                    <button class="btn btn-primary test-btn w-100" onclick="startTest('english')">
-                        <i class="bi bi-translate"></i><br>
-                        Test di Inglese B2
-                        <br><small>80 quesiti - Livello Upper Intermediate</small>
-                    </button>
-                </div>
-                <div class="col-md-5">
-                    <button class="btn btn-success test-btn w-100" onclick="startTest('pedagogy')">
-                        <i class="bi bi-book"></i><br>
-                        Test Psicopedagogia
-                        <br><small>18 quesiti - Metodologie Didattiche</small>
-                    </button>
-                </div>
+        <!-- Menu regioni -->
+        <div id="menu" class="menu-section">
+            <h1 class="display-4 mb-3 text-center" style="color: #667eea; font-weight: bold;">🇮🇹 Quiz Guida Turistica</h1>
+            <!-- <p class="lead text-center mb-5" style="color: #666;">Scegli una regione e testa la tua conoscenza sui siti turistici italiani</p> -->
+            <br>
+            <div class="row g-3 mb-4" id="regions-grid"></div>
+            
+            <hr class="my-5">
+            
+            <div class="text-center">
+                <button class="btn general-test-btn w-100" onclick="startGeneralTest()">
+                    🎯 TEST 40 DOMANDE CASUALI
+                </button>
+                <!-- added reload button to refresh after running Node script -->
+                <button class="btn btn-light mt-3" onclick="location.reload();" title="Ricarica la pagina per leggere quiz-data.json aggiornato">
+                  🔄 Ricarica domande (dopo shuffle)
+                </button>
             </div>
         </div>
 
         <!-- Sezione test -->
-        <div id="test-section" style="display: none;">
+        <div id="test-section" class="test-section" style="display: none;">
             <button class="btn btn-secondary back-btn" onclick="backToMenu()">
                 ← Torna al Menu
             </button>
             
-            <div class="text-center mb-5">
-                <h1 class="display-5" id="test-title"></h1>
-                <p class="lead" id="test-subtitle"></p>
-                <span class="badge bg-primary badge-level" id="test-badge"></span>
+            <div class="text-center mb-4">
+                <h1 class="display-5 mb-2" id="test-title" style="color: #667eea;"></h1>
+                <p class="lead mb-3" id="test-subtitle"></p>
+                <div>
+                    <span class="badge bg-info score-badge" id="score-badge">Punteggio: 0/0</span>
+                </div>
             </div>
 
             <div id="questions-container"></div>
 
-            <div class="text-center mt-4">
-                <button class="btn btn-primary btn-lg" onclick="reloadTest()">
-                    <i class="bi bi-arrow-clockwise"></i> Ricarica Test
-                </button>
-                <button class="btn btn-secondary btn-lg ms-2" onclick="backToMenu()">
-                    ← Menu Principale
+            <div class="text-center mt-5">
+                <button class="btn btn-primary btn-lg" onclick="reloadTest()" style="border-radius: 10px; padding: 12px 40px;">
+                    🔄 Ricarica Test
+                </button> <br> <br>
+                <button class="btn btn-secondary btn-lg ms-2" onclick="backToMenu()" style="border-radius: 10px; padding: 12px 40px;">
+                    🏠 Menu Principale
                 </button>
             </div>
         </div>
     </div>
 
     <script>
-        let currentTest = null;
+        let quizData = {};
+        let regioni = [
+            "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
+            "Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche",
+            "Molise", "Piemonte", "Puglia", "Sardegna", "Sicilia",
+            "Toscana", "Umbria", "Valle d'Aosta", "Veneto",
+            "Trentino-Alto Adige", "Provincia di Trento", "Provincia di Bolzano"
+        ];
+
+        let currentRegion = null;
         let currentQuestions = [];
+        let score = 0;
+        let totalQuestions = 0;
+        let isGeneralTest = false;
 
-        // QUESTIONS INGLESE - [RICOPIARE QUI TUTTE LE 80 DOMANDE DI INGLESE GIÀ CREATE]
-        const englishQuestions = [
-            // Copiare qui tutte le domande dall'artifact precedente
-            {
-                type: "phrasal",
-                text: "When planning a new event, it is always essential to work ________ the total costs in advance.",
-                options: ["away", "under", "in", "out"],
-                correct: 3,
-                explanation: "Il phrasal verb 'work out' significa 'calcolare' o 'determinare'. È comune nel contesto di costi e calcoli finanziari."
-            },
-            // ... tutte le altre 79 domande di inglese
-        ];
-
-        // QUESTIONS PSICOPEDAGOGIA
-        const pedagogyQuestions = [
-            // 1. PSICOLOGIA DELLO SVILUPPO E APPRENDIMENTO
-            {
-                type: "psicologia-sviluppo",
-                text: "Secondo Jean Piaget, la conoscenza che 4+2 = 6 e che 6-2 = 4 può essere compresa da un bambino che si trova nello stadio:",
-                options: ["pre-operatorio", "sensomotorio", "operatorio concreto", "operatorio formale"],
-                correct: 2,
-                explanation: "Lo stadio operatorio concreto (7-11 anni) è caratterizzato dall'acquisizione della reversibilità del pensiero. Il bambino comprende che le operazioni possono essere invertite (addizione e sottrazione sono operazioni inverse). Nello stadio pre-operatorio manca questa capacità, mentre quello formale riguarda il pensiero astratto e ipotetico."
-            },
-            {
-                type: "psicologia-sviluppo",
-                text: "Nella teoria di Jerome S. Bruner, le tre modalità di rappresentazione dell'esperienza (esecutiva, iconica, simbolica) sono:",
-                options: ["tutte relative solo al primo anno di vita", "gerarchiche", "coesistenti", "innate"],
-                correct: 2,
-                explanation: "Le tre modalità di rappresentazione secondo Bruner sono coesistenti e complementari. La rappresentazione esecutiva (attraverso l'azione), iconica (attraverso le immagini) e simbolica (attraverso il linguaggio) si sviluppano in sequenza ma continuano a coesistere e interagire nell'adulto. Non sono gerarchiche né si sostituiscono l'una all'altra."
-            },
-            {
-                type: "psicologia-sviluppo",
-                text: "Il neurocostruttivismo riguarda lo studio:",
-                options: ["dell'apprendimento per imitazione", "della comprensione del testo", "dello sviluppo cognitivo nelle sue relazioni con lo sviluppo del cervello", "del condizionamento classico"],
-                correct: 2,
-                explanation: "Il neurocostruttivismo è un approccio che integra neuroscienze cognitive e costruttivismo. Studia come lo sviluppo cognitivo e quello cerebrale si influenzino reciprocamente, considerando il cervello come un sistema dinamico che si auto-organizza attraverso l'interazione con l'ambiente. Supera la dicotomia natura-cultura."
-            },
-
-            // 2. TEORIE PSICOLOGICHE
-            {
-                type: "teorie-psicologiche",
-                text: "Secondo Jerome S. Bruner, quale principio sostiene che 'L'educazione deve aiutare i giovani a usare gli strumenti del fare significato e della costruzione della realtà'?",
-                options: ["Il principio del costruttivismo", "Il principio interculturale", "Il principio di realtà", "Il principio dell'empatia"],
-                correct: 0,
-                explanation: "Bruner è uno dei principali esponenti del costruttivismo sociale. Secondo questa prospettiva, la conoscenza non è trasmessa passivamente ma costruita attivamente dal soggetto attraverso l'interazione sociale e culturale. L'educazione deve fornire strumenti per costruire significati e interpretare la realtà, non solo trasmettere contenuti."
-            },
-            {
-                type: "teorie-psicologiche",
-                text: "Una teoria dei tratti di personalità è:",
-                options: ["la teoria della mente", "la teoria degli obiettivi di riuscita", "la teoria dei Big Five", "la teoria delle intelligenze multiple"],
-                correct: 2,
-                explanation: "La teoria dei Big Five identifica cinque dimensioni fondamentali della personalità: Apertura all'esperienza, Coscienziosità, Estroversione, Amicalità e Nevroticismo (OCEAN). È una teoria dei tratti che descrive caratteristiche stabili della personalità. Le altre opzioni si riferiscono ad altri costrutti psicologici (teoria della mente, motivazione, intelligenza)."
-            },
-            {
-                type: "teorie-psicologiche",
-                text: "Il concetto di 'diffusione di identità' è stato proposto da:",
-                options: ["Jean Piaget", "John Bowlby", "Sigmund Freud", "Erik Erikson"],
-                correct: 3,
-                explanation: "Erik Erikson ha elaborato la teoria degli stadi psicosociali dello sviluppo. Il concetto di 'diffusione di identità' (identity diffusion) si riferisce alla condizione di confusione e mancanza di direzione nell'adolescenza, quando il giovane non riesce a costruire un'identità coerente. È contrapposto al raggiungimento dell'identità (identity achievement)."
-            },
-
-            // 3. PEDAGOGIA E METODOLOGIE DIDATTICHE
-            {
-                type: "pedagogia",
-                text: "Nella letteratura pedagogica si fa riferimento alla possibilità di promuovere 'comunità autocritiche di docenti'. Qual è l'idea di formazione sottesa?",
-                options: [
-                    "Una formazione nozionistica basata su testi teorici",
-                    "Una formazione individualistica senza confronto",
-                    "Una formazione critica potenziata dall'impegno socializzato di un gruppo che riflette sulla pratica",
-                    "Una formazione valutativa basata su griglie di indicatori"
-                ],
-                correct: 2,
-                explanation: "Il concetto di 'comunità di pratica' o 'comunità riflessiva' è centrale nella formazione continua dei docenti. Si basa sull'idea che la riflessione critica sulla pratica professionale sia più efficace quando condivisa e socializzata in un gruppo di colleghi. Questo approccio favorisce lo sviluppo professionale attraverso il confronto, la discussione e la co-costruzione di sapere pedagogico."
-            },
-            {
-                type: "pedagogia",
-                text: "Il concetto di 'reflection on action', elaborato da Donald A. Schön, si riferisce a:",
-                options: [
-                    "la competenza specifica dei filosofi",
-                    "la capacità di riflettere retroattivamente, ad azione conclusa",
-                    "la capacità di riflettere durante un'azione in corso",
-                    "il coraggio di fermare un'azione e prendersi tempo"
-                ],
-                correct: 1,
-                explanation: "Schön distingue tra 'reflection in action' (riflessione nell'azione, durante lo svolgimento) e 'reflection on action' (riflessione sull'azione, dopo la conclusione). Quest'ultima è la capacità di ripensare criticamente a ciò che è accaduto, analizzando punti di forza e debolezza per migliorare la pratica futura. È fondamentale per lo sviluppo professionale del docente riflessivo."
-            },
-            {
-                type: "pedagogia",
-                text: "La massima delfica 'Conosci te stesso', ripresa da Socrate, è considerata fondamentale per:",
-                options: [
-                    "l'apprendimento delle discipline scientifiche",
-                    "la formazione dell'essere umano e l'autoconoscenza",
-                    "lo sviluppo delle competenze tecniche",
-                    "la valutazione degli apprendimenti"
-                ],
-                correct: 1,
-                explanation: "Il 'Conosci te stesso' (γνῶθι σεαυτόν) è il fondamento del metodo socratico maieutico. Per Socrate, la conoscenza autentica parte dall'autoconsapevolezza e dall'esame critico di sé. Questa concezione ha influenzato profondamente la pedagogia occidentale, sottolineando l'importanza della riflessione e dell'autoconoscenza nella formazione della persona."
-            },
-
-            // 4. DIDATTICA INDIVIDUALIZZATA E INCLUSIONE
-            {
-                type: "inclusione",
-                text: "Il Piano Educativo Individualizzato (PEI):",
-                options: [
-                    "non tiene conto della certificazione di disabilità",
-                    "riguarda solo interventi riabilitativi extra-scolastici",
-                    "non deve mai essere aggiornato",
-                    "esplicita le modalità didattiche e di valutazione in relazione alla programmazione individualizzata"
-                ],
-                correct: 3,
-                explanation: "Il PEI è il documento fondamentale per l'inclusione degli alunni con disabilità (L. 104/92 e D.Lgs. 66/2017). Definisce obiettivi educativi, strategie didattiche, modalità di verifica e valutazione personalizzate. È redatto dal GLO (Gruppo di Lavoro Operativo) ed è basato sul Profilo di Funzionamento. Va aggiornato annualmente e può essere modificato in itinere."
-            },
-            {
-                type: "inclusione",
-                text: "I deficit che caratterizzano i Disturbi Specifici di Apprendimento (DSA):",
-                options: [
-                    "hanno origine neurobiologica",
-                    "hanno origine didattica",
-                    "hanno origine solo ambientale",
-                    "hanno origine nel gruppo dei pari"
-                ],
-                correct: 0,
-                explanation: "I DSA (dislessia, disgrafia, disortografia, discalculia) hanno origine neurobiologica, come stabilito dalla L. 170/2010. Non sono causati da deficit cognitivi, sensoriali o da fattori ambientali, ma da atipie nel funzionamento di specifiche aree cerebrali. Questa natura neurobiologica richiede strategie didattiche compensative e dispensative, non interventi riabilitativi generali."
-            },
-            {
-                type: "inclusione",
-                text: "In una prova RAN (Rapid Automatized Naming) al soggetto viene richiesto:",
-                options: [
-                    "di denominare il più velocemente possibile stimoli visivi in sequenza",
-                    "di leggere un brano nel minor tempo possibile",
-                    "di disegnare la figura umana con dettagli",
-                    "di guardare un film e riportare informazioni"
-                ],
-                correct: 0,
-                explanation: "Il RAN (Rapid Automatized Naming) è un test neuropsicologico che valuta la velocità di denominazione rapida automatizzata. Il soggetto deve nominare velocemente sequenze di stimoli visivi (colori, oggetti, numeri, lettere). È un predittore importante delle abilità di lettura e viene usato nella valutazione dei DSA, in particolare della dislessia, poiché misura l'automatizzazione dei processi."
-            },
-
-            // 5. COMPETENZE DIGITALI
-            {
-                type: "digitale",
-                text: "Quale delle seguenti metodologie didattiche si avvale maggiormente dell'uso delle tecnologie digitali?",
-                options: [
-                    "L'apprendimento per memorizzazione",
-                    "La classe capovolta (flipped classroom)",
-                    "La lezione frontale",
-                    "Il metodo Montessori"
-                ],
-                correct: 1,
-                explanation: "La flipped classroom (classe capovolta) inverte il tradizionale schema lezione-compiti a casa. Gli studenti accedono ai contenuti digitali (video-lezioni, materiali multimediali) prima della lezione in classe, che diventa momento di applicazione, discussione e approfondimento. Questa metodologia richiede necessariamente l'uso di tecnologie digitali per la fruizione dei contenuti."
-            },
-            {
-                type: "digitale",
-                text: "Quale software può essere utilizzato per la creazione di podcast audio didattici?",
-                options: ["Audacity", "Padlet", "Piktochart", "Adobe Illustrator"],
-                correct: 0,
-                explanation: "Audacity è un software open source per l'editing audio, ideale per creare podcast didattici. Consente registrazione, taglio, montaggio e applicazione di effetti. Padlet è per bacheche collaborative, Piktochart per infografiche, Adobe Illustrator per grafica vettoriale. La scelta del tool giusto dipende dall'obiettivo didattico."
-            },
-            {
-                type: "digitale",
-                text: "Cos'è Arduino?",
-                options: [
-                    "Una app per creare artefatti narrativi digitali",
-                    "Un videogioco educativo storico",
-                    "Un software per LIM",
-                    "Una piattaforma hardware e software open source con microcontrollore"
-                ],
-                correct: 3,
-                explanation: "Arduino è una piattaforma hardware/software open source per la prototipazione elettronica. Permette di programmare microcontrollori per creare progetti interattivi. In ambito didattico è usato per coding, robotica educativa, STEM education, favorendo l'apprendimento through making e il pensiero computazionale attraverso progetti hands-on."
-            },
-
-            // 6. VALUTAZIONE E FEEDBACK
-            {
-                type: "valutazione",
-                text: "Quale delle seguenti azioni dei docenti ostacola la messa in atto dei feedback ricevuti?",
-                options: [
-                    "Elaborare feedback ambigui o generici",
-                    "Progettare compiti strutturati in più fasi",
-                    "Facilitare la comprensione dei feedback",
-                    "Valorizzare la dimensione emotiva positiva"
-                ],
-                correct: 0,
-                explanation: "Un feedback efficace deve essere specifico, chiaro, tempestivo e orientato al miglioramento. Feedback ambigui o generici ('Bene', 'Devi impegnarti di più') non forniscono indicazioni operative e non aiutano lo studente a capire cosa e come migliorare. La ricerca (Hattie & Timperley) evidenzia che il feedback deve rispondere a: Dove sto andando? Come sto andando? Dove andare dopo?"
-            },
-            {
-                type: "valutazione",
-                text: "Quale elemento è considerato scarsamente utile per elaborare un feedback efficace?",
-                options: [
-                    "Fornire un voto numerico",
-                    "Fornire giudizio sull'efficacia delle strategie di apprendimento",
-                    "Fornire giudizio descrittivo su punti di forza e debolezza",
-                    "Fornire indicazioni su cosa fare dopo un insuccesso"
-                ],
-                correct: 0,
-                explanation: "La ricerca di Lipnevich e Smith mostra che quando feedback descrittivo e voto numerico sono compresenti, gli studenti si concentrano sul voto ignorando il feedback. Il voto è valutazione sommativa, mentre il feedback deve essere formativo, orientato al processo e al miglioramento. Un feedback efficace descrive punti di forza/debolezza e indica strategie di miglioramento."
-            },
-            {
-                type: "valutazione",
-                text: "Quale affermazione rappresenta un vantaggio della valutazione tra pari (peer assessment)?",
-                options: [
-                    "Promuove la competizione tra studenti",
-                    "Favorisce lo sviluppo di abilità comunicative",
-                    "Aumenta la dipendenza dagli altri",
-                    "Riduce il carico di lavoro dell'insegnante"
-                ],
-                correct: 1,
-                explanation: "La peer assessment (valutazione tra pari) ha molteplici vantaggi: sviluppa competenze metacognitive, abilità comunicative e critiche, favorisce l'apprendimento collaborativo. Gli studenti imparano dai feedback dei compagni e riflettono sui criteri di qualità. Non è uno strumento per ridurre il lavoro docente, ma una strategia didattica per sviluppare autonomia e competenze valutative."
+        // Nuova: mescola opzioni e aggiorna rispostaCorretta per ogni domanda
+        function randomizeQuizOptions(data) {
+            if (!data || typeof data !== 'object') return data;
+            // Fisher-Yates per array annotato
+            function shuffleAnnotated(arr) {
+                for (let i = arr.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [arr[i], arr[j]] = [arr[j], arr[i]];
+                }
             }
-        ];
+            for (const region in data) {
+                const list = data[region];
+                if (!Array.isArray(list)) continue;
+                list.forEach(q => {
+                    if (!Array.isArray(q.opzioni) || q.opzioni.length === 0) return;
+                    const origCorrect = (typeof q.rispostaCorretta === 'number') ? q.rispostaCorretta : 0;
+                    // annotate options with original index
+                    const annotated = q.opzioni.map((opt, idx) => ({ opt, idx }));
+                    shuffleAnnotated(annotated);
+                    q.opzioni = annotated.map(a => a.opt);
+                    // find new index where originalIdx === origCorrect
+                    const newIdx = annotated.findIndex(a => a.idx === origCorrect);
+                    q.rispostaCorretta = newIdx >= 0 ? newIdx : 0;
+                });
+            }
+            return data;
+        }
 
-        function shuffle(array) {
+        // Funzione per caricare il JSON esterno
+        async function loadQuizData() {
+            try {
+                const response = await fetch('quiz-data.json');
+                if (!response.ok) {
+                    throw new Error('Impossibile caricare il file quiz-data.json');
+                }
+                quizData = await response.json();
+
+                // Applica randomizzazione delle opzioni qui (evita che rispostaCorretta sia sempre 0)
+                quizData = randomizeQuizOptions(quizData);
+
+                generateRegionButtons();
+            } catch (error) {
+                console.error('Errore nel caricamento dei dati:', error);
+                alert('Errore: Assicurati che il file quiz-data.json sia nella stessa cartella del file HTML');
+            }
+        }
+
+        // Funzione per mescolare un array (Fisher-Yates shuffle)
+        function shuffleArray(array) {
             const arr = [...array];
             for (let i = arr.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -753,25 +244,89 @@ fetch(DATI_SIMULAZIONI)
             return arr;
         }
 
-        function startTest(testType) {
-            currentTest = testType;
+        // Genera i pulsanti delle regioni
+        function generateRegionButtons() {
+            const grid = document.getElementById('regions-grid');
+            grid.innerHTML = '';
+            
+            regioni.forEach((regione, index) => {
+                const col = document.createElement('div');
+                col.className = 'col-md-4 col-sm-6';
+                
+                const colorClass = `region-colors-${(index % 5) + 1}`;
+                const regionKey = regione.toLowerCase().replace(/[^a-z]/g, '');
+                const isAvailable = quizData[regionKey] !== undefined;
+                
+                col.innerHTML = `
+                    <button class="btn region-btn ${colorClass}" 
+                            onclick="startTest('${regionKey}')"
+                            ${!isAvailable ? 'disabled' : ''}>
+                        ${regione}
+                        ${!isAvailable ? '<br><small>(Prossimamente)</small>' : `<br><small>(${quizData[regionKey]?.length || 0} domande)</small>`}
+                    </button>
+                `;
+                grid.appendChild(col);
+            });
+        }
+
+        function startTest(regionKey) {
+            if (!quizData[regionKey]) {
+                alert('Quiz non ancora disponibile per questa regione');
+                return;
+            }
+
+            isGeneralTest = false;
+            currentRegion = regionKey;
+            
+            // Mescola le domande in ordine casuale
+            currentQuestions = shuffleArray(quizData[regionKey]);
+            score = 0;
+            totalQuestions = currentQuestions.length;
+
             document.getElementById('menu').style.display = 'none';
             document.getElementById('test-section').style.display = 'block';
             
-            if (testType === 'english') {
-                document.getElementById('test-title').textContent = 'Test di Inglese B2';
-                document.getElementById('test-subtitle').textContent = '80 quesiti per la preparazione al concorso';
-                document.getElementById('test-badge').textContent = 'Livello B2 - Upper Intermediate';
-                currentQuestions = shuffle(englishQuestions);
-            } else {
-                document.getElementById('test-title').textContent = 'Test Psicopedagogia';
-                document.getElementById('test-subtitle').textContent = '18 quesiti - Metodologie Didattiche e Inclusione';
-                document.getElementById('test-badge').textContent = 'Concorso PNRR 3 - Parte Generale';
-                document.getElementById('test-badge').className = 'badge bg-success badge-level';
-                currentQuestions = shuffle(pedagogyQuestions);
-            }
+            const regionName = regioni.find(r => r.toLowerCase().replace(/[^a-z]/g, '') === regionKey);
+            document.getElementById('test-title').textContent = `Quiz: ${regionName}`;
+            document.getElementById('test-subtitle').textContent = 'Scopri i tesori turistici della regione';
+            updateScore();
             
             renderQuestions();
+            window.scrollTo(0, 0);
+        }
+
+        function startGeneralTest() {
+            isGeneralTest = true;
+            currentRegion = 'generale';
+            
+            // Raccoglie tutte le domande da tutte le regioni
+            let allQuestions = [];
+            for (let region in quizData) {
+                allQuestions = allQuestions.concat(quizData[region].map(q => ({...q, region: region})));
+            }
+
+            if (allQuestions.length === 0) {
+                alert('Non ci sono domande disponibili al momento');
+                return;
+            }
+
+            // Mescola tutte le domande e prende max 40
+            allQuestions = shuffleArray(allQuestions);
+            const numQuestions = Math.min(40, allQuestions.length);
+            currentQuestions = allQuestions.slice(0, numQuestions);
+            
+            score = 0;
+            totalQuestions = currentQuestions.length;
+
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('test-section').style.display = 'block';
+            
+            document.getElementById('test-title').textContent = '🎯 Test Generale';
+            document.getElementById('test-subtitle').textContent = `${numQuestions} domande casuali da tutte le regioni`;
+            updateScore();
+            
+            renderQuestions();
+            window.scrollTo(0, 0);
         }
 
         function renderQuestions() {
@@ -782,23 +337,22 @@ fetch(DATI_SIMULAZIONI)
                 const card = document.createElement('div');
                 card.className = 'card question-card';
                 
-                let content = `
-                    <div class="card-header ${currentTest === 'english' ? 'bg-primary' : 'bg-success'} text-white">
-                        <h5 class="mb-0">Domanda ${idx + 1} <small class="float-end">${q.type}</small></h5>
-                    </div>
-                    <div class="card-body">
-                `;
-                
-                if (q.passage) {
-                    content += `<div class="reading-passage">${q.passage}</div>`;
+                let regionBadge = '';
+                if (isGeneralTest && q.region) {
+                    const regionName = regioni.find(r => r.toLowerCase().replace(/[^a-z]/g, '') === q.region);
+                    regionBadge = `<span class="badge bg-secondary float-end">${regionName}</span>`;
                 }
                 
-                content += `
-                        <p class="lead">${q.text}</p>
+                let content = `
+                    <div class="card-header bg-primary text-white" style="border-radius: 15px 15px 0 0;">
+                        <h5 class="mb-0">❓ Domanda ${idx + 1} di ${totalQuestions} ${regionBadge}</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="lead fw-bold">${q.domanda}</p>
                         <div class="options">
                 `;
                 
-                q.options.forEach((opt, i) => {
+                q.opzioni.forEach((opt, i) => {
                     content += `
                         <div class="option" onclick="checkAnswer(${idx}, ${i})">
                             <strong>${String.fromCharCode(65 + i)}.</strong> ${opt}
@@ -809,7 +363,7 @@ fetch(DATI_SIMULAZIONI)
                 content += `
                         </div>
                         <div class="explanation" id="exp-${idx}">
-                            <strong>📚 Spiegazione:</strong> ${q.explanation}
+                            <strong>💡 Spiegazione:</strong><br>${q.spiegazione}
                         </div>
                     </div>
                 `;
@@ -821,37 +375,66 @@ fetch(DATI_SIMULAZIONI)
 
         function checkAnswer(qIdx, optIdx) {
             const q = currentQuestions[qIdx];
-            const options = document.querySelectorAll('.question-card')[qIdx].querySelectorAll('.option');
+            const questionCard = document.querySelectorAll('.question-card')[qIdx];
+            const options = questionCard.querySelectorAll('.option');
             const explanation = document.getElementById(`exp-${qIdx}`);
             
+            // Controlla se già risposto
+            if (options[0].classList.contains('disabled')) {
+                return;
+            }
+
             options.forEach((opt, i) => {
                 opt.classList.add('disabled');
-                if (i === q.correct) {
+                if (i === q.rispostaCorretta) {
                     opt.classList.add('correct');
+                    opt.innerHTML += ' ✓';
                 }
             });
             
-            if (optIdx !== q.correct) {
+            if (optIdx !== q.rispostaCorretta) {
                 options[optIdx].classList.add('incorrect');
+                options[optIdx].innerHTML += ' ✗';
+            } else {
+                score++;
+                updateScore();
             }
             
             explanation.style.display = 'block';
         }
 
+        function updateScore() {
+            const badge = document.getElementById('score-badge');
+            badge.textContent = `Punteggio: ${score}/${totalQuestions}`;
+            
+            if (score === totalQuestions && totalQuestions > 0) {
+                badge.className = 'badge bg-success score-badge';
+            } else if (score > totalQuestions / 2) {
+                badge.className = 'badge bg-warning score-badge';
+            } else {
+                badge.className = 'badge bg-info score-badge';
+            }
+        }
+
         function backToMenu() {
             document.getElementById('test-section').style.display = 'none';
             document.getElementById('menu').style.display = 'block';
-            document.getElementById('test-badge').className = 'badge bg-primary badge-level';
-            currentTest = null;
+            currentRegion = null;
+            isGeneralTest = false;
         }
 
         function reloadTest() {
-            if (currentTest) {
-                currentQuestions = shuffle(currentTest === 'english' ? englishQuestions : pedagogyQuestions);
-                renderQuestions();
-                window.scrollTo(0, 0);
+            if (isGeneralTest) {
+                startGeneralTest();
+            } else if (currentRegion) {
+                startTest(currentRegion);
             }
         }
+
+        // Carica i dati all'avvio
+        loadQuizData();
+
+        
     </script>
 </body>
 </html>
