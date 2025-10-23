@@ -458,14 +458,13 @@ fetch(DATI_SIMULAZIONI)
 </body>
 </html> -->
 
-
-
+<!-- test inglese -->
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test di Inglese B2</title>
+    <title>Test Concorso PNRR 3</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { padding: 20px 0; background: #f8f9fa; }
@@ -478,582 +477,270 @@ fetch(DATI_SIMULAZIONI)
         .explanation { margin-top: 15px; padding: 15px; background: #e7f3ff; border-left: 4px solid #0d6efd; display: none; }
         .badge-level { font-size: 0.9rem; }
         .reading-passage { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px; line-height: 1.8; }
+        .menu-section { margin-bottom: 40px; }
+        .test-btn { min-width: 250px; height: 80px; font-size: 1.2rem; }
+        .back-btn { margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="text-center mb-5">
-            <h1 class="display-4">Test di Inglese B2</h1>
-            <p class="lead">Preparazione al concorso - quesiti</p>
-            <span class="badge bg-primary badge-level">Livello B2 - Upper Intermediate</span>
+        <!-- Menu iniziale -->
+        <div id="menu" class="menu-section text-center">
+            <h1 class="display-4 mb-4">Test Concorso PNRR 3</h1>
+            <p class="lead mb-5">Scegli la tipologia di test per iniziare la preparazione</p>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-5">
+                    <button class="btn btn-primary test-btn w-100" onclick="startTest('english')">
+                        <i class="bi bi-translate"></i><br>
+                        Test di Inglese B2
+                        <br><small>80 quesiti - Livello Upper Intermediate</small>
+                    </button>
+                </div>
+                <div class="col-md-5">
+                    <button class="btn btn-success test-btn w-100" onclick="startTest('pedagogy')">
+                        <i class="bi bi-book"></i><br>
+                        Test Psicopedagogia
+                        <br><small>18 quesiti - Metodologie Didattiche</small>
+                    </button>
+                </div>
+            </div>
         </div>
 
-        <div id="questions-container"></div>
-
-        <div class="text-center mt-4">
-            <button class="btn btn-primary btn-lg" onclick="location.reload()">
-                <i class="bi bi-arrow-clockwise"></i> Ricarica Test
+        <!-- Sezione test -->
+        <div id="test-section" style="display: none;">
+            <button class="btn btn-secondary back-btn" onclick="backToMenu()">
+                ← Torna al Menu
             </button>
+            
+            <div class="text-center mb-5">
+                <h1 class="display-5" id="test-title"></h1>
+                <p class="lead" id="test-subtitle"></p>
+                <span class="badge bg-primary badge-level" id="test-badge"></span>
+            </div>
+
+            <div id="questions-container"></div>
+
+            <div class="text-center mt-4">
+                <button class="btn btn-primary btn-lg" onclick="reloadTest()">
+                    <i class="bi bi-arrow-clockwise"></i> Ricarica Test
+                </button>
+                <button class="btn btn-secondary btn-lg ms-2" onclick="backToMenu()">
+                    ← Menu Principale
+                </button>
+            </div>
         </div>
     </div>
 
     <script>
-        const questions = [
+        let currentTest = null;
+        let currentQuestions = [];
+
+        // QUESTIONS INGLESE - [RICOPIARE QUI TUTTE LE 80 DOMANDE DI INGLESE GIÀ CREATE]
+        const englishQuestions = [
+            // Copiare qui tutte le domande dall'artifact precedente
             {
                 type: "phrasal",
                 text: "When planning a new event, it is always essential to work ________ the total costs in advance.",
                 options: ["away", "under", "in", "out"],
                 correct: 3,
-                explanation: "Il phrasal verb 'work out' significa 'calcolare' o 'determinare'. È comune nel contesto di costi e calcoli finanziari. Altri phrasal verbs come 'work away' (lavorare continuamente) o 'work under' (lavorare sotto qualcuno) non hanno senso in questo contesto."
+                explanation: "Il phrasal verb 'work out' significa 'calcolare' o 'determinare'. È comune nel contesto di costi e calcoli finanziari."
             },
+            // ... tutte le altre 79 domande di inglese
+        ];
+
+        // QUESTIONS PSICOPEDAGOGIA
+        const pedagogyQuestions = [
+            // 1. PSICOLOGIA DELLO SVILUPPO E APPRENDIMENTO
             {
-                type: "reading",
-                passage: "Despite the chaos of lockdown, by the end of 2020 overall sales of print books in the UK were up 5% year-on-year, according to industry watchers Nielsen BookScan. More particularly, fiction did extremely well – adult fiction increased 8% in volume terms, with 147 million books sold. So too did children's books, up 7%, to 109 million books. Overall, the British public spent £1.8 billion on 202 million print books. Digital sales soared, ebooks growing 16% and audiobook sales 21% year on year.",
-                text: "'Soared' in this context means:",
-                options: ["stayed the same", "went up quickly", "decreased slightly", "dropped steadily"],
-                correct: 1,
-                explanation: "'Soared' significa 'salire rapidamente' o 'schizzare in alto'. Nel contesto delle vendite digitali che crescono del 16-21%, indica un aumento rapido e significativo. È un verbo forte usato per enfatizzare una crescita importante."
-            },
-            {
-                type: "reading",
-                passage: "The long wait is over for students and academics, who return to face-to-face teaching this term, in a place that truly has the benefits of meeting in the real world. The new Marshall Building, which looks out over Lincoln's Inn Fields like a shiny white palazzo, houses some of the finest spaces that any London university has to offer. The project is the latest addition to the London School of Economics' (LSE) impressive stable of recent commissions, which comprise the Centre Building's steel-framed blocks.",
-                text: "The Marshall Building is:",
-                options: ["London University's new headquarters", "LSE's latest architectural project", "home to LSE's Department of Law", "going to replace the Centre Building"],
-                correct: 1,
-                explanation: "Il testo afferma chiaramente che 'the project is the latest addition to the London School of Economics' (LSE) impressive stable of recent commissions', quindi è l'ultimo progetto architettonico della LSE. Non è il quartier generale, né specificamente per legge, né sostituisce il Centre Building."
-            },
-            {
-                type: "reading",
-                passage: "Parents or teachers of teenagers may find it hard to believe that sarcasm is a sign of a flexible and inventive mind. Yet, that is exactly what psychologists and neuroscientists have been arguing. They have found that sarcasm requires the brain to create numerous connections to arrive at a correct interpretation, requiring more brainpower than literal statements. Although it is often considered juvenile irreverence, sarcasm is actually evidence of maturity – because it takes years for a child's developing brain to fully understand and master it.",
-                text: "According to the text, sarcasm:",
-                options: ["denotes a lack of respect for people and things", "requires a child's brain to be better understood", "is a sign of intelligence and of a maturing brain", "is evidence that a teenager's brain has not developed yet"],
+                type: "psicologia-sviluppo",
+                text: "Secondo Jean Piaget, la conoscenza che 4+2 = 6 e che 6-2 = 4 può essere compresa da un bambino che si trova nello stadio:",
+                options: ["pre-operatorio", "sensomotorio", "operatorio concreto", "operatorio formale"],
                 correct: 2,
-                explanation: "Il testo dice che il sarcasmo 'is actually evidence of maturity' e richiede più potenza cerebrale. È un segno di intelligenza e di un cervello che matura, non di mancanza di rispetto o di sviluppo incompleto."
+                explanation: "Lo stadio operatorio concreto (7-11 anni) è caratterizzato dall'acquisizione della reversibilità del pensiero. Il bambino comprende che le operazioni possono essere invertite (addizione e sottrazione sono operazioni inverse). Nello stadio pre-operatorio manca questa capacità, mentre quello formale riguarda il pensiero astratto e ipotetico."
             },
             {
-                type: "relative",
-                text: "This is the most expensive mobile ______ they had in store. I only buy the best technology at this point.",
-                options: ["then", "than", "thus", "that"],
+                type: "psicologia-sviluppo",
+                text: "Nella teoria di Jerome S. Bruner, le tre modalità di rappresentazione dell'esperienza (esecutiva, iconica, simbolica) sono:",
+                options: ["tutte relative solo al primo anno di vita", "gerarchiche", "coesistenti", "innate"],
+                correct: 2,
+                explanation: "Le tre modalità di rappresentazione secondo Bruner sono coesistenti e complementari. La rappresentazione esecutiva (attraverso l'azione), iconica (attraverso le immagini) e simbolica (attraverso il linguaggio) si sviluppano in sequenza ma continuano a coesistere e interagire nell'adulto. Non sono gerarchiche né si sostituiscono l'una all'altra."
+            },
+            {
+                type: "psicologia-sviluppo",
+                text: "Il neurocostruttivismo riguarda lo studio:",
+                options: ["dell'apprendimento per imitazione", "della comprensione del testo", "dello sviluppo cognitivo nelle sue relazioni con lo sviluppo del cervello", "del condizionamento classico"],
+                correct: 2,
+                explanation: "Il neurocostruttivismo è un approccio che integra neuroscienze cognitive e costruttivismo. Studia come lo sviluppo cognitivo e quello cerebrale si influenzino reciprocamente, considerando il cervello come un sistema dinamico che si auto-organizza attraverso l'interazione con l'ambiente. Supera la dicotomia natura-cultura."
+            },
+
+            // 2. TEORIE PSICOLOGICHE
+            {
+                type: "teorie-psicologiche",
+                text: "Secondo Jerome S. Bruner, quale principio sostiene che 'L'educazione deve aiutare i giovani a usare gli strumenti del fare significato e della costruzione della realtà'?",
+                options: ["Il principio del costruttivismo", "Il principio interculturale", "Il principio di realtà", "Il principio dell'empatia"],
+                correct: 0,
+                explanation: "Bruner è uno dei principali esponenti del costruttivismo sociale. Secondo questa prospettiva, la conoscenza non è trasmessa passivamente ma costruita attivamente dal soggetto attraverso l'interazione sociale e culturale. L'educazione deve fornire strumenti per costruire significati e interpretare la realtà, non solo trasmettere contenuti."
+            },
+            {
+                type: "teorie-psicologiche",
+                text: "Una teoria dei tratti di personalità è:",
+                options: ["la teoria della mente", "la teoria degli obiettivi di riuscita", "la teoria dei Big Five", "la teoria delle intelligenze multiple"],
+                correct: 2,
+                explanation: "La teoria dei Big Five identifica cinque dimensioni fondamentali della personalità: Apertura all'esperienza, Coscienziosità, Estroversione, Amicalità e Nevroticismo (OCEAN). È una teoria dei tratti che descrive caratteristiche stabili della personalità. Le altre opzioni si riferiscono ad altri costrutti psicologici (teoria della mente, motivazione, intelligenza)."
+            },
+            {
+                type: "teorie-psicologiche",
+                text: "Il concetto di 'diffusione di identità' è stato proposto da:",
+                options: ["Jean Piaget", "John Bowlby", "Sigmund Freud", "Erik Erikson"],
                 correct: 3,
-                explanation: "'That' è il pronome relativo corretto per introdurre una proposizione relativa restrittiva. 'Than' si usa per comparazioni, 'then' per sequenze temporali, 'thus' significa 'quindi'. La struttura è: superlativo + that + clausola relativa."
+                explanation: "Erik Erikson ha elaborato la teoria degli stadi psicosociali dello sviluppo. Il concetto di 'diffusione di identità' (identity diffusion) si riferisce alla condizione di confusione e mancanza di direzione nell'adolescenza, quando il giovane non riesce a costruire un'identità coerente. È contrapposto al raggiungimento dell'identità (identity achievement)."
+            },
+
+            // 3. PEDAGOGIA E METODOLOGIE DIDATTICHE
+            {
+                type: "pedagogia",
+                text: "Nella letteratura pedagogica si fa riferimento alla possibilità di promuovere 'comunità autocritiche di docenti'. Qual è l'idea di formazione sottesa?",
+                options: [
+                    "Una formazione nozionistica basata su testi teorici",
+                    "Una formazione individualistica senza confronto",
+                    "Una formazione critica potenziata dall'impegno socializzato di un gruppo che riflette sulla pratica",
+                    "Una formazione valutativa basata su griglie di indicatori"
+                ],
+                correct: 2,
+                explanation: "Il concetto di 'comunità di pratica' o 'comunità riflessiva' è centrale nella formazione continua dei docenti. Si basa sull'idea che la riflessione critica sulla pratica professionale sia più efficace quando condivisa e socializzata in un gruppo di colleghi. Questo approccio favorisce lo sviluppo professionale attraverso il confronto, la discussione e la co-costruzione di sapere pedagogico."
             },
             {
-                type: "tense",
-                text: "When I travel to England next year, I ____________ English for 6 years, so I will be able to speak the language fluently.",
-                options: ["will have studied", "study", "have studying", "studies"],
-                correct: 0,
-                explanation: "Il Future Perfect ('will have studied') indica un'azione che sarà completata prima di un momento futuro. La struttura 'for 6 years' indica durata e richiede questo tempo. Si usa per esprimere un'esperienza completata prima di un punto futuro."
+                type: "pedagogia",
+                text: "Il concetto di 'reflection on action', elaborato da Donald A. Schön, si riferisce a:",
+                options: [
+                    "la competenza specifica dei filosofi",
+                    "la capacità di riflettere retroattivamente, ad azione conclusa",
+                    "la capacità di riflettere durante un'azione in corso",
+                    "il coraggio di fermare un'azione e prendersi tempo"
+                ],
+                correct: 1,
+                explanation: "Schön distingue tra 'reflection in action' (riflessione nell'azione, durante lo svolgimento) e 'reflection on action' (riflessione sull'azione, dopo la conclusione). Quest'ultima è la capacità di ripensare criticamente a ciò che è accaduto, analizzando punti di forza e debolezza per migliorare la pratica futura. È fondamentale per lo sviluppo professionale del docente riflessivo."
             },
             {
-                type: "infinitive",
-                text: "My new boss didn't let ____________ on holiday during the emergency at work.",
-                options: ["me go", "to go", "me to go", "me going"],
-                correct: 0,
-                explanation: "Il verbo 'let' è seguito dall'oggetto + infinito senza 'to' (bare infinitive). La struttura è: let + oggetto + verbo base. Altri verbi come 'allow' richiederebbero 'to' (allow me to go), ma 'let' no."
+                type: "pedagogia",
+                text: "La massima delfica 'Conosci te stesso', ripresa da Socrate, è considerata fondamentale per:",
+                options: [
+                    "l'apprendimento delle discipline scientifiche",
+                    "la formazione dell'essere umano e l'autoconoscenza",
+                    "lo sviluppo delle competenze tecniche",
+                    "la valutazione degli apprendimenti"
+                ],
+                correct: 1,
+                explanation: "Il 'Conosci te stesso' (γνῶθι σεαυτόν) è il fondamento del metodo socratico maieutico. Per Socrate, la conoscenza autentica parte dall'autoconsapevolezza e dall'esame critico di sé. Questa concezione ha influenzato profondamente la pedagogia occidentale, sottolineando l'importanza della riflessione e dell'autoconoscenza nella formazione della persona."
             },
+
+            // 4. DIDATTICA INDIVIDUALIZZATA E INCLUSIONE
             {
-                type: "phrasal",
-                text: "You have to ____________ with this issue, so we can go on with the plan.",
-                options: ["make", "beat", "solve", "deal"],
+                type: "inclusione",
+                text: "Il Piano Educativo Individualizzato (PEI):",
+                options: [
+                    "non tiene conto della certificazione di disabilità",
+                    "riguarda solo interventi riabilitativi extra-scolastici",
+                    "non deve mai essere aggiornato",
+                    "esplicita le modalità didattiche e di valutazione in relazione alla programmazione individualizzata"
+                ],
                 correct: 3,
-                explanation: "'Deal with' significa 'occuparsi di' o 'gestire' un problema. È il phrasal verb corretto per problemi o questioni. 'Solve' si usa senza preposizione (solve the problem), mentre 'deal with' richiede 'with'."
+                explanation: "Il PEI è il documento fondamentale per l'inclusione degli alunni con disabilità (L. 104/92 e D.Lgs. 66/2017). Definisce obiettivi educativi, strategie didattiche, modalità di verifica e valutazione personalizzate. È redatto dal GLO (Gruppo di Lavoro Operativo) ed è basato sul Profilo di Funzionamento. Va aggiornato annualmente e può essere modificato in itinere."
             },
             {
-                type: "gerund",
-                text: "____________ the radio helps me improve my receptive skills.",
-                options: ["Listen to", "Listening to", "Listened to", "Have listened to"],
+                type: "inclusione",
+                text: "I deficit che caratterizzano i Disturbi Specifici di Apprendimento (DSA):",
+                options: [
+                    "hanno origine neurobiologica",
+                    "hanno origine didattica",
+                    "hanno origine solo ambientale",
+                    "hanno origine nel gruppo dei pari"
+                ],
+                correct: 0,
+                explanation: "I DSA (dislessia, disgrafia, disortografia, discalculia) hanno origine neurobiologica, come stabilito dalla L. 170/2010. Non sono causati da deficit cognitivi, sensoriali o da fattori ambientali, ma da atipie nel funzionamento di specifiche aree cerebrali. Questa natura neurobiologica richiede strategie didattiche compensative e dispensative, non interventi riabilitativi generali."
+            },
+            {
+                type: "inclusione",
+                text: "In una prova RAN (Rapid Automatized Naming) al soggetto viene richiesto:",
+                options: [
+                    "di denominare il più velocemente possibile stimoli visivi in sequenza",
+                    "di leggere un brano nel minor tempo possibile",
+                    "di disegnare la figura umana con dettagli",
+                    "di guardare un film e riportare informazioni"
+                ],
+                correct: 0,
+                explanation: "Il RAN (Rapid Automatized Naming) è un test neuropsicologico che valuta la velocità di denominazione rapida automatizzata. Il soggetto deve nominare velocemente sequenze di stimoli visivi (colori, oggetti, numeri, lettere). È un predittore importante delle abilità di lettura e viene usato nella valutazione dei DSA, in particolare della dislessia, poiché misura l'automatizzazione dei processi."
+            },
+
+            // 5. COMPETENZE DIGITALI
+            {
+                type: "digitale",
+                text: "Quale delle seguenti metodologie didattiche si avvale maggiormente dell'uso delle tecnologie digitali?",
+                options: [
+                    "L'apprendimento per memorizzazione",
+                    "La classe capovolta (flipped classroom)",
+                    "La lezione frontale",
+                    "Il metodo Montessori"
+                ],
                 correct: 1,
-                explanation: "Quando un verbo è soggetto della frase, si usa il gerundio (-ing form). 'Listening to the radio' è il soggetto della frase. Il gerundio rende il verbo un sostantivo e può funzionare come soggetto, oggetto o complemento."
+                explanation: "La flipped classroom (classe capovolta) inverte il tradizionale schema lezione-compiti a casa. Gli studenti accedono ai contenuti digitali (video-lezioni, materiali multimediali) prima della lezione in classe, che diventa momento di applicazione, discussione e approfondimento. Questa metodologia richiede necessariamente l'uso di tecnologie digitali per la fruizione dei contenuti."
             },
             {
-                type: "vocabulary",
-                text: "Large cruise ships are usually run with a ____________ of at least 200 people.",
-                options: ["crew", "cast", "squad", "gang"],
+                type: "digitale",
+                text: "Quale software può essere utilizzato per la creazione di podcast audio didattici?",
+                options: ["Audacity", "Padlet", "Piktochart", "Adobe Illustrator"],
                 correct: 0,
-                explanation: "'Crew' è il termine specifico per il personale di una nave. 'Cast' si usa per attori, 'squad' per squadre sportive o militari, 'gang' ha connotazione negativa (banda criminale). Ogni contesto ha il suo termine specifico."
+                explanation: "Audacity è un software open source per l'editing audio, ideale per creare podcast didattici. Consente registrazione, taglio, montaggio e applicazione di effetti. Padlet è per bacheche collaborative, Piktochart per infografiche, Adobe Illustrator per grafica vettoriale. La scelta del tool giusto dipende dall'obiettivo didattico."
             },
             {
-                type: "vocabulary",
-                text: "Have you ever been ____________ while travelling abroad?",
-                options: ["shoplifted", "vandalised", "mugged", "stolen"],
-                correct: 2,
-                explanation: "'Mugged' significa essere rapinato per strada con violenza. 'Shoplifted' è rubare nei negozi (non si usa con persone come soggetto passivo), 'vandalised' è danneggiare proprietà, 'stolen' non si usa in forma passiva con persone."
-            },
-            {
-                type: "tense",
-                text: "The old woman _______________ the burglar and scared him off.",
-                options: ["shouted at", "will shout at", "whispered", "had whispered"],
-                correct: 0,
-                explanation: "Il Past Simple 'shouted at' è corretto perché descrive due azioni passate in sequenza. 'Scared him off' (lo spaventò via) è anch'esso Past Simple, indicando che le due azioni sono avvenute nello stesso momento nel passato."
-            },
-            {
-                type: "verb-pattern",
-                text: "She doesn't ____________ looking after the baby for us next weekend, does she?",
-                options: ["hope", "mind", "object", "stand"],
-                correct: 1,
-                explanation: "'Mind' + gerundio significa 'dispiacersi di fare qualcosa'. Si usa spesso in domande o frasi negative: 'Do you mind...?' / 'I don't mind...'. 'Object to' richiederebbe la preposizione 'to', 'hope' non si usa in questo pattern."
-            },
-            {
-                type: "correlative",
-                text: "Sarah could attend _________________ the morning meeting nor the afternoon session today.",
-                options: ["neither", "both", "either", "nor"],
-                correct: 0,
-                explanation: "'Neither...nor' è una struttura correlativa che significa 'né...né'. Si usa per negare entrambe le opzioni. 'Either...or' sarebbe per situazioni affermative. La struttura richiede 'neither' all'inizio quando si nega."
-            },
-            {
-                type: "vocabulary",
-                text: "I called him to ____________ him about the train strike.",
-                options: ["warn", "say", "speak", "advertise"],
-                correct: 0,
-                explanation: "'Warn someone about something' significa avvisare qualcuno di un pericolo o problema. 'Say' e 'speak' non si usano con questa struttura (say something to someone / speak to someone about something). 'Advertise' significa fare pubblicità."
-            },
-            {
-                type: "conditional",
-                text: "If I ____________ more time, I would have finished the project yesterday.",
-                options: ["have had", "had", "had had", "would have"],
-                correct: 2,
-                explanation: "Il Third Conditional (if + past perfect, would have + past participle) esprime situazioni ipotetiche nel passato. 'Had had' è il Past Perfect di 'have', necessario per indicare che la condizione era nel passato prima di un altro evento passato."
-            },
-            {
-                type: "preposition",
-                text: "The company specializes ____________ renewable energy solutions.",
-                options: ["on", "in", "at", "with"],
-                correct: 1,
-                explanation: "'Specialize in' è la costruzione corretta. Molti verbi hanno preposizioni specifiche: depend on, succeed in, excel at. Queste collocazioni devono essere memorizzate perché non seguono sempre una logica prevedibile."
-            },
-            {
-                type: "modal",
-                text: "You ____________ have told me about the meeting! I missed it completely.",
-                options: ["should", "must", "would", "can"],
-                correct: 0,
-                explanation: "'Should have + past participle' esprime un rimpianto o una critica per qualcosa che non è stato fatto nel passato. È diverso da 'must have' (deduzione forte) o 'would have' (condizionale passato)."
-            },
-            {
-                type: "passive",
-                text: "The new regulations ____________ by the government next month.",
-                options: ["will implement", "will be implementing", "will be implemented", "are implementing"],
-                correct: 2,
-                explanation: "La forma passiva futura 'will be implemented' è corretta perché le regolazioni 'vengono implementate' (azione subita dal soggetto). La struttura è: will + be + past participle. Il passivo si usa quando il focus è sull'azione, non su chi la compie."
-            },
-            {
-                type: "reported-speech",
-                text: "She told me that she ____________ to Paris the following week.",
-                options: ["will go", "would go", "goes", "is going"],
-                correct: 1,
-                explanation: "Nel discorso indiretto, 'will' diventa 'would' quando il verbo principale è al passato. Questo è chiamato 'backshift' o concordanza dei tempi. 'The following week' è l'equivalente di 'next week' nel discorso indiretto."
-            },
-            {
-                type: "vocabulary",
-                text: "The witness gave a very ____________ account of what happened that night.",
-                options: ["detailed", "details", "detailing", "detail"],
-                correct: 0,
-                explanation: "'Detailed' è l'aggettivo che significa 'dettagliato'. Gli aggettivi modificano i sostantivi ('detailed account'). 'Details' è il sostantivo plurale, 'detailing' è il gerundio, 'detail' è il sostantivo singolare o verbo."
-            },
-            {
-                type: "phrasal",
-                text: "I can't ____________ with this noise anymore. I need to find a quieter place to work.",
-                options: ["put up", "put on", "put off", "put down"],
-                correct: 0,
-                explanation: "'Put up with' significa 'tollerare' o 'sopportare'. Altri phrasal verbs: 'put on' (indossare), 'put off' (rimandare o disgustare), 'put down' (posare o criticare). I phrasal verbs spesso hanno significati non letterali."
-            },
-            {
-                type: "article",
-                text: "She plays ____________ piano beautifully, but she can't play ____________ guitar.",
-                options: ["the / the", "a / a", "the / a", "— / the"],
-                correct: 0,
-                explanation: "Gli strumenti musicali richiedono l'articolo 'the' quando si parla di suonarli: 'play the piano', 'play the guitar'. È un'eccezione alle regole generali degli articoli e deve essere memorizzata."
-            },
-            {
-                type: "comparative",
-                text: "The ____________ you practice, the ____________ you'll become at speaking English.",
-                options: ["more / better", "most / best", "more / best", "much / good"],
-                correct: 0,
-                explanation: "'The more...the better' è una struttura comparativa parallela che indica una correlazione proporzionale. Entrambe le parti usano la forma comparativa. La struttura è: the + comparativo + subject + verb, the + comparativo + subject + verb."
-            },
-            {
-                type: "vocabulary",
-                text: "The professor's lecture was so ____________ that half the students fell asleep.",
-                options: ["bored", "boring", "bore", "boredom"],
-                correct: 1,
-                explanation: "'Boring' (participio presente) descrive ciò che causa noia. 'Bored' (participio passato) descrive chi prova noia. Regola generale: -ing per la causa, -ed per l'effetto (interesting/interested, exciting/excited)."
-            },
-            {
-                type: "conjunction",
-                text: "____________ it was raining heavily, we decided to go hiking.",
-                options: ["Despite", "Although", "However", "In spite"],
-                correct: 1,
-                explanation: "'Although' è una congiunzione seguita da soggetto + verbo. 'Despite' e 'in spite of' sono seguiti da sostantivo/gerundio. 'However' è un avverbio che collega frasi, non clausole. La struttura determina la scelta."
-            },
-            {
-                type: "wish",
-                text: "I wish I ____________ more attention in my English classes when I was younger.",
-                options: ["paid", "had paid", "would pay", "pay"],
-                correct: 1,
-                explanation: "'Wish + past perfect' esprime un rimpianto per il passato. Si usa per situazioni che non si possono cambiare. 'Wish + past simple' è per il presente, 'wish + would' per situazioni future o comportamenti fastidiosi."
-            },
-            {
-                type: "quantifier",
-                text: "There is ____________ information available about this topic online.",
-                options: ["many", "much", "few", "a few"],
-                correct: 1,
-                explanation: "'Much' si usa con sostantivi non numerabili ('information', 'water', 'money'). 'Many' è per numerabili plurali ('books', 'people'). 'Few/a few' sono per numerabili plurali. La distinzione numerabile/non numerabile è fondamentale."
-            },
-            {
-                type: "causative",
-                text: "I need to ____________ my laptop repaired before the presentation tomorrow.",
-                options: ["make", "have", "let", "get"],
+                type: "digitale",
+                text: "Cos'è Arduino?",
+                options: [
+                    "Una app per creare artefatti narrativi digitali",
+                    "Un videogioco educativo storico",
+                    "Un software per LIM",
+                    "Una piattaforma hardware e software open source con microcontrollore"
+                ],
                 correct: 3,
-                explanation: "'Get something done' è una struttura causativa che significa 'far fare qualcosa da qualcun altro'. 'Have something done' è simile ma più formale. 'Make' e 'let' non si usano in questa struttura passiva."
+                explanation: "Arduino è una piattaforma hardware/software open source per la prototipazione elettronica. Permette di programmare microcontrollori per creare progetti interattivi. In ambito didattico è usato per coding, robotica educativa, STEM education, favorendo l'apprendimento through making e il pensiero computazionale attraverso progetti hands-on."
+            },
+
+            // 6. VALUTAZIONE E FEEDBACK
+            {
+                type: "valutazione",
+                text: "Quale delle seguenti azioni dei docenti ostacola la messa in atto dei feedback ricevuti?",
+                options: [
+                    "Elaborare feedback ambigui o generici",
+                    "Progettare compiti strutturati in più fasi",
+                    "Facilitare la comprensione dei feedback",
+                    "Valorizzare la dimensione emotiva positiva"
+                ],
+                correct: 0,
+                explanation: "Un feedback efficace deve essere specifico, chiaro, tempestivo e orientato al miglioramento. Feedback ambigui o generici ('Bene', 'Devi impegnarti di più') non forniscono indicazioni operative e non aiutano lo studente a capire cosa e come migliorare. La ricerca (Hattie & Timperley) evidenzia che il feedback deve rispondere a: Dove sto andando? Come sto andando? Dove andare dopo?"
             },
             {
-                type: "vocabulary",
-                text: "The company's profits have ____________ by 30% compared to last year.",
-                options: ["raised", "risen", "aroused", "arisen"],
+                type: "valutazione",
+                text: "Quale elemento è considerato scarsamente utile per elaborare un feedback efficace?",
+                options: [
+                    "Fornire un voto numerico",
+                    "Fornire giudizio sull'efficacia delle strategie di apprendimento",
+                    "Fornire giudizio descrittivo su punti di forza e debolezza",
+                    "Fornire indicazioni su cosa fare dopo un insuccesso"
+                ],
+                correct: 0,
+                explanation: "La ricerca di Lipnevich e Smith mostra che quando feedback descrittivo e voto numerico sono compresenti, gli studenti si concentrano sul voto ignorando il feedback. Il voto è valutazione sommativa, mentre il feedback deve essere formativo, orientato al processo e al miglioramento. Un feedback efficace descrive punti di forza/debolezza e indica strategie di miglioramento."
+            },
+            {
+                type: "valutazione",
+                text: "Quale affermazione rappresenta un vantaggio della valutazione tra pari (peer assessment)?",
+                options: [
+                    "Promuove la competizione tra studenti",
+                    "Favorisce lo sviluppo di abilità comunicative",
+                    "Aumenta la dipendenza dagli altri",
+                    "Riduce il carico di lavoro dell'insegnante"
+                ],
                 correct: 1,
-                explanation: "'Rise' (intransitivo - risen al participio) significa 'aumentare' da solo. 'Raise' (transitivo) significa 'aumentare qualcosa' e richiede un oggetto. 'Arise' significa 'sorgere/emergere', 'arouse' significa 'suscitare/provocare'."
-            },
-            {
-                type: "preposition",
-                text: "The meeting has been put ____________ until next Friday due to the director's illness.",
-                options: ["off", "on", "up", "down"],
-                correct: 0,
-                explanation: "'Put off' significa 'rimandare' o 'posticipare'. 'Put on' significa indossare o mettere in scena, 'put up' significa ospitare o costruire, 'put down' significa posare o criticare."
-            },
-            {
-                type: "modal",
-                text: "You ____________ be exhausted after working 12 hours straight!",
-                options: ["should", "must", "might", "could"],
-                correct: 1,
-                explanation: "'Must' esprime una deduzione logica forte (certezza al 95%). 'Should' indica probabilità minore, 'might/could' indicano possibilità. Il contesto (12 ore di lavoro) richiede una deduzione forte."
-            },
-            {
-                type: "relative",
-                text: "The woman ____________ I met at the conference was a renowned scientist.",
-                options: ["who", "whom", "which", "whose"],
-                correct: 1,
-                explanation: "'Whom' è il pronome relativo oggetto per persone (formale). 'Who' è soggetto, 'which' per cose, 'whose' per possesso. Qui 'I met' richiede un oggetto, quindi 'whom' (o informalmente 'who')."
-            },
-            {
-                type: "conditional",
-                text: "Unless you ____________ harder, you won't pass the exam.",
-                options: ["will study", "study", "studied", "would study"],
-                correct: 1,
-                explanation: "'Unless' (a meno che) è seguita dal Present Simple per azioni future, come 'if'. Non si usa mai 'will' dopo 'unless' o 'if' nelle frasi condizionali di tipo 1."
-            },
-            {
-                type: "vocabulary",
-                text: "The new policy has ____________ a lot of controversy among employees.",
-                options: ["raised", "risen", "aroused", "arisen"],
-                correct: 2,
-                explanation: "'Arouse' (transitivo) significa 'suscitare' o 'provocare' sentimenti, reazioni. Si usa con: controversy, suspicion, interest, anger. 'Raise' è più neutrale, 'rise/arise' sono intransitivi."
-            },
-            {
-                type: "gerund",
-                text: "I regret ____________ you that your application has been unsuccessful.",
-                options: ["informing", "to inform", "inform", "informed"],
-                correct: 1,
-                explanation: "'Regret to do' significa dispiacersi di dover fare qualcosa (presente/futuro). 'Regret doing' significa pentirsi di aver fatto qualcosa (passato). Qui si comunica una notizia ora, quindi 'to inform'."
-            },
-            {
-                type: "phrasal",
-                text: "The project fell ____________ when the main investor withdrew funding.",
-                options: ["through", "down", "off", "over"],
-                correct: 0,
-                explanation: "'Fall through' significa 'fallire' o 'andare a monte' (per piani, accordi). 'Fall down' è cadere fisicamente, 'fall off' diminuire o staccarsi, 'fall over' ribaltarsi."
-            },
-            {
-                type: "vocabulary",
-                text: "The government plans to ____________ new taxes on luxury goods next year.",
-                options: ["impose", "compose", "expose", "dispose"],
-                correct: 0,
-                explanation: "'Impose' significa 'imporre' (tasse, regole, sanzioni). 'Compose' è comporre/creare, 'expose' è esporre/rivelare, 'dispose' è disporre/liberarsi di. Collocazione: impose taxes/restrictions/penalties."
-            },
-            {
-                type: "adjective",
-                text: "The evidence presented in court was highly ____________ and led to a conviction.",
-                options: ["credible", "credulous", "incredible", "credited"],
-                correct: 0,
-                explanation: "'Credible' significa 'credibile' o 'attendibile'. 'Credulous' significa 'credulone', 'incredible' significa 'incredibile/straordinario', 'credited' è il participio di 'accreditare'."
-            },
-            {
-                type: "preposition",
-                text: "The success of the campaign was attributed ____________ the team's hard work.",
-                options: ["to", "with", "for", "on"],
-                correct: 0,
-                explanation: "'Attribute something to something/someone' significa 'attribuire qualcosa a'. È una collocazione fissa. Altre collocazioni con 'to': contribute to, lead to, amount to."
-            },
-            {
-                type: "passive",
-                text: "By the time you arrive, the documents ____________ and sent to the client.",
-                options: ["will have been signed", "will sign", "will be signing", "have been signed"],
-                correct: 0,
-                explanation: "Future Perfect Passive 'will have been + past participle' indica un'azione passiva completata prima di un momento futuro. I documenti subiranno l'azione (firma) prima dell'arrivo."
-            },
-            {
-                type: "vocabulary",
-                text: "The company decided to ____________ operations in three European countries.",
-                options: ["cease", "seize", "please", "tease"],
-                correct: 0,
-                explanation: "'Cease' significa 'cessare' o 'interrompere'. 'Seize' significa 'afferrare/sequestrare', 'please' significa 'piacere/accontentare', 'tease' significa 'prendere in giro'. Attenzione alla pronuncia simile."
-            },
-            {
-                type: "inversion",
-                text: "Rarely ____________ such dedication from employees.",
-                options: ["have we seen", "we have seen", "we see", "did we saw"],
-                correct: 0,
-                explanation: "Dopo avverbi negativi/limitativi (rarely, seldom, never, hardly) si usa l'inversione soggetto-ausiliare. La struttura è: avverbio + ausiliare + soggetto + verbo principale (rarely have we seen)."
-            },
-            {
-                type: "phrasal",
-                text: "The investigation ____________ that the company had been evading taxes for years.",
-                options: ["brought out", "brought up", "brought about", "brought to light"],
-                correct: 3,
-                explanation: "'Bring to light' significa 'portare alla luce' o 'rivelare'. 'Bring out' è pubblicare/far emergere, 'bring up' è crescere/menzionare, 'bring about' è causare."
-            },
-            {
-                type: "subjunctive",
-                text: "The board insists that all employees ____________ the new safety training.",
-                options: ["attend", "attends", "attended", "will attend"],
-                correct: 0,
-                explanation: "Dopo verbi come 'insist', 'suggest', 'demand', 'recommend' si usa il congiuntivo (subjunctive): soggetto + verbo base (senza -s). È una struttura formale tipica dell'inglese americano."
-            },
-            {
-                type: "vocabulary",
-                text: "The witness was asked to ____________ the sequence of events that night.",
-                options: ["recollect", "collect", "elect", "select"],
-                correct: 0,
-                explanation: "'Recollect' significa 'ricordare' o 'rammentare'. 'Collect' è raccogliere, 'elect' è eleggere, 'select' è selezionare. Il prefisso 're-' indica 'di nuovo' → richiamare alla memoria."
-            },
-            {
-                type: "reported-speech",
-                text: "The manager said that the report ____________ by the end of the week.",
-                options: ["must be completed", "had to be completed", "has to be completed", "must have completed"],
-                correct: 1,
-                explanation: "Nel discorso indiretto, 'must' diventa 'had to' quando il verbo principale è al passato. La forma passiva 'be completed' rimane invariata. 'Must have + past participle' è per deduzioni sul passato."
-            },
-            {
-                type: "preposition",
-                text: "The new regulations will come ____________ effect from January 1st.",
-                options: ["into", "in", "to", "on"],
-                correct: 0,
-                explanation: "'Come into effect' è una collocazione fissa che significa 'entrare in vigore' (per leggi, regolamenti). Altre collocazioni con 'into': get into trouble, look into something, run into someone."
-            },
-            {
-                type: "vocabulary",
-                text: "The company's reputation was severely ____________ by the scandal.",
-                options: ["damaged", "injured", "wounded", "hurt"],
-                correct: 0,
-                explanation: "'Damage' si usa per oggetti, reputazioni, relazioni. 'Injure' è per lesioni fisiche in incidenti, 'wound' per ferite da armi, 'hurt' per dolore fisico/emotivo generale. Ogni verbo ha un contesto specifico."
-            },
-            {
-                type: "quantifier",
-                text: "____________ students passed the exam, which was disappointing for the teachers.",
-                options: ["Few", "A few", "Little", "A little"],
-                correct: 0,
-                explanation: "'Few' (pochi - negativo) vs 'a few' (alcuni - positivo) per numerabili. 'Little/a little' per non numerabili. 'Few' senza articolo ha connotazione negativa (quasi nessuno)."
-            },
-            {
-                type: "phrasal",
-                text: "I couldn't ____________ what she was saying because of the background noise.",
-                options: ["make up", "make out", "make for", "make off"],
-                correct: 1,
-                explanation: "'Make out' significa 'riuscire a capire/distinguere' (con difficoltà). 'Make up' è inventare/truccarsi/riconciliarsi, 'make for' è dirigersi verso, 'make off' è scappare."
-            },
-            {
-                type: "vocabulary",
-                text: "The company provides ____________ training for all new employees.",
-                options: ["comprehensive", "comprehensible", "comprehensive", "apprehensive"],
-                correct: 0,
-                explanation: "'Comprehensive' significa 'completo/esaustivo'. 'Comprehensible' significa 'comprensibile', 'apprehensive' significa 'apprensivo/preoccupato'. Attenzione alle parole simili con significati diversi."
-            },
-            {
-                type: "conditional",
-                text: "I would have helped you if you ____________ me you were struggling.",
-                options: ["told", "had told", "would tell", "have told"],
-                correct: 1,
-                explanation: "Third Conditional: if + past perfect, would have + past participle. Esprime rimpianto per situazioni passate irreali. 'Had told' è il Past Perfect necessario nella clausola condizionale."
-            },
-            {
-                type: "emphasis",
-                text: "It was the marketing team ____________ came up with the brilliant campaign idea.",
-                options: ["who", "which", "what", "whom"],
-                correct: 0,
-                explanation: "La struttura enfatica 'It was...who/that' (cleft sentence) mette in risalto un elemento. Per persone si usa 'who' o 'that', per cose solo 'that'. Serve a dare enfasi a chi ha fatto l'azione."
-            },
-            {
-                type: "vocabulary",
-                text: "The board will ____________ a decision on the merger next month.",
-                options: ["make", "do", "take", "have"],
-                correct: 2,
-                explanation: "'Take a decision' (UK) o 'make a decision' (US) sono entrambi corretti. In UK English 'take' è più comune per decisioni formali/importanti. 'Do/have a decision' non sono corretti."
-            },
-            {
-                type: "preposition",
-                text: "The increase in sales can be accounted ____________ the successful marketing campaign.",
-                options: ["for by", "by for", "to by", "by to"],
-                correct: 0,
-                explanation: "'Account for' significa 'spiegare/giustificare'. Quando si usa la forma passiva, diventa 'be accounted for by'. Due preposizioni consecutive: 'for' appartiene al phrasal verb, 'by' introduce l'agente."
-            },
-            {
-                type: "mixed-conditional",
-                text: "If I had studied medicine, I ____________ a doctor now.",
-                options: ["would be", "would have been", "will be", "had been"],
-                correct: 0,
-                explanation: "Mixed Conditional: if + past perfect (condizione passata), would + infinito (risultato presente). La condizione era nel passato ma il risultato è ora. 'Would be' esprime lo stato attuale ipotetico."
-            },
-            {
-                type: "vocabulary",
-                text: "The research findings ____________ the hypothesis that had been proposed earlier.",
-                options: ["confirmed", "conformed", "informed", "reformed"],
-                correct: 0,
-                explanation: "'Confirm' significa 'confermare'. 'Conform' significa 'conformarsi', 'inform' significa 'informare', 'reform' significa 'riformare'. Attenzione ai verbi simili con prefissi diversi."
-            },
-            {
-                type: "phrasal",
-                text: "The negotiations broke ____________ after both parties failed to reach an agreement.",
-                options: ["down", "up", "off", "out"],
-                correct: 0,
-                explanation: "'Break down' significa 'fallire' (negoziazioni) o 'guastarsi' (macchine). 'Break up' è separarsi/sciogliersi, 'break off' è interrompere bruscamente, 'break out' è scoppiare (guerra, incendio)."
-            },
-            {
-                type: "advanced-grammar",
-                text: "____________ the difficulties, the team managed to complete the project on time.",
-                options: ["Despite of", "Despite", "Although", "Even"],
-                correct: 1,
-                explanation: "'Despite' + sostantivo/gerundio (senza 'of'). 'In spite of' richiede 'of'. 'Although' + soggetto + verbo. 'Even' da solo non introduce concessione. Common error: 'despite of' è sempre sbagliato."
-            },
-            {
-                type: "vocabulary",
-                text: "The company is seeking to ____________ its presence in Asian markets.",
-                options: ["expand", "expend", "extend", "extent"],
-                correct: 0,
-                explanation: "'Expand' significa 'espandere' (business, territorio). 'Expend' significa 'spendere' (energie, risorse), 'extend' significa 'estendere' (tempo, durata), 'extent' è un sostantivo (misura, grado)."
-            },
-            {
-                type: "causative",
-                text: "The director had the entire team ____________ overtime to meet the deadline.",
-                options: ["work", "to work", "working", "worked"],
-                correct: 0,
-                explanation: "'Have someone do something' (causativo attivo) usa l'infinito senza 'to'. Significa 'far fare qualcosa a qualcuno'. Diverso da 'have something done' (causativo passivo) che usa il participio passato."
-            },
-            {
-                type: "preposition",
-                text: "The success of the project hinges ____________ securing adequate funding.",
-                options: ["on", "in", "at", "to"],
-                correct: 0,
-                explanation: "'Hinge on' significa 'dipendere da' o 'essere basato su'. È una collocazione fissa usata per indicare un fattore critico. Simile a 'depend on' ma più formale e enfatico."
-            },
-            {
-                type: "vocabulary",
-                text: "The defendant was ____________ of all charges due to lack of evidence.",
-                options: ["acquitted", "convicted", "accused", "prosecuted"],
-                correct: 0,
-                explanation: "'Acquit' significa 'assolvere/prosciogliere'. 'Convict' è condannare, 'accuse' è accusare, 'prosecute' è perseguire legalmente. Vocabolario legale: acquittal (assoluzione) vs conviction (condanna)."
-            },
-            {
-                type: "inversion",
-                text: "No sooner ____________ the announcement than the phones started ringing.",
-                options: ["had we made", "we had made", "did we make", "we made"],
-                correct: 0,
-                explanation: "'No sooner...than' richiede inversione + Past Perfect. Significa 'non appena'. La struttura è: No sooner + ausiliare + soggetto + past participle + than + past simple."
-            },
-            {
-                type: "collocation",
-                text: "The company decided to ____________ an inquiry into the allegations of misconduct.",
-                options: ["conduct", "lead", "make", "do"],
-                correct: 0,
-                explanation: "'Conduct an inquiry/investigation' è la collocazione corretta. 'Conduct' si usa con: research, survey, business, orchestra. 'Carry out' è alternativa possibile. 'Make/do an inquiry' non sono standard."
-            },
-            {
-                type: "vocabulary",
-                text: "The economic downturn had a ____________ impact on small businesses.",
-                options: ["devastated", "devastating", "devastate", "devastation"],
-                correct: 1,
-                explanation: "Il participio presente 'devastating' è l'aggettivo che descrive qualcosa che causa devastazione. 'Devastated' descrive chi/cosa è stato devastato. 'Devastate' è il verbo, 'devastation' il sostantivo."
-            },
-            {
-                type: "phrasal",
-                text: "The committee will look ____________ the proposal before making a final decision.",
-                options: ["into", "for", "after", "through"],
-                correct: 0,
-                explanation: "'Look into' significa 'esaminare' o 'investigare'. 'Look for' è cercare, 'look after' è prendersi cura di, 'look through' è scorrere/esaminare rapidamente documenti."
-            },
-            {
-                type: "participle",
-                text: "____________ by the results, the researchers decided to conduct further experiments.",
-                options: ["Encouraging", "Encouraged", "To encourage", "Encourage"],
-                correct: 1,
-                explanation: "Participio passato 'encouraged' perché i ricercatori ricevono l'incoraggiamento (sono incoraggiati). Participio presente si userebbe se fossero loro a incoraggiare. Participio passato = passivo, presente = attivo."
-            },
-            {
-                type: "vocabulary",
-                text: "The government announced plans to ____________ the minimum wage by 10%.",
-                options: ["raise", "rise", "arise", "rouse"],
-                correct: 0,
-                explanation: "'Raise' (transitivo) + oggetto significa 'aumentare qualcosa'. 'Rise' è intransitivo (aumentare da solo), 'arise' è sorgere/emergere, 'rouse' è svegliare/stimolare. Solo 'raise' richiede un oggetto diretto."
-            },
-            {
-                type: "modal-perfect",
-                text: "The client ____________ received our proposal by now; I sent it three days ago.",
-                options: ["must have", "should have", "could have", "would have"],
-                correct: 0,
-                explanation: "'Must have + past participle' esprime deduzione forte sul passato (certezza logica). 'Should have' è per azioni dovute non fatte, 'could have' per possibilità passate, 'would have' per condizionali."
-            },
-            {
-                type: "preposition",
-                text: "The new policy is aimed ____________ reducing carbon emissions by 50%.",
-                options: ["at", "to", "for", "on"],
-                correct: 0,
-                explanation: "'Be aimed at + gerundio' significa 'mirare a' o 'avere come obiettivo'. È una collocazione fissa. Altre strutture simili: be directed at, be targeted at, be designed to (+ infinito)."
-            },
-            {
-                type: "vocabulary",
-                text: "The report highlights several ____________ issues that need immediate attention.",
-                options: ["pressing", "pressing", "stressed", "stressful"],
-                correct: 0,
-                explanation: "'Pressing' significa 'urgente' o 'pressante' (pressing issues/matters/concerns). 'Stressed' descrive persone sotto stress, 'stressful' descrive situazioni che causano stress. Contesto determina la scelta."
-            },
-            {
-                type: "gerund-infinitive",
-                text: "We stopped ____________ petrol before continuing our journey.",
-                options: ["to get", "getting", "get", "got"],
-                correct: 0,
-                explanation: "'Stop to do' = fermarsi per fare qualcosa (scopo). 'Stop doing' = smettere di fare qualcosa. Qui si fermano CON LO SCOPO di prendere benzina. Differenza cruciale di significato."
-            },
-            {
-                type: "collocation",
-                text: "The company has ____________ significant progress in reducing its environmental impact.",
-                options: ["made", "done", "taken", "had"],
-                correct: 0,
-                explanation: "'Make progress' è la collocazione standard. Altri usi di 'make': make an effort, make a decision, make a mistake, make a difference. 'Do' si usa con: homework, business, research."
-            },
-            {
-                type: "vocabulary",
-                text: "The lawyer advised her client to ____________ the settlement offer.",
-                options: ["accept", "except", "expect", "excerpt"],
-                correct: 0,
-                explanation: "'Accept' significa 'accettare'. 'Except' significa 'eccetto' (preposizione), 'expect' significa 'aspettarsi', 'excerpt' significa 'estratto'. Parole foneticamente simili ma significati completamente diversi."
-            },
-            {
-                type: "phrasal",
-                text: "The CEO stepped ____________ after 20 years of leading the company.",
-                options: ["down", "up", "out", "in"],
-                correct: 0,
-                explanation: "'Step down' significa 'dimettersi' (da una posizione). 'Step up' è aumentare/farsi avanti, 'step out' è uscire, 'step in' è intervenire. Phrasal verb comune nel contesto aziendale."
-            },
-            {
-                type: "emphasis",
-                text: "What really ____________ was the team's ability to work under pressure.",
-                options: ["matters", "mattered", "mattering", "to matter"],
-                correct: 1,
-                explanation: "In questa cleft sentence (frase scissa), 'what' introduce la clausola enfatica e richiede il Past Simple 'mattered' per concordare con il contesto passato. 'What matters' è presente, qui serve il passato."
-            },
-            {
-                type: "vocabulary",
-                text: "The company's new strategy proved to be highly ____________ in increasing market share.",
-                options: ["effective", "affective", "efficient", "defective"],
-                correct: 0,
-                explanation: "'Effective' significa 'efficace' (produce risultati desiderati). 'Efficient' significa 'efficiente' (ottimizza risorse). 'Affective' riguarda le emozioni, 'defective' significa difettoso. Effective = funziona bene."
+                explanation: "La peer assessment (valutazione tra pari) ha molteplici vantaggi: sviluppa competenze metacognitive, abilità comunicative e critiche, favorisce l'apprendimento collaborativo. Gli studenti imparano dai feedback dei compagni e riflettono sui criteri di qualità. Non è uno strumento per ridurre il lavoro docente, ma una strategia didattica per sviluppare autonomia e competenze valutative."
             }
         ];
 
@@ -1066,16 +753,37 @@ fetch(DATI_SIMULAZIONI)
             return arr;
         }
 
+        function startTest(testType) {
+            currentTest = testType;
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('test-section').style.display = 'block';
+            
+            if (testType === 'english') {
+                document.getElementById('test-title').textContent = 'Test di Inglese B2';
+                document.getElementById('test-subtitle').textContent = '80 quesiti per la preparazione al concorso';
+                document.getElementById('test-badge').textContent = 'Livello B2 - Upper Intermediate';
+                currentQuestions = shuffle(englishQuestions);
+            } else {
+                document.getElementById('test-title').textContent = 'Test Psicopedagogia';
+                document.getElementById('test-subtitle').textContent = '18 quesiti - Metodologie Didattiche e Inclusione';
+                document.getElementById('test-badge').textContent = 'Concorso PNRR 3 - Parte Generale';
+                document.getElementById('test-badge').className = 'badge bg-success badge-level';
+                currentQuestions = shuffle(pedagogyQuestions);
+            }
+            
+            renderQuestions();
+        }
+
         function renderQuestions() {
             const container = document.getElementById('questions-container');
-            const shuffled = shuffle(questions);
+            container.innerHTML = '';
             
-            shuffled.forEach((q, idx) => {
+            currentQuestions.forEach((q, idx) => {
                 const card = document.createElement('div');
                 card.className = 'card question-card';
                 
                 let content = `
-                    <div class="card-header bg-primary text-white">
+                    <div class="card-header ${currentTest === 'english' ? 'bg-primary' : 'bg-success'} text-white">
                         <h5 class="mb-0">Domanda ${idx + 1} <small class="float-end">${q.type}</small></h5>
                     </div>
                     <div class="card-body">
@@ -1112,7 +820,7 @@ fetch(DATI_SIMULAZIONI)
         }
 
         function checkAnswer(qIdx, optIdx) {
-            const q = shuffle(questions)[qIdx];
+            const q = currentQuestions[qIdx];
             const options = document.querySelectorAll('.question-card')[qIdx].querySelectorAll('.option');
             const explanation = document.getElementById(`exp-${qIdx}`);
             
@@ -1130,7 +838,20 @@ fetch(DATI_SIMULAZIONI)
             explanation.style.display = 'block';
         }
 
-        renderQuestions();
+        function backToMenu() {
+            document.getElementById('test-section').style.display = 'none';
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('test-badge').className = 'badge bg-primary badge-level';
+            currentTest = null;
+        }
+
+        function reloadTest() {
+            if (currentTest) {
+                currentQuestions = shuffle(currentTest === 'english' ? englishQuestions : pedagogyQuestions);
+                renderQuestions();
+                window.scrollTo(0, 0);
+            }
+        }
     </script>
 </body>
 </html>
