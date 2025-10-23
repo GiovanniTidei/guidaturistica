@@ -195,7 +195,7 @@
             "Friuli", "Lazio", "Liguria", "Lombardia", "Marche",
             "Molise", "Piemonte", "Puglia", "Sardegna", "Sicilia",
             "Toscana", "Umbria", "Valle d'Aosta", "Veneto",
-            "Trento","Bolzano", "Sezione IV"
+            "Trento","Bolzano", "Normativa"
         ];
 
         let currentRegion = null;
@@ -309,7 +309,7 @@
                 // Abilita il pulsante del test generale
                 document.getElementById('general-test-btn').disabled = false;
                 document.getElementById('general-test-btn').innerHTML = 
-                    `🎯 TEST GENERALE (${Math.min(40, totalDomande)} domande casuali)`;
+                    `🎯 TEST GENERALE (${Math.min(80, totalDomande)} domande casuali)`;
 
                 generateRegionButtons();
 
@@ -404,7 +404,7 @@
 
             // Mescola tutte le domande e prende max 40
             allQuestions = shuffleArray(allQuestions);
-            const numQuestions = Math.min(40, allQuestions.length);
+            const numQuestions = Math.min(80, allQuestions.length);
             currentQuestions = allQuestions.slice(0, numQuestions);
             
             score = 0;

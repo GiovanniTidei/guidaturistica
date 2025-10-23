@@ -9066,9 +9066,445 @@
     
     
     
-    "Sezione IV": 
+    "normativa": 
 [ 
-
+    {
+      "domanda": "Qual è la definizione di 'bene culturale' secondo il Codice dei beni culturali e del paesaggio?",
+      "opzioni": [
+        "Le cose immobili e mobili che presentano interesse artistico, storico, archeologico, etnoantropologico",
+        "Solo i musei e le gallerie d'arte statali",
+        "Esclusivamente i beni archivistici e librari",
+        "Solo i beni paesaggistici di particolare pregio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Art. 2 del d.lgs. 42/2004 definisce beni culturali le cose immobili e mobili che presentano interesse artistico, storico, archeologico, etnoantropologico"
+    },
+    {
+      "domanda": "Cosa si intende per 'valorizzazione' dei beni culturali secondo il Codice?",
+      "opzioni": [
+        "Le attività dirette a promuovere la conoscenza del patrimonio culturale e ad assicurarne le migliori condizioni di utilizzazione",
+        "La sola manutenzione straordinaria dei beni",
+        "Esclusivamente le operazioni di restauro",
+        "Solo l'aumento del biglietto d'ingresso"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Art. 6 del d.lgs. 42/2004 definisce la valorizzazione come le attività dirette a promuovere la conoscenza del patrimonio culturale"
+    },
+    {
+      "domanda": "Quale articolo della Costituzione tutela il paesaggio e il patrimonio storico-artistico?",
+      "opzioni": ["Articolo 9", "Articolo 32", "Articolo 41", "Articolo 117"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 9 della Costituzione stabilisce che 'La Repubblica promuove lo sviluppo della cultura e la ricerca scientifica e tecnica. Tutela il paesaggio e il patrimonio storico e artistico della Nazione'"
+    },
+    {
+      "domanda": "Cosa prevede l'articolo 23 della Legge 104/1992 in materia di accessibilità?",
+      "opzioni": [
+        "L'eliminazione delle barriere architettoniche negli edifici privati aperti al pubblico",
+        "Solo l'accessibilità dei mezzi di trasporto pubblici",
+        "Esclusivamente l'abbattimento delle barriere nelle scuole",
+        "Solo l'accessibilità degli uffici pubblici"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 23 della L. 104/1992 prescrive l'eliminazione delle barriere architettoniche negli edifici privati aperti al pubblico"
+    },
+    {
+      "domanda": "Quale articolo della Costituzione garantisce la libertà di circolazione?",
+      "opzioni": ["Articolo 16", "Articolo 9", "Articolo 32", "Articolo 36"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 16 della Costituzione stabilisce che 'Ogni cittadino può circolare e soggiornare liberamente in qualsiasi parte del territorio nazionale'"
+    },
+    {
+      "domanda": "Cosa disciplina il Decreto Legislativo 79/2011?",
+      "opzioni": [
+        "Il codice del turismo",
+        "La disciplina dei beni culturali",
+        "Le professioni turistiche",
+        "Il paesaggio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il d.lgs. 79/2011 contiene il codice del turismo, che riunisce la disciplina organica della materia"
+    },
+    {
+      "domanda": "Quale norma UNI regola l'accessibilità del turismo?",
+      "opzioni": ["ISO 21902", "ISO 9001", "ISO 14001", "ISO 45001"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La norma ISO 21902:2021 stabilisce i requisiti per l'accessibilità del turismo e dei servizi correlati"
+    },
+    {
+      "domanda": "Cosa prevede l'articolo 30 della Convenzione ONU sui diritti delle persone con disabilità?",
+      "opzioni": [
+        "La partecipazione alla vita culturale e ricreativa su base di uguaglianza",
+        "Solo il diritto al lavoro per i disabili",
+        "Esclusivamente l'accesso all'istruzione",
+        "Solo la protezione sociale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 30 della Convenzione ONU riconosce il diritto delle persone con disabilità a partecipare alla vita culturale su base di uguaglianza"
+    },
+    {
+      "domanda": "Quale articolo della Costituzione tutela la salute come fondamentale diritto dell'individuo?",
+      "opzioni": ["Articolo 32", "Articolo 9", "Articolo 16", "Articolo 41"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 32 della Costituzione afferma che 'La Repubblica tutela la salute come fondamentale diritto dell'individuo e interesse della collettività'"
+    },
+    {
+      "domanda": "Cosa stabilisce l'articolo 36 della Costituzione?",
+      "opzioni": [
+        "Il diritto alla retribuzione proporzionata e sufficiente",
+        "La tutela del paesaggio",
+        "La libertà di impresa",
+        "La ripartizione di competenze Stato-Regioni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 36 della Costituzione garantisce al lavoratore una retribuzione proporzionata alla quantità e qualità del suo lavoro"
+    },
+    {
+      "domanda": "Quale legge disciplina la professione di guida turistica?",
+      "opzioni": [
+        "Legge 190/2023",
+        "Legge 55/2021",
+        "Decreto Legislativo 79/2011",
+        "Legge 104/1992"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge 190/2023 contiene disposizioni per l'esercizio della professione di guida turistica"
+    },
+    {
+      "domanda": "Cosa prevede l'articolo 41 della Costituzione in materia di iniziativa economica?",
+      "opzioni": [
+        "L'iniziativa economica privata è libera, ma non può svolgersi in contrasto con l'utilità sociale",
+        "L'iniziativa economica è esclusivamente statale",
+        "La libertà economica è assoluta senza limiti",
+        "Solo le imprese turistiche sono libere"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 41 della Costituzione riconosce la libertà dell'iniziativa economica privata, purché non contrasti con l'utilità sociale"
+    },
+    {
+      "domanda": "Quale articolo della Costituzione disciplina la ripartizione di competenze tra Stato e Regioni?",
+      "opzioni": ["Articolo 117", "Articolo 9", "Articolo 16", "Articolo 32"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 117 della Costituzione determina le materie di competenza esclusiva dello Stato e quelle di competenza concorrente"
+    },
+    {
+      "domanda": "Cosa istituisce la Legge 55/2021?",
+      "opzioni": [
+        "Il Ministero del Turismo",
+        "Le agenzie di viaggio",
+        "Le guide turistiche",
+        "Il codice del turismo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge 55/2021 istituisce il Ministero del Turismo come dicastero autonomo"
+    },
+    {
+      "domanda": "Quale DPCM del 2023 definisce l'organizzazione del Ministero del Turismo?",
+      "opzioni": [
+        "DPCM 177/2023",
+        "DPCM 88/2024",
+        "DPCM 29/2024",
+        "DPCM 42/2004"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il DPCM 30 ottobre 2023 n. 177 definisce l'organizzazione e le funzioni del Ministero del Turismo"
+    },
+    {
+      "domanda": "Cosa disciplina il Decreto Legislativo 29/2024?",
+      "opzioni": [
+        "Disposizioni per l'accessibilità nel turismo",
+        "Il codice dei beni culturali",
+        "Le professioni turistiche",
+        "Le agenzie di viaggio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il d.lgs. 29/2024 contiene disposizioni per migliorare l'accessibilità nel settore turistico"
+    },
+    {
+      "domanda": "Quale DM disciplina le disposizioni applicative per la professione di guida turistica?",
+      "opzioni": [
+        "DM 88/2024",
+        "DM 177/2023",
+        "DM 79/2011",
+        "DM 42/2004"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Decreto Ministeriale 26 giugno 2024 n. 88 contiene le disposizioni applicative per la professione di guida turistica"
+    },
+    {
+      "domanda": "Cosa si intende per 'fruizione' dei beni culturali secondo il Codice?",
+      "opzioni": [
+        "La possibilità di godere dei beni culturali per promuovere lo sviluppo della cultura",
+        "La sola vendita dei beni culturali",
+        "Esclusivamente il restauro dei beni",
+        "Solo la catalogazione dei beni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 2 del d.lgs. 42/2004 definisce la fruizione come la possibilità di godere dei beni culturali"
+    },
+    {
+      "domanda": "Quale organismo UE si occupa di politiche per il turismo?",
+      "opzioni": [
+        "La Commissione Europea - DG GROW",
+        "Il Parlamento Europeo - Commissione Cultura",
+        "La Banca Centrale Europea",
+        "La Corte di Giustizia UE"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Direzione Generale per il Mercato Interno, l'Imprenditoria e le PMI (DG GROW) della Commissione Europea gestisce le politiche per il turismo"
+    },
+    {
+      "domanda": "Cosa prevede l'articolo 8 del d.lgs. 29/2024?",
+      "opzioni": [
+        "Misure per l'accessibilità nelle strutture ricettive",
+        "Disciplina delle guide turistiche",
+        "Norme per le agenzie di viaggio",
+        "Tutela del paesaggio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 8 del d.lgs. 29/2024 stabilisce specifiche misure per garantire l'accessibilità nelle strutture ricettive turistiche"
+    },
+    {
+      "domanda": "Quale programma UE finanzia progetti culturali e turistici?",
+      "opzioni": [
+        "Creative Europe",
+        "Horizon Europe",
+        "Erasmus+",
+        "Life"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il programma Creative Europe dell'UE finanzia progetti nel settore culturale e creativo, incluso il turismo culturale"
+    },
+    {
+      "domanda": "Cosa disciplina il Titolo II del d.lgs. 79/2011?",
+      "opzioni": [
+        "Le imprese e le professioni turistiche",
+        "I beni culturali",
+        "Il paesaggio",
+        "L'accessibilità"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Titolo II del codice del turismo (d.lgs. 79/2011) disciplina le imprese e le professioni turistiche"
+    },
+    {
+      "domanda": "Quale articolo del d.lgs. 42/2004 definisce il paesaggio?",
+      "opzioni": [
+        "Articolo 131",
+        "Articolo 2",
+        "Articolo 6",
+        "Articolo 9"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 131 del d.lgs. 42/2004 definisce il paesaggio come parti di territorio i cui caratteri distintivi derivano dalla natura, dalla storia umana o dalle reciproche interrelazioni"
+    },
+    {
+      "domanda": "Cosa prevede la Convenzione Europea del Paesaggio?",
+      "opzioni": [
+        "La protezione, gestione e pianificazione dei paesaggi europei",
+        "Solo la tutela dei paesaggi naturali",
+        "Esclusivamente la conservazione dei centri storici",
+        "Solo lo sviluppo del turismo rurale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Convenzione Europea del Paesaggio, ratificata in Italia con L. 14/2006, promuove la protezione, gestione e pianificazione dei paesaggi"
+    },
+    {
+      "domanda": "Quale norma disciplina le agenzie di viaggio in Italia?",
+      "opzioni": [
+        "Articoli 84-100 del d.lgs. 79/2011",
+        "Legge 190/2023",
+        "Decreto Legislativo 29/2024",
+        "Legge 104/1992"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli articoli 84-100 del codice del turismo (d.lgs. 79/2011) disciplinano l'attività delle agenzie di viaggio"
+    },
+    {
+      "domanda": "Cosa si intende per 'turismo accessibile' secondo la normativa?",
+      "opzioni": [
+        "La possibilità per tutti di fruire dell'offerta turistica senza barriere",
+        "Solo il turismo per disabili motori",
+        "Esclusivamente il turismo low-cost",
+        "Solo il turismo digitale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il turismo accessibile garantisce a tutti, comprese persone con disabilità, di fruire dell'offerta turistica senza barriere fisiche, sensoriali o cognitive"
+    },
+    {
+      "domanda": "Quale articolo del d.lgs. 79/2011 definisce i contratti di viaggio?",
+      "opzioni": [
+        "Articolo 81",
+        "Articolo 84",
+        "Articolo 90",
+        "Articolo 100"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 81 del codice del turismo definisce il contratto di viaggio e le relative obbligazioni delle parti"
+    },
+    {
+      "domanda": "Cosa prevede la Legge 190/2023 per le guide turistiche?",
+      "opzioni": [
+        "Disciplina l'accesso alla professione e l'abilitazione",
+        "Abolisce la professione di guida turistica",
+        "Istituisce il Ministero del Turismo",
+        "Disciplina solo le guide ambientali"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge 190/2023 disciplina l'accesso alla professione di guida turistica, i requisiti e il sistema abilitativo"
+    },
+    {
+      "domanda": "Quale organismo verifica l'applicazione della ISO 21902?",
+      "opzioni": [
+        "Organismi di certificazione accreditati",
+        "Il Ministero del Turismo",
+        "Le Regioni",
+        "Le ASL"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La verifica dell'applicazione della norma ISO 21902 è effettuata da organismi di certificazione accreditati"
+    },
+    {
+      "domanda": "Cosa stabilisce l'articolo 117 Cost. in materia di turismo?",
+      "opzioni": [
+        "Competenza concorrente tra Stato e Regioni",
+        "Competenza esclusiva statale",
+        "Competenza esclusiva regionale",
+        "Competenza dei Comuni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 117 Cost. attribuisce al turismo la qualifica di materia a competenza legislativa concorrente tra Stato e Regioni"
+    },
+    {
+      "domanda": "Quale Direttiva UE influisce sul turismo accessibile?",
+      "opzioni": [
+        "Direttiva 2019/882 sull'accessibilità dei prodotti e servizi",
+        "Direttiva 2018/958 sulle professioni",
+        "Direttiva 2015/2302 sui pacchetti turistici",
+        "Direttiva 2006/123 sui servizi"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Direttiva (UE) 2019/882 stabilisce requisiti di accessibilità per prodotti e servizi, incluso il settore turistico"
+    },
+    {
+      "domanda": "Cosa prevede il DM 88/2024 per le guide turistiche?",
+      "opzioni": [
+        "Modalità di svolgimento degli esami di abilitazione",
+        "La soppressione della professione",
+        "L'aumento delle tasse",
+        "Solo la formazione online"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il DM 88/2024 definisce le modalità di svolgimento degli esami di abilitazione per la professione di guida turistica"
+    },
+    {
+      "domanda": "Quale articolo del d.lgs. 42/2004 disciplina i beni demoetnoantropologici?",
+      "opzioni": [
+        "Articolo 10",
+        "Articolo 2",
+        "Articolo 6",
+        "Articolo 131"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 10 del d.lgs. 42/2004 include tra i beni culturali le cose di interesse demoetnoantropologico"
+    },
+    {
+      "domanda": "Cosa si intende per 'contratto di viaggio' nel codice del turismo?",
+      "opzioni": [
+        "Il contratto che comprende almeno due elementi tra viaggio, alloggio e altri servizi turistici",
+        "Solo il biglietto aereo",
+        "Esclusivamente il pacchetto vacanza",
+        "Solo la prenotazione alberghiera"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 81 del d.lgs. 79/2011 definisce il contratto di viaggio come quello che comprende almeno due elementi tra viaggio, alloggio e altri servizi"
+    },
+    {
+      "domanda": "Quale legge istituisce il Fondo per il turismo accessibile?",
+      "opzioni": [
+        "Legge di Bilancio 2023",
+        "Legge 190/2023",
+        "Legge 55/2021",
+        "Legge 104/1992"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge di Bilancio 2023 ha istituito specifici fondi per promuovere l'accessibilità nel settore turistico"
+    },
+    {
+      "domanda": "Cosa disciplina l'articolo 9 del d.lgs. 79/2011?",
+      "opzioni": [
+        "La classificazione delle strutture ricettive",
+        "Le guide turistiche",
+        "Le agenzie di viaggio",
+        "I contratti di viaggio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 9 del codice del turismo disciplina i criteri per la classificazione delle strutture ricettive"
+    },
+    {
+      "domanda": "Quale articolo della Costituzione è stato modificato per il federalismo fiscale?",
+      "opzioni": [
+        "Articolo 119",
+        "Articolo 117",
+        "Articolo 9",
+        "Articolo 41"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 119 della Costituzione, modificato dalla legge costituzionale 3/2001, disciplina l'autonomia finanziaria di entrata e di spesa di Comuni, Province e Regioni"
+    },
+    {
+      "domanda": "Cosa prevede il Regolamento UE 2015/2302?",
+      "opzioni": [
+        "La protezione dei viaggiatori nei pacchetti turistici",
+        "L'accessibilità delle strutture",
+        "Le qualifiche professionali",
+        "La sicurezza alimentare"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Regolamento UE 2015/2302 stabilisce norme armonizzate per la protezione dei viaggiatori nei contratti di viaggio"
+    },
+    {
+      "domanda": "Quale DM disciplina i requisiti per le guide turistiche abilitate?",
+      "opzioni": [
+        "DM 88/2024",
+        "DM 177/2023",
+        "DM 79/2011",
+        "DM 42/2004"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il DM 88/2024 definisce i requisiti e le modalità per l'abilitazione alla professione di guida turistica"
+    },
+    {
+      "domanda": "Cosa si intende per 'paesaggio' secondo il Codice?",
+      "opzioni": [
+        "Parti di territorio i cui caratteri derivano da natura, storia umana o interrelazioni",
+        "Solo le aree naturali protette",
+        "Esclusivamente i centri storici",
+        "Solo le coste e le montagne"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'art. 131 del d.lgs. 42/2004 definisce il paesaggio come parti di territorio i cui caratteri distintivi derivano dalla natura, dalla storia umana o dalle reciproche interrelazioni"
+    },
+    {
+      "domanda": "Quale articolo del d.lgs. 29/2024 promuove il turismo inclusivo?",
+      "opzioni": [
+        "Articolo 8",
+        "Articolo 1",
+        "Articolo 3",
+        "Articolo 5"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'articolo 8 del d.lgs. 29/2024 contiene specifiche disposizioni per promuovere il turismo inclusivo e accessibile"
+    },
+    {
+      "domanda": "Cosa prevede la Legge 55/2021 per il Ministero del Turismo?",
+      "opzioni": [
+        "Definisce missione e funzioni del dicastero",
+        "Abolisce il Ministero",
+        "Istituisce le agenzie di viaggio statali",
+        "Disciplina solo le guide turistiche"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge 55/2021 definisce missione, funzioni e organizzazione del Ministero del Turismo come dicastero autonomo"
+    }
 ]
 }
 
