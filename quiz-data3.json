@@ -1,0 +1,11 @@
+{
+  "veneto": [
+    {
+      "domanda": "Esempio domanda Lazio",
+      "opzioni": ["Opzione 1", "Opzione 2", "Opzione 3", "Opzione 4"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Spiegazione della risposta corretta"
+    }
+  ]
+ 
+}

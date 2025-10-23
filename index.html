@@ -120,6 +120,19 @@
             transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(253, 160, 133, 0.6);
         }
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
@@ -127,19 +140,23 @@
         <!-- Menu regioni -->
         <div id="menu" class="menu-section">
             <h1 class="display-4 mb-3 text-center" style="color: #667eea; font-weight: bold;">🇮🇹 Quiz Guida Turistica</h1>
-            <!-- <p class="lead text-center mb-5" style="color: #666;">Scegli una regione e testa la tua conoscenza sui siti turistici italiani</p> -->
-            <br>
+            <div class="text-center mb-4">
+                <span id="loading-indicator" class="badge bg-info">
+                    <span class="loading-spinner"></span> Caricamento dati...
+                </span>
+                <span id="data-info" class="badge bg-success" style="display: none;"></span>
+            </div>
+            
             <div class="row g-3 mb-4" id="regions-grid"></div>
             
             <hr class="my-5">
             
             <div class="text-center">
-                <button class="btn general-test-btn w-100" onclick="startGeneralTest()">
-                    🎯 TEST 40 DOMANDE CASUALI
+                <button class="btn general-test-btn w-100" onclick="startGeneralTest()" id="general-test-btn" disabled>
+                    🎯 TEST GENERALE (Caricamento...)
                 </button>
-                <!-- added reload button to refresh after running Node script -->
-                <button class="btn btn-light mt-3" onclick="location.reload();" title="Ricarica la pagina per leggere quiz-data.json aggiornato">
-                  🔄 Ricarica domande (dopo shuffle)
+                <button class="btn btn-light mt-3" onclick="location.reload();" title="Ricarica la pagina per leggere i JSON aggiornati">
+                  🔄 Ricarica domande
                 </button>
             </div>
         </div>
@@ -174,11 +191,11 @@
     <script>
         let quizData = {};
         let regioni = [
-            "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia-Romagna",
-            "Friuli-Venezia Giulia", "Lazio", "Liguria", "Lombardia", "Marche",
+            "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia",
+            "Friuli", "Lazio", "Liguria", "Lombardia", "Marche",
             "Molise", "Piemonte", "Puglia", "Sardegna", "Sicilia",
             "Toscana", "Umbria", "Valle d'Aosta", "Veneto",
-            "Trentino-Alto Adige", "Provincia di Trento", "Provincia di Bolzano"
+            "Trento","Bolzano", "Sezione IV"
         ];
 
         let currentRegion = null;
@@ -187,27 +204,35 @@
         let totalQuestions = 0;
         let isGeneralTest = false;
 
+        // Lista di tutti i file JSON da caricare
+        const jsonFiles = [
+            'quiz-data.json',
+            'quiz-data2.json', 
+            'quiz-data3.json',
+            'quiz-data4.json',
+            'quiz-data5.json'
+        ];
+
         // Nuova: mescola opzioni e aggiorna rispostaCorretta per ogni domanda
         function randomizeQuizOptions(data) {
             if (!data || typeof data !== 'object') return data;
-            // Fisher-Yates per array annotato
+            
             function shuffleAnnotated(arr) {
                 for (let i = arr.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [arr[i], arr[j]] = [arr[j], arr[i]];
                 }
             }
+            
             for (const region in data) {
                 const list = data[region];
                 if (!Array.isArray(list)) continue;
                 list.forEach(q => {
                     if (!Array.isArray(q.opzioni) || q.opzioni.length === 0) return;
                     const origCorrect = (typeof q.rispostaCorretta === 'number') ? q.rispostaCorretta : 0;
-                    // annotate options with original index
                     const annotated = q.opzioni.map((opt, idx) => ({ opt, idx }));
                     shuffleAnnotated(annotated);
                     q.opzioni = annotated.map(a => a.opt);
-                    // find new index where originalIdx === origCorrect
                     const newIdx = annotated.findIndex(a => a.idx === origCorrect);
                     q.rispostaCorretta = newIdx >= 0 ? newIdx : 0;
                 });
@@ -215,22 +240,85 @@
             return data;
         }
 
-        // Funzione per caricare il JSON esterno
-        async function loadQuizData() {
+        // Funzione per caricare TUTTI i file JSON
+        async function loadAllQuizData() {
             try {
-                const response = await fetch('quiz-data.json');
-                if (!response.ok) {
-                    throw new Error('Impossibile caricare il file quiz-data.json');
-                }
-                quizData = await response.json();
+                let allData = {};
+                let loadedFiles = 0;
+                let totalDomande = 0;
+                let totalRegioni = 0;
 
-                // Applica randomizzazione delle opzioni qui (evita che rispostaCorretta sia sempre 0)
+                // Aggiorna l'indicatore di caricamento
+                document.getElementById('loading-indicator').innerHTML = 
+                    `<span class="loading-spinner"></span> Caricamento file 0/${jsonFiles.length}...`;
+
+                // Carica tutti i file JSON in parallelo
+                const promises = jsonFiles.map(async (file, index) => {
+                    try {
+                        const response = await fetch(file);
+                        if (!response.ok) {
+                            console.warn(`File ${file} non trovato, salto`);
+                            return null;
+                        }
+                        const data = await response.json();
+                        loadedFiles++;
+                        
+                        // Aggiorna progresso
+                        document.getElementById('loading-indicator').innerHTML = 
+                            `<span class="loading-spinner"></span> Caricamento file ${loadedFiles}/${jsonFiles.length}...`;
+                        
+                        return data;
+                    } catch (error) {
+                        console.warn(`Errore nel caricamento di ${file}:`, error);
+                        return null;
+                    }
+                });
+
+                // Attendi che tutti i file siano caricati
+                const results = await Promise.all(promises);
+
+                // Unisci tutti i dati
+                results.forEach((data, index) => {
+                    if (data && typeof data === 'object') {
+                        for (const region in data) {
+                            if (allData[region]) {
+                                // Se la regione esiste già, unisci le domande
+                                allData[region] = [...allData[region], ...data[region]];
+                            } else {
+                                // Nuova regione
+                                allData[region] = data[region];
+                                totalRegioni++;
+                            }
+                            totalDomande += data[region].length;
+                        }
+                        console.log(`File ${jsonFiles[index]} caricato con successo`);
+                    }
+                });
+
+                quizData = allData;
+
+                // Applica randomizzazione
                 quizData = randomizeQuizOptions(quizData);
 
+                // Nascondi indicatore di caricamento e mostra info
+                document.getElementById('loading-indicator').style.display = 'none';
+                document.getElementById('data-info').style.display = 'inline-block';
+                document.getElementById('data-info').textContent = 
+                    `${totalDomande} domande in ${totalRegioni} regioni da ${loadedFiles} file`;
+
+                // Abilita il pulsante del test generale
+                document.getElementById('general-test-btn').disabled = false;
+                document.getElementById('general-test-btn').innerHTML = 
+                    `🎯 TEST GENERALE (${Math.min(40, totalDomande)} domande casuali)`;
+
                 generateRegionButtons();
+
+                console.log(`Caricamento completato: ${loadedFiles}/${jsonFiles.length} file, ${totalDomande} domande, ${totalRegioni} regioni`);
+
             } catch (error) {
                 console.error('Errore nel caricamento dei dati:', error);
-                alert('Errore: Assicurati che il file quiz-data.json sia nella stessa cartella del file HTML');
+                document.getElementById('loading-indicator').innerHTML = 
+                    '❌ Errore nel caricamento. Controlla la console.';
             }
         }
 
@@ -249,20 +337,24 @@
             const grid = document.getElementById('regions-grid');
             grid.innerHTML = '';
             
-            regioni.forEach((regione, index) => {
+            // Ordina le regioni per nome
+            const regioniOrdinate = [...regioni].sort();
+            
+            regioniOrdinate.forEach((regione, index) => {
                 const col = document.createElement('div');
                 col.className = 'col-md-4 col-sm-6';
                 
                 const colorClass = `region-colors-${(index % 5) + 1}`;
                 const regionKey = regione.toLowerCase().replace(/[^a-z]/g, '');
                 const isAvailable = quizData[regionKey] !== undefined;
+                const numDomande = isAvailable ? quizData[regionKey].length : 0;
                 
                 col.innerHTML = `
                     <button class="btn region-btn ${colorClass}" 
                             onclick="startTest('${regionKey}')"
                             ${!isAvailable ? 'disabled' : ''}>
                         ${regione}
-                        ${!isAvailable ? '<br><small>(Prossimamente)</small>' : `<br><small>(${quizData[regionKey]?.length || 0} domande)</small>`}
+                        ${!isAvailable ? '<br><small>(Prossimamente)</small>' : `<br><small>(${numDomande} domande)</small>`}
                     </button>
                 `;
                 grid.appendChild(col);
@@ -288,7 +380,7 @@
             
             const regionName = regioni.find(r => r.toLowerCase().replace(/[^a-z]/g, '') === regionKey);
             document.getElementById('test-title').textContent = `Quiz: ${regionName}`;
-            document.getElementById('test-subtitle').textContent = 'Scopri i tesori turistici della regione';
+            document.getElementById('test-subtitle').textContent = `${totalQuestions} domande sui tesori turistici della regione`;
             updateScore();
             
             renderQuestions();
@@ -431,10 +523,8 @@
             }
         }
 
-        // Carica i dati all'avvio
-        loadQuizData();
-
-        
+        // Carica tutti i dati all'avvio
+        loadAllQuizData();
     </script>
 </body>
 </html>

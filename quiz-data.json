@@ -252,7 +252,6 @@
       "rispostaCorretta": 0,
       "spiegazione": "Il Museo Archeologico Nazionale di Chieti espone il Guerriero di Capestrano e altri importanti reperti abruzzesi."
     }
-  
   ,
     {
       "domanda": "Dove è alloggiato il Museo Nazionale d'Abruzzo?",
@@ -351,6 +350,8 @@
       "spiegazione": "Tra le opere principali spiccano le teste ritratto di Augusto, ritratti maschili da Foruli e un'aquila legionaria in bronzo."
     }
   ]
+  
+
 
   ,
   "basilicata": [
@@ -608,6 +609,8 @@
     }
   
   ]
+
+
 
   ,
   "calabria": [
@@ -912,6 +915,9 @@
       "rispostaCorretta": 0,
       "spiegazione": "Crotone divenne una colonia romana nel 194 a.C. con il nome di Croto, come indicato nella sezione romana."
     }
+
+
+
   ], "campania": 
 [
   {
@@ -1238,7 +1244,7 @@
       "spiegazione": "Il Presepe Cuciniello, donato da Michele Cuciniello nel 1879, conta oltre 800 pezzi in un suggestivo allestimento notturno."
     },
     {
-      "domanda": "In quale ambiente è ospitata la Sezione Navale del museo?",
+      "domanda": "In quale ambiente è ospitata la Sezione Navale della Certosa e Museo di San Martino?",
       "opzioni": ["Nell'antica cucina dei monaci", "Nel refettorio", "Nella sala capitolare", "Nelle celle"],
       "rispostaCorretta": 0,
       "spiegazione": "La Sezione Navale è allestita nell'ex cucina seicentesca, spazio caratterizzato da grandi camini per la preparazione dei pasti."
@@ -1440,9 +1446,3400 @@
       "opzioni": ["La tecnologia navale borbonica", "La pesca tradizionale", "I commerci marittimi", "Le esplorazioni geografiche"],
       "rispostaCorretta": 0,
       "spiegazione": "La sezione documenta l'evoluzione della tecnologia navale nel Regno delle Due Sicilie attraverso modelli e strumenti nautici."
+    } 
+
+
+
+
+
+
+
+
+  ], "emilia": 
+[
+    {
+      "domanda": "Quale imperatore romano fondò il porto di Classe a Ravenna nel I secolo a.C.?",
+      "opzioni": ["Augusto", "Nerone", "Traiano", "Costantino"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Augusto fondò il porto di Classe nel I secolo a.C., rendendolo il principale scalo marittimo di Ravenna per oltre cinque secoli nell'area dell'antica Romagna."
+    },
+    {
+      "domanda": "Quale basilica bizantina a Classe è celebre per i suoi mosaici?",
+      "opzioni": ["Sant'Apollinare in Classe", "San Vitale", "San Severo", "Galla Placidia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La basilica di Sant'Apollinare in Classe, costruita nel VI secolo, conserva celebri mosaici bizantini che rappresentano uno dei massimi esempi dell'arte ravennate."
+    },
+    {
+      "domanda": "Cosa è stato rinvenuto negli scavi del porto di Classe?",
+      "opzioni": ["Magazzini portuali e strutture cantieristiche", "Terme romane monumentali", "Un anfiteatro", "Palazzi imperiali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi archeologici hanno riportato alla luce magazzini portuali, strutture produttive e tracce delle attività cantieristiche che resero famoso l'antico porto ravennate."
+    },
+    {
+      "domanda": "Quale periodo artistico rappresentano i mosaici del Mausoleo di Galla Placidia a Ravenna?",
+      "opzioni": ["V-VI secolo d.C.", "IV secolo a.C.", "II secolo d.C.", "VIII secolo d.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "I mosaici del Mausoleo di Galla Placidia risalgono al V-VI secolo d.C. e testimoniano il passaggio dall'arte romana a quella bizantina a Ravenna, antica capitale imperiale."
+    },
+    {
+      "domanda": "Cosa è stato scoperto nel 1993 nella Domus dei Tappeti di Pietra?",
+      "opzioni": ["14 ambienti con mosaici policromi", "Tombe paleocristiane", "Terme romane", "Un tempio pagano"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Domus dei Tappeti di Pietra, scoperta nel 1993 nel centro di Ravenna, ha rivelato un complesso residenziale tardoantico con 14 ambienti decorati da mosaici di eccezionale qualità."
+    },
+    {
+      "domanda": "Quale funzione ebbe Ravenna nell'Impero Romano d'Occidente?",
+      "opzioni": ["Capitale imperiale", "Porto commerciale minore", "Colonia militare", "Città termale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Ravenna fu capitale dell'Impero Romano d'Occidente dal 402 d.C. e successivamente del Regno Ostrogoto, come dimostrano i monumenti paleocristiani patrimonio UNESCO."
+    },
+    {
+      "domanda": "Quale evento artistico contemporaneo caratterizza il borgo di Dozza?",
+      "opzioni": ["La Biennale del Muro Dipinto", "La Festa del Rinascimento", "Il Festival dei Mosaici", "La Rassegna del Affresco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dozza, in provincia di Bologna, è celebre per la Biennale del Muro Dipinto che dal 1960 trasforma il borgo medievale in una galleria d'arte a cielo aperto."
+    },
+    {
+      "domanda": "Quale istituzione è ospitata nella Rocca Sforzesca di Dozza?",
+      "opzioni": ["Enoteca Regionale Emilia-Romagna", "Museo Archeologico", "Pinacoteca Comunale", "Archivio Storico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Rocca Sforzesca di Dozza, costruita nel XIII secolo e rimaneggiata nel Quattrocento, ospita la prestigiosa Enoteca Regionale Emilia-Romagna."
+    },
+    {
+      "domanda": "Quale leggenda è associata al Castello di Montebello nella Valmarecchia?",
+      "opzioni": ["Il fantasma di Azzurrina", "Il tesoro dei Malatesta", "La dama bianca", "Il cavaliere senza testa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello di Montebello, risalente al X-XI secolo, è legato alla leggenda del fantasma di Azzurrina, figlia di un feudatario del XIV secolo nella Valmarecchia riminese."
+    },
+    {
+      "domanda": "Quale potente famiglia ampliò il Castello di Montebello nel XIV secolo?",
+      "opzioni": ["I Malatesta", "Gli Este", "I Montefeltro", "I Borgia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Malatesta, signori di Rimini, ampliarono nel XIV secolo il Castello di Montebello, di cui conserva torri merlate e camminamenti di ronda."
+    },
+    {
+      "domanda": "In quale anno fu costruito il Castello Estense di Ferrara come fortezza difensiva?",
+      "opzioni": ["1385", "1450", "1250", "1550"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Estense di Ferrara fu costruito nel 1385 come fortezza difensiva e successivamente trasformato in residenza ducale dagli Este nel XV secolo."
+    },
+    {
+      "domanda": "Quale architetto rinascimentale intervenne sul Castello Estense nel XV secolo?",
+      "opzioni": ["Biagio Rossetti", "Leon Battista Alberti", "Donato Bramante", "Andrea Palladio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Biagio Rossetti, architetto di corte degli Este, intervenne nel XV secolo trasformando il castello da struttura militare a residenza principesca simbolo del potere ferrarese."
+    },
+    {
+      "domanda": "Quale reliquia è conservata nella Cattedrale di San Giovanni Battista a Torino?",
+      "opzioni": ["La Sacra Sindone", "Le reliquie dei Re Magi", "La Lancia di Longino", "La Veronica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cattedrale di San Giovanni Battista a Torino, costruita tra 1491-1498, ospita la Sacra Sindone nella cappella progettata da Guarino Guarini."
+    },
+    {
+      "domanda": "Cosa hanno rivelato gli scavi sotto la Cattedrale di Torino?",
+      "opzioni": ["Resti di tre chiese precedenti e teatro romano", "Terme romane imperiali", "Necropoli paleocristiana", "Villa romana"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi archeologici sotto la cattedrale torinese hanno rivelato resti di tre chiese precedenti e tracce dell'antico teatro romano, testimoniando continuità di culto dal IV secolo."
+    },
+    {
+      "domanda": "Quale scultore realizzò le celebri metope del Duomo di Modena?",
+      "opzioni": ["Wiligelmo", "Nicola Pisano", "Donatello", "Antelami"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Wiligelmo realizzò le celebri metope del Duomo di Modena, capolavoro del romanico padano costruito a partire dal 1099 in Emilia-Romagna."
+    },
+    {
+      "domanda": "Quale istituzione ha sede nel Palazzo Ducale di Modena?",
+      "opzioni": ["Accademia Militare", "Università di Modena", "Pinacoteca Estense", "Archivio di Stato"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Palazzo Ducale di Modena, eretto dal 1634 come esempio di architettura barocca emiliana, è dal 1862 sede dell'Accademia Militare."
+    },
+    {
+      "domanda": "In quale secolo furono erette le torri degli Asinelli e Garisenda a Bologna?",
+      "opzioni": ["XII secolo", "X secolo", "XIV secolo", "XV secolo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le torri degli Asinelli e Garisenda furono erette a Bologna tra il 1109 e il 1119 dalle famiglie ghibelline durante il periodo comunale."
+    },
+    {
+      "domanda": "Quale caratteristica rende unica la Torre degli Asinelli?",
+      "opzioni": ["È la più alta torre pendente d'Italia", "È la torre più antica d'Europa", "Ha base circolare", "È completamente dritta"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Torre degli Asinelli, alta 97 metri, è la più alta torre pendente d'Italia e rappresenta l'apice dell'architettura civile medievale bolognese."
+    },
+    {
+      "domanda": "Quale antica popolazione fondò la città di Kainua a Marzabotto?",
+      "opzioni": ["Etruschi", "Romani", "Greci", "Celti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli Etruschi fondarono Kainua a Marzabotto nel V secolo a.C., creando uno degli esempi meglio conservati di urbanistica etrusca con impianto ortogonale."
+    },
+    {
+      "domanda": "Cosa caratterizza l'urbanistica dell'antica Kainua?",
+      "opzioni": ["Impianto ortogonale perfettamente orientato", "Planimetria circolare", "Struttura radiale", "Schema irregolare"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Kainua a Marzabotto mostra un raro esempio di impianto urbano etrusco ortogonale perfettamente orientato, non modificato da successive occupazioni romane."
+    },
+    {
+      "domanda": "Dove si trovava l'antica città romana di Claterna?",
+      "opzioni": ["Lungo la Via Emilia tra Bologna e Imola", "Presso il fiume Po", "Sulle colline modenesi", "In prossimità di Ravenna"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Claterna fiorì lungo la Via Emilia tra Bologna e Imola dal II secolo a.C. al IV secolo d.C. come importante centro commerciale della pianura padana."
+    },
+    {
+      "domanda": "Quali strutture pubbliche sono state rinvenute a Claterna?",
+      "opzioni": ["Foro, basilica e terme", "Anfiteatro e circo", "Porto fluviale", "Acquedotto monumentale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli scavi di Claterna hanno riportato alla luce il foro con basilica, terme pubbliche e un teatro, testimoniando l'importanza della città romana in Emilia-Romagna."
+    },
+    {
+      "domanda": "Quanti spettatori poteva ospitare il teatro romano di Bologna?",
+      "opzioni": ["Circa 3.000", "10.000", "1.000", "5.000"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il teatro romano di Bologna, scoperto nel 1981, aveva una cavea di 75 metri di diametro che poteva ospitare circa 3.000 spettatori nel I secolo a.C."
+    },
+    {
+      "domanda": "In quale tecnica costruttiva è realizzato il teatro romano di Bologna?",
+      "opzioni": ["Opera reticolata e laterizia", "Solo mattoni", "Marmo bianco", "Pietra calcarea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il teatro romano di Bologna fu realizzato in opera reticolata e laterizia, tecniche costruttive tipiche dell'età augustea nella Bononia romana."
+    },
+    {
+      "domanda": "Quale produzione industriale documenta il parco Novik Art di Borgo Panigale?",
+      "opzioni": ["Ceramica bolognese", "Tessuti serici", "Armi medievali", "Metallurgia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco archeologico industriale Novik Art a Borgo Panigale documenta la storia della produzione ceramica bolognese dal XIX al XX secolo con forni Hoffmann originali."
+    },
+    {
+      "domanda": "Cosa conserva il parco Novik Art?",
+      "opzioni": ["Forni Hoffmann e essiccatoi", "Telai industriali", "Altoforni", "Mulini ad acqua"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il parco Novik Art conserva forni Hoffmann originali, essiccatoi e macchinari per la lavorazione dell'argilla, testimoniando l'archeologia industriale bolognese."
+    },
+    {
+      "domanda": "Quanti anni di storia urbana documenta il sito archeologico di Salaborsa a Bologna?",
+      "opzioni": ["2.500 anni", "1.000 anni", "500 anni", "3.000 anni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La biblioteca Salaborsa a Bologna sorge su un'area archeologica che documenta 2.500 anni di storia urbana, dall'età villanoviana all'età moderna."
+    },
+    {
+      "domanda": "Quali resti romani sono visibili sotto Salaborsa?",
+      "opzioni": ["Foro di Bononia e basilica civile", "Terme di Caracalla", "Teatro romano", "Circo massimo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Sotto Salaborsa sono visibili resti dell'antico foro di Bononia con basolati romani e fondazioni della basilica civile, nel cuore di Bologna."
+    },
+    {
+      "domanda": "In quale anno fu completato il Ponte di Tiberio a Rimini?",
+      "opzioni": ["20 d.C.", "50 a.C.", "100 d.C.", "27 a.C."],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Ponte di Tiberio a Rimini fu completato nel 20 d.C. ed è uno dei ponti romani meglio conservati, costruito in pietra d'Istria con cinque arcate."
+    },
+    {
+      "domanda": "Chi ricostruì il Tempio Malatestiano di Rimini nel XV secolo?",
+      "opzioni": ["Leon Battista Alberti", "Filippo Brunelleschi", "Michelangelo", "Donato Bramante"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leon Battista Alberti ricostruì il Tempio Malatestiano nel XV secolo su una chiesa precedente, creando un capolavoro del Rinascimento a Rimini."
+    },
+    {
+      "domanda": "Quale fenomeno geologico caratterizza il Parco dei Gessi Bolognesi?",
+      "opzioni": ["Paesaggio carsico con doline e grotte", "Vulcanismo attivo", "Ghiacciai perenni", "Deserto roccioso"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco dei Gessi Bolognesi protegge un unico paesaggio carsico con oltre 200 grotte, doline e calanchi formatisi nel Messiniano."
+    },
+    {
+      "domanda": "Quale importante grotta preistorica si trova nel Parco dei Gessi?",
+      "opzioni": ["Grotta della Spipola", "Grotta Azzurra", "Grotta di Pertosa", "Grotta Gigante"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Grotta della Spipola nel Parco dei Gessi Bolognesi è un importante sito preistorico con tracce di frequentazione dal Paleolitico nell'Appennino bolognese."
+    },{
+      "domanda": "Quale famoso artista contemporaneo, presente nella sezione Arte Contemporanea del MIC di Faenza, realizzò opere ceramiche ispirate alla mitologia?",
+      "opzioni": ["Joan Miró", "Andy Warhol", "Jackson Pollock", "Mark Rothko"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Joan Miró, rappresentato nella sezione Arte Contemporanea del MIC di Faenza, realizzò opere ceramiche caratterizzate da forme organiche e riferimenti alla mitologia catalana."
+    },
+    {
+      "domanda": "Nella sezione Dal Medioevo al Barocco del MIC, quale influenza caratterizza le produzioni ceramiche del Seicento e Settecento?",
+      "opzioni": ["Influenze orientali nelle manifatture europee", "Influssi africani", "Tecniche precolombiane", "Stilemi egiziani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Dal Medioevo al Barocco del MIC mostra come le produzioni ceramiche del Seicento e Settecento fossero caratterizzate da forti influenze orientali, particolarmente evidenti nelle porcellane europee."
+    },
+    {
+      "domanda": "Quale scultore italiano, presente nella sezione contemporanea del MIC, è noto per le sue ceramiche policrome di ispirazione informale?",
+      "opzioni": ["Leoncillo Leonardi", "Marino Marini", "Arturo Martini", "Giacomo Manzù"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leoncillo Leonardi, rappresentato nella sezione Arte Contemporanea del MIC di Faenza, è celebre per le sue ceramiche policrome che esplorano le potenzialità dell'informale."
+    },
+    {
+      "domanda": "Quale tipo di ceramica medievale è esposta nella sezione Dal Medioevo al Barocco del MIC?",
+      "opzioni": ["Maioliche arcaiche e bacini medievali", "Porcellane cinesi", "Terrecotte invetriate", "Ceramiche sigillate"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Dal Medioevo al Barocco del MIC di Faenza espone maioliche arcaiche e bacini medievali che testimoniano le origini della produzione ceramica faentina."
+    },
+    {
+      "domanda": "Quale importante reperto della sezione Mosaici del Museo Nazionale di Ravenna mostra l'evoluzione tecnica dei mosaicisti locali?",
+      "opzioni": ["Frammenti pavimentali di epoca romana e bizantina", "Mosaici parietali integri", "Tessere d'oro originali", "Cartoni preparatori"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Mosaici del Museo Nazionale di Ravenna conserva frammenti pavimentali di epoca romana e bizantina che permettono di studiare l'evoluzione tecnica della scuola musiva ravennate."
+    },
+    {
+      "domanda": "Nella sezione Oggetti Paleocristiani del Museo Nazionale di Ravenna, quali materiali preziosi caratterizzano gli arredi sacri?",
+      "opzioni": ["Argento e oro", "Bronzo e rame", "Ferro battuto", "Stagno e piombo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Oggetti Paleocristiani del Museo Nazionale di Ravenna espone arredi e oggetti sacri in argento e oro che testimoniano la ricchezza e la devozione della Chiesa ravennate del V-VI secolo."
+    },
+    {
+      "domanda": "Quale tipo di manoscritti è particolarmente rappresentato nella collezione di Codici Miniati del Museo Nazionale di Ravenna?",
+      "opzioni": ["Antifonari e corali", "Codici giuridici", "Manoscritti scientifici", "Testi classici latini"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione di Codici Miniati del Museo Nazionale di Ravenna include soprattutto antifonari e corali, manoscritti liturgici miniati tra l'XI e il XV secolo."
+    },
+    {
+      "domanda": "Quale aspetto della produzione musiva ravennate è evidenziato dai pannelli esposti nella sezione Mosaici?",
+      "opzioni": ["Decorazioni da edifici non più esistenti", "Tecniche di restauro moderne", "Copie di mosaici costantinopolitani", "Mosaici funerari pagani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Mosaici del Museo Nazionale di Ravenna espone pannelli e decorazioni provenienti da edifici non più esistenti, completando il quadro di una città interamente decorata a mosaico."
+    },
+    {
+      "domanda": "Quale periodo storico è documentato dai materiali dell'età del bronzo nei Reparti Archeologici del Museo Civico di Modena?",
+      "opzioni": ["Età del bronzo padana", "Età del ferro villanoviana", "Periodo romano repubblicano", "Alto medioevo longobardo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Reparti Archeologici del Museo Civico di Modena conservano materiali dell'età del bronzo provenienti dalle terramare, importanti insediamenti palafitticoli della pianura padana."
+    },
+    {
+      "domanda": "Quale aspetto della cultura materiale modenese è documentato nella sezione Etnografia del Museo Civico?",
+      "opzioni": ["Ceramiche popolari italiane ed europee", "Tessuti tradizionali emiliani", "Strumenti musicali popolari", "Costumi storici modenesi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Etnografia del Museo Civico di Modena include una ricca collezione di ceramiche popolari italiane ed europee, testimonianza delle tradizioni artigianali locali."
+    },
+    {
+      "domanda": "Quali reperti della sezione romana illustrano la vita della colonia di Mutina?",
+      "opzioni": ["Stele funerarie e lapidi", "Statue imperiali colossali", "Monumenti equestri", "Dipinti murali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione romana del Museo Civico di Modena espone stele funerarie, lapidi e mosaici pavimentali che illustrano la vita della colonia romana di Mutina."
+    },
+    {
+      "domanda": "Quale tecnica artistica è rappresentata dagli affreschi staccati nella sezione Arte Medievale del Museo Civico di Modena?",
+      "opzioni": ["Pittura murale medievale", "Affresco rinascimentale", "Tempera su tavola", "Miniatura gotica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sezione Arte Medievale del Museo Civico di Modena espone affreschi staccati che testimoniano la vivacità della pittura murale medievale emiliana."
+    },
+    {
+      "domanda": "Quale aspetto della cultura villanoviana è documentato nella Sezione Preistorica del Museo Archeologico di Bologna?",
+      "opzioni": ["Corredi funerari dalle necropoli bolognesi", "Insediamenti urbani", "Strutture templari", "Impianti idraulici"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sezione Preistorica del Museo Archeologico di Bologna espone corredi funerari ricchissimi provenienti dalle necropoli bolognesi villanoviane, con urne cinerarie biconiche e oggetti di ornamento."
+    },
+    {
+      "domanda": "Quali reperti della Collezione Etrusca testimoniano i contatti commerciali di Felsina?",
+      "opzioni": ["Ceramiche attiche a figure nere e rosse", "Ambre baltiche", "Avori africani", "Vetri siriani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Collezione Etrusca del Museo Archeologico di Bologna include ceramiche attiche a figure nere e rosse di importazione che testimoniano gli intensi contatti commerciali di Felsina con il mondo greco."
+    },
+    {
+      "domanda": "Quale particolare reperto egiziano è menzionato nella Collezione Egizia del Museo Archeologico di Bologna?",
+      "opzioni": ["Mummia con sudario dipinto di età romana", "Sarcofago di Tutankhamon", "Papiro di Ester", "Statua di Cleopatra"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Collezione Egizia del Museo Archeologico di Bologna comprende una rara mummia con sudario dipinto di età romana, testimonianza unica delle pratiche funerarie egiziane in epoca tarda."
+    },
+    {
+      "domanda": "Quali materiali sono esposti nel Cortile rinascimentale del Museo Archeologico di Bologna?",
+      "opzioni": ["Elementi architettonici e epigrafi romane", "Sculture etrusche", "Ceramiche medievali", "Dipinti rinascimentali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Cortile rinascimentale di Palazzo Galvani ospita elementi architettonici, epigrafi onorarie e funerarie, e sculture che provengono dall'antica Bononia romana."
+    },
+    {
+      "domanda": "Quale aspetto della società di Spina è evidenziato dai gioielli esposti nella Sala del Tesoro del Museo Archeologico di Ferrara?",
+      "opzioni": ["Ricchezza dell'élite aristocratica", "Tecniche di oreficeria celtica", "Commerci con l'Oriente", "Influenze greche nell'abbigliamento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I gioielli in oro finemente lavorati esposti nella Sala del Tesoro del Museo Archeologico di Ferrara testimoniano la ricchezza e il prestigio dell'élite aristocratica dell'antica città etrusca di Spina."
+    },
+    {
+      "domanda": "Quale tipo di ceramiche greche è predominante nei corredi funerari delle necropoli di Spina?",
+      "opzioni": ["Ceramiche attiche a figure nere e rosse", "Ceramiche corinzie", "Vasi geometrici", "Ceramiche micenee"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella sezione Necropoli di Spina del Museo Archeologico di Ferrara predominano le ceramiche attiche a figure nere e a figure rosse di produzione ateniese, espressione della potenza commerciale della città etrusca."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica di Palazzo Costabili dialoga con i reperti archeologici?",
+      "opzioni": ["Affreschi rinascimentali di Garofalo", "Volte a crociera gotiche", "Decorazioni barocche", "Stucchi neoclassici"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli affreschi rinascimentali di Benvenuto Tisi da Garofalo nella Sala del Tesoro di Palazzo Costabili creano un suggestivo dialogo con i reperti archeologici dell'antica Spina."
+    },
+    {
+      "domanda": "Quale aspetto della vita commerciale di Spina è documentato dai reperti nelle vetrine del museo?",
+      "opzioni": ["Contatti con tutto il Mediterraneo", "Commerci esclusivamente locali", "Scambi con l'Africa subsahariana", "Rapporti commerciali con la Cina"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I reperti del Museo Archeologico di Ferrara documentano i intensi contatti commerciali di Spina con tutto il Mediterraneo, attraverso oggetti in bronzo, ambra e avorio."
+    }],
+    
+    
+    
+    
+    
+    
+    
+    "friuli": 
+[ 
+
+{
+      "domanda": "Quali reperti sono conservati nell'Antiquarium di via del Seminario a Trieste e a quale periodo storico risalgono?",
+      "opzioni": [
+        "Reperti egizi del III secolo a.C.",
+        "Reperti dall'area del teatro romano di Tergeste del I-II secolo d.C.",
+        "Reperti medievali del X secolo",
+        "Reperti preistorici del Paleolitico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Antiquarium conserva reperti provenienti dall'area del teatro romano di Tergeste, databile al I-II secolo d.C., tra cui iscrizioni, sculture e elementi architettonici che illustrano la vita della colonia romana. I materiali includono stele funerarie, mosaici e ceramiche che testimoniano i commerci e la società di Tergeste, fondamentale per comprendere l'integrazione della città nel sistema romano."
+    },
+    {
+      "domanda": "Dove è situato il Teatro Romano di Trieste e quale era la sua capienza?",
+      "opzioni": [
+        "In pianura, capienza 1.000 spettatori",
+        "Parzialmente scavato nella collina di San Giusto, capienza 3.500 spettatori",
+        "Sul lungomare, capienza 5.000 spettatori",
+        "Sotto l'attuale piazza Unità, capienza 2.000 spettatori"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il teatro romano di Trieste fu parzialmente scavato nella collina di San Giusto e poteva ospitare circa 3.500 spettatori. Mostra una tipica struttura romana con cavea, orchestra e scena, testimoniando l'evoluzione urbanistica della città romana di Tergeste."
+    },
+    {
+      "domanda": "A quale secolo risale la villa romana di Torre presso Trieste e che tipo di complesso rappresentava?",
+      "opzioni": [
+        "III secolo a.C. - complesso religioso",
+        "I secolo d.C. - complesso residenziale e produttivo",
+        "IV secolo d.C. - fortezza militare",
+        "II secolo a.C. - tempio pagano"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa romana di Torre risale al I secolo d.C. e rappresenta un complesso residenziale e produttivo di notevole estensione. Gli scavi hanno portato alla luce ambienti termali, peristili, sistemi di riscaldamento, mosaici geometrici e pavimenti in opus sectile, mostrando l'organizzazione delle ville marittime nell'Adriatico settentrionale."
+    },
+    {
+      "domanda": "Quali caratteristiche distintive possedeva la villa romana di Torre?",
+      "opzioni": [
+        "Era dotata di un anfiteatro privato",
+        "Aveva un porticciolo privato e strutture per la lavorazione agricola",
+        "Possedeva una biblioteca con papiri egizi",
+        "Includeva un tempio dedicato a Mitra"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa romana di Torre era dotata di un porticciolo privato e di strutture per la lavorazione agricola, oltre a reperti come ceramiche sigillate e vetri che attestano la ricchezza del proprietario e l'integrazione con il territorio costiero."
+    },
+    {
+      "domanda": "Quando fu costruita la basilica paleocristiana di Trieste e su quali precedenti strutture?",
+      "opzioni": [
+        "Nel VII secolo su resti longobardi",
+        "Tra il IV e il V secolo d.C. su precedenti strutture romane",
+        "Nel III secolo su templi celtici",
+        "Nel VI secolo su necropoli preromane"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La basilica paleocristiana di Trieste fu costruita tra il IV e il V secolo d.C. su precedenti strutture romane presso il colle di San Giusto. L'edificio conserva mosaici pavimentali con motivi geometrici e simboli cristiani, significativi per lo studio della diffusione del cristianesimo nella regione."
+    },
+    {
+      "domanda": "Quali elementi artistici conserva la basilica paleocristiana di Trieste?",
+      "opzioni": [
+        "Affreschi rinascimentali e statue barocche",
+        "Mosaici pavimentali con motivi geometrici e simboli cristiani",
+        "Dipinti gotici e vetrate medievali",
+        "Sculture classiche e capitelli corinzi"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La basilica paleocristiana conserva mosaici pavimentali con motivi geometrici e simboli cristiani, oltre a resti di affreschi parietali. I materiali rinvenuti includono epigrafi funerarie e oggetti liturgici, fondamentali per comprendere le trasformazioni architettoniche tra tardoantico e altomedioevo."
+    },
+    {
+      "domanda": "Quali strutture difensive conserva il centro storico di Grado e di quale periodo sono?",
+      "opzioni": [
+        "Mura medievali del XII secolo",
+        "Mura romane e bizantine del IV-V secolo d.C.",
+        "Bastioni rinascimentali del XV secolo",
+        "Fortificazioni veneziane del XVI secolo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Grado conserva un centro storico con impianto urbano tardoantico e strutture difensive romane e bizantine erette nel IV-V secolo d.C., includendo torri e porte ancora visibili. Il sito mostra la continuità insediativa dall'età romana al medioevo."
+    },
+    {
+      "domanda": "Quale importante edificio religioso si trova a Grado e che epoca rappresenta?",
+      "opzioni": [
+        "La basilica di Santa Eufemia del VI secolo",
+        "Il duomo romanico dell'XI secolo",
+        "La chiesa gotica di San Francesco",
+        "Il tempio neoclassico di San Giorgio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La basilica di Santa Eufemia, del VI secolo, custodisce mosaici paleocristiani e sculture, testimoniando l'importanza di Grado come porto e base navale bizantina. Gli scavi hanno portato alla luce resti di domus romane e di un complesso episcopale."
+    },
+    {
+      "domanda": "Cosa è stato scoperto nella grotta del Mitreo presso il castello di Duino?",
+      "opzioni": [
+        "Resti di un villaggio preistorico",
+        "Altari e iscrizioni dedicate al dio Mitra del II-III secolo d.C.",
+        "Tombe longobarde con corredi funerari",
+        "Affreschi paleocristiani del V secolo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La grotta del Mitreo, scoperta nel 1965, conserva altari e iscrizioni dedicate al dio Mitra, databili al II-III secolo d.C. Il santuario rupestre include nicchie per le offerte e banchine per i rituali, attestando la presenza di culti orientali nell'area adriatica."
+    },
+    {
+      "domanda": "Quale periodo storico rappresenta principalmente il castello di Duino?",
+      "opzioni": [
+        "Età romana repubblicana",
+        "Periodo bizantino",
+        "Dal medioevo all'età moderna (XIV secolo in poi)",
+        "Epoca napoleonica"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il castello di Duino, costruito su precedenti strutture romane, domina la costa triestina dal XIV secolo. Con le sue stratificazioni architettoniche, testimonia il controllo del territorio dal medioevo all'età moderna, unendo archeologia romana e storia medievale."
+    },
+    {
+      "domanda": "Chi fondò la città fortezza di Palmanova e in quale anno?",
+      "opzioni": [
+        "L'Impero Romano nel 181 a.C.",
+        "La Repubblica di Venezia nel 1593",
+        "Napoleone Bonaparte nel 1805",
+        "Gli Asburgo nel 1750"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palmanova fu fondata dalla Repubblica di Venezia nel 1593 e rappresenta uno degli esempi meglio conservati di architettura militare rinascimentale a pianta stellare, progettata da Giulio Savorgnan con un perfetto schema geometrico a nove punte."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica distingue Palmanova?",
+      "opzioni": [
+        "Pianta circolare con mura concentriche",
+        "Pianta stellare a nove punte con tre cerchie di fortificazioni",
+        "Pianta quadrata con bastioni angolari",
+        "Pianta esagonale con fossati multipli"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palmanova mostra un perfetto schema geometrico a pianta stellare a nove punte con tre cerchie di fortificazioni, progettate da Giulio Savorgnan. La piazza centrale esagonale è circondata da edifici pubblici e religiosi di epoca veneziana, diventando un modello per l'urbanistica militare europea."
+    },
+    {
+      "domanda": "Quale capolavoro dell'arte longobarda si trova a Cividale del Friuli?",
+      "opzioni": [
+        "Il Tempietto Longobardo dell'VIII secolo",
+        "La cattedrale romanica",
+        "Il battistero paleocristiano",
+        "Il monastero benedettino"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Tempietto Longobardo di Cividale del Friuli, dell'VIII secolo, è un capolavoro dell'arte longobarda con stucchi e affreschi che mostrano influenze classiche e bizantine, fondamentale per lo studio della transizione dall'antichità al medioevo nella Langobardia Major."
+    },
+    {
+      "domanda": "Cosa include il Complesso Episcopale di Cividale del Friuli?",
+      "opzioni": [
+        "Solo il Tempietto Longobardo",
+        "Il Palazzo dei Patriarchi e la basilica di Santa Maria Assunta",
+        "Esclusivamente strutture rinascimentali",
+        "Solo resti romani del foro"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Complesso Episcopale include il Palazzo dei Patriarchi e la basilica di Santa Maria Assunta, con stratificazioni dall'epoca romana al rinascimento. Gli scavi hanno portato alla luce mosaici paleocristiani e tombe longobarde, documentando la continuità storica del sito."
+    },
+    {
+      "domanda": "Quali evidenze archeologiche conservano le grotte del Carso Triestino?",
+      "opzioni": [
+        "Solo reperti medievali",
+        "Evidenze dal Paleolitico all'età del Ferro",
+        "Esclusivamente resti romani",
+        "Solo testimonianze preistoriche recenti"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il sistema carsico triestino conserva numerose grotte con evidenze archeologiche dal Paleolitico all'età del Ferro. La Grotta delle Gallerie ha restituito strumenti litici musteriani di 50.000 anni fa, mentre altre grotte mostrano tracce di culti romani e medievali."
+    },
+    {
+      "domanda": "Quale grotta del Carso ha restituito strumenti litici musteriani?",
+      "opzioni": [
+        "Grotta del Mitreo di San Giovanni",
+        "Grotta delle Gallerie",
+        "Grotta del Dio Pan",
+        "Grotta delle Meraviglie"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Grotta delle Gallerie ha restituito strumenti litici musteriani e resti faunistici di 50.000 anni fa. Le formazioni geologiche calcaree hanno preservato reperti organici eccezionali, tra cui ossa umane e manufatti in legno, rivelando una frequentazione umana continua."
+    },
+    {
+      "domanda": "In quale stile architettonico è costruita la Loggia del Lionello a Udine?",
+      "opzioni": [
+        "Stile barocco",
+        "Stile gotico veneziano",
+        "Stile romanico friulano",
+        "Stile neoclassico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Loggia del Lionello a Udine fu costruita tra il 1448 e 1456 in stile gotico veneziano, con marmo bianco e pietra d'Istria, presentando una facciata con bifore e trifore ornate da sculture simboliche. Rappresenta il centro civico della città sotto la Serenissima."
+    },
+    {
+      "domanda": "Quale evento causò importanti restauri alla Loggia del Lionello?",
+      "opzioni": [
+        "L'incendio del 1450",
+        "Il terremoto del 1511",
+        "La guerra con Venezia",
+        "L'alluvione del 1492"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I restauri dopo il terremoto del 1511 hanno aggiunto elementi rinascimentali alla struttura originaria gotica veneziana. La loggia fu sede del consiglio comunale e luogo di mercato, testimoniando la prosperità economica di Udine sotto la Serenissima."
+    },
+    {
+      "domanda": "Chi costruì Porta Leopoldina a Gorizia e in quale anno?",
+      "opzioni": [
+        "La Repubblica di Venezia nel 1593",
+        "Gli Asburgo nel 1750",
+        "Napoleone nel 1809",
+        "Il Regno d'Italia nel 1866"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Porta Leopoldina fu costruita nel 1750 dagli Asburgo ed è l'unica porta cittadina superstite delle fortificazioni settecentesche di Gorizia, caratterizzata da stemmi imperiali e iscrizioni latine che ne attestano l'origine asburgica."
+    },
+    {
+      "domanda": "Cosa hanno rivelato gli scavi nel cortile del Castello di Gorizia?",
+      "opzioni": [
+        "Resti di un tempio romano",
+        "Una cappella romanica e fondazioni del X secolo",
+        "Terme romane imperiali",
+        "Necropoli longobarda"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Gli scavi nel cortile del Castello di Gorizia hanno rivelato una cappella romanica e fondazioni del X secolo. Il complesso include il Palazzo dei Conti e le prigioni, con reperti che documentano la vita di corte e le guerre con Venezia, testimoniando la posizione strategica di Gorizia."
+    },
+    {
+      "domanda": "Quale fu la funzione originaria della Risiera di San Sabba?",
+      "opzioni": [
+        "Campo di concentramento nazista",
+        "Stabilimento per la pilatura del riso",
+        "Carcere militare austriaco",
+        "Fabbrica di munizioni"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Risiera di San Sabba fu originariamente uno stabilimento per la pilatura del riso costruito nel 1913, trasformato durante l'occupazione nazista in un campo di detenzione e smistamento, diventando l'unico campo in Italia con forno crematorio."
+    },
+    {
+      "domanda": "Quanti prigionieri transitarono approssimativamente nella Risiera di San Sabba?",
+      "opzioni": [
+        "Circa 10.000 prigionieri",
+        "Almeno 25.000 prigionieri",
+        "Oltre 50.000 prigionieri",
+        "Circa 5.000 prigionieri"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le indagini storiche hanno accertato il transito di almeno 25.000 prigionieri e l'uccisione di 3.000-5.000 persone nella Risiera di San Sabba. Oggi è monumento nazionale e museo che documenta la deportazione di ebrei, partigiani e oppositori politici."
+    },
+    {
+      "domanda": "Quando fu fondata Aquileia e quale civiltà la istituì?",
+      "opzioni": [
+        "Dai Longobardi nel VI secolo",
+        "Dai Romani nel 181 a.C.",
+        "Dai Veneti antichi nel V secolo a.C.",
+        "Dai Bizantini nel VII secolo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Aquileia fu fondata nel 181 a.C. come colonia romana e divenne uno dei principali centri dell'impero romano nel nord Italia. L'area archeologica conserva il grande foro romano, il porto fluviale, le terme e estesi quartieri residenziali con mosaici policromi."
+    },
+    {
+      "domanda": "Cosa custodisce la basilica patriarcale di Aquileia?",
+      "opzioni": [
+        "Il più vasto pavimento musivo paleocristiano d'occidente",
+        "La più antica bibbia longobarda",
+        "Reliquie di San Marco evangelista",
+        "Affreschi giotteschi del XIV secolo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La basilica patriarcale di Aquileia custodisce il più vasto pavimento musivo paleocristiano d'occidente del IV secolo, costruita su precedenti edifici di culto paleocristiani. Il Museo Archeologico Nazionale espone oltre 10.000 reperti che confermano l'importanza come crocevia commerciale e culturale."
+    },
+    {
+      "domanda": "Quali caratteristiche presentava la villa romana di Ronchi dei Legionari?",
+      "opzioni": [
+        "Solo ambienti residenziali semplici",
+        "Ambienti termali privati con ipocausto e peristili colonnati",
+        "Esclusivamente strutture produttive agricole",
+        "Solo magazzini per stoccaggio"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa romana di Ronchi dei Legionari, databile tra I e IV secolo d.C., presentava ambienti termali privati con ipocausto, peristili colonnati e ambienti residenziali decorati con mosaici geometrici e pavimenti in opus sectile, testimoniando un tenore di vita elevato."
+    },
+    {
+      "domanda": "A cosa erano destinate alcune aree della villa romana di Ronchi?",
+      "opzioni": [
+        "Alla celebrazione di riti misterici",
+        "Alla trasformazione agricola dei prodotti",
+        "All'addestramento militare",
+        "Alla produzione di ceramiche"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa includeva aree destinate alla trasformazione agricola dei prodotti, con torchi e magazzini. I reperti ceramici e vitrei testimoniano i commerci con l'area adriatica e le fasi di ristrutturazione e abbandono progressivo in età tardoantica."
+    },
+    {
+      "domanda": "A quale periodo risale l'insediamento palafitticolo di Palù di Livenza?",
+      "opzioni": [
+        "Età del Bronzo (2000-1000 a.C.)",
+        "Età del Rame (3000-2000 a.C.)",
+        "Neolitico (4500-3600 a.C.)",
+        "Età del Ferro (IX-II secolo a.C.)"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il sito di Palù di Livenza conserva resti di un insediamento palafitticolo del Neolitico (4500-3600 a.C.) in un ambiente umido di eccezionale valore naturalistico, patrimonio UNESCO, con testimonianze delle prime comunità agricole della pianura padana."
+    },
+    {
+      "domanda": "Quali materiali sono stati preservati dall'ecosistema palustre di Palù di Livenza?",
+      "opzioni": [
+        "Solo ceramiche e strumenti litici",
+        "Materiali organici come semi, legni e resti faunistici",
+        "Esclusivamente metalli e vetri",
+        "Solo ossa umane e resti scheletrici"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'ecosistema palustre di Palù di Livenza ha preservato materiali organici eccezionali come semi, legni e resti faunistici, oltre a pali di fondazione, ceramiche decorate e strumenti in pietra, consentendo di studiare l'evoluzione del paesaggio e le tecniche di sussistenza."
+    },
+    {
+      "domanda": "Quale popolazione abitava originariamente il territorio di Iulium Carnicum?",
+      "opzioni": [
+        "Popolazioni greche",
+        "Popolazioni celtiche",
+        "Popolazioni etrusche",
+        "Popolazioni illiriche"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Iulium Carnicum (odierna Zuglio) fu fondata come avamposto romano nel II secolo a.C. in territorio celtico. L'area archeologica conserva il foro con basilica civile, terme pubbliche e un teatro, mostrando la romanizzazione delle popolazioni carniche in contesto alpino."
+    },
+    {
+      "domanda": "Quali strutture pubbliche sono state rinvenute a Iulium Carnicum?",
+      "opzioni": [
+        "Anfiteatro e circo",
+        "Foro con basilica civile e terme pubbliche",
+        "Porto fluviale e magazzini",
+        "Arena gladiatoria e templi egizi"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "A Iulium Carnicum sono state rinvenute il foro con basilica civile, terme pubbliche e un teatro di piccole dimensioni, oltre a un complesso sacro con tempio e altari dedicati a divinità romane e locali, con sistemi di drenaggio e approvvigionamento idrico sofisticati."
+    },
+    {
+      "domanda": "Quali caratteristiche presentava la villa romana del Randaccio presso Monfalcone?",
+      "opzioni": [
+        "Residenza marittima di lusso con mosaici figurati",
+        "Fattoria agricola semplice",
+        "Complesso industriale per la lavorazione del pesce",
+        "Tempio dedicato a Nettuno"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La villa romana del Randaccio, risalente al I secolo d.C., mostra caratteristiche di residenza marittima di lusso con ambienti residenziali con mosaici figurati, un impianto termale privato e porticati affacciati sul mare, inclusi sistemi di pescicoltura e approdo privato."
+    },
+    {
+      "domanda": "Fino a quando fu utilizzata la villa romana del Randaccio?",
+      "opzioni": [
+        "Fino al I secolo d.C.",
+        "Fino al V secolo, poi parzialmente riconvertita",
+        "Fino all'epoca longobarda del VII secolo",
+        "Fino al medioevo inoltrato"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le strutture della villa romana del Randaccio mostrano successive fasi di ampliamento e ristrutturazione fino al V secolo, quando venne parzialmente riconvertita in funzione produttiva. I reperti includono affreschi parietali, sculture decorative e ceramiche di importazione."
+    },
+    {
+      "domanda": "A quale famiglia si deve la fondazione del Castello Inferiore di Attimis?",
+      "opzioni": [
+        "Famiglia Savorgnan",
+        "Famiglia Attems",
+        "Famiglia Asburgo",
+        "Famiglia Gorizia"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello Inferiore di Attimis fu fondato nell'XI secolo dalla potente famiglia degli Attems come presidio strategico per il controllo delle valli del Torre e del Natisone. Le strutture mostrano fasi costruttive succedutesi nei secoli tra Basso Medioevo e Rinascimento."
+    },
+    {
+      "domanda": "Cosa hanno rivelato i reperti archeologici del Castello di Attimis?",
+      "opzioni": [
+        "Solo resti di battaglie medievali",
+        "Un quadro dettagliato della vita castellana quotidiana",
+        "Esclusivamente tesori e monete",
+        "Solo documenti scritti e pergamene"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I reperti ceramici e metallici rinvenuti negli scavi del Castello di Attimis forniscono un quadro dettagliato delle occupazioni e delle attività quotidiane della vita castellana, mentre le architetture superstiti sono un significativo esempio di adattamento militare al territorio friulano."
+    },
+    {
+      "domanda": "Quali antiche strade convergevano presso il Castello di Gemona?",
+      "opzioni": [
+        "Vie medievali per Venezia",
+        "Strade romane dirette verso il Norico",
+        "Sentieri preistorici celtici",
+        "Vie commerciali per l'Oriente"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Gemona fu un importante presidio allo sbocco verso la pianura friulana, posizionato alla convergenza tra due importanti strade di epoca romana dirette verso il Norico. Con origini tracciabili intorno al 500 a.C., ospitò un castrum romano prima della ricostruzione medievale."
+    },
+    {
+      "domanda": "Quali eventi causarono danni al Castello di Gemona?",
+      "opzioni": [
+        "Solo guerre medievali",
+        "Il terremoto del 1511 e quello del 1976",
+        "Esclusivamente incendi dolosi",
+        "Bombardamenti della prima guerra mondiale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Gemona subì danni con il terremoto del 1511 e venne poi utilizzato come cava di pietre. Nel 1976 un altro terremoto distrusse ciò che restava. Dal 2000 sono iniziati i lavori di ricostruzione che hanno riaperto i giardini e la torre dell'orologio come sede museale."
+    },
+    {
+      "domanda": "Cosa è un castelliere nell'area di Castel Raimondo?",
+      "opzioni": [
+        "Un tempio romano",
+        "Un villaggio fortificato dell'Età del Ferro",
+        "Una villa romana",
+        "Una necropoli preistorica"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco Archeologico di Castel Raimondo è dominato dai resti di un imponente castelliere risalente all'Età del Ferro (IX-II secolo a.C.), un villaggio fortificato di probabile origine celtica o paleoveneta, circondato da possenti mura a secco."
+    },
+    {
+      "domanda": "Come fu riutilizzato il sito di Castel Raimondo in epoca romana?",
+      "opzioni": [
+        "Come tempio dedicato a Giove",
+        "Come avamposto militare romano repubblicano",
+        "Come terme pubbliche",
+        "Come necropoli imperiale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "In epoca romana repubblicana, il sito di Castel Raimondo fu riutilizzato come avamposto militare, testimoniato dal ritrovamento di strutture e materiali di quel periodo. Le indagini hanno portato alla luce fondamenta di capanne, silos per granaglie e reperti che illustrano i contatti commerciali."
+    },
+    {
+      "domanda": "Quanti soldati sono sepolti nel Sacrario Militare di Redipuglia?",
+      "opzioni": [
+        "Circa 10.000 soldati",
+        "Oltre 100.000 soldati",
+        "Circa 50.000 soldati",
+        "20.000 soldati"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Sacrario Militare di Redipuglia, inaugurato nel 1938, accoglie le spoglie di oltre 100.000 soldati caduti nella Grande Guerra. La struttura architettonica simbolica include una scalinata monumentale di 22 gradoni sul Monte Sei Busi con tre croci sulla sommità."
+    },
+    {
+      "domanda": "Chi progettò il Sacrario Militare di Redipuglia?",
+      "opzioni": [
+        "Architetto Giovanni Greppi e scultore Giannino Castiglioni",
+        "Ingenere Giuseppe Pagano",
+        "Architetto Marcello Piacentini",
+        "Scultore Adolfo Wildt"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Sacrario Militare di Redipuglia fu realizzato su progetto dell'architetto Giovanni Greppi e dello scultore Giannino Castiglioni. Oltre al suo impatto commemorativo, il sito conserva un enorme patrimonio storico con reperti bellici, cimeli e un museo all'aperto del fronte dell'Isonzo."
+    },
+    {
+      "domanda": "Quali potenze contribuirono alle fortificazioni della Fortezza di Osoppo?",
+      "opzioni": [
+        "Solo Venezia",
+        "Veneziani, francesi e austriaci tra XV e XIX secolo",
+        "Esclusivamente l'Impero Romano",
+        "Solo il Regno d'Italia"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Fortezza di Osoppo è il risultato di interventi veneziani, francesi e austriaci succedutisi tra il XV e il XIX secolo. È un esempio eccezionale di architettura militare polveriera, con bastioni, gallerie, caserme e polveriere scavate nella roccia."
+    },
+    {
+      "domanda": "Per quale evento storico la Fortezza di Osoppo ricevette la Medaglia d'Oro?",
+      "opzioni": [
+        "Per la resistenza nel 1514",
+        "Per l'eroica resistenza risorgimentale del 1848",
+        "Per la prima guerra mondiale",
+        "Per le guerre napoleoniche"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Fortezza di Osoppo ricevette la Medaglia d'Oro al Valor Militare per l'eroica resistenza dei volontari italiani durante il Risorgimento nel 1848. Il sito fu importante anche per l'assedio del 1514 durante la guerra della Lega di Cambrai e offre interesse naturalistico per la lecceta secolare."
+    }, {
+      "domanda": "Quali reperti sono conservati nell'Antiquarium di via del Seminario a Trieste e a quale periodo storico risalgono?",
+      "opzioni": ["Reperti egizi del III secolo a.C.", "Reperti dall'area del teatro romano di Tergeste del I-II secolo d.C.", "Reperti medievali del X secolo", "Reperti preistorici del Paleolitico"],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Antiquarium conserva reperti provenienti dall'area del teatro romano di Tergeste, databile al I-II secolo d.C., tra cui iscrizioni, sculture e elementi architettonici che illustrano la vita della colonia romana."
+    },
+    {
+      "domanda": "Dove è situato il Teatro Romano di Trieste e quale era la sua capienza?",
+      "opzioni": ["In pianura, capienza 1.000 spettatori", "Parzialmente scavato nella collina di San Giusto, capienza 3.500 spettatori", "Sul lungomare, capienza 5.000 spettatori", "Sotto l'attuale piazza Unità, capienza 2.000 spettatori"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il teatro romano di Trieste fu parzialmente scavato nella collina di San Giusto e poteva ospitare circa 3.500 spettatori, mostrando una tipica struttura romana con cavea, orchestra e scena."
+    },
+    {
+      "domanda": "A quale secolo risale la villa romana di Torre presso Trieste e che tipo di complesso rappresentava?",
+      "opzioni": ["III secolo a.C. - complesso religioso", "I secolo d.C. - complesso residenziale e produttivo", "IV secolo d.C. - fortezza militare", "II secolo a.C. - tempio pagano"],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa romana di Torre risale al I secolo d.C. e rappresenta un complesso residenziale e produttivo di notevole estensione con ambienti termali, peristili e sistemi di riscaldamento."
+    },
+    {
+      "domanda": "Quali caratteristiche distintive possedeva la villa romana di Torre?",
+      "opzioni": ["Era dotata di un anfiteatro privato", "Aveva un porticciolo privato e strutture per la lavorazione agricola", "Possedeva una biblioteca con papiri egizi", "Includeva un tempio dedicato a Mitra"],
+      "rispostaCorretta": 1,
+      "spiegazione": "La villa romana di Torre era dotata di un porticciolo privato e strutture per la lavorazione agricola, con reperti come ceramiche sigillate e vetri che attestano la ricchezza del proprietario."
+    },
+    {
+      "domanda": "Chi volle costruire il Castello di Miramare e in quale periodo fu realizzato?",
+      "opzioni": ["L'arciduca Francesco Giuseppe tra il 1840 e il 1850", "L'arciduca Massimiliano d'Asburgo tra il 1856 e il 1860", "Il duca Amedeo d'Aosta tra il 1931 e il 1937", "Re Umberto I tra il 1870 e il 1880"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Miramare fu voluto dall'arciduca Massimiliano d'Asburgo come sua residenza affacciata sul Golfo di Trieste, costruito tra il 1856 e il 1860 su progetto di Carl Junker."
+    },
+    {
+      "domanda": "Quale elemento caratterizzava gli Appartamenti Storici di Massimiliano e Carlotta a Miramare?",
+      "opzioni": ["Arredi in stile razionalista tipici del periodo fascista", "Mobili originali e uno stile eclettico con influenze goticheggianti e rinascimentali", "Decorazioni esclusivamente in stile barocco veneziano", "Un design moderno e funzionale del primo Novecento"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Gli Appartamenti Storici conservano mobili originali, suppellettili preziose e opere d'arte con uno stile eclettico che mescola influenze goticheggianti, rinascimentali e medievaliste."
+    },
+    {
+      "domanda": "Cosa conteneva la biblioteca personale di Massimiliano nel Castello di Miramare?",
+      "opzioni": ["Circa 1.000 volumi di letteratura italiana", "Oltre 7.000 volumi di vari argomenti", "Solo mappe nautiche e atlanti geografici", "Esclusivamente testi di architettura e giardinaggio"],
+      "rispostaCorretta": 1,
+      "spiegazione": "La ricca biblioteca personale di Massimiliano conteneva oltre 7.000 volumi, riflettendo i vasti interessi culturali dell'arciduca, ed era uno degli elementi di maggiore rilievo degli Appartamenti Storici."
+    },
+    {
+      "domanda": "Chi risiedette nell'Ala Novecentesca di Miramare e come furono ridecorati gli ambienti?",
+      "opzioni": ["L'arciduca Carlo d'Asburgo con arredi in stile liberty", "Il duca Amedeo d'Aosta con arredi in stile razionalista", "Re Vittorio Emanuele III con arredi in stile neoclassico", "Il governatore militare alleato con arredi in stile moderno"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il duca Amedeo d'Aosta vi risiedette tra il 1931 e il 1937. Gli ambienti furono riallestiti con arredi in stile razionalista tipico dell'epoca fascista, creando un netto contrasto con gli spazi sottostanti."
+    },
+    {
+      "domanda": "Quali caratteristiche distintive presenta il Parco di Miramare?",
+      "opzioni": ["Un giardino all'italiana con siepi geometriche e fontane", "Un giardino all'inglese di 22 ettari con specie botaniche rare", "Un parco romantico con templi neogotici e grotte artificiali", "Un giardino formale francese con viali simmetrici"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il parco è un giardino all'inglese di 22 ettari, capolavoro di architettura paesaggistica con specie botaniche rare ed esotiche importate da Massimiliano durante i suoi viaggi."
+    },
+    {
+      "domanda": "In quale edificio ha sede il Museo Archeologico Nazionale di Cividale e chi lo progettò?",
+      "opzioni": ["Palazzo dei Provveditori Veneti, progettato da Andrea Palladio", "Palazzo Comunale, progettato da Donato Bramante", "Palazzo Patriarcale, progettato da Giorgio Massari", "Palazzo Ducale, progettato da Baldassare Longhena"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo ha sede nel Palazzo dei Provveditori Veneti, progettato da Andrea Palladio, e custodisce le testimonianze archeologiche dell'antica Forum Iulii."
+    },
+    {
+      "domanda": "Quali reperti include la Collezione Longobarda del Museo Archeologico di Cividale?",
+      "opzioni": ["Solo monete e medaglie dell'epoca longobarda", "Esclusivamente sculture e affreschi parietali", "Corredi funerari con armi, gioielli in oro e argento, e vetri", "Solo strumenti musicali e codici miniati"],
+      "rispostaCorretta": 2,
+      "spiegazione": "La Collezione Longobarda include corredi funerari con armi, gioielli in oro e argento, oggetti di ornamento e vetri, testimoniando la cultura materiale dei Longobardi."
+    },
+    {
+      "domanda": "Cosa testimoniano i resti esposti nella sezione delle Rovine del Palazzo Patriarcale a Cividale?",
+      "opzioni": ["I resti di un tempio romano del II secolo a.C.", "Le fondazioni, mosaici pavimentali e elementi architettonici dell'antica residenza dei patriarchi di Aquileia", "I ruderi di una villa romana di età imperiale", "Le fondamenta di una chiesa paleocristiana del V secolo"],
+      "rispostaCorretta": 1,
+      "spiegazione": "La sezione espone i resti archeologici dell'antica residenza dei patriarchi di Aquileia, con fondazioni, mosaici pavimentali e elementi architettonici che testimoniano la grandiosità dell'edificio."
+    },
+    {
+      "domanda": "Quale evento causò la distruzione del Palazzo Patriarcale di Cividale?",
+      "opzioni": ["Un incendio nel 1202 durante le invasioni mongole", "Un terremoto nel 1448", "La guerra tra Venezia e l'Impero Asburgico nel 1508", "Un bombardamento durante la prima guerra mondiale"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Palazzo Patriarcale fu distrutto da un terremoto nel 1448. I resti sono fondamentali per comprendere il ruolo di Cividale come centro di potere religioso e politico."
+    },
+    {
+      "domanda": "Quali sono gli ambienti di particolare rilievo negli Appartamenti Storici di Miramare?",
+      "opzioni": ["Solo le camere da letto private", "La Sala del Trono, la biblioteca e la sala da musica", "Esclusivamente le cucine e le dispense", "Solo gli uffici amministrativi"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Di particolare rilievo sono la Sala del Trono, la ricca biblioteca personale di Massimiliano con oltre 7.000 volumi, la sala da musica e le camere da letto."
+    },
+    {
+      "domanda": "Quale periodo storico documenta l'Ala Novecentesca del Castello di Miramare?",
+      "opzioni": ["Il periodo napoleonico di inizio Ottocento", "La residenza del duca Amedeo d'Aosta tra il 1931 e il 1937", "L'occupazione britannica del secondo dopoguerra", "Il periodo della dominazione veneziana"],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Ala Novecentesca documenta il periodo in cui il duca Amedeo d'Aosta vi risiedette tra il 1931 e il 1937 come comandante della Divisione Aeronautica di Bombardamento."
+    },
+    {
+      "domanda": "Quali edifici secondari si trovano all'interno del Parco di Miramare?",
+      "opzioni": ["Solo le Scuderie per i cavalli", "Il Castelletto, le Serre e le Scuderie", "Esclusivamente un tempio greco-romano", "Solo la casa del giardiniere"],
+      "rispostaCorretta": 1,
+      "spiegazione": "All'interno del parco si trovano edifici secondari di grande pregio come il Castelletto, le Serre e le Scuderie, che creano un percorso di grande suggestione."
+    },
+    {
+      "domanda": "Quando fu istituito il Museo Archeologico Nazionale di Cividale e in quale contesto storico?",
+      "opzioni": ["Nel 1700 per volere della Repubblica di Venezia", "Nel 1817 in seguito alle soppressioni napoleoniche", "Nel 1900 durante il Regno d'Italia", "Nel 1950 dopo la seconda guerra mondiale"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Museo Archeologico Nazionale di Cividale fu istituito nel 1817 in seguito alle soppressioni napoleoniche e custodisce testimonianze dalla preistoria all'alto medioevo."
+    },
+    {
+      "domanda": "Perché la Collezione Longobarda del museo di Cividale è considerata così importante a livello internazionale?",
+      "opzioni": ["Perché contiene i corredi funerari delle necropoli di Cividale, capitale del primo ducato longobardo in Italia", "Perché espone esclusivamente reperti provenienti dalla Germania", "Perché mostra solo oggetti di origine bizantina senza influenze longobarde", "Perché raccoglie materiali esclusivamente del periodo carolingio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione è tra le più importanti al mondo per il periodo longobardo perché include i corredi funerari delle necropoli di Cividale, che fu capitale del primo ducato longobardo in Italia."
+    },
+    {
+      "domanda": "Quale architetto progettò il Castello di Miramare e che tipo di complesso rappresenta?",
+      "opzioni": ["Giovanni Andrea Berlam - una fortezza militare", "Carl Junker - una residenza asburgica di metà Ottocento", "Andrea Palladio - un palazzo rinascimentale", "Peter von Nobile - un edificio neoclassico"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il castello fu progettato da Carl Junker tra il 1856 e il 1860 per l'arciduca Massimiliano d'Asburgo e rappresenta un complesso monumentale che conserva intatti gli interni e gli arredi originali."
     }
-  ]
+    ],
+    
+    
+    
+    
+    
+    
+    
+    "lazio": 
+[ 
+    {
+      "domanda": "Qual è il significato storico della Basilica di San Giovanni in Laterano?",
+      "opzioni": [
+        "È la prima chiesa costruita dai Longobardi a Roma",
+        "È la Cattedrale di Roma e chiesa madre della cristianità mondiale",
+        "È la basilica più antica del mondo paleocristiano",
+        "È la chiesa ufficiale del governo italiano"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Basilica di San Giovanni in Laterano, fondata da Costantino nel IV secolo d.C., è la Cattedrale di Roma e la chiesa madre della cristianità mondiale, essendo stata per secoli la residenza dei Papi."
+    },
+    {
+      "domanda": "Cosa custodisce di particolarmente importante la Basilica di San Giovanni in Laterano?",
+      "opzioni": [
+        "Le reliquie di tutti i Papi medievali",
+        "La Testa dei Santi Pietro e Paolo e frammenti della Vera Croce",
+        "Il primo Vangelo scritto in latino",
+        "La tomba dell'imperatore Costantino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La basilica custodisce reliquie di inestimabile valore come la Testa dei Santi Pietro e Paolo e frammenti della Vera Croce, mentre il vicino Battistero Lateranense è il più antico del mondo."
+    },
+    {
+      "domanda": "Su quali antichi resti sorge Castel Gandolfo?",
+      "opzioni": [
+        "Sui resti di un tempio etrusco",
+        "Sui resti della leggendaria Alba Longa",
+        "Su una necropoli romana repubblicana",
+        "Su un accampamento militare bizantino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Castel Gandolfo sorge sui resti della leggendaria Alba Longa, ritenuta la città madre di Roma, e i dintorni sono un complesso archeologico continuo con la Villa di Domiziano."
+    },
+    {
+      "domanda": "Quale importante complesso archeologico si trova nei dintorni di Castel Gandolfo?",
+      "opzioni": [
+        "Le Terme di Caracalla",
+        "La Villa di Domiziano",
+        "Il Foro Romano",
+        "Il Circo Massimo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Nei dintorni di Castel Gandolfo si trovano i maestosi resti della Villa di Domiziano, un imponente complesso residenziale che si estendeva fino alle rive del lago Albano."
+    },
+    {
+      "domanda": "Quale famiglia fece costruire il Castello Orsini-Odescalchi di Bracciano?",
+      "opzioni": [
+        "Famiglia Colonna",
+        "Famiglia Orsini",
+        "Famiglia Borgia",
+        "Famiglia Medici"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello Orsini-Odescalchi di Bracciano fu edificato a partire dalla metà del XV secolo dalla potente famiglia Orsini ed è uno degli esempi più compiuti di architettura militare rinascimentale."
+    },
+    {
+      "domanda": "Quali artisti lavorarono al Castello di Bracciano?",
+      "opzioni": [
+        "Michelangelo e Raffaello",
+        "Antoniazzo Romano e della scuola dei Zuccari",
+        "Caravaggio e Bernini",
+        "Giotto e Cimabue"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "All'interno il castello conserva cicli di affreschi di Antoniazzo Romano e della scuola dei Zuccari, oltre ad arredi d'epoca e una collezione di armi antiche."
+    },
+    {
+      "domanda": "Per cosa è celebre la Cattedrale di Santa Maria ad Anagni?",
+      "opzioni": [
+        "Per la sua facciata barocca",
+        "Per la cripta di San Magno definita 'Cappella Sistina del Medioevo'",
+        "Per il campanile più alto del Lazio",
+        "Per le reliquie di San Francesco"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La cattedrale è celebre per la sua cripta di San Magno, definita la 'Cappella Sistina del Medioevo', con volte e parete interamente coperte da affreschi duecenteschi di rara bellezza."
+    },
+    {
+      "domanda": "Quale particolare artistico distingue la chiesa superiore di Anagni?",
+      "opzioni": [
+        "Il pavimento cosmatesco",
+        "Le vetrate gotiche francesi",
+        "Gli affreschi di Giotto",
+        "Il soffitto a cassettoni dorati"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pavimento cosmatesco della chiesa superiore è uno degli esempi più raffinati di questa arte musiva, mentre il palazzo papale adiacente ricorda che Anagni fu la 'Città dei Papi'."
+    },
+    {
+      "domanda": "A quale attività era principalmente dedicato il Circo Massimo?",
+      "opzioni": [
+        "Alle naumachie",
+        "Alle corse delle bighe",
+        "Ai combattimenti gladiatori",
+        "Alle rappresentazioni teatrali"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Circo Massimo era dedicato principalmente alle corse delle bighe e rappresentava la più vasta struttura per spettacoli dell'antichità, lunga oltre 600 metri."
+    },
+    {
+      "domanda": "Cosa hanno portato alla luce i recenti scavi al Circo Massimo?",
+      "opzioni": [
+        "La cavea centrale, i sedili in marmo e le tabernae commerciali",
+        "Il tempio di Giove Ottimo Massimo",
+        "La casa di Augusto",
+        "Le terme di Nerone"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Scavi recenti hanno portato alla luce strutture fondamentali come la cavea centrale, i sedili in marmo, le tabernae commerciali e l'imponente torre medievale dei Frangipane."
+    },
+    {
+      "domanda": "Qual è l'origine di Civita di Bagnoregio?",
+      "opzioni": [
+        "Origine romana imperiale",
+        "Origine etrusca",
+        "Origine longobarda",
+        "Origine normanna"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Civita di Bagnoregio è un insediamento di origine etrusca arroccato su una collina di tufo fragile, costantemente erosa da secoli di vento e piogge."
+    },
+    {
+      "domanda": "Come si accede a Civita di Bagnoregio?",
+      "opzioni": [
+        "Attraverso un tunnel scavato nella roccia",
+        "Esclusivamente attraverso un caratteristico ponte pedonale",
+        "Con una funivia",
+        "Attraverso una scalinata romana"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'accesso a Civita di Bagnoregio avviene esclusivamente attraverso un caratteristico ponte pedonale, a causa dell'isolamento causato dal crollo dell'istmo che la collegava alla valle."
+    },
+    {
+      "domanda": "Cosa comprende il Parco Archeologico del Colosseo?",
+      "opzioni": [
+        "Solo l'anfiteatro Flavio",
+        "Colosseo, Palatino e Valle del Foro Romano",
+        "Colosseo e Fori Imperiali",
+        "Colosseo e Circo Massimo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco Archeologico del Colosseo comprende non solo l'anfiteatro Flavio, ma anche il Palatino e la Valle del Foro Romano, formando il cuore politico, religioso e sociale dell'antica città."
+    },
+    {
+      "domanda": "Quale funzione aveva il Palatino in epoca imperiale?",
+      "opzioni": [
+        "Centro commerciale e mercato",
+        "Quartiere residenziale degli imperatori",
+        "Area sacra con templi",
+        "Zona militare e di difesa"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Palatino, sede dei primi insediamenti romani, divenne in epoca imperiale il quartiere residenziale degli imperatori, i cui palazzi, come quelli di Augusto e Domiziano, ne testimoniano la magnificenza."
+    },
+    {
+      "domanda": "Su cosa sono creati i Giardini di Ninfa?",
+      "opzioni": [
+        "Su una villa romana del I secolo",
+        "Sulle rovine della città medievale di Ninfa",
+        "Su un tempio etrusco",
+        "Su un monastero benedettino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I Giardini di Ninfa sono un giardino romantico all'inglese creato sulle rovine della città medievale di Ninfa, abbandonata nel XIV secolo."
+    },
+    {
+      "domanda": "Quale caratteristica naturale permette la fioritura di piante esotiche a Ninfa?",
+      "opzioni": [
+        "Il terreno vulcanico",
+        "L'eccezionale microclima dovuto alle numerose sorgenti",
+        "La protezione dalle correnti fredde",
+        "L'esposizione a sud"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'eccezionale microclima dovuto alle numerose sorgenti d'acqua ha permesso la coltivazione di una vastissima varietà di piante esotiche e rare che crescono in simbiosi con le rovine medievali."
+    },
+    {
+      "domanda": "Quale importanza hanno i Monasteri di Subiaco per la cristianità?",
+      "opzioni": [
+        "Furono il primo luogo di culto cristiano a Roma",
+        "San Benedetto vi fondò la prima comunità monastica",
+        "Conservano le reliquie di San Pietro",
+        "Furono sede del primo conclave"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I Monasteri di Subiaco sono i luoghi dove San Benedetto da Norcia visse da eremita e fondò la prima comunità monastica nel VI secolo, dando origine all'Ordine Benedettino."
+    },
+    {
+      "domanda": "Cosa custodisce il Sacro Speco di Subiaco?",
+      "opzioni": [
+        "La tomba di Carlo Magno",
+        "Alcuni dei cicli di affreschi più antichi del Lazio",
+        "Il primo testo della Regola Benedettina",
+        "Le spoglie di Santa Scolastica"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Sacro Speco custodisce alcuni dei cicli di affreschi più antichi del Lazio, tra cui il ritratto di San Francesco d'Assisi più vicino alla sua epoca, eseguito prima della sua canonizzazione."
+    },
+    {
+      "domanda": "Per cosa è celebre la Necropoli dei Monterozzi a Tarquinia?",
+      "opzioni": [
+        "Per le tombe a tumulo più antiche d'Italia",
+        "Per le tombe dipinte che costituiscono la più grande galleria d'arte etrusca",
+        "Per le catacombe paleocristiane",
+        "Per le tombe dei re etruschi"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Necropoli dei Monterozzi è il più importante sepolcreto etrusco per le sue tombe dipinte che costituiscono la più grande galleria d'arte al mondo della civiltà etrusca."
+    },
+    {
+      "domanda": "Cosa raffigurano gli affreschi delle tombe di Tarquinia?",
+      "opzioni": [
+        "Scene di battaglia e conquiste",
+        "Banchetti, danzatori, suonatori e scene di viaggio nell'aldilà",
+        "Rituali religiosi etruschi segreti",
+        "Mappe del mondo conosciuto"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Gli affreschi raffigurano banchetti, danzatori, suonatori, giochi atletici e scene di viaggio nell'aldilà, rivelando una cultura gioiosa e raffinata profondamente influenzata dal mondo greco."
+    }, {
+      "domanda": "Qual è il significato storico della Basilica di San Giovanni in Laterano?",
+      "opzioni": [
+        "È la prima chiesa costruita dai Longobardi a Roma",
+        "È la Cattedrale di Roma e chiesa madre della cristianità mondiale",
+        "È la basilica più antica del mondo paleocristiano",
+        "È la chiesa ufficiale del governo italiano"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Basilica di San Giovanni in Laterano, fondata da Costantino nel IV secolo d.C., è la Cattedrale di Roma e la chiesa madre della cristianità mondiale, essendo stata per secoli la residenza dei Papi."
+    },
+    {
+      "domanda": "Cosa custodisce di particolarmente importante la Basilica di San Giovanni in Laterano?",
+      "opzioni": [
+        "Le reliquie di tutti i Papi medievali",
+        "La Testa dei Santi Pietro e Paolo e frammenti della Vera Croce",
+        "Il primo Vangelo scritto in latino",
+        "La tomba dell'imperatore Costantino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La basilica custodisce reliquie di inestimabile valore come la Testa dei Santi Pietro e Paolo e frammenti della Vera Croce, mentre il vicino Battistero Lateranense è il più antico del mondo."
+    },
+    {
+      "domanda": "Su quali antichi resti sorge Castel Gandolfo?",
+      "opzioni": [
+        "Sui resti di un tempio etrusco",
+        "Sui resti della leggendaria Alba Longa",
+        "Su una necropoli romana repubblicana",
+        "Su un accampamento militare bizantino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Castel Gandolfo sorge sui resti della leggendaria Alba Longa, ritenuta la città madre di Roma, e i dintorni sono un complesso archeologico continuo con la Villa di Domiziano."
+    },
+    {
+      "domanda": "Quale importante complesso archeologico si trova nei dintorni di Castel Gandolfo?",
+      "opzioni": [
+        "Le Terme di Caracalla",
+        "La Villa di Domiziano",
+        "Il Foro Romano",
+        "Il Circo Massimo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Nei dintorni di Castel Gandolfo si trovano i maestosi resti della Villa di Domiziano, un imponente complesso residenziale che si estendeva fino alle rive del lago Albano."
+    },
+    {
+      "domanda": "Quale famiglia fece costruire il Castello Orsini-Odescalchi di Bracciano?",
+      "opzioni": [
+        "Famiglia Colonna",
+        "Famiglia Orsini",
+        "Famiglia Borgia",
+        "Famiglia Medici"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello Orsini-Odescalchi di Bracciano fu edificato a partire dalla metà del XV secolo dalla potente famiglia Orsini ed è uno degli esempi più compiuti di architettura militare rinascimentale."
+    },
+    {
+      "domanda": "Quali artisti lavorarono al Castello di Bracciano?",
+      "opzioni": [
+        "Michelangelo e Raffaello",
+        "Antoniazzo Romano e della scuola dei Zuccari",
+        "Caravaggio e Bernini",
+        "Giotto e Cimabue"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "All'interno il castello conserva cicli di affreschi di Antoniazzo Romano e della scuola dei Zuccari, oltre ad arredi d'epoca e una collezione di armi antiche."
+    },
+    {
+      "domanda": "Per cosa è celebre la Cattedrale di Santa Maria ad Anagni?",
+      "opzioni": [
+        "Per la sua facciata barocca",
+        "Per la cripta di San Magno definita 'Cappella Sistina del Medioevo'",
+        "Per il campanile più alto del Lazio",
+        "Per le reliquie di San Francesco"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La cattedrale è celebre per la sua cripta di San Magno, definita la 'Cappella Sistina del Medioevo', con volte e parete interamente coperte da affreschi duecenteschi di rara bellezza."
+    },
+    {
+      "domanda": "Quale particolare artistico distingue la chiesa superiore di Anagni?",
+      "opzioni": [
+        "Il pavimento cosmatesco",
+        "Le vetrate gotiche francesi",
+        "Gli affreschi di Giotto",
+        "Il soffitto a cassettoni dorati"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pavimento cosmatesco della chiesa superiore è uno degli esempi più raffinati di questa arte musiva, mentre il palazzo papale adiacente ricorda che Anagni fu la 'Città dei Papi'."
+    },
+    {
+      "domanda": "A quale attività era principalmente dedicato il Circo Massimo?",
+      "opzioni": [
+        "Alle naumachie",
+        "Alle corse delle bighe",
+        "Ai combattimenti gladiatori",
+        "Alle rappresentazioni teatrali"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Circo Massimo era dedicato principalmente alle corse delle bighe e rappresentava la più vasta struttura per spettacoli dell'antichità, lunga oltre 600 metri."
+    },
+    {
+      "domanda": "Cosa hanno portato alla luce i recenti scavi al Circo Massimo?",
+      "opzioni": [
+        "La cavea centrale, i sedili in marmo e le tabernae commerciali",
+        "Il tempio di Giove Ottimo Massimo",
+        "La casa di Augusto",
+        "Le terme di Nerone"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Scavi recenti hanno portato alla luce strutture fondamentali come la cavea centrale, i sedili in marmo, le tabernae commerciali e l'imponente torre medievale dei Frangipane."
+    },
+    {
+      "domanda": "Qual è l'origine di Civita di Bagnoregio?",
+      "opzioni": [
+        "Origine romana imperiale",
+        "Origine etrusca",
+        "Origine longobarda",
+        "Origine normanna"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Civita di Bagnoregio è un insediamento di origine etrusca arroccato su una collina di tufo fragile, costantemente erosa da secoli di vento e piogge."
+    },
+    {
+      "domanda": "Come si accede a Civita di Bagnoregio?",
+      "opzioni": [
+        "Attraverso un tunnel scavato nella roccia",
+        "Esclusivamente attraverso un caratteristico ponte pedonale",
+        "Con una funivia",
+        "Attraverso una scalinata romana"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'accesso a Civita di Bagnoregio avviene esclusivamente attraverso un caratteristico ponte pedonale, a causa dell'isolamento causato dal crollo dell'istmo che la collegava alla valle."
+    },
+    {
+      "domanda": "Cosa comprende il Parco Archeologico del Colosseo?",
+      "opzioni": [
+        "Solo l'anfiteatro Flavio",
+        "Colosseo, Palatino e Valle del Foro Romano",
+        "Colosseo e Fori Imperiali",
+        "Colosseo e Circo Massimo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco Archeologico del Colosseo comprende non solo l'anfiteatro Flavio, ma anche il Palatino e la Valle del Foro Romano, formando il cuore politico, religioso e sociale dell'antica città."
+    },
+    {
+      "domanda": "Quale funzione aveva il Palatino in epoca imperiale?",
+      "opzioni": [
+        "Centro commerciale e mercato",
+        "Quartiere residenziale degli imperatori",
+        "Area sacra con templi",
+        "Zona militare e di difesa"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Palatino, sede dei primi insediamenti romani, divenne in epoca imperiale il quartiere residenziale degli imperatori, i cui palazzi, come quelli di Augusto e Domiziano, ne testimoniano la magnificenza."
+    },
+    {
+      "domanda": "Su cosa sono creati i Giardini di Ninfa?",
+      "opzioni": [
+        "Su una villa romana del I secolo",
+        "Sulle rovine della città medievale di Ninfa",
+        "Su un tempio etrusco",
+        "Su un monastero benedettino"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I Giardini di Ninfa sono un giardino romantico all'inglese creato sulle rovine della città medievale di Ninfa, abbandonata nel XIV secolo."
+    },
+    {
+      "domanda": "Quale caratteristica naturale permette la fioritura di piante esotiche a Ninfa?",
+      "opzioni": [
+        "Il terreno vulcanico",
+        "L'eccezionale microclima dovuto alle numerose sorgenti",
+        "La protezione dalle correnti fredde",
+        "L'esposizione a sud"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'eccezionale microclima dovuto alle numerose sorgenti d'acqua ha permesso la coltivazione di una vastissima varietà di piante esotiche e rare che crescono in simbiosi con le rovine medievali."
+    },
+    {
+      "domanda": "Quale importanza hanno i Monasteri di Subiaco per la cristianità?",
+      "opzioni": [
+        "Furono il primo luogo di culto cristiano a Roma",
+        "San Benedetto vi fondò la prima comunità monastica",
+        "Conservano le reliquie di San Pietro",
+        "Furono sede del primo conclave"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "I Monasteri di Subiaco sono i luoghi dove San Benedetto da Norcia visse da eremita e fondò la prima comunità monastica nel VI secolo, dando origine all'Ordine Benedettino."
+    },
+    {
+      "domanda": "Cosa custodisce il Sacro Speco di Subiaco?",
+      "opzioni": [
+        "La tomba di Carlo Magno",
+        "Alcuni dei cicli di affreschi più antichi del Lazio",
+        "Il primo testo della Regola Benedettina",
+        "Le spoglie di Santa Scolastica"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Sacro Speco custodisce alcuni dei cicli di affreschi più antichi del Lazio, tra cui il ritratto di San Francesco d'Assisi più vicino alla sua epoca, eseguito prima della sua canonizzazione."
+    },
+    {
+      "domanda": "Per cosa è celebre la Necropoli dei Monterozzi a Tarquinia?",
+      "opzioni": [
+        "Per le tombe a tumulo più antiche d'Italia",
+        "Per le tombe dipinte che costituiscono la più grande galleria d'arte etrusca",
+        "Per le catacombe paleocristiane",
+        "Per le tombe dei re etruschi"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Necropoli dei Monterozzi è il più importante sepolcreto etrusco per le sue tombe dipinte che costituiscono la più grande galleria d'arte al mondo della civiltà etrusca."
+    },
+    {
+      "domanda": "Cosa raffigurano gli affreschi delle tombe di Tarquinia?",
+      "opzioni": [
+        "Scene di battaglia e conquiste",
+        "Banchetti, danzatori, suonatori e scene di viaggio nell'aldilà",
+        "Rituali religiosi etruschi segreti",
+        "Mappe del mondo conosciuto"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Gli affreschi raffigurano banchetti, danzatori, suonatori, giochi atletici e scene di viaggio nell'aldilà, rivelando una cultura gioiosa e raffinata profondamente influenzata dal mondo greco."
+    }, {
+      "domanda": "In quale sede del Museo Nazionale Romano si trovano gli affreschi delle ville di Livia Drusilla?",
+      "opzioni": [
+        "Terme di Diocleziano",
+        "Palazzo Massimo",
+        "Crypta Balbi", 
+        "Palazzo Altemps"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Massimo ospita al secondo piano gli straordinari affreschi e mosaici delle ville di Livia Drusilla a Prima Porta e della Farnesina, offrendo una visione unica della pittura parietale romana in età augustea."
+    },
+    {
+      "domanda": "Quale caratteristica rende unica la Crypta Balbi tra le sedi del Museo Nazionale Romano?",
+      "opzioni": [
+        "Espone solo sculture di epoca imperiale",
+        "Documenta l'evoluzione del tessuto urbano dall'antichità al medioevo",
+        "Conserva esclusivamente opere in oro e argento",
+        "È dedicata solo alla numismatica romana"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Crypta Balbi è un sito archeologico unico che documenta l'evoluzione del tessuto urbano di Roma dal portico romano del teatro di Balbo (13 a.C.) fino alle trasformazioni medievali e moderne dell'area."
+    },
+    {
+      "domanda": "Quale celebre scultura etrusca è conservata al Museo Nazionale Etrusco di Villa Giulia?",
+      "opzioni": [
+        "Il Galata Morente",
+        "Il Sarcofago degli Sposi da Cerveteri",
+        "La Lupa Capitolina",
+        "Il Pugile in riposo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Museo Nazionale Etrusco di Villa Giulia conserva il Sarcofago degli Sposi da Cerveteri, un gruppo fittile di straordinario realismo che raffigura una coppia di coniugi banchettante nell'aldilà."
+    },
+    {
+      "domanda": "Cosa rende eccezionale l'Apollo di Veio esposto a Villa Giulia?",
+      "opzioni": [
+        "È l'unica scultura etrusca in marmo",
+        "È una statua acroteriale in terracotta policroma del tempio di Portonaccio",
+        "Raffigura un imperatore romano in stile etrusco",
+        "È completamente ricoperta d'oro"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Apollo di Veio è una statua acroteriale in terracotta policroma proveniente dal tempio di Portonaccio, attribuita al maestro Vulca, e rappresenta la massima espressione della scultura etrusca tardo-arcaica."
+    },
+    {
+      "domanda": "Quale importante testimonianza epigrafica è conservata a Villa Giulia?",
+      "opzioni": [
+        "Le Lamine d'oro di Pyrgi iscritte in etrusco e fenicio",
+        "La Stele di Rosetta",
+        "Le Tavole eugubine",
+        "L'iscrizione di Dueno"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo conserva le lamine d'oro dal santuario di Pyrgi, iscritte in etrusco e fenicio, fondamentale testimonianza bilingue per lo studio della lingua e della cultura etrusca."
+    },
+    {
+      "domanda": "Quale imperatore volle l'Ara Pacis e quale evento celebra?",
+      "opzioni": [
+        "Nerone - la ricostruzione di Roma dopo l'incendio",
+        "Augusto - le vittoriose campagne in Gallia e Spagna e la Pax Augusta",
+        "Traiano - le vittorie contro i Daci",
+        "Adriano - la pacificazione dell'Impero"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Ara Pacis Augustae fu voluta dal Senato nel 13 a.C. per celebrare le vittoriose campagne di Augusto in Gallia e Spagna e il periodo di pace (Pax Augusta) che ne seguì, consacrata nel 9 a.C."
+    },
+    {
+      "domanda": "Cosa rappresenta il pannello della Tellus sull'Ara Pacis?",
+      "opzioni": [
+        "La fondazione di Roma da parte di Romolo",
+        "La figura allegorica dell'Italia o della Terra come simbolo di fecondità e pace",
+        "La battaglia di Azio",
+        "Il trionfo di Augusto"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il pannello della Tellus (o Italia) raffigura una figura femminile circondata da allegorie della fecondità e della pace, incarnando la prosperità della terra italica sotto il governo di Augusto."
+    },
+    {
+      "domanda": "Quale innovazione tecnologica delle navi di Nemi ha rivoluzionato le conoscenze sull'ingegneria romana?",
+      "opzioni": [
+        "L'uso di vele triangolari",
+        "La presenza di cuscinetti a sfera e roller bearings in bronzo",
+        "Un sistema di propulsione a vapore",
+        "Timoni laterali mobili"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il ritrovamento di cuscinetti a sfera e roller bearings in bronzo a bordo delle navi di Nemi ha rivoluzionato le conoscenze sull'ingegneria meccanica romana, dimostrando una tecnologia avanzatissima."
+    },
+    {
+      "domanda": "Quale tragico evento ha colpito le Navi di Nemi nel 1944?",
+      "opzioni": [
+        "Un'alluvione che ha danneggiato il museo",
+        "Un incendio che ha distrutto completamente le navi",
+        "Un bombardamento che ha frantumato i reperti",
+        "Un terremoto che ha fatto crollare la struttura"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Nella notte tra il 31 maggio e il 1 giugno 1944, un incendio di origine mai del tutto chiarita divampò nel museo, distruggendo completamente le due imponenti navi romane di Caligola."
+    },
+    {
+      "domanda": "Quale celebre bronzo, simbolo di Roma, è conservato ai Musei Capitolini?",
+      "opzioni": [
+        "Il Marco Aurelio",
+        "La Lupa Capitolina",
+        "Lo Spinario",
+        "Tutte le precedenti"
+      ],
+      "rispostaCorretta": 3,
+      "spiegazione": "Ai Musei Capitolini sono conservati tutti questi celebri bronzi: la Lupa Capitolina (V sec. a.C.), lo Spinario (ellenistico) e la statua equestre di Marco Aurelio (originale nell'Esedra)."
+    },
+    {
+      "domanda": "Cosa si può ammirare dal Tabularium dei Musei Capitolini?",
+      "opzioni": [
+        "Una vista panoramica sul Foro Romano",
+        "Gli affreschi di Michelangelo",
+        "La tomba di Romolo",
+        "Il labirinto sotterraneo del Campidoglio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dal Tabularium, l'antico archivio di stato romano, si gode di una delle viste più spettacolari e suggestive sull'area del Foro Romano, attraverso le sue imponenti arcate in tufo."
+    },
+    {
+      "domanda": "Quale opera di Caravaggio è conservata nella Pinacoteca Capitolina?",
+      "opzioni": [
+        "La Buona Ventura e il San Giovanni Battista",
+        "La Canestra di frutta",
+        "La Vocazione di San Matteo",
+        "La Decollazione del Battista"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Pinacoteca Capitolina conserva due opere capitali di Caravaggio: 'La Buona Ventura', tra le sue prime opere, e il 'San Giovanni Battista', una delle sue interpretazioni più intense del santo."
+    },
+    {
+      "domanda": "Quale celebre affresco decora il salone di Palazzo Barberini?",
+      "opzioni": [
+        "La Creazione di Adamo di Michelangelo",
+        "Il Trionfo della Divina Provvidenza di Pietro da Cortona",
+        "La Scuola di Atene di Raffaello",
+        "Il Giudizio Universale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il salone centrale di Palazzo Barberini è dominato dallo splendido affresco di Pietro da Cortona 'Il Trionfo della Divina Provvidenza', capolavoro del barocco romano."
+    },
+    {
+      "domanda": "Quale ritratto femminile di Raffaello è conservato a Palazzo Barberini?",
+      "opzioni": [
+        "La Velata",
+        "La Fornarina",
+        "La Donna Gravida",
+        "La Muta"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Barberini conserva 'La Fornarina' di Raffaello, ritratto di intensa sensualità tradizionalmente attribuito alla sua amante, la fornarina Margherita Luti."
+    },
+    {
+      "domanda": "Quale periodo storico celebra il Vittoriano?",
+      "opzioni": [
+        "L'Unità d'Italia e il Risorgimento",
+        "La fondazione di Roma",
+        "L'Impero Romano",
+        "Il periodo fascista"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Vittoriano, o Altare della Patria, è un monumento nazionale dedicato a Vittorio Emanuele II e celebra l'Unità d'Italia raggiunta con il Risorgimento, inaugurato nel 1911."
+    },
+    {
+      "domanda": "Da quale balcone di Palazzo Venezia Mussolini teneva i suoi discorsi?",
+      "opzioni": [
+        "Il balcone dell'Appartamento Barbo",
+        "Un balcone costruito appositamente nel Novecento",
+        "Il balcone della Sala del Mappamondo",
+        "Il balcone del cortile interno"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Benito Mussolini teneva i suoi discorsi alla folla dal balcone della Sala del Mappamondo di Palazzo Venezia, che durante il periodo fascista fu sede del governo."
+    },
+    {
+      "domanda": "Quale caratteristica rende unico il Museo Centrale Montemartini?",
+      "opzioni": [
+        "È interamente sotterraneo",
+        "Accoglie solo reperti medievali",
+        "Espone sculture antiche accanto a macchine industriali conservate",
+        "È dedicato esclusivamente alla numismatica"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il Museo Centrale Montemartini è unico per il suo allestimento che pone capolavori della scultura classica di fronte alle gigantesche macchine industriali della ex centrale termoelettrica, creando un dialogo straordinario tra archeologia e industria."
+    },
+    {
+      "domanda": "Da quali musei provengono principalmente le opere esposte al Montemartini?",
+      "opzioni": [
+        "Dai Musei Vaticani",
+        "Dai Musei Capitolini",
+        "Dalla Galleria Borghese",
+        "Dal Museo Nazionale Romano"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le collezioni del Montemartini provengono principalmente dai Musei Capitolini, qui trasferite temporaneamente durante lavori di ristrutturazione, ma il successo dell'allestimento ne ha decretato la permanenza definitiva."
+    },
+    {
+      "domanda": "Quale celebre mosaico è conservato al Museo Montemartini?",
+      "opzioni": [
+        "Il mosaico di Alessandro da Pompei",
+        "Il mosaico con scene di caccia da Santa Bibiana",
+        "Il mosaico nilotico di Palestrina",
+        "Il mosaico di Orfeo dagli Horti Sallustiani"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il museo conserva il mosaico con scene di caccia da Santa Bibiana, un'opera di eccezionale ricchezza e dettaglio che testimonia l'alto livello dell'arte musiva romana."
+    },
+    {
+      "domanda": "Quale caratteristica del Parco Archeologico di Veio testimonia la sofisticata ingegneria idraulica etrusca?",
+      "opzioni": [
+        "Le Terme di Caracalla",
+        "Il Ponte Sodo, un cunicolo scavato nel tufo per regolare il fiume Cremera",
+        "L'Acquedotto Felice",
+        "La Cloaca Massima"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco di Veio include il Ponte Sodo, un cunicolo etrusco scavato nel tufo per regolare il flusso del Cremera, dimostrando l'avanzata tecnologia idraulica di questo popolo."
+    },
+    {
+      "domanda": "Quale importante funzione aveva originariamente il Mausoleo di Adriano prima di diventare Castel Sant'Angelo?",
+      "opzioni": [
+        "Terme pubbliche",
+        "Sepolcro imperiale per Adriano e la sua famiglia",
+        "Tempio dedicato a Giove",
+        "Anfiteatro per spettacoli gladiatori"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Mausoleo di Adriano fu costruito originariamente tra il 125 e il 139 d.C. come sepolcro per l'imperatore Adriano e la sua famiglia, prima delle successive trasformazioni in fortezza e residenza papale."
+    },
+    {
+      "domanda": "Cosa distingue la Necropoli della Banditaccia a Cerveteri dalle altre necropoli etrusche?",
+      "opzioni": [
+        "La presenza di piramidi funerarie",
+        "La planimetria che riproduce una vera città dei morti con strade e piazze",
+        "Tombe esclusivamente sotterranee senza tumuli",
+        "L'uso esclusivo della cremazione"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Banditaccia è celebre per le sue tombe a tumulo che formano una vera e propria città dei morti con una planimetria urbana completa di strade, piazze e quartieri distinti."
+    },
+    {
+      "domanda": "Quale innovazione architettonica caratterizza il Pantheon rispetto agli altri templi romani?",
+      "opzioni": [
+        "La perfetta geometria sferica della cella rotonda sormontata da cupola",
+        "L'uso esclusivo del marmo pentelico",
+        "La presenza di sei colonne frontali invece di otto",
+        "L'assenza completa di finestre"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Pantheon rivoluziona l'architettura templare con la sua cella rotonda sormontata da una cupola emisferica il cui diametro e altezza sono identici, creando una sfera perfetta illuminata solo dall'oculo centrale."
+    },
+    {
+      "domanda": "Quale aspetto della Civita di Bagnoregio ne ha determinato l'isolamento e il soprannome 'la città che muore'?",
+      "opzioni": [
+        "Le invasioni barbariche ripetute",
+        "Il crollo dell'istmo di collegamento per l'erosione del tufo",
+        "Una pestilenza medievale che ne decimò la popolazione",
+        "La costruzione di una diga che inondò la valle"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Civita di Bagnoregio deve il suo isolamento e il soprannome 'la città che muore' al progressivo crollo dell'istmo che la collegava alla valle, causato dall'erosione della collina di tufo su cui sorge."
+    },
+    {
+      "domanda": "Quale particolare tecnologico delle Navi di Nemi ha sorpreso gli archeologi per la sua modernità?",
+      "opzioni": [
+        "Sistemi di condizionamento dell'aria",
+        "Cuscinetti a sfera e roller bearings in bronzo",
+        "Eliche propulsive in bronzo",
+        "Sistemi di illuminazione elettrica"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il ritrovamento di cuscinetti a sfera e roller bearings in bronzo a bordo delle Navi di Nemi ha rivoluzionato le conoscenze sull'ingegneria meccanica romana, rivelando una tecnologia insospettatamente avanzata."
+    },
+    {
+      "domanda": "Quale funzione aveva il Piazzale delle Corporazioni a Ostia Antica?",
+      "opzioni": [
+        "Mercato degli schiavi",
+        "Sede delle associazioni di mercanti e armatori di tutto il Mediterraneo",
+        "Foro politico della città",
+        "Area per spettacoli teatrali"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Piazzale delle Corporazioni era il centro commerciale di Ostia dove le associazioni di mercanti e armatori di tutto il Mediterraneo avevano i loro uffici, come testimoniano i mosaici con simboli dei loro commerci."
+    },
+    {
+      "domanda": "Quale caratteristica del Parco Archeologico dell'Appia Antica lo rende unico?",
+      "opzioni": [
+        "La presenza di un antico ippodromo romano",
+        "La conservazione di un intero paesaggio archeologico lungo la strada romana",
+        "L'unico parco archeologico sotterraneo di Roma",
+        "La ricostruzione completa di una villa romana"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco dell'Appia Antica preserva non solo la strada lastricata originale, ma tutto il paesaggio archeologico circostante con sepolcri, ville, acquedotti e catacombe, offrendo una visione completa della concezione romana dello spazio lungo le vie consolari."
+    },
+    {
+      "domanda": "Quale aspetto dei Giardini di Ninfa crea un microclima particolare?",
+      "opzioni": [
+        "La posizione sul versante nord di un vulcano spento",
+        "La presenza di numerose sorgenti d'acqua naturali",
+        "Le mura medievali che creano un effetto serra",
+        "La piantumazione di sole specie desertiche"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'eccezionale microclima dei Giardini di Ninfa è determinato dalla presenza di numerose sorgenti d'acqua che permettono la crescita di una vastissima varietà di piante esotiche e rare in simbiosi con le rovine medievali."
+    },
+    {
+      "domanda": "Quale importante ritrovamento al Museo delle Navi di Nemi è scampato all'incendio del 1944?",
+      "opzioni": [
+        "Le vele originali in lino",
+        "I cuscinetti a sfera in bronzo e le decorazioni bronzee",
+        "Gli alberi maestri in legno di cedro",
+        "Le ancore in marmo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dall'incendio del 1944 si salvarono i preziosi reperti metallici come i cuscinetti a sfera in bronzo e le elaborate decorazioni bronzee a testa di felino e di lupo, oggi esposti nel museo ricostruito."
+    },
+    {
+      "domanda": "Quale caratteristica rende Sutri un 'palinsesto archeologico unico'?",
+      "opzioni": [
+        "La sovrapposizione di culti etruschi, romani e cristiani in un unico sito scavato nel tufo",
+        "La presenza del più grande anfiteatro romano d'Italia",
+        "L'unica necropoli etrusca completamente dipinta",
+        "La conservazione integrale di una città etrusca"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Sutri è un palinsesto unico per la straordinaria sovrapposizione di culti: un mitreo romano ricavato in una tomba etrusca, a sua volta trasformato in chiesa medievale (Madonna del Parto), tutto scavato nello stesso banco di tufo."
+    },
+    {
+      "domanda": "Quale aspetto del Foro di Traiano lo rende il più maestoso tra i Fori Imperiali?",
+      "opzioni": [
+        "La Colonna Traiana con il fregio spiraliforme che narra le guerre daciche",
+        "La presenza del più grande tempio di Roma",
+        "L'unico foro con biblioteche greca e latina",
+        "La copertura completamente marmorea"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Foro di Traiano è il più maestoso per la presenza della Colonna Traiana, che con il suo fregio spiraliforme lungo 200 metri narra le vittorie contro i Daci, creando un monumento celebrativo di incomparabile impatto visivo."
+    },
+    {
+      "domanda": "Quale particolare della Villa Adriana a Tivoli riflette la personalità colta dell'imperatore?",
+      "opzioni": [
+        "La riproduzione in miniatura dei luoghi visitati da Adriano nell'Impero",
+        "L'uso esclusivo di marmi italiani",
+        "La pianta rigidamente simmetrica",
+        "L'assenza completa di decorazioni scultoree"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Villa Adriana riflette la personalità colta e cosmopolita dell'imperatore attraverso la riproduzione in miniatura dei luoghi e degli edifici che più lo avevano colpito durante i suoi viaggi in tutto l'Impero romano."
+    },
+    {
+      "domanda": "Quale caratteristica del Mitreo di Santa Prisca lo rende particolarmente importante per lo studio del culto di Mitra?",
+      "opzioni": [
+        "Gli affreschi con la processione degli iniziati e i loro abiti rituali",
+        "Le dimensioni più piccole rispetto agli altri mitrei",
+        "La posizione sopraelevata su una collina",
+        "L'assenza della tipica scena del tauroctonia"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Mitreo di Santa Prisca è eccezionale per la presenza di affreschi ben conservati che raffigurano la processione degli iniziati con i loro abiti rituali, offrendo preziose informazioni sulle cerimonie di iniziazione al culto mitraico."
+    },{
+      "domanda": "Quale celebre opera di Canova è conservata nella Galleria Borghese e chi raffigura?",
+      "opzioni": [
+        "Amore e Psiche - raffigura due amanti mitologici",
+        "Paolina Borghese Bonaparte come Venere vincitrice - raffigura la sorella di Napoleone",
+        "Le Tre Grazie - raffigura le tre dee della bellezza",
+        "Teseo sul Minotauro - raffigura l'eroe greco"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Galleria Borghese conserva la celebre scultura di Antonio Canova 'Paolina Borghese Bonaparte come Venere vincitrice', un capolavoro del Neoclassicismo che ritrae la sorella di Napoleone in pose sensuale e virtuosistica."
+    },
+    {
+      "domanda": "Quale importante caratteristica distingue la collezione del Museo Nazionale Romano rispetto ad altri musei archeologici?",
+      "opzioni": [
+        "È articolato in quattro sedi distinte e complementari",
+        "Conserva solo reperti dell'età repubblicana",
+        "È dedicato esclusivamente all'arte greca",
+        "Possiede la più grande collezione di mumie egizie"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo Nazionale Romano si distingue per essere articolato in quattro sedi distinte (Palazzo Massimo, Terme di Diocleziano, Crypta Balbi, Palazzo Altemps), ciascuna con una precisa identità e specializzazione."
+    },
+    {
+      "domanda": "Quale capolavoro assoluto della scultura antica è conservato a Palazzo Altemps?",
+      "opzioni": [
+        "Il Galata suicida che sostiene la moglie morta",
+        "Il Laocoonte",
+        "Il Discobolo",
+        "L'Apollo del Belvedere"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo Altemps ospita il 'Galata suicida', un capolavoro assoluto della scultura antica che raffigura un guerriero gallico mentre, dopo aver ucciso la propria moglie, si trafigge con la spada per non cadere prigioniero."
+    },
+    {
+      "domanda": "Quale aspetto rende unico il Museo dell'Ara Pacis nell'allestimento moderno?",
+      "opzioni": [
+        "È stato il primo museo romano ad utilizzare ologrammi",
+        "È un contenitore architettonico moderno progettato da Richard Meier",
+        "Conserva solo copie in gesso dei reperti originali",
+        "È interamente sotterraneo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Museo dell'Ara Pacis è unico per essere un contenitore architettonico moderno progettato dall'architetto Richard Meier, appositamente creato nel 2006 per proteggere e valorizzare l'antico altare augusteo."
+    },
+    {
+      "domanda": "Quale importante collezione di sculture è ospitata a Palazzo Altemps?",
+      "opzioni": [
+        "La collezione Boncompagni Ludovisi con l'Ercole bambino",
+        "La collezione Farnese",
+        "La collezione Medici",
+        "La collezione Borghese"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo Altemps ospita la prestigiosa collezione Boncompagni Ludovisi, che include capolavori come l'Ercole bambino e l'Acrolito di Apollo, statue di altissima qualità esposte negli ambienti originali del palazzo rinascimentale."
+    },
+    {
+      "domanda": "Quale celebre opera di Bernini alla Galleria Borghese rappresenta il momento metamorfico di Dafne?",
+      "opzioni": [
+        "Il Ratto di Proserpina",
+        "Apollo e Dafne",
+        "David",
+        "L'Estasi di Santa Teresa"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Apollo e Dafne' di Bernini è la scultura che coglie il momento metamorfico in cui la ninfa Dafne si trasforma in albero di alloro per sfuggire ad Apollo, dimostrando il virtuosismo illusionistico dell'artista."
+    },
+    {
+      "domanda": "Quale particolare rende eccezionale la collezione di Caravaggio alla Galleria Borghese?",
+      "opzioni": [
+        "Include opere che coprono tutta la sua carriera, dalle prime esperienze romane alla maturità",
+        "Conserva solo i suoi dipinti di soggetto religioso",
+        "È composta esclusivamente da autoritratti",
+        "Include solo opere della sua periodo napoletano"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione di Caravaggio alla Galleria Borghese è eccezionale perché include opere fondamentali che segnano l'intera sua carriera, dal 'Bacchino Malato' (prime opere romane) al 'David con la testa di Golia' (maturità)."
+    },
+    {
+      "domanda": "Quale importante caratteristica del Museo Nazionale Etrusco di Villa Giulia riguarda la sua organizzazione espositiva?",
+      "opzioni": [
+        "Le sale sono organizzate secondo un criterio topografico e tematico",
+        "È organizzato esclusivamente in ordine cronologico",
+        "Espone solo reperti provenienti da Cerveteri",
+        "È dedicato solo all'oreficeria etrusca"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo di Villa Giulia organizza le sue sale secondo un criterio topografico e tematico, presentando i reperti secondo la loro area di provenienza e affrontando diversi aspetti della civiltà etrusca."
+    },
+    {
+      "domanda": "Quale aspetto del Museo Centrale Montemartini lo rende un esempio unico di musealizzazione?",
+      "opzioni": [
+        "L'allestimento che mette in dialogo archeologia classica e archeologia industriale",
+        "La presenza di sole opere in bronzo",
+        "L'essere il primo museo completamente digitale di Roma",
+        "La ricostruzione fedele di una casa romana"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo Centrale Montemartini è unico per il suo allestimento geniale che mette in dialogo l'archeologia classica con l'archeologia industriale, ponendo statue antiche di fronte alle macchine della ex centrale termoelettrica."
+    },
+    {
+      "domanda": "Quale importante opera di arte medievale è conservata nella Pinacoteca Capitolina?",
+      "opzioni": [
+        "La Maestà di Giotto",
+        "Il Trittico Stefaneschi",
+        "Non è specificato nel testo, ma la pinacoteca copre dal Medioevo al Settecento",
+        "L'affresco di Cimabue dal Laterano"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "La Pinacoteca Capitolina contiene una pregevole collezione di dipinti che spazia dal Medioevo al Settecento, sebbene il testo non specifichi opere medievali particolari, concentrandosi invece su Caravaggio e altri maestri."
+    },
+    {
+      "domanda": "Quale caratteristica distintiva hanno le collezioni di Palazzo Barberini e Palazzo Corsini?",
+      "opzioni": [
+        "Insieme offrono un percorso completo nella pittura italiana dal XII al XVIII secolo",
+        "Sono dedicate esclusivamente all'arte barocca",
+        "Conservano solo opere di artisti stranieri",
+        "Espongono esclusivamente sculture"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Galleria Nazionale d'Arte Antica è divisa tra Palazzo Barberini e Palazzo Corsini, che insieme offrono un percorso completo nella pittura italiana dal XII al XVIII secolo, documentando l'evoluzione degli stili e delle scuole pittoriche."
+    }
+  ],
+    
+    
+    
+    
+    
+    
+    
+    "liguria": 
+[ 
+{
+      "domanda": "Quale caratteristica urbanistica distingue il Borgo Medievale di Apricale?",
+      "opzioni": [
+        "Un impianto a scacchiera di origine romana",
+        "Un impianto urbanistico a chiocciola con case-torri",
+        "Una struttura circolare con piazza centrale",
+        "Un sistema di canali navigabili interni"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Apricale è caratterizzato da un impianto urbanistico a chiocciola con case-torri e stretti carruggi che convergono verso la sommità dominata dai ruderi del Castello della Lucertola, esempio eccezionale di architettura spontanea difensiva."
+    },
+    {
+      "domanda": "Quale periodo storico rappresenta principalmente il Borgo marinaro di Boccadasse?",
+      "opzioni": [
+        "Età romana imperiale",
+        "Periodo napoleonico",
+        "Villaggio di pescatori del XVII secolo",
+        "Insediamento industriale ottocentesco"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Boccadasse conserva l'aspetto originario di un villaggio di pescatori del XVII secolo, con case colorate addossate le une alle altre per resistere ai venti marini, esempio tangibile degli insediamenti costieri prima dell'espansione urbana."
+    },
+    {
+      "domanda": "Cosa rende unico l'accesso all'Abbazia di San Fruttuoso di Capodimonte?",
+      "opzioni": [
+        "È accessibile solo via funivia",
+        "Si raggiunge solo via mare o attraverso sentieri scoscesi",
+        "È collegata da un ponte tibetano",
+        "Si accede attraverso una grotta sotterranea"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Abbazia di San Fruttuoso è incastonata in una baia riparata accessibile solo via mare o attraverso sentieri scoscesi, caratteristica che ha contribuito alla sua preservazione nel tempo."
+    },
+    {
+      "domanda": "Quale importante testimonianza storica è conservata nella Cattedrale di San Lorenzo a Genova?",
+      "opzioni": [
+        "Una bandiera vichinga del X secolo",
+        "Una granata inesplosa della Prima Guerra Mondiale",
+        "Il tesoro dei Templari",
+        "Le spoglie di Cristoforo Colombo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La cattedrale conserva una granata inesplosa della Prima Guerra Mondiale che testimonia i danni subiti dai bombardamenti navali, rendendola un monumento alla resilienza della città."
+    },
+    {
+      "domanda": "Quale opera ingegneristica caratterizza il Parco Nazionale delle Cinque Terre?",
+      "opzioni": [
+        "Un sistema di acquedotti romani",
+        "Oltre settemila chilometri di muretti a secco per terrazzamenti",
+        "Una rete di tunnel sotterranei per l'irrigazione",
+        "Dighe di contenimento delle frane"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il parco è caratterizzato da terrazzamenti per la viticoltura sorretti da oltre settemila chilometri di muretti a secco, un'opera colossale di ingegneria agraria che ha prevenuto l'erosione del suolo."
+    },
+    {
+      "domanda": "Per quale motivo fu costruito il Forte di Santa Tecla a Sanremo?",
+      "opzioni": [
+        "Per difendersi dalle invasioni saracene",
+        "Come residenza estiva del Doge di Genova",
+        "Per controllare militarmente Sanremo dopo la rivolta del 1753",
+        "Come base per la flotta genovese"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il forte fu costruito dalla Repubblica di Genova tra il 1755 e il 1756 in risposta alla rivolta popolare dei sanremaschi del 1753, con lo scopo di controllare militarmente la città."
+    },
+    {
+      "domanda": "Quale celebre artista è rappresentato nelle collezioni di Palazzo Bianco a Genova?",
+      "opzioni": [
+        "Leonardo da Vinci",
+        "Caravaggio",
+        "Michelangelo",
+        "Raffaello"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Bianco custodisce opere fondamentali della scuola genovese, fiamminga e spagnola, con capolavori di Caravaggio, Van Dyck e Memling."
+    },
+    {
+      "domanda": "Quale riconoscimento UNESCO possiede il Parco Naturale Regionale del Beigua?",
+      "opzioni": [
+        "Patrimonio dell'Umanità per l'architettura",
+        "Geoparco UNESCO per il suo valore geologico",
+        "Riserva della Biosfera per la biodiversità",
+        "Patrimonio Immateriale per le tradizioni culturali"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco del Beigua è un geoparco UNESCO caratterizzato da ofioliti e serpentiniti che testimoniano antiche faglie oceaniche, con eccezionale valore geologico."
+    },
+    {
+      "domanda": "Quale funzione aveva storicamente il Castello di Taggia?",
+      "opzioni": [
+        "Residenza estiva dei vescovi di Genova",
+        "Baluardo difensivo contro le incursioni saracene",
+        "Centro di produzione di olio d'oliva",
+        "Osservatorio astronomico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Taggia fu un cruciale baluardo difensivo della Valle Argentina contro le incursioni saracene, con una struttura che unisce elementi medievali a fortificazioni rinascimentali."
+    },
+    {
+      "domanda": "Quale caratteristica distingue il Santuario di Nostra Signora delle Grazie?",
+      "opzioni": [
+        "È scavato interamente nella roccia",
+        "Conserva pregevoli affreschi votivi quattrocenteschi",
+        "È il santuario più antico della Liguria",
+        "Possiede la più grande campana della regione"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il santuario conserva pregevoli affreschi votivi quattrocenteschi che narrano storie della Vergine e dei Santi, espressione della pittura tardomedievale ligure."
+    },
+    {
+      "domanda": "Quale importante ritrovamento preistorico è associato alle Caverne dei Balzi Rossi?",
+      "opzioni": [
+        "Le mummie del Neolitico",
+        "Le celebri statuine femminili steatopigie dette 'Veneri'",
+        "Pitture rupestri di mammuth",
+        "Strumenti in bronzo dell'Età del Rame"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le Caverne dei Balzi Rossi hanno restituito le celebri statuine femminili steatopigie, note come 'Veneri dei Balzi Rossi', espressione di arte mobiliare paleolitica di straordinario realismo."
+    },
+    {
+      "domanda": "Cosa rende eccezionale la sepoltura del 'Giovane Principe' nelle Arene Candide?",
+      "opzioni": [
+        "Il corpo era ricoperto d'oro",
+        "Il ricchissimo corredo funerario con copricapo decorato",
+        "La mummificazione naturale perfetta",
+        "La presenza di armi in ferro"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La sepoltura del 'Giovane Principe' include un ricchissimo corredo funerario con copricapo decorato con conchiglie e oltre duecento perle, offrendo una visione unica dei rituali di oltre 10.000 anni fa."
+    },
+    {
+      "domanda": "Quale importante prigioniero fu detenuto nella Fortezza di Priamar?",
+      "opzioni": [
+        "Giuseppe Garibaldi",
+        "Giuseppe Mazzini",
+        "Napoleone Bonaparte",
+        "Carlo Goldoni"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Fortezza di Priamar fu utilizzata come carcere dove fu imprigionato, tra gli altri, Giuseppe Mazzini, rappresentando un monumento al dominio genovese e alle vicende politico-militari della Liguria."
+    },
+    {
+      "domanda": "Quale caratteristica distingue l'anfiteatro romano di Albenga?",
+      "opzioni": [
+        "È l'unico della Riviera di Ponente",
+        "È il più grande d'Italia",
+        "È completamente sotterraneo",
+        "È costruito in marmo di Carrara"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'anfiteatro romano di Albenga è l'unico della Riviera di Ponente, costruito nel II secolo d.C. in posizione dominante con un poderoso muro di sostegno con contrafforti."
+    }, {
+      "domanda": "Quale elemento architettonico caratteristico dell'Abbazia di San Fruttuoso si affaccia direttamente sul mare?",
+      "opzioni": [
+        "Il chiostro quadrangolare",
+        "Il campanile cilindrico",
+        "La cripta ipogea",
+        "Il refettorio monumentale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Abbazia di San Fruttuoso è caratterizzata dal suo campanile cilindrico che si affaccia direttamente sul piccolo arenile, riflettendo la doppia influenza lombarda e bizantina dell'architettura romanica del complesso."
+    },
+    {
+      "domanda": "Cosa custodisce la cappella di San Giovanni Battista nella Cattedrale di San Lorenzo a Genova?",
+      "opzioni": [
+        "Le reliquie del Santo patrono della città",
+        "Il tesoro della Repubblica di Genova",
+        "La tomba di Cristoforo Colombo",
+        "Gli archivi storici del Comune"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La cattedrale conserva la cappella di San Giovanni Battista, patrono della città, progettata da Matteo Civitali nel Quattrocento appositamente per ospitare le reliquie del Santo."
+    },
+    {
+      "domanda": "Quale particolare rende unico il sistema di collegamento tra Palazzo Bianco e Palazzo Rosso a Genova?",
+      "opzioni": [
+        "Un ponte aereo sospeso",
+        "Una galleria sotterranea",
+        "Un passaggio segreto nelle mura",
+        "Un corridoio sopraelevato"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Bianco e Palazzo Rosso sono uniti da una galleria sotterranea che li collega come parte del sistema dei Musei di Strada Nuova, creando un percorso museale integrato tra le due dimore patrizie."
+    },
+    {
+      "domanda": "Quale famiglia fece costruire Palazzo Rosso e quale periodo rappresenta?",
+      "opzioni": [
+        "Famiglia Doria - periodo medievale",
+        "Famiglia Brignole-Sale - periodo barocco",
+        "Famiglia Spinola - periodo rinascimentale",
+        "Famiglia Fieschi - periodo gotico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Rosso fu eretto tra il 1671 e il 1677 per la famiglia Brignole-Sale e conserva intatti i fastosi interni barocchi, rappresentando una delle più significative dimore patrizie del Barocco genovese."
+    },
+    {
+      "domanda": "Quale importante funzione naturalistica svolge il Parco del Beigua?",
+      "opzioni": [
+        "È un cruciale corridoio migratorio per l'avifauna",
+        "Protegge una specie unica di orso bruno",
+        "Preserva foreste di sequoie millenarie",
+        "Tutela vulcani attivi"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco del Beigua è un cruciale corridoio migratorio per l'avifauna, con specie rare di rapaci che utilizzano la dorsale montuosa durante le migrazioni tra l'entroterra padano e la Riviera."
+    },
+    {
+      "domanda": "Quale periodo storico è documentato dal Castello di Taggia nella sua struttura attuale?",
+      "opzioni": [
+        "Dall'XI al XVI secolo con successive modifiche",
+        "Esclusivamente il periodo romano",
+        "Solo il Settecento genovese",
+        "Il periodo napoleonico"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La struttura attuale del Castello di Taggia è frutto di successive modifiche tra l'XI e il XVI secolo, unendo elementi medievali a fortificazioni rinascimentali adattate all'artiglieria."
+    },
+    {
+      "domanda": "Quale antica via commerciale è associata al Santuario di Nostra Signora delle Grazie?",
+      "opzioni": [
+        "La Via della Seta",
+        "La Via Francigena",
+        "Un antico percorso di crinale per viandanti",
+        "La Via dell'Ambra"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Il santuario sorge lungo un antico percorso di crinale, sottolineando la sua funzione non solo spirituale ma anche di rifugio e sosta per i viandanti che percorrevano queste vie commerciali storiche."
+    },
+    {
+      "domanda": "Quale importante archeologo identificò l'anfiteatro romano di Albenga a fine Ottocento?",
+      "opzioni": [
+        "Giovanni Battista Piranesi",
+        "Alfredo d'Andrade",
+        "Heinrich Schliemann",
+        "Rodolfo Lanciani"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'anfiteatro di Albenga fu identificato da Alfredo d'Andrade a fine Ottocento, poi studiato da Angelo De Marchi nel 1911 e scavato da Nino Lamboglia nel 1934."
+    },
+    {
+      "domanda": "Cosa successe all'anfiteatro di Albenga dopo il declino dell'Impero Romano?",
+      "opzioni": [
+        "Fu trasformato in necropoli medievale",
+        "Divenne una fortezza bizantina",
+        "Fu convertito in cattedrale",
+        "Venne interamente smantellato"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Con il declino, l'anfiteatro fu trasformato in necropoli con tombe in anfora, a cappuccina e a fossa legate all'abbazia di San Martino, prima di essere spogliato dei materiali da costruzione."
+    },
+    {
+      "domanda": "Quale periodo preistorico è documentato nelle Caverne dei Balzi Rossi?",
+      "opzioni": [
+        "Dal Paleolitico medio al Paleolitico superiore",
+        "Solo l'Età del Bronzo",
+        "Esclusivamente il Neolitico",
+        "Il periodo etrusco"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le Caverne dei Balzi Rossi documentano la presenza umana dal Paleolitico medio (Uomo di Neanderthal) fino al Paleolitico superiore (Cro-Magnon), con una sequenza stratigrafica eccezionale."
+    },
+    {
+      "domanda": "Quale aspetto rende particolare la sepoltura del 'Giovane Principe' delle Arene Candide?",
+      "opzioni": [
+        "L'età del defunto e la ricchezza del corredo",
+        "La presenza di iscrizioni in una lingua sconosciuta",
+        "La mummificazione artificiale",
+        "Il ritrovamento in una camera segreta"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La sepoltura del 'Giovane Principe' è eccezionale per l'età del defunto e il ricchissimo corredo funerario che include un copricapo decorato con conchiglie e oltre duecento perle, offrendo informazioni preziose sui rituali del Mesolitico."
+    },
+    {
+      "domanda": "Quale caratteristica delle Terme Romane di Albenga ne attesta il lusso?",
+      "opzioni": [
+        "Mosaici e rivestimenti marmorei",
+        "Affreschi con scene mitologiche",
+        "Statue d'oro nelle piscine",
+        "Sistemi di riscaldamento a energia solare"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le terme urbane di Albenga, del II secolo d.C., erano arricchite da mosaici e rivestimenti marmorei che attestano il lusso e la piena adesione della città ai modelli urbani dell'Impero romano."
+    },
+    {
+      "domanda": "Su quali preesistenze fu costruita la Fortezza di Priamar a Savona?",
+      "opzioni": [
+        "Su un tempio romano dedicato a Giove",
+        "Su preesistenze medievali come la cattedrale romanica",
+        "Su un porto fenicio",
+        "Su un villaggio preistorico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Fortezza di Priamar fu costruita su preesistenze medievali di cui restano tracce come la cattedrale romanica, dimostrando la continuità insediativa del promontorio."
+    },
+    {
+      "domanda": "Quale era la funzione originaria del Forte di Santa Tecla dopo il periodo militare?",
+      "opzioni": [
+        "Diventò un lazzaretto",
+        "Fu trasformato in teatro",
+        "Divenne un palazzo comunale",
+        "Fu convertito in chiesa"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Durante il periodo napoleonico il Forte di Santa Tecla fu utilizzato come prigione e successivamente come lazzaretto, prima del suo restauro che ha riportato alla luce le originarie strutture difensive."
+    }, {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quale era la funzione originaria di Palazzo Ducale a Genova e quale ruolo ricopre oggi?",
+      "opzioni": [
+        "Era una fortezza militare, oggi è un hotel di lusso",
+        "Era la sede del governo della Repubblica di Genova, oggi è un centro culturale",
+        "Era un monastero benedettino, oggi è una scuola",
+        "Era il porto commerciale, oggi è un museo navale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Ducale fu per secoli la sede del governo della Repubblica di Genova, simbolo del potere politico della città. Oggi, dopo un importante restauro, è un vivace centro culturale che ospita mostre, eventi e congressi."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quale assemblea si riuniva nella Sala del Maggior Consiglio e quanti membri la componevano?",
+      "opzioni": [
+        "Il Senato, composto da 100 membri",
+        "L'assemblea principale della Repubblica, composta da 400 membri dell'aristocrazia",
+        "Il Consiglio dei Dogi, composto da 50 membri",
+        "L'assemblea popolare, composta da 1000 cittadini"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Nella Sala del Maggior Consiglio si riuniva l'assemblea principale della Repubblica di Genova, composta da quattrocento membri dell'aristocrazia cittadina, che rappresentava il cuore politico del governo."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quali artisti contribuirono agli affreschi della Sala del Maggior Consiglio e quale tema celebravano?",
+      "opzioni": [
+        "Caravaggio e i suoi seguaci, con temi religiosi",
+        "Giovanni Battista Carlone e Domenico Piola, con le glorie della Repubblica",
+        "Michelangelo e Raffaello, con scene bibliche",
+        "Artisti fiamminghi, con paesaggi marini"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il grandioso ciclo di affreschi della Sala del Maggior Consiglio fu realizzato da Giovanni Battista Carlone e Domenico Piola tra la fine del XVII e l'inizio del XVIII secolo, celebrando le glorie e le virtù della Repubblica con allegorie e scene storiche."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quale caratteristica distingue la Sala del Minor Consiglio e quale organo governativo vi si riuniva?",
+      "opzioni": [
+        "Era spoglia e austera, vi si riuniva il tribunale",
+        "Era decorata con arazzi fiamminghi, vi si riuniva l'assemblea popolare",
+        "Aveva decorazioni barocche opulente, vi si riuniva l'organo esecutivo",
+        "Era una cappella privata, vi si riunivano i religiosi"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "La Sala del Minor Consiglio, sebbene di dimensioni più raccolte, presenta una decorazione ricca e preziosa con affreschi e stucchi dorati barocchi. Vi si riuniva l'organo esecutivo del governo, che prendeva le decisioni più cruciali per la Repubblica."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale riconoscimento UNESCO possiede Palazzo Reale e per quale caratteristica?",
+      "opzioni": [
+        "Patrimonio dell'Umanità come esempio di architettura gotica",
+        "Patrimonio dell'Umanità come parte del sistema dei Rolli di Strada Nuova",
+        "Patrimonio dell'Umanità per la sua collezione di arte moderna",
+        "Patrimonio dell'Umanità come antico monastero"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Museo di Palazzo Reale è inserito nel sistema dei Rolli di Strada Nuova (oggi Via Garibaldi) ed è dichiarato Patrimonio dell'Umanità UNESCO, rappresentando una delle più sfarzose dimore storiche genovesi."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale famosa galleria europea ha ispirato la Galleria degli Specchi di Palazzo Reale?",
+      "opzioni": [
+        "La Galleria degli Uffizi di Firenze",
+        "La Galleria degli Specchi di Versailles",
+        "La Galleria di Palazzo Pitti",
+        "La Galleria Borghese di Roma"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Galleria degli Specchi di Palazzo Reale fu realizzata a metà del Settecento su ispirazione della ben più grande Galleria degli Specchi di Versailles, come trionfo di luce e oro per manifestare la ricchezza della famiglia."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale famiglia trasformò Palazzo Reale in residenza reale e come adattò la Sala del Trono?",
+      "opzioni": [
+        "I Medici di Firenze, aggiungendo stemmi medicei",
+        "I Borbone di Napoli, inserendo simboli marinari",
+        "I Savoia, aggiungendo il trono con baldacchino reale",
+        "Gli Asburgo, inserendo aquile bicipiti"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Quando il palazzo divenne proprietà dei Savoia, fu allestita la Sala del Trono con un maestoso trono sormontato da baldacchino di velluto rosso, adattando il fasto barocco genovese al cerimoniale monarchico."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale tema caratterizza la Sala delle Battaglie e quale scopo aveva questa decorazione?",
+      "opzioni": [
+        "Scene di vita quotidiana, per intrattenere gli ospiti",
+        "Imprese militari e vittorie, per legittimare il potere reale",
+        "Paesaggi liguri, per celebrare la bellezza naturale",
+        "Ritratti di filosofi, per dimostrare cultura"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Sala delle Battaglie è decorata con tele che celebrano imprese militari e vittorie della famiglia reale, con lo scopo di legittimare il potere attraverso la narrazione visiva della storia e impressionare con la potenza militare."
+    }, {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quale importante caratteristica architettonica di Palazzo Ducale riflette la sua storia secolare?",
+      "opzioni": [
+        "La struttura è il risultato dell'unione di edifici medievali preesistenti",
+        "È stato costruito ex-novo nel Settecento in stile neoclassico",
+        "Presenta una pianta circolare unica in Europa",
+        "È interamente sotterraneo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La struttura architettonica di Palazzo Ducale è il risultato di secoli di trasformazioni e ampliamenti che hanno unito edifici medievali preesistenti in un unico, maestoso complesso, riflettendo l'evoluzione del potere genovese."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quale periodo artistico domina le decorazioni della Sala del Minor Consiglio?",
+      "opzioni": [
+        "Lo stile romanico genovese",
+        "L'opulenza barocca con stucchi dorati",
+        "Il minimalismo rinascimentale",
+        "Il gotico internazionale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Sala del Minor Consiglio presenta una decorazione di opulenza barocca, con pareti e soffitto completamente ricoperti da affreschi e stucchi dorati che creano un effetto di grande sfarzo teatrale."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Per quale famiglia fu originariamente costruito Palazzo Reale e in quale secolo?",
+      "opzioni": [
+        "Famiglia Doria - XVI secolo",
+        "Famiglia Balbi - XVII secolo",
+        "Famiglia Spinola - XV secolo",
+        "Famiglia Fieschi - XIV secolo"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Reale fu costruito a partire dalla metà del XVII secolo per la famiglia Balbi, una delle più importanti famiglie aristocratiche genovesi, prima di diventare residenza reale."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale artista contribuì agli affreschi della Galleria degli Specchi?",
+      "opzioni": [
+        "Domenico Parodi",
+        "Giovanni Battista Carlone",
+        "Caravaggio",
+        "Antonio Canova"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Galleria degli Specchi vaffreschi del soffitto opera di grandi maestri come Domenico Parodi, che contribuì a creare l'effetto di sfarzo teatrale tipico del barocco genovese."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Come viene definita la Sala del Maggior Consiglio in termini di dimensioni europee?",
+      "opzioni": [
+        "La più piccola sala di governo d'Europa",
+        "Uno dei più vasti ambienti d'Europa",
+        "La prima sala ovale del continente",
+        "L'unica sala con doppia altezza"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La Sala del Maggior Consiglio è descritta come uno dei più vasti ambienti d'Europa, a testimonianza dell'importanza e della grandezza della Repubblica di Genova nel contesto europeo."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale tipologia di collezioni conserva Palazzo Reale?",
+      "opzioni": [
+        "Solo armi e armature antiche",
+        "Esclusivamente arte contemporanea",
+        "Arredi, decorazioni e immense collezioni d'arte accumulate nei secoli",
+        "Solo reperti archeologici romani"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Palazzo Reale conserva intatti gli arredi, le decorazioni e le immense collezioni d'arte accumulate nei secoli dalle famiglie che lo abitarono, offrendo una testimonianza completa del fasto aristocratico genovese."
+    },
+    {
+      "museo": "Palazzo Ducale - Genova",
+      "domanda": "Quali temi specifici vengono rappresentati negli affreschi della Sala del Minor Consiglio?",
+      "opzioni": [
+        "Scene di vita popolare e mercati",
+        "Temi legati alla saggezza del governo e alla gloria militare",
+        "Rappresentazioni di santi e martiri",
+        "Paesaggi della Riviera ligure"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La decorazione della Sala del Minor Consiglio è incentrata su temi legati alla saggezza del governo e alla gloria militare, riflettendo il potere e l'autorità dei Dogi che qui prendevano decisioni cruciali."
+    },
+    {
+      "museo": "Museo di Palazzo Reale - Genova",
+      "domanda": "Quale periodo storico attraversano le collezioni di Palazzo Reale?",
+      "opzioni": [
+        "Dall'Età del Bronzo al Medioevo",
+        "Esclusivamente il Rinascimento",
+        "Tra il Barocco e il Rococò",
+        "Solo il periodo napoleonico"
+      ],
+      "rispostaCorretta": 2,
+      "spiegazione": "Le collezioni di Palazzo Reale offrono un viaggio nel fasto dell'aristocrazia genovese tra il Barocco e il Rococò, mostrando l'evoluzione del gusto e dello stile in questo periodo cruciale."
+    }
+],
+    
+    
+    
+    
+    
+    
+    
+    "lombardia": 
+[ 
+{
+      "domanda": "Chi fondò l'Abbazia di Chiaravalle e in quale anno?",
+      "opzioni": [
+        "San Francesco d'Assisi nel 1226",
+        "Bernardo di Chiaravalle nel 1135",
+        "San Benedetto da Norcia nel 529",
+        "Papa Gregorio Magno nel 590"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Abbazia di Chiaravalle fu fondata nel 1135 da Bernardo di Chiaravalle ed è un capolavoro dell'architettura cistercense lombarda, modello di autosufficienza monastica."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica distintiva possiede l'Abbazia di Chiaravalle?",
+      "opzioni": [
+        "La ciribiciaccola, un tiburio ottagonale con loggetta",
+        "Un campanile pendente",
+        "Una cupola blu ceramica",
+        "Una facciata completamente affrescata"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Abbazia è celebre per la sua ciribiciaccola, un tiburio ottagonale con loggetta che rappresenta una sintesi mirabile tra austerità spirituale e innovazione costruttiva cistercense."
+    },
+    {
+      "domanda": "Quale importante edificio si affaccia su Piazza Vecchia a Bergamo Alta?",
+      "opzioni": [
+        "Il Palazzo della Ragione, il più antico municipio d'Italia",
+        "La Torre di Pisa",
+        "Il Colosseo",
+        "La Basilica di San Pietro"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Piazza Vecchia a Bergamo Alta è circondata da palazzi signorili come il Palazzo della Ragione, il più antico municipio d'Italia, che rappresenta il cuore politico della città per secoli."
+    },
+    {
+      "domanda": "Quali opere d'arte custodisce la Basilica di Santa Maria Maggiore a Bergamo?",
+      "opzioni": [
+        "Le tarsie lignee dei cori di Lorenzo Lotto",
+        "La Pietà di Michelangelo",
+        "Gli affreschi di Giotto",
+        "Le vetrate di Chagall"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Basilica di Santa Maria Maggiore custodisce monumenti eccezionali come le tarsie lignee dei cori di Lorenzo Lotto e il sepolcro di Gaetano Donizetti."
+    },
+    {
+      "domanda": "A quale periodo risale l'origine del Castello di Vezio?",
+      "opzioni": [
+        "Epoca romana imperiale",
+        "Periodo altomedievale, probabilmente longobardo",
+        "Epoca rinascimentale",
+        "Periodo napoleonico"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Vezio è una fortificazione di origine altomedievale, probabilmente longobarda, legata alla regina Teodolinda, con strutture che rispecchiano principalmente interventi tra l'XI e il XIII secolo."
+    },
+    {
+      "domanda": "Quale caratteristica rende unica la posizione del Castello di Vezio?",
+      "opzioni": [
+        "Si trova sottoterra",
+        "Domina il Lago di Como e il borgo di Varenna",
+        "È costruito su un'isola artificiale",
+        "È completamente circondato da un fiume"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Castello di Vezio è arroccato su un promontorio che domina il Lago di Como e il borgo di Varenna, offrendo una posizione strategica di osservazione privilegiata sul lago."
+    },
+    {
+      "domanda": "In quale materiale è costruito il Duomo di Milano?",
+      "opzioni": [
+        "Marmo di Candoglia",
+        "Granito rosa di Baveno",
+        "Travertino romano",
+        "Pietra serena fiorentina"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Duomo di Milano è edificato in marmo di Candoglia a partire dal 1386 ed è una straordinaria impresa gotica caratterizzata da una foresta di guglie, pinnacoli e statuaria."
+    },
+    {
+      "domanda": "Quale reliquia è conservata nel tiburio del Duomo di Milano?",
+      "opzioni": [
+        "Il Santo Chiodo della Croce",
+        "La Sacra Sindone",
+        "La Lancia di Longino",
+        "Le reliquie dei Re Magi"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il tiburio del Duomo di Milano ospita la reliquia del Santo Chiodo della Croce, mentre la Madonnina dorata sulla guglia maggiore è diventata il simbolo della città."
+    },
+    {
+      "domanda": "Quale record detiene il Torrazzo di Cremona?",
+      "opzioni": [
+        "È il campanile in mattoni più alto del mondo",
+        "È il più antico d'Italia",
+        "Ha le campane più grandi d'Europa",
+        "È il primo costruito in cemento armato"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Torrazzo di Cremona, alto 112.7 metri, è il campanile in mattoni più alto del mondo e simbolo cittadino, parte del complesso monumentale di Piazza del Comune."
+    },
+    {
+      "domanda": "Quali artisti hanno lavorato agli affreschi del Duomo di Cremona?",
+      "opzioni": [
+        "Boccaccio Boccaccino e Pordenone",
+        "Giotto e Cimabue",
+        "Leonardo e Michelangelo",
+        "Caravaggio e Raffaello"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'interno del Duomo di Cremona è un museo di pittura rinascimentale con cicli di affreschi di Boccaccio Boccaccino e Pordenone, che ne arricchiscono il valore artistico."
+    },
+    {
+      "domanda": "Quale periodo storico rappresentano le Grotte di Catullo a Sirmione?",
+      "opzioni": [
+        "Età del Bronzo",
+        "Periodo romano tra I secolo a.C. e I secolo d.C.",
+        "Medioevo longobardo",
+        "Rinascimento veneto"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Le Grotte di Catullo costituiscono la più imponente villa romana dell'Italia settentrionale, edificata tra il I secolo a.C. e il I secolo d.C., sebbene il nome sia frutto di un'errata identificazione rinascimentale."
+    },
+    {
+      "domanda": "Quale caratteristica costruttiva romana è visibile alle Grotte di Catullo?",
+      "opzioni": [
+        "Opus reticulatum e ipocausti",
+        "Archi a sesto acuto",
+        "Volte a crociera gotiche",
+        "Pilastri rinascimentali"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "I resti delle murature in opus reticulatum e degli ipocausti testimoniano l'alto livello tecnico costruttivo della villa romana di Sirmione, estesa su circa due ettari."
+    },
+    {
+      "domanda": "Chi fondò la Certosa di Pavia e con quale scopo?",
+      "opzioni": [
+        "Gian Galeazzo Visconti come mausoleo dinastico",
+        "Francesco Sforza come fortezza",
+        "Ludovico il Moro come università",
+        "Bernardo di Chiaravalle come abbazia"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Certosa di Pavia fu fondata nel 1396 da Gian Galeazzo Visconti come mausoleo dinastico e rappresenta l'apice del gotico internazionale fuso con il Rinascimento lombardo."
+    },
+    {
+      "domanda": "Quale caratteristica distingue la facciata della Certosa di Pavia?",
+      "opzioni": [
+        "È in mattoni a vista senza decorazioni",
+        "È ricoperta da un ricchissimo programma scultoreo in marmo",
+        "È completamente dipinta ad affresco",
+        "È in stile neoclassico sobrio"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "La facciata della Certosa di Pavia in marmo è ricoperta da un ricchissimo programma scultoreo che, insieme ai chiostri monumentali, ne fa uno dei complessi monastici più significativi d'Europa."
+    },
+    {
+      "domanda": "Quale famiglia costruì il Castello Scaligero di Sirmione?",
+      "opzioni": [
+        "Famiglia Della Scala di Verona",
+        "Famiglia Visconti di Milano",
+        "Famiglia Gonzaga di Mantova",
+        "Famiglia Medici di Firenze"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Scaligero di Sirmione fu eretto nella seconda metà del XIV secolo dalla famiglia Della Scala, signori di Verona, come raro esempio di fortificazione lacustre perfettamente conservata."
+    },
+    {
+      "domanda": "Quale caratteristica rende unico il Castello Scaligero di Sirmione?",
+      "opzioni": [
+        "È completamente circondato dalle acque del Garda",
+        "È costruito interamente in legno",
+        "Si trova sottoterra",
+        "Ha forma piramidale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Scaligero è circondato dalle acque del Garda e presenta un porto fortificato interno (darsena) che costituiva un avamposto militare strategico, con strutture in cotto e pietra perfettamente conservate."
+    },{
+      "domanda": "Dove si trova il Parco Archeologico di Santa Giulia e quali civiltà vi sono stratificate?",
+      "opzioni": [
+        "A Brescia, con resti romani, longobardi e rinascimentali",
+        "A Milano, con solo reperti medievali",
+        "A Como, con testimonianze etrusche",
+        "A Mantova, con vestigia gonzaghesche"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Archeologico di Santa Giulia a Brescia, Patrimonio UNESCO, racchiude stratificazioni dall'età romana (domus con mosaici) al Rinascimento, integrati nel monastero longobardo di San Salvatore-Santa Giulia, inclusa la celebre Croce di Desiderio."
+    },
+    {
+      "domanda": "Quale popolazione celto-ligure abitava l'Oppidum degli Orbi a Casteggio e cosa testimonia il sito?",
+      "opzioni": [
+        "Gli Insubri, con resti di un anfiteatro",
+        "Gli Anamari, con tracce di fortificazioni e reperti di romanizzazione",
+        "I Cenomani, con terme monumentali",
+        "I Boi, con necropoli principesche"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "L'Oppidum degli Orbi presso Casteggio, su un'altura che domina la pianura Padana, fu frequentato dagli Anamari (tribù celto-ligure) e poi romanizzato. Reperti ceramici, metallici e numismatici illustrano i contatti commerciali dalla tarda Età del Ferro all'epoca tardo-antica."
+    },
+    {
+      "domanda": "Cosa caratterizza il Parco Archeologico dell'Età del Ferro di Como e quale cultura rappresenta?",
+      "opzioni": [
+        "Resti di un porto romano con magazzini",
+        "Fondazioni di capanne della cultura di Golasecca (IX-IV sec. a.C.)",
+        "Una villa marittima con peschiere",
+        "Un foro di età imperiale"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Parco Archeologico dell'Età del Ferro di Como, nell'area ex-Gasometri, conserva fondazioni di capanne della cultura di Golasecca (IX-IV secolo a.C.), con reperti che testimoniano il ruolo di nodo commerciale tra mondo mediterraneo e Europa transalpina."
+    },
+    {
+      "domanda": "Quale elemento geografico caratterizza il Centro Storico di Bellagio e come influisce sulla sua urbanistica?",
+      "opzioni": [
+        "La confluenza dei tre rami del Lago di Como, con scalinate ripide",
+        "La posizione in una valle chiusa, con vie circolari",
+        "L'isolamento su un'isola, con ponti lignei",
+        "La vicinanza a un vulcano, con strade in pendio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bellagio sorge all'intersezione dei tre rami del Lago di Como, con una struttura urbanistica medievale caratterizzata da ripide scalinate ('scale') che collegano il lungolago ai quartieri alti, integrando palazzi signorili e case colorate."
+    },
+    {
+      "domanda": "Quali cicli pittorici decorano Palazzo Besta a Teglio e a quale opera letteraria si ispirano?",
+      "opzioni": [
+        "Storie di santi, dalla Legenda Aurea",
+        "Scene mitologiche e cavalleresche tratte dall'Orlando Furioso",
+        "Episodi biblici, dal Vecchio Testamento",
+        "Imprese di condottieri, dalle Vite di Plutarco"
+      ],
+      "rispostaCorretta": 1,
+      "spiegazione": "Palazzo Besta a Teglio, in Valtellina, ha sale affrescate con cicli mitologici, scene cavalleresche tratte dall'Orlando Furioso e episodi biblici, opera di maestri di scuola comacina che riflettono la cultura umanistica del Cinquecento alpino."
+    },
+    {
+      "domanda": "Dove si trova l'Area Archeologica di Iseo e quale continuità sacrale testimonia?",
+      "opzioni": [
+        "Sul colle di Sant'Andrea, con un tempietto romano su un insediamento protostorico",
+        "In centro città, con terme imperiali",
+        "Sulle rive del Sebino, con un porto fluviale",
+        "Sul Monte Isola, con un santuario rupestre"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Area Archeologica di Iseo presso il colle di Sant'Andrea rivela una frequentazione dall'Età del Bronzo al medioevo, con un tempietto repubblicano e iscrizioni votive che attestano la venerazione di divinità salutari in un contesto termale, mostrando una continuità sacrale unica."
+    },
+    {
+      "domanda": "Quale funzione aveva il Parco Archeologico di Bagnolo San Vito 'Forcello' in epoca etrusca?",
+      "opzioni": [
+        "Emporio commerciale etrusco-padano (VI-V sec. a.C.)",
+        "Fortezza militare contro i Celti",
+        "Santuario federale delle tribù locali",
+        "Necropoli monumentale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Archeologico di Bagnolo San Vito 'Forcello' protegge i resti di un emporio etrusco-padano fiorito tra VI e V secolo a.C., centro commerciale per scambi tra Etruschi, popolazioni alpine e Celti, con strutture in legno e reperti di lusso come ceramiche attiche e ambra baltica."
+    },
+    {
+      "domanda": "Quale celebre affresco di Andrea Mantegna si trova a Palazzo Ducale di Mantova?",
+      "opzioni": [
+        "La Camera degli Sposi",
+        "La Cappella Sistina",
+        "La Scuola di Atene",
+        "Il Giudizio Universale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo Ducale a Mantova, reggia dei Gonzaga, custodisce la Camera degli Sposi con gli affreschi di Andrea Mantegna, capolavoro rinascimentale che, con la Sala dello Zodiaco, rappresenta uno dei massimi esempi di committenza artistica del periodo."
+    },
+    {
+      "domanda": "Quale architetto progettò il Teatro alla Scala di Milano e in quale stile?",
+      "opzioni": [
+        "Giuseppe Piermarini in stile neoclassico",
+        "Donato Bramante in stile rinascimentale",
+        "Alessandro Antonelli in stile eclettico",
+        "Giovanni Muzio in stile Novecento"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Teatro alla Scala di Milano, inaugurato nel 1778, fu progettato da Giuseppe Piermarini in stile neoclassico, con la caratteristica facciata sobria e l'interno a ferro di cavallo che ne fanno un modello del teatro all'italiana, legato all'opera di Verdi e Puccini."
+    },
+    {
+      "domanda": "Quale imperatrice volle la Villa Reale di Monza e quale architetto la realizzò?",
+      "opzioni": [
+        "Maria Teresa d'Austria, con Giuseppe Piermarini",
+        "Caterina la Grande, con Bartolomeo Rastrelli",
+        "Giuseppina di Beauharnais, con Charles Percier",
+        "Elisabetta di Baviera, con Gottfried Semper"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Villa Reale di Monza fu voluta dall'imperatrice Maria Teresa d'Austria per il governatore Ferdinando d'Asburgo-Este e completata nel 1780 da Giuseppe Piermarini, capolavoro del neoclassico lombardo con interni di Appiani e Albertolli."
+    },
+    {
+      "domanda": "Cosa è possibile ammirare nella Villa Romana di Desenzano del Garda?",
+      "opzioni": [
+        "Mosaici policromi con scene di caccia e amorini",
+        "Affreschi pompeiani in terzo stile",
+        "Sculture ellenistiche in marmo",
+        "Dipinti murali di soggetto mitologico"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Villa Romana di Desenzano del Garda, frequentata tra I e IV secolo d.C., conserva mosaici policromi di eccezionale qualità, tra cui scene di caccia e cortei di amorini, oltre a settori residenziali, termali e produttivi di una grande azienda agricola padronale."
+    },
+    {
+      "domanda": "Quale caratteristica rende eccezionale il ciclo di affreschi di Santa Maria foris portas a Castelseprio?",
+      "opzioni": [
+        "Risalgono all'VIII-IX secolo con influenza bizantina e vivace narrazione",
+        "Sono i più antichi d'Italia in stile romanico",
+        "Raffigurano unicamente santi locali",
+        "Sono opera di Giotto in età giovanile"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La chiesa di Santa Maria foris portas nel Parco Archeologico di Castelseprio (UNESCO) custodisce affreschi altomedievali (VIII-IX secolo) di influenza bizantina che narrano storie dell'infanzia di Cristo con vivacità narrativa eccezionale, rara testimonianza della pittura alto-medievale."
+    }, {
+      "domanda": "Dove si trova il Castello Visconteo e quale funzione aveva originariamente?",
+      "opzioni": [
+        "A Pavia, come residenza di caccia dei Visconti",
+        "A Milano, come fortezza difensiva",
+        "A Cremona, come palazzo comunale",
+        "A Bergamo, come monastero fortificato"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Visconteo si trova a Pavia, edificato nello stesso periodo della Certosa come residenza di caccia, unendo la severità della struttura difensiva all'eleganza delle logge rinascimentali e agli affreschi di Bonifacio Bembo."
+    },
+    {
+      "domanda": "Quale artista decorò il Castello Visconteo di Pavia con cicli di affreschi?",
+      "opzioni": [
+        "Bonifacio Bembo",
+        "Andrea Mantegna",
+        "Leonardo da Vinci",
+        "Il Pordenone"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Castello Visconteo di Pavia fu decorato con cicli di affreschi di Bonifacio Bembo, simbolo del potere ducale milanese e dell'eleganza delle residenze viscontee."
+    },
+    {
+      "domanda": "Quale caratteristica architettonica distingue il Battistero di Cremona?",
+      "opzioni": [
+        "La pianta ottagonale in cotto del 1167",
+        "La cupola blu maiolicata",
+        "Il campanile staccato",
+        "La facciata barocca"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Battistero di Cremona, costruito nel 1167, ha una pianta ottagonale in cotto che completa il complesso monumentale di Piazza del Comune, illustrando l'evoluzione dell'architettura sacra padana."
+    },
+    {
+      "domanda": "Quale architetto rinascimentale lavorò a Palazzo Ducale di Mantova?",
+      "opzioni": [
+        "Leon Battista Alberti e Giulio Romano",
+        "Donato Bramante e Michelangelo",
+        "Andrea Palladio e Jacopo Sansovino",
+        "Filarete e Antonio Averlino"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo Ducale di Mantova unisce strutture medievali alle aggiunte rinascimentali di Leon Battista Alberti (Basilica di Sant'Andrea) e Giulio Romano (Appartamento di Troia), creando una città-palazzo di 34.000 m²."
+    },
+    {
+      "domanda": "Quale famoso compositore è sepolto nella Basilica di Santa Maria Maggiore a Bergamo?",
+      "opzioni": [
+        "Gaetano Donizetti",
+        "Gioacchino Rossini",
+        "Giuseppe Verdi",
+        "Vincenzo Bellini"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Basilica di Santa Maria Maggiore a Bergamo custodisce il sepolcro di Gaetano Donizetti, celebre compositore bergamasco, insieme alle preziose tarsie lignee di Lorenzo Lotto."
+    },
+    {
+      "domanda": "Quale attività tradizionale viene rievocata al Castello di Vezio?",
+      "opzioni": [
+        "La falconeria con rapaci",
+        "La tessitura medievale",
+        "La lavorazione del ferro",
+        "La produzione di ceramiche"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Al Castello di Vezio la presenza di un falconiere e di rapaci rievoca la tradizione medievale della falconeria, aggiungendo un elemento di living history alla visita del sito fortificato."
+    },
+    {
+      "domanda": "Quale importante caratteristica del Duomo di Cremona riguarda la sua facciata?",
+      "opzioni": [
+        "Il protiro duecentesco e il rosone",
+        "Le tre porte bronzee di Bonanno Pisano",
+        "I mosaici bizantini del XII secolo",
+        "Le guglie gotiche traforate"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La facciata del Duomo di Cremona in marmo presenta un protiro duecentesco e un rosone, elementi tipici del romanico lombardo arricchiti nei secoli con inserti gotici e rinascimentali."
+    },
+    {
+      "domanda": "Quale aspetto della rivoluzione agricola promosso dai monaci di Chiaravalle è ancora visibile?",
+      "opzioni": [
+        "Le grange circostanti che bonificarono terreni paludosi",
+        "I terrazzamenti per la viticoltura",
+        "I canali di irrigazione romani ripristinati",
+        "I mulini ad acqua medievali"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le grange circostanti l'Abbazia di Chiaravalle testimoniano la rivoluzione agricola promossa dai monaci cistercensi, che bonificarono i terreni paludosi applicando la regola dell'ora et labora."
+    },
+    {
+      "domanda": "Quale elemento del Parco Archeologico di Castelseprio è incluso nel patrimonio UNESCO?",
+      "opzioni": [
+        "L'insediamento fortificato come centro longobardo",
+        "Le mura di età romana repubblicana",
+        "Il foro di epoca imperiale",
+        "Le terme pubbliche del I secolo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Parco Archeologico di Castelseprio comprende i resti di un insediamento fortificato di origine tardo-romana che divenne un importante centro longobardo, incluso nel patrimonio UNESCO per il suo eccezionale valore storico."
+    },
+    {
+      "domanda": "Quale caratteristica del Teatro alla Scala lo rende un modello di teatro all'italiana?",
+      "opzioni": [
+        "La pianta a ferro di cavallo con cinque ordini di palchi",
+        "La facciata monumentale con colonnato",
+        "L'acustica perfetta e il palcoscenico tra i più ampi d'Europa",
+        "Tutte le precedenti"
+      ],
+      "rispostaCorretta": 3,
+      "spiegazione": "Il Teatro alla Scala unisce la pianta a ferro di cavallo con cinque ordini di palchi, l'acustica perfetta e il palcoscenico tra i più ampi d'Europa, rappresentando il modello canonico del teatro all'italiana legato al melodramma."
+    },  {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale imperatore volle la fondazione della Pinacoteca di Brera e con quale scopo didattico?",
+      "opzioni": [
+        "Napoleone Bonaparte, per gli studenti dell'Accademia di Belle Arti",
+        "Francesco I d'Austria, per la formazione degli architetti",
+        "Carlo Borromeo, per l'educazione religiosa",
+        "Vittorio Emanuele II, per i pittori di corte"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Pinacoteca di Brera fu istituita ufficialmente nel 1809 per volere di Napoleone Bonaparte, con intento didattico per gli studenti dell'Accademia di Belle Arti e arricchita con le requisizioni napoleoniche."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale importante opera di Bramante è conservata nella Galleria degli affreschi?",
+      "opzioni": [
+        "La monumentale Crocifissione staccata dalla casa Panigarola",
+        "Gli affreschi della Cappella Sistina",
+        "Il ciclo di San Satiro",
+        "La Disputa del Sacramento"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Galleria degli affreschi conserva la monumentale Crocifissione di Bramante, staccata dalla casa Panigarola a Milano, testimonianza fondamentale della fase pittorica del grande architetto urbinate."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale capolavoro di Piero della Francesca è considerato l'opera simbolo del museo?",
+      "opzioni": [
+        "La Pala di Brera o Pala Montefeltro",
+        "Il Ciclo della Vera Croce",
+        "La Resurrezione",
+        "Il Battesimo di Cristo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Pala di Brera o Pala Montefeltro di Piero della Francesca è l'opera simbolo del museo: un trionfo di geometria, luce e prospettiva che ritrae il duca Federico da Montefeltro in adorazione della Vergine."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale celebre opera di Raffaello segna il superamento degli insegnamenti del Perugino?",
+      "opzioni": [
+        "Lo Sposalizio della Vergine",
+        "La Scuola di Atene",
+        "La Trasfigurazione",
+        "La Madonna del Cardellino"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Raffaello Sanzio è rappresentato dallo Sposalizio della Vergine, opera giovanile di perfetta armonia compositiva che segna il superamento degli insegnamenti del Perugino."
+    },
+    {
+      "museo": "Museo Nazionale della Scienza e Tecnologia - Milano",
+      "domanda": "Quale artista-scienziato è celebrato nella Galleria Leonardo, cuore storico del museo?",
+      "opzioni": [
+        "Leonardo da Vinci",
+        "Galileo Galilei",
+        "Alessandro Volta",
+        "Luigi Galvani"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Galleria Leonardo è la collezione più vasta al mondo di modelli storici costruiti interpretando i disegni di Leonardo da Vinci, con oltre 130 modelli ricavati dallo studio dei suoi codici."
+    },
+    {
+      "museo": "Museo Nazionale della Scienza e Tecnologia - Milano",
+      "domanda": "In quale antico edificio è ospitato il Museo Nazionale della Scienza e Tecnologia?",
+      "opzioni": [
+        "Nei chiostri di un antico monastero olivetano",
+        "In una ex fabbrica industriale",
+        "In un palazzo neoclassico",
+        "In una fortezza medievale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo è stato inaugurato nel 1953 nei chiostri di un antico monastero olivetano, con un vastissimo patrimonio distribuito su 50.000 mq."
+    },
+    {
+      "museo": "Museo Nazionale della Scienza e Tecnologia - Milano",
+      "domanda": "Quali tipologie di macchine leonardesche sono esposte nella Galleria Leonardo?",
+      "opzioni": [
+        "Macchine per il volo, da guerra e per l'energia idraulica",
+        "Solo strumenti musicali",
+        "Esclusivamente orologi meccanici",
+        "Macchine per la tessitura"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Sono esposti modelli di macchine per il volo studiate osservando gli uccelli, macchine da guerra come il carro armato, e dispositivi per lo sfruttamento dell'energia idraulica e eolica."
+    },
+    {
+      "museo": "Museo del Novecento - Milano",
+      "domanda": "Dove è situato il Museo del Novecento e quale vista offre?",
+      "opzioni": [
+        "Nel Palazzo dell'Arengario con vista sul Duomo",
+        "In una villa liberty con giardino",
+        "In un ex stabilimento industriale",
+        "In un grattacielo di Porta Nuova"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Museo del Novecento è situato all'interno del Palazzo dell'Arengario in Piazza Duomo e culmina in una terrazza con vista mozzafiato sul Duomo."
+    },
+    {
+      "museo": "Museo del Novecento - Milano",
+      "domanda": "Quale celebre scultura futurista di Umberto Boccioni è esposta al museo?",
+      "opzioni": [
+        "Forme uniche della continuità nello spazio",
+        "Dinamismo di un ciclista",
+        "Cavallo + Cavaliere + Case",
+        "Sviluppo di una bottiglia nello spazio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Futurismo è rappresentato da capolavori di Umberto Boccioni, come la scultura Forme uniche della continuità nello spazio, simbolo del movimento d'avanguardia nato a Milano."
+    },
+    {
+      "museo": "Museo del Novecento - Milano",
+      "domanda": "Quale artista è celebre per i suoi 'Tagli' esposti al Museo del Novecento?",
+      "opzioni": [
+        "Lucio Fontana con il Concetto spaziale, Attese",
+        "Alberto Burri con i Cretti",
+        "Giorgio de Chirico con le Piazze d'Italia",
+        "Giorgio Morandi con le Nature morte"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo vanta opere di Lucio Fontana, di cui è esposto il celebre Concetto spaziale, Attese, che rappresenta la sua rivoluzionaria ricerca sullo spazio."
+    },
+    {
+      "museo": "Museo di Palazzo Te - Mantova",
+      "domanda": "Per quale nobile famiglia fu costruito Palazzo Te e chi fu l'architetto?",
+      "opzioni": [
+        "Per Federico II Gonzaga, da Giulio Romano",
+        "Per Ludovico il Moro, da Bramante",
+        "Per i Medici, da Michelangelo",
+        "Per gli Estensi, da Leon Battista Alberti"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Palazzo Te, capolavoro del manierismo italiano, fu costruito tra il 1524 e il 1534 da Giulio Romano per Federico II Gonzaga, signore di Mantova, come luogo di ozio e svago."
+    },
+    {
+      "museo": "Museo di Palazzo Te - Mantova",
+      "domanda": "Quale mito classico è rappresentato nella Sala dei Giganti?",
+      "opzioni": [
+        "La Caduta dei Giganti dalle Metamorfosi di Ovidio",
+        "Le fatiche di Ercole",
+        "Il ratto di Proserpina",
+        "La nascita di Venere"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sala dei Giganti raffigura la Caduta dei Giganti tratta dalle Metamorfosi di Ovidio, dove Giove fulmina i Giganti che tentano di scalare l'Olimpo, in un effetto di straordinario coinvolgimento visivo."
+    },
+    {
+      "museo": "Museo di Palazzo Te - Mantova",
+      "domanda": "Quale effetto visivo crea la decorazione della Sala dei Giganti?",
+      "opzioni": [
+        "Un trompe-l'œil che cancella i limiti architettonici",
+        "Un'illusione di profondità marina",
+        "L'effetto di una foresta incantata",
+        "La simulazione di un cielo stellato"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La pittura illusionistica della Sala dei Giganti cancella letteralmente i limiti architettonici, trasformando lo spazio reale in uno spazio mitico e drammatico, con figure che sembrano precipitare verso lo spettatore."
+    },
+    {
+      "museo": "Cenacolo Vinciano - Milano",
+      "domanda": "In quale ambiente conventuale è custodito il Cenacolo Vinciano?",
+      "opzioni": [
+        "Nel refettorio del convento di Santa Maria delle Grazie",
+        "Nella sagrestia del Duomo",
+        "Nella cappella privata degli Sforza",
+        "Nel chiostro di Sant'Ambrogio"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Cenacolo Vinciano è custodito all'interno del refettorio del convento domenicano adiacente alla basilica di Santa Maria delle Grazie."
+    },
+    {
+      "museo": "Cenacolo Vinciano - Milano",
+      "domanda": "Quale momento specifico dell'Ultima Cena rappresenta Leonardo?",
+      "opzioni": [
+        "L'annuncio del tradimento di Cristo",
+        "L'istituzione dell'Eucaristia",
+        "L'arrivo di Giuda con i soldati",
+        "La lavanda dei piedi"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leonardo coglie l'attimo drammatico immediatamente successivo all'annuncio di Cristo: 'In verità vi dico, uno di voi mi tradirà', rappresentando le diverse reazioni psicologiche degli apostoli."
+    },
+    {
+      "museo": "Cenacolo Vinciano - Milano",
+      "domanda": "Quale tecnica sperimentale utilizzò Leonardo per il Cenacolo?",
+      "opzioni": [
+        "Tecnica a secco su due strati di preparazione",
+        "Affresco tradizionale su intonaco fresco",
+        "Tempera su tavola",
+        "Olio su muro"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leonardo non utilizzò la tecnica dell'affresco tradizionale, ma una tecnica sperimentale a secco su due strati di preparazione, che purtroppo determinò la precoce degenerazione dell'opera."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale ultima opera di Michelangelo è conservata al Castello Sforzesco?",
+      "opzioni": [
+        "La Pietà Rondanini",
+        "Il Tondo Doni",
+        "Il Mosè",
+        "Il David"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pezzo più celebre dei Musei d'Arte Antica è la Pietà Rondanini di Michelangelo Buonarroti, sua ultima opera rimasta incompiuta alla morte."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale civiltà antica è documentata nella Sezione Egizia?",
+      "opzioni": [
+        "La civiltà egiziana dall'Antico Regno all'Epoca Tolemaica",
+        "La civiltà mesopotamica sumera",
+        "La civiltà minoica cretese",
+        "La civiltà etrusca italica"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Sezione Egizia possiede reperti che coprono un arco cronologico dall'Antico Regno all'Epoca Tolemaica, con stele funerarie, ushabti, amuleti e sarcofagi."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale sala del Castello Sforzesco fu decorata da Leonardo da Vinci?",
+      "opzioni": [
+        "La Sala delle Asse con un pergolato di gelsi",
+        "La Sala del Tesoro",
+        "La Sala delle Colombine",
+        "La Sala degli Scarlioni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il percorso include la Sala delle Asse, decorata da Leonardo da Vinci durante il suo soggiorno milanese, con un trompe-l'œil di un pergolato di gelsi."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quali manufatti sono esposti nella collezione di arte applicata?",
+      "opzioni": [
+        "Armature, arazzi fiamminghi e affreschi staccati",
+        "Solo ceramiche rinascimentali",
+        "Esclusivamente gioielli longobardi",
+        "Solo strumenti scientifici"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le sale ospitano una ricca collezione di armature, arazzi fiamminghi e il ciclo di affreschi staccati della Cappella di Mocchirolo, offrendo uno spaccato della produzione artistica applicata."
+    }, {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale opera di Gentile da Fabriano rappresenta un esempio eccellente del gotico cortese?",
+      "opzioni": [
+        "La Vergine dell'Umiltà",
+        "L'Adorazione dei Magi",
+        "Il Polittico di Valle Romita",
+        "La Madonna con il Bambino"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Vergine dell'Umiltà di Gentile da Fabriano, con i suoi raffinati dettagli e l'uso dell'oro, è un esempio eccellente del gotico cortese nella sezione di pittura gotica e tardo gotica."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale celebre opera di Andrea Mantegna è uno studio prospettico di audacia rivoluzionaria?",
+      "opzioni": [
+        "Il Cristo morto",
+        "La Camera degli Sposi",
+        "Il San Sebastiano",
+        "Il Trionfo di Cesare"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Andrea Mantegna è rappresentato dal Cristo morto, uno studio prospettico di audacia rivoluzionaria che dimostra la sua maestria nella resa spaziale e anatomica."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale artista veneto del Cinquecento è rappresentato dal Ritratto di giovane con lucerna?",
+      "opzioni": [
+        "Lorenzo Lotto",
+        "Tiziano Vecellio",
+        "Tintoretto",
+        "Paolo Veronese"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lorenzo Lotto è rappresentato dal Ritratto di giovane con lucerna, opera che mostra la sua particolare sensibilità nella resa psicologica dei personaggi."
+    },
+    {
+      "museo": "Pinacoteca di Brera",
+      "domanda": "Quale maestro lombardo fu profondamente influenzato dalla presenza di Leonardo da Vinci?",
+      "opzioni": [
+        "Bernardino Luini e Gaudenzio Ferrari",
+        "Vincenzo Foppa e Bramantino",
+        "Ambrogio Bergognone e Giovanni Bellini",
+        "Andrea Mantegna e Piero della Francesca"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bernardino Luini e Gaudenzio Ferrari furono profondamente influenzati dalla presenza di Leonardo da Vinci a Milano, come documentato nella sezione di pittura lombarda del Quattro e Cinquecento."
+    },
+    {
+      "museo": "Museo Nazionale della Scienza e Tecnologia - Milano",
+      "domanda": "In quale anno furono realizzati i modelli leonardeschi esposti nella Galleria Leonardo?",
+      "opzioni": [
+        "Nel 1952 per il cinquecentenario della nascita",
+        "Nel 1900 per l'Esposizione Universale",
+        "Nel 1930 per il Museo della Scienza",
+        "Nel 1970 per le celebrazioni vinciane"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "I modelli storici furono realizzati nel 1952 per le celebrazioni del cinquecentenario della nascita di Leonardo da Vinci, interpretando direttamente i disegni dei suoi codici e manoscritti."
+    },
+    {
+      "museo": "Museo Nazionale della Scienza e Tecnologia - Milano",
+      "domanda": "Quale aspetto del metodo di Leonardo viene evidenziato dall'accostamento dei modelli con i disegni originali?",
+      "opzioni": [
+        "L'unione di arte e scienza nell'indagine del reale",
+        "L'uso esclusivo della matematica pura",
+        "La separazione tra ricerca teorica e pratica",
+        "La predilezione per l'astrazione formale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Ogni modello è affiancato dalle riproduzioni dei disegni originali di Leonardo, permettendo di comprendere il suo metodo di indagine che univa strettamente arte e scienza."
+    },
+    {
+      "museo": "Museo del Novecento - Milano",
+      "domanda": "Quale movimento artistico è rappresentato da Michelangelo Pistoletto e Luciano Fabro?",
+      "opzioni": [
+        "L'Arte Povera",
+        "Il Futurismo",
+        "La Metafisica",
+        "La Transavanguardia"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le sale successive al Futurismo sono dedicate all'Arte Povera, con opere di Michelangelo Pistoletto e Luciano Fabro che rappresentano una delle correnti più significative dell'arte italiana del secondo dopoguerra."
+    },
+    {
+      "museo": "Museo del Novecento - Milano",
+      "domanda": "Come si sviluppa il percorso espositivo del Museo del Novecento?",
+      "opzioni": [
+        "In ordine cronologico attraverso una rampa a spirale",
+        "Per temi artistici in sale separate",
+        "Per tecniche artistiche in piani diversi",
+        "In ordine alfabetico per artista"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione è disposta in un percorso espositivo che si sviluppa in ordine cronologico attraverso una rampa a spirale che collega i vari piani, offrendo una panoramica completa sul XX secolo."
+    },
+    {
+      "museo": "Museo di Palazzo Te - Mantova",
+      "domanda": "Quale caratteristica architettonica distingue Palazzo Te?",
+      "opzioni": [
+        "Pianta quadrata con cortile centrale",
+        "Pianta circolare con giardino pensile",
+        "Struttura ottagonale senza cortile",
+        "Sviluppo verticale con torri angolari"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'edificio, a pianta quadrata con un grande cortile centrale, si articola in una serie di sale splendidamente affrescate che rappresentano uno dei vertici della decorazione del Cinquecento."
+    },
+    {
+      "museo": "Museo di Palazzo Te - Mantova",
+      "domanda": "Quale effetto emotivo crea la Sala dei Giganti sullo spettatore?",
+      "opzioni": [
+        "Senso di vertigine e smarrimento",
+        "Tranquillità e armonia",
+        "Allegria e spensieratezza",
+        "Meditazione e raccoglimento"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le figure dei Giganti sembrano precipitare verso lo spettatore, creando un senso di vertigine e di smarrimento, caratteristico del gusto manierista per il meraviglioso e il perturbante."
+    },
+    {
+      "museo": "Cenacolo Vinciano - Milano",
+      "domanda": "Quale committente volle il Cenacolo Vinciano?",
+      "opzioni": [
+        "Ludovico il Moro, duca di Milano",
+        "Lorenzo il Magnifico de' Medici",
+        "Papa Sisto IV della Rovere",
+        "Federico da Montefeltro"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leonardo da Vinci lavorò al Cenacolo tra il 1494 e il 1498, su commissione di Ludovico il Moro, duca di Milano, per il refettorio del convento domenicano."
+    },
+    {
+      "museo": "Cenacolo Vinciano - Milano",
+      "domanda": "Come sono organizzati gli apostoli nell'Ultima Cena di Leonardo?",
+      "opzioni": [
+        "In quattro gruppi di tre attorno a Cristo",
+        "In due file parallele di sei",
+        "In cerchio completo attorno alla tavola",
+        "In ordine sparso senza schema preciso"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Leonardo organizza gli apostoli in quattro gruppi di tre attorno alla figura centrale e isolata del Cristo, cogliendo le diverse reazioni psicologiche all'annuncio del tradimento."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale monumento funebre di Bonino da Campione è conservato nel museo?",
+      "opzioni": [
+        "Il monumento funebre di Bernabò Visconti",
+        "La tomba di Gian Galeazzo Visconti",
+        "Il sepolcro di Beatrice d'Este",
+        "La cappella di Ludovico il Moro"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il museo conserva il monumento funebre di Bernabò Visconti di Bonino da Campione, importante esempio di scultura gotica lombarda."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale importante collezionista contribuì alla formazione della Sezione Egizia?",
+      "opzioni": [
+        "Il papirologo Achille Vogliano",
+        "L'archeologo Giovanni Belzoni",
+        "L'egittologo Jean-François Champollion",
+        "Lo storico Erodoto"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La collezione egizia si formò principalmente nel XIX secolo attraverso acquisti e donazioni di collezionisti privati, come quella del papirologo Achille Vogliano."
+    },
+    {
+      "museo": "Museo del Castello Sforzesco - Milano",
+      "domanda": "Quale ciclo di arazzi fiamminghi è esposto nel museo?",
+      "opzioni": [
+        "Storie di Noè",
+        "Storie di Alessandro Magno",
+        "Le sette virtù",
+        "Le stagioni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le sale ospitano arazzi fiamminghi tra cui quelli con Storie di Noè, che rappresentano una parte significativa della collezione di arte applicata del museo."
+    }
+],
+    
+    
+    
+    
+    
+    
+    
+    "marche": 
+[
+  {
+      "domanda": "In quale regione italiana si trova l'Abbazia di Santa Maria di Chiaravalle di Fiastra?",
+      "opzioni": ["Marche", "Lazio", "Umbria", "Toscana"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Abbazia di Santa Maria di Chiaravalle di Fiastra si trova nelle Marche, immersa in una riserva naturale."
+    },
+    {
+      "domanda": "Da quale antica città romana provennero molti dei materiali usati per costruire l'Abbazia di Santa Maria di Chiaravalle di Fiastra nelle Marche?",
+      "opzioni": ["Urbs Salvia", "Suasa", "Falerio Picenus", "Sentinum"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L’abbazia marchigiana fu costruita con materiali recuperati dalle rovine della vicina Urbs Salvia."
+    },
 
+    {
+      "domanda": "La Basilica della Santa Casa di Loreto, situata nelle Marche, custodisce secondo la tradizione quale edificio?",
+      "opzioni": ["La casa natale di Maria", "Il Cenacolo", "La grotta della Natività", "La tomba di San Pietro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Basilica della Santa Casa di Loreto nelle Marche è celebre per la Casa della Vergine Maria, secondo la tradizione trasportata dalla Palestina."
+    },
+    {
+      "domanda": "In quale stile principale è realizzata la facciata della Basilica della Santa Casa di Loreto nelle Marche?",
+      "opzioni": ["Rinascimentale", "Barocco", "Romanico", "Neoclassico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La facciata della Basilica della Santa Casa di Loreto, nelle Marche, è un capolavoro dell'architettura rinascimentale."
+    },
 
+    {
+      "domanda": "Il centro storico di Offida si trova in quale regione italiana?",
+      "opzioni": ["Marche", "Puglia", "Lombardia", "Sicilia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Offida si trova nelle Marche, su un crinale tra le valli del Tesino e del Tronto."
+    },
+    {
+      "domanda": "Quale attività artigianale tradizionale è ancora praticata nel centro storico di Offida, nelle Marche?",
+      "opzioni": ["Merletto a tombolo", "Vetro soffiato", "Ricamo a punto croce", "Produzione di arazzi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il centro storico di Offida, nelle Marche, è celebre per l’arte del merletto a tombolo."
+    },
+
+    {
+      "domanda": "Le Grotte di Frasassi si trovano in quale regione italiana?",
+      "opzioni": ["Marche", "Trentino-Alto Adige", "Calabria", "Veneto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le Grotte di Frasassi si trovano nelle Marche e sono tra i complessi carsici più spettacolari d’Europa."
+    },
+    {
+      "domanda": "Come si chiama la sala più ampia delle Grotte di Frasassi, nelle Marche?",
+      "opzioni": ["Abisso Ancona", "Sala dei Giganti", "Grotta Bianca", "Sala della Cascata"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La cavità principale delle Grotte di Frasassi nelle Marche è l'Abisso Ancona, alta oltre 200 metri."
+    },
+
+    {
+      "domanda": "In quale città delle Marche si trova la Cattedrale di San Ciriaco?",
+      "opzioni": ["Ancona", "Macerata", "Pesaro", "Fermo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cattedrale di San Ciriaco si trova ad Ancona, nelle Marche, sul colle Guasco."
+    },
+    {
+      "domanda": "La Cattedrale di San Ciriaco ad Ancona, nelle Marche, presenta una pianta di quale tipo?",
+      "opzioni": ["Croce greca", "Croce latina", "Basilicale a navata unica", "Ottagonale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Cattedrale marchigiana di San Ciriaco ha una pianta a croce greca sormontata da una cupola dodecagonale."
+    }
+ ],
+    
+    
+    
+    
+    
+    
+    
+    "molise": 
+[
+
+ ],
+    
+    
+    
+    
+    
+    
+    
+    "piemonte": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "puglia": 
+[ ],
+    
+    
+    
+    
+    
+    
+    
+    "sardegna": 
+[
+
+ ],
+    
+    
+    
+    
+    
+    
+    
+    "sicilia": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "toscana": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "umbria": 
+[ ],
+    
+    
+    
+    
+    
+    
+    
+    "val d'aosta": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "veneto": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "trento": 
+[ 
+
+],
+    
+    
+    
+    
+    
+    
+    
+    "bolzano": 
+[ ],
+    
+    
+    
+    
+    
+    
+    
+    "Sezione IV": 
+[ 
+
+]
 }
+
+
+
+
+
 
