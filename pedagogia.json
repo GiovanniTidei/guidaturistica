@@ -1,0 +1,423 @@
+{
+  "pedagogia": [
+    {
+      "domanda": "Secondo John Dewey, qual è il rapporto fondamentale tra educazione e democrazia?",
+      "opzioni": ["L'educazione come strumento per formare cittadini capaci di pensiero critico e partecipazione", "L'educazione come trasmissione unidirezionale di valori predeterminati", "L'educazione come percorso elitario riservato a pochi", "L'educazione come mero addestramento professionale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dewey vede l'educazione come processo di crescita e la scuola come palestra di democrazia, dove si sperimenta la vita comunitaria"
+    },
+    {
+      "domanda": "Quale principio caratterizza principalmente il pensiero pedagogico di Maria Montessori?",
+      "opzioni": ["L'autoeducazione attraverso un ambiente preparato e materiali scientifici", "L'apprendimento esclusivamente guidato dall'insegnante", "La centralità del programma ministeriale standardizzato", "L'educazione come processo di disciplinamento rigoroso"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Montessori sostiene che il bambino possiede energie creative e capacità di auto-costruzione, che l'ambiente deve solo facilitare"
+    },
+    {
+      "domanda": "Nella prospettiva di Don Lorenzo Milani, quale funzione assume la scuola di Barbiana?",
+      "opzioni": ["Strumento di riscatto sociale e di critica alle disuguaglianze", "Istituzione elitaria per eccellenza accademica", "Luogo di conservazione della tradizione culturale", "Spazio neutrale di trasmissione del sapere"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Don Milani concepisce la scuola come presidio di giustizia sociale che restituisce la parola ai poveri e agli emarginati"
+    },
+    {
+      "domanda": "Quale concetto è centrale nella pedagogia di Paulo Freire?",
+      "opzioni": ["La 'coscientizzazione' come superamento della 'cultura del silenzio'", "L'adattamento passivo all'ordine sociale esistente", "L'apprendimento mnemonico e ripetitivo", "La separazione tra educazione e trasformazione sociale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Freire propone un'educazione liberatrice che permetta agli oppressi di leggere criticamente la realtà e trasformarla"
+    },
+    {
+      "domanda": "Secondo Jerome Bruner, quale principio guida l'insegnamento per scoperte?",
+      "opzioni": ["L'apprendimento come processo attivo di costruzione di significati", "La trasmissione verticale di conoscenze certe", "La ripetizione meccanica di procedure", "L'accumulo passivo di informazioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bruner enfatizza il learning by doing e la scoperta guidata come motori di un apprendimento significativo e duraturo"
+    },
+    {
+      "domanda": "Nella pedagogia di Célestin Freinet, quale tecnica rappresenta il cuore dell'espressione libera?",
+      "opzioni": ["Il testo libero e la stampa a scuola", "La copiatura di testi classici", "La dettatura ortografica", "L'analisi grammaticale strutturata"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Freinet usa la stampa per dare valore reale alla parola dei bambini, motivandoli a scrivere per comunicare esperienze autentiche"
+    },
+    {
+      "domanda": "Quale visione dell'educazione caratterizza il pensiero di Edgar Morin?",
+      "opzioni": ["L'educazione alla complessità e alla riforma del pensiero", "L'iper-specializzazione disciplinare precoce", "La separazione netta tra saperi scientifici e umanistici", "L'apprendimento frammentato e compartimentato"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Morin propone un'educazione che affronti la complessità del reale attraverso il pensiero multidimensionale e interdisciplinare"
+    },
+    {
+      "domanda": "Secondo le Indicazioni Nazionali, quale principio fonda la visione della scuola come 'ambiente di apprendimento'?",
+      "opzioni": ["La centralità del learner e la costruzione attiva del sapere", "L'insegnamento come trasmissione unidirezionale", "La standardizzazione dei percorsi formativi", "La separazione tra apprendimento e contesto sociale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le Indicazioni enfatizzano la scuola come comunità educante dove si costruiscono attivamente conoscenze e competenze"
+    },
+    {
+      "domanda": "Quale contributo di Loris Malaguzzi ha rivoluzionato la pedagogia dell'infanzia?",
+      "opzioni": ["La teoria dei 'cento linguaggi' dei bambini", "L'educazione basata su programmi rigidi", "L'apprendimento precoce della lettura e scrittura", "La separazione per età nelle sezioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Malaguzzi riconosce ai bambini molteplici potenzialità espressive e cognitive che la scuola deve valorizzare attraverso diversi linguaggi"
+    },
+    {
+      "domanda": "Nella pedagogia istituzionale, cosa si intende per 'istituzione'?",
+      "opzioni": ["L'insieme delle regole, ruoli e strumenti che organizzano la vita collettiva nella classe", "L'edificio scolastico e le sue attrezzature", "Solo gli organi collegiali della scuola", "Esclusivamente il regolamento disciplinare"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le istituzioni sono dispositivi pedagogici (consigli, incarichi, rituali) che strutturano le relazioni e favoriscono l'autonomia"
+    }, {
+      "domanda": "Quale modello pedagogico, recentemente incentivato dal PNRR, si focalizza sulla progettazione di percorsi didattici per 'unità di apprendimento' piuttosto che per singole lezioni?",
+      "opzioni": ["La Didattica per Situazioni", "L'Istruzione Programmata", "Il Mastery Learning", "La Lezione Frontale Partecipata"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Didattica per Situazioni, o insegnamento per unità di apprendimento, è un modello che organizza i contenuti attorno a problemi o situazioni significative, promuovendo un apprendimento più integrato e contestualizzato, in linea con le recenti indicazioni."
+    },
+    {
+      "domanda": "Il concetto di 'service learning' nell'educazione contemporanea si riferisce a:",
+      "opzioni": ["Un approccio che integra l'apprendimento in aula con il servizio alla comunità", "Un sistema di tutoraggio tra studenti della stessa classe", "Un metodo per l'insegnamento delle lingue straniere", "Una piattaforma digitale per l'erogazione di corsi online"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il service learning è una proposta pedagogica che unisce il 'service' (servizio solidale alla comunità) e il 'learning' (apprendimento curricolare), favorendo lo sviluppo di competenze civiche e sociali."
+    },
+    {
+      "domanda": "Nella storia della pedagogia italiana, quale educatrice è celebre per il metodo di 'educazione alla pace' e la fondazione della 'Casa del Bambino' a Roma?",
+      "opzioni": ["Maria Montessori", "Giuseppina Pizzigoni", "Rosa Agazzi", "Anita Gramigna"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Maria Montessori, oltre al noto metodo, fu una forte sostenitrice dell'educazione alla pace, considerando il bambino come agice di un mondo nuovo e pacifico."
+    },
+    {
+      "domanda": "Secondo le più recenti Indicazioni Nazionali, cosa si intende per 'competenza digitale'?",
+      "opzioni": ["La capacità di utilizzare con dimestichezza e spirito critico le tecnologie della società dell'informazione", "La sola abilità di programmare in linguaggi informatici", "L'uso esclusivo di dispositivi digitali per la lettura", "La sostituzione completa dei libri cartacei con e-book"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La competenza digitale, come definita dalle Indicazioni, comprende l'uso sicuro e critico della tecnologia per il lavoro, il tempo libero e la comunicazione, non solo abilità tecniche."
+    },
+    {
+      "domanda": "Il 'Manifesto della Scuola Comunista' del 1925 in Italia è associato a quale pedagogista?",
+      "opzioni": ["Antonio Gramsci", "Giovanni Gentile", "Luigi Credaro", "Giuseppe Lombardo Radice"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Antonio Gramsci, nei suoi scritti carcerari, elaborò una riflessione pedagogica profonda, sebbene non scrisse materialmente un 'Manifesto'. I suoi quaderni contengono una critica alla scuola tradizionale e l'idea di una scuola unitaria e formativa per tutte le classi sociali."
+    },
+    {
+      "domanda": "Cosa promuove il movimento delle 'Avanguardie educative' indetto da INDIRE?",
+      "opzioni": ["La diffusione di idee e modelli innovativi per la trasformazione della scuola italiana", "L'adozione di libri di testo digitali in tutte le scuole", "L'insegnamento delle sole discipline STEM", "La riduzione del numero di studenti per classe"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il movimento, promosso da INDIRE, ha l'obiettivo di individuare, supportare e diffondere pratiche didattiche innovative e organizzative per superare il modello tradizionale di scuola."
+    },
+    {
+      "domanda": "La 'pedagogia della lumaca' di Gianfranco Zavalloni si contrappone a:",
+      "opzioni": ["Alla cultura della frenesia e del consumo nell'educazione", "All'uso delle tecnologie in classe", "All'insegnamento delle discipline scientifiche", "All'educazione fisica e motoria"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Zavalloni propone una 'pedagogia della lumaca' come metafora per un'educazione che rispetti i tempi naturali di apprendimento di bambini e ragazzi, opponendosi alla logica della velocità e dell'efficientismo."
+    },
+    {
+      "domanda": "Quale normativa ha introdotto per la prima volta in Italia il principio dell' 'autonomia scolastica'?",
+      "opzioni": ["La Legge 59/1997 (Legge Bassanini)", "La Riforma Gentile del 1923", "I Decreti Delegati del 1974", "La Legge 107/2015 (La Buona Scuola)"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Legge 59/1997, all'articolo 21, ha conferito alle istituzioni scolastiche l'autonomia organizzativa, didattica e di ricerca, segnando una tappa fondamentale nel sistema educativo italiano."
+    },
+    {
+      "domanda": "Il concetto di 'epistemologia pedagogica' si occupa di:",
+      "opzioni": ["Fondare la pedagogia come scienza autonoma, con un proprio statuto e metodo", "Analizzare esclusivamente i testi classici della pedagogia", "Insegnare la filosofia ai bambini", "Tradurre in pratica le teorie psicologiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'epistemologia pedagogica riflette sulla natura, sui fondamenti, sui metodi e sulla validità del sapere pedagogico, affermandone lo statuto scientifico."
+    },
+    {
+      "domanda": "La 'didattica breve' è una strategia associata principalmente a:",
+      "opzioni": ["Pier Cesare Rivoltella", "Loris Malaguzzi", "Alberto Manzi", "Franco Frabboni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Pier Cesare Rivoltella ha teorizzato la 'didattica breve' come un approccio che, attraverso micro-unità e tecniche precise, mira a ottenere apprendimenti significativi in tempi ridotti, sfruttando al massimo il tempo-scuola."
+    },
+    {
+      "domanda": "Nell'ambito della pedagogia speciale, il modello ICF (International Classification of Functioning) dell'OMS si basa su:",
+      "opzioni": ["Una visione bio-psico-sociale della disabilità", "Una classificazione puramente medica dei deficit", "L'idea che la disabilità sia un problema esclusivamente individuale", "La separazione netta tra normalità e patologia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il modello ICF supera la prospettiva medica tradizionale, considerando la disabilità come il risultato dell'interazione tra le condizioni di salute di una persona e i fattori ambientali e personali."
+    },
+    {
+      "domanda": "La 'peer education' (educazione tra pari) è considerata efficace perché:",
+      "opzioni": ["Sfrutta la prossimità di linguaggio e esperienza tra coetanei", "Sostituisce completamente la figura dell'adulto", "È più economica dell'insegnamento tradizionale", "Richiede meno preparazione da parte dei docenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La peer education valorizza la relazione orizzontale tra pari, che spesso facilita la comunicazione, l'ascolto e l'accettazione di messaggi educativi."
+    },
+    {
+      "domanda": "Chi è l'autore de 'Il mondo salvato dai ragazzini', opera che celebra la creatività e la spontaneità infantile?",
+      "opzioni": ["Elsa Morante", "Mario Lodi", "Gianni Rodari", "Don Lorenzo Milani"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Elsa Morante, con questa opera del 1968, offre una raccolta di testi che esaltano l'innocenza e la visione pura del mondo tipica dell'infanzia, in contrapposizione alla corruzione degli adulti."
+    },
+    {
+      "domanda": "Cosa si intende per 'outdoor education'?",
+      "opzioni": ["Una pratica educativa che utilizza l'ambiente esterno come aula", "L'insegnamento delle scienze naturali all'aperto", "Le gite scolastiche di fine anno", "L'educazione motoria in spazi aperti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'outdoor education è un approccio pedagogico che riconosce il valore formativo dell'esperienza diretta in ambienti esterni alla scuola (parchi, città, natura), per sviluppare conoscenze, competenze e benessere."
+    },
+    {
+      "domanda": "La 'grammatica della fantasia' di Gianni Rodari è principalmente:",
+      "opzioni": ["Un'introduzione all'arte di inventare storie", "Un manuale di grammatica italiana per bambini", "Un metodo per insegnare la lingua inglese", "Una teoria sull'apprendimento della matematica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "In questo testo fondamentale, Rodari offre tecniche e spunti per stimolare la creatività e l'immaginazione linguistica nei bambini, considerando la fantasia un diritto di tutti."
+    },
+    {
+      "domanda": "Il 'Manifesto dei Diritti Naturali di Bambini e Bambine' è stato proposto da:",
+      "opzioni": ["Gianfranco Zavalloni", "Franco Cambi", "Benedetto Vertecchi", "Andrea Canevaro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gianfranco Zavalloni ha elaborato questo manifesto per ricordare i diritti 'naturali' dei bambini, come il diritto all'ozio, a sporcarsi, agli odori, al dialogo, spesso negati nella società moderna."
+    },
+    {
+      "domanda": "In pedagogia, l'approccio 'ecologico' allo sviluppo umano è associato a:",
+      "opzioni": ["Urie Bronfenbrenner", "Jerome Bruner", "John Dewey", "Howard Gardner"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bronfenbrenner, con la sua 'teoria ecologica', descrive lo sviluppo umano come il risultato dell'interazione tra l'individuo e una serie di sistemi ambientali concentrici (microsistema, mesosistema, esosistema, macrosistema)."
+    },
+    {
+      "domanda": "La 'classe capovolta' (flipped classroom) ribalta:",
+      "opzioni": ["La sequenza tradizionale lezione a scuola e studio a casa", "Il rapporto gerarchico tra docente e discente", "L'ordine di importanza delle discipline", "Il sistema di valutazione degli apprendimenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella flipped classroom, la fruizione dei contenuti (spesso attraverso video) avviene a casa, mentre il tempo in classe è dedicato ad attività collaborative, esercitazioni e personalizzazione dell'apprendimento."
+    },
+    {
+      "domanda": "La 'pedagogia degli oppressi' è l'opera più celebre di:",
+      "opzioni": ["Paulo Freire", "Ivan Illich", "Célestin Freinet", "Edgar Morin"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Paulo Freire, pedagogista brasiliano, in quest'opera propone un'educazione liberatrice che permetta agli oppressi di prendere coscienza della propria condizione e di lottare per la propria emancipazione."
+    },
+    {
+      "domanda": "Il 'cooperative learning' si fonda sul principio di:",
+      "opzioni": ["Interdipendenza positiva", "Competizione individuale", "Assegnazione di ruoli fissi", "Valutazione esclusiva del prodotto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'interdipendenza positiva è un elemento cardine del cooperative learning: gli studenti percepiscono che il proprio successo è legato al successo degli altri membri del gruppo."
+    },
+    {
+      "domanda": "Quale pedagogista italiano ha teorizzato la 'scuola a tempo pieno' come comunità educante?",
+      "opzioni": ["Lamberto Borghi", "Giuseppe Lombardo Radice", "Lucio Lombardo Radice", "Bruno Ciari"],
+      "rispostaCorretta": 3,
+      "spiegazione": "Bruno Ciari è stato un forte promotore del tempo pieno in Italia, concepito non come semplice prolungamento dell'orario, ma come un progetto educativo globale che coinvolge la vita della comunità."
+    },
+    {
+      "domanda": "Il metodo 'Write to Read' (Scrivere per Leggere) è stato sperimentato con successo da:",
+      "opzioni": ["Alberto Manzi", "Loris Malaguzzi", "Sergio Neri", "Andrea Canevaro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Alberto Manzi, reso celebre dalla TV con 'Non è mai troppo tardi', utilizzava questo metodo per avviare all'alfabetizzazione, partendo dalla produzione libera di testi da parte degli adulti analfabeti."
+    },
+    {
+      "domanda": "La 'progettazione partecipata' nei servizi educativi per l'infanzia coinvolge:",
+      "opzioni": ["Bambini, genitori e educatori nella co-costruzione del progetto", "Solo gli esperti esterni alla scuola", "Esclusivamente il collegio dei docenti", "Solo la direzione pedagogica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La progettazione partecipata è un processo democratico che valorizza il contributo di tutti i soggetti coinvolti (bambini inclusi) nel pensare e realizzare gli spazi e le attività educative."
+    },
+    {
+      "domanda": "La 'pedagogia della mediazione' in ambito interculturale si riferisce a:",
+      "opzioni": ["Un processo di facilitazione della comunicazione e dell'incontro tra culture diverse", "La risoluzione di conflitti legali nelle scuole", "L'insegnamento della lingua italiana come L2", "La selezione di materiali didattici per alunni stranieri"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La mediazione interculturale ha l'obiettivo di favorire la comprensione reciproca, prevenire i conflitti e costruire ponti tra persone di diverse origini culturali all'interno del contesto scolastico e sociale."
+    },
+    {
+      "domanda": "Il concetto di 'life skills' nell'educazione contemporanea include:",
+      "opzioni": ["Competenze psico-sociali per affrontare efficacemente le sfide della vita", "Abilità tecniche per un mestiere specifico", "Conoscenze enciclopediche di cultura generale", "Capacità atletiche e sportive"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le life skills, secondo l'OMS, sono abilità cognitive, emotive e relazionali di base (come il pensiero critico, la gestione delle emozioni, l'empatia) che permettono di agire in modo positivo e adattivo."
+    },
+    {
+      "domanda": "La 'ricerca-azione' in pedagogia è caratterizzata da:",
+      "opzioni": ["Un ciclo spirale di pianificazione, azione, osservazione e riflessione", "L'osservazione puramente neutrale dei fenomeni educativi", "La somministrazione di questionari standardizzati", "La raccolta di dati solo quantitativi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La ricerca-azione è una metodologia in cui il docente (ricercatore in classe) indaga la propria pratica per migliorarla, in un processo ciclico che unisce teoria e azione."
+    },
+    {
+      "domanda": "La 'valutazione autentica' si differenzia da quella tradizionale perché:",
+      "opzioni": ["Valuta le competenze in compiti significativi e contestualizzati", "Utilizza esclusivamente test a risposta multipla", "Mira a classificare gli studenti in una graduatoria", "Si basa solo sul prodotto finale, ignorando il processo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La valutazione autentica mira a osservare la capacità dello studente di applicare conoscenze e abilità in situazioni complesse e simili a quelle del mondo reale, spesso attraverso compiti di prestazione."
+    },
+    {
+      "domanda": "La 'didattica museale' innovativa si sta orientando verso:",
+      "opzioni": ["Esperienze immersive e partecipative per la Generazione Z", "Visite guidate tradizionali e passive", "Lezioni frontali all'interno del museo", "Studio esclusivo di cataloghi cartacei"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Per coinvolgere i giovani (Generazione Z), la didattica museale punta sempre più su tecnologie digitali, storytelling immersivo e modalità interattive che favoriscano un'esperienza personale e attiva con il patrimonio culturale :cite[5]."
+    },
+    {
+      "domanda": "Il 'Manifesto della Educazione Diffusa' propone di:",
+      "opzioni": ["Considerare la città intera come un'aula di apprendimento", "Concentrare tutte le attività in spazi scolastici iper-attrezzati", "Aumentare il numero di ore di lezione frontale", "Privatizzare il sistema dell'istruzione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'educazione diffusa è un paradigma che immagina un superamento dell'edificio-scuola tradizionale, utilizzando i luoghi della città (musei, botteghe, parchi, biblioteche) come ambienti naturali di apprendimento."
+    },
+    {
+      "domanda": "Nella scuola italiana, i 'Compagni di strada' di cui parla Franco Lorenzoni nel suo libro sono:",
+      "opzioni": ["Bambini e adulti che apprendono insieme in una relazione paritaria", "Insegnanti che viaggiano per il mondo", "Studenti particolarmente dotati", "Genitori che fanno homeschooling"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Franco Lorenzoni, maestro e fondatore della Casa-laboratorio di Cenci, usa questa espressione per descrivere una relazione educativa in cui l'adulto non è colui che detiene il sapere, ma un compagno di ricerca e scoperta insieme ai bambini."
+    }, {
+      "domanda": "Quale metodo didattico, paragonato all'arte della levatrice, fu elaborato da Socrate?",
+      "opzioni": ["La maieutica", "La dialettica", "La retorica", "L'ironia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Socrate utilizzava la maieutica (dal greco, 'ostetricia') per aiutare l'interlocutore a 'partorire' la verità già presente dentro di sé, attraverso il dialogo e domande successive :cite[1]:cite[2]."
+    },
+    {
+      "domanda": "In che cosa consisteva principalmente l'ideale educativo della 'Paideia' nella Grecia classica?",
+      "opzioni": ["Formare il cittadino virtuoso e integralmente sviluppato per la polis", "Preparare professionalmente artigiani e commercianti", "Educare esclusivamente i figli della nobiltà alla guerra", "Trasmettere un sapere puramente tecnico e specialistico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Paideia era l'ideale greco di formazione umana che mirava a realizzare la 'kalokagathia', l'armonia di bellezza interiore ed esteriore, per un cittadino retto e ben inserito nella comunità :cite[1]."
+    },
+    {
+      "domanda": "Secondo Sant'Agostino, nel 'De Magistro', chi è il vero maestro interiore?",
+      "opzioni": ["Cristo", "Il docente in carne e ossa", "La ragione umana", "L'esperienza sensibile"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Agostino sostiene che l'insegnante esterno fornisce solo stimoli, ma è il Maestro interiore (Cristo-Logos) che illumina la mente e permette di comprendere la verità :cite[3]."
+    },
+    {
+      "domanda": "Per quale opera, considerata la prima che rivoluzionò l'insegnamento attraverso le figure, è celebre Comenio?",
+      "opzioni": ["Orbis Pictus", "Didactica Magna", "Janua Linguarum Reserata", "La scuola dell'infanzia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Comenio scrisse 'Orbis Pictus' (Il Mondo Illustrato), il primo libro illustrato per bambini, che utilizzava le immagini come potente ausilio all'apprendimento della lettura e della conoscenza del mondo :cite[4]."
+    },
+    {
+      "domanda": "Quale filosofo romano riprese l'ideale greco della Paideia identificandolo con il concetto di 'Humanitas'?",
+      "opzioni": ["Marco Tullio Cicerone", "Lucrezio", "Seneca", "Marco Aurelio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Cicerone, insieme ad altri autori latini come Aulo Gellio e Varrone, identificò l'ideale formativo greco della Paideia con il concetto romano di 'Humanitas', una formazione enciclopedica e morale :cite[1]."
+    },
+    {
+      "domanda": "Quale importante riformatore della pedagogia definì le scuole del suo tempo 'mattatoi per la mente'?",
+      "opzioni": ["Comenio", "John Locke", "Rousseau", "Pestalozzi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Comenio usò questa forte espressione per denunciare la didattica nozionistica, mnemonica e spesso brutale delle scuole del XVII secolo, contro cui propose le sue riforme :cite[4]."
+    },
+    {
+      "domanda": "Quale celebre umanista italiano, maestro a Mantova, fu noto per la sua scuola 'La Giocosa' che accoglieva anche alunni poveri?",
+      "opzioni": ["Vittorino da Feltre", "Guarino Veronese", "Leon Battista Alberti", "Pico della Mirandola"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Vittorino da Feltre fu un umanista e educatore che diresse a Mantova una scuola innovativa, 'La Giocosa', celebre per il suo spirito gioioso e per l'apertura a giovani di diversa estrazione sociale :cite[1]."
+    },
+    {
+      "domanda": "Quale autore, nel 'Emilio', teorizzò un'educazione 'negativa' che preservi il bambino dalla corruzione della società?",
+      "opzioni": ["Jean-Jacques Rousseau", "John Locke", "Immanuel Kant", "Johann Heinrich Pestalozzi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Rousseau, nell'Emilio (1762), partendo dall'idea del 'buon selvaggio', propose un'educazione che segua la natura del fanciullo, proteggendolo dai vizi della società fino a quando non sia in grado di affrontarli :cite[1]."
+    },
+    {
+      "domanda": "Quale filosofo inglese, nell'opera 'Pensieri sull'educazione', paragonò la mente del bambino a una 'tabula rasa'?",
+      "opzioni": ["John Locke", "Francis Bacon", "Herbert Spencer", "John Stuart Mill"],
+      "rispostaCorretta": 0,
+      "spiegazione": "John Locke, con la teoria della 'tabula rasa' (mente come un foglio bianco), sostenne che la conoscenza derivi interamente dall'esperienza e, quindi, l'educazione abbia un ruolo fondamentale nel formare l'individuo :cite[5]."
+    },
+    {
+      "domanda": "Quale studioso moravo è universalmente riconosciuto come il 'padre della pedagogia moderna'?",
+      "opzioni": ["Comenio (Jan Amos Komenský)", "Johann Friedrich Herbart", "Friedrich Fröbel", "Johann Heinrich Pestalozzi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Comenio, con opere come la 'Didactica Magna', gettò le basi della pedagogia come scienza, proponendo un sistema universale, graduale e piacevole per tutti 'tutto a tutti' :cite[1]:cite[4]."
+    },
+    {
+      "domanda": "Quale principio didattico fondamentale propose Comenio sintetizzato nell'espressione 'tutto a tutti'?",
+      "opzioni": ["L'educazione universale e senza esclusioni", "L'insegnamento di tutte le discipline a tutti", "La distribuzione gratuita dei libri di testo", "L'istruzione superiore obbligatoria"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Con il principio 'tutto a tutti' (omnia, omnibus), Comenio affermò che l'istruzione doveva essere estesa a tutti, maschi e femmine, ricchi e poveri, dotati e meno dotati :cite[1]:cite[4]."
+    },
+    {
+      "domanda": "Quale filosofo tedesco, autore di 'Critica della ragion pura', scrisse anche sull'educazione, esprimendo grande fiducia nel suo potere di migliorare l'umanità?",
+      "opzioni": ["Immanuel Kant", "Georg Wilhelm Friedrich Hegel", "Arthur Schopenhauer", "Friedrich Nietzsche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Immanuel Kant tenne lezioni di pedagogia e espresse una visione ottimistica, credendo che attraverso l'educazione l'uomo potesse realizzare il proprio miglioramento e quello della società :cite[1]."
+    },
+    {
+      "domanda": "Quale pedagogista svizzero, ispirato da Rousseau, mise al centro del suo metodo l'educazione del 'cuore, della mano e della mente'?",
+      "opzioni": ["Johann Heinrich Pestalozzi", "Johann Friedrich Herbart", "Friedrich Fröbel", "Rudolf Steiner"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Pestalozzi, attuando le idee di Rousseau, sviluppò un metodo educativo olistico che mirava a formare la persona intera, unendo sviluppo affettivo, manuale e intellettuale :cite[1]:cite[5]."
+    },
+    {
+      "domanda": "Quale pedagogista tedesco creò il primo 'Kindergarten' (Giardino d'infanzia)?",
+      "opzioni": ["Friedrich Fröbel", "Johann Friedrich Herbart", "Johann Heinrich Pestalozzi", "Maria Montessori"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Friedrich Fröbel coniò il termine 'Kindergarten' e fondò la prima scuola dell'infanzia, un ambiente dove il bambino potesse crescere e svilupparsi in modo spontaneo attraverso il gioco e attività specifiche :cite[1]."
+    },
+    {
+      "domanda": "Quale studioso è considerato il fondatore della pedagogia come disciplina scientifica e accademica?",
+      "opzioni": ["Johann Friedrich Herbart", "Johann Heinrich Pestalozzi", "Comenio", "John Dewey"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Johann Friedrich Herbart, filosofo e pedagogista tedesco, viene riconosciuto per aver dato un fondamento filosofico e scientifico alla pedagogia, contribuendo a farla diventare una disciplina universitaria :cite[1]."
+    },
+    {
+      "domanda": "In che modo l'ideale educativo romano dell''Humanitas' si differenziava da quello greco della 'Paideia'?",
+      "opzioni": ["Pur derivando dalla Paideia, aveva un'impronta più pratica e concreta", "Era completamente slegato dalla tradizione greca", "Era incentrato esclusivamente sulle discipline militari", "Era riservato a una cerchia ristretta di sacerdoti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L''Humanitas' romana, pur attingendo a piene mani dalla Paideia greca, si caratterizzava per un approccio più pratico, concreto e legato alla vita pubblica e all'azione, tipico dello spirito romano :cite[1]."
+    },
+    {
+      "domanda": "Quale filosofo positivista, come Émile Durkheim, sosteneva che l'educazione dovesse servire a far condividere all'individuo l'ethos della società?",
+      "opzioni": ["Auguste Comte", "Herbert Spencer", "John Stuart Mill", "Charles Darwin"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Auguste Comte, padre del Positivismo, vedeva nell'educazione uno strumento per il progresso sociale, finalizzato a far interiorizzare ai cittadini i valori e le norme della collettività :cite[1]."
+    },
+    {
+      "domanda": "In che cosa consisteva principalmente la differenza tra Socrate e i Sofisti riguardo alla retribuzione per l'insegnamento?",
+      "opzioni": ["Socrate non chiedeva denaro, i Sofisti erano insegnanti professionisti pagati", "Socrate chiedeva più denaro dei Sofisti", "I Sofisti insegnavano gratuitamente, Socrate no", "Non c'era differenza, entrambi insegnavano a pagamento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Una delle differenze fondamentali era che i Sofisti furono i primi insegnanti professionisti che richiedevano un compenso, mentre Socrate dialogava per le strade di Atene senza mai chiedere denaro :cite[2]:cite[8]."
+    },
+    {
+      "domanda": "Quale autore scrisse 'La dottrina puerile', considerato il primo manuale di istruzione per bambini in una lingua romanza?",
+      "opzioni": ["Raimondo Lullo", "Dante Alighieri", "Francesco Petrarca", "Tommaso d'Aquino"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Raimondo Lullo, filosofo e teologo medievale, scrisse 'La dottrina puerile' (1274-76), un manuale pionieristico che raccomandava, tra l'altro, di insegnare prima la lingua madre e poi il latino :cite[1]."
+    },
+    {
+      "domanda": "Secondo i Sofisti, qual era lo scopo principale dell'educazione?",
+      "opzioni": ["Formare l'uomo pubblico di successo, abile nella retorica e nella dialettica", "Sviluppare la vita interiore e la conoscenza di sé", "Preparare filosofi contemplativi lontani dalla politica", "Educare alla virtù assoluta e alla verità incontrovertibile"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Sofisti erano maestri di virtù politica e pubblica. Il loro ideale pedagogico era fornire ai giovani le tecniche (grammatica, retorica, dialettica) per avere successo nella vita della polis :cite[2]:cite[6]."
+    },
+    {
+      "domanda": "Quale importante principio didattico di Comenio è riassunto nell'idea di un insegnamento che proceda 'dal semplice al complesso'?",
+      "opzioni": ["La gradualità", "L'universalità", "La piacevolezza", "L'operatività"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Comenio teorizzò il principio della gradualità, per cui l'insegnamento deve procedere per stadi successivi, partendo da concetti semplici e vicini all'esperienza per arrivare a quelli più complessi e astratti :cite[4]."
+    },
+    {
+      "domanda": "Quale autore, nel 'De pueris institutendis', si rivolgeva ai principi delineando l'ideale del governante cristiano?",
+      "opzioni": ["Erasmo da Rotterdam", "Martin Lutero", "Ignazio di Loyola", "Tommaso Moro"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Erasmo da Rotterdam, umanista olandese, scrisse il 'De pueris institutendis', un trattato sull'educazione del principe che univa la cultura classica degli 'studia humanitatis' ai valori cristiani :cite[1]."
+    },
+    {
+      "domanda": "Quale fu una delle innovazioni di Raimondo Lullo nel campo della pedagogia medievale?",
+      "opzioni": ["Raccomandare che si insegnasse prima la lingua nativa e poi il latino", "Introdurre l'uso esclusivo del latino fin dall'infanzia", "Escludere le donne da qualsiasi forma di istruzione", "Limitare l'istruzione alla sola classe nobile"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Raimondo Lullo, in anticipo sui tempi, formulò il principio che l'insegnamento della lingua madre dovesse precedere quello del latino, facilitando così l'apprendimento :cite[1]."
+    },
+    {
+      "domanda": "Quale filosofo britannico, rifacendosi a Darwin, considerava l'educazione come un processo evolutivo che coinvolgeva corpo e mente?",
+      "opzioni": ["Herbert Spencer", "John Locke", "Auguste Comte", "Charles Darwin"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Herbert Spencer applicò la teoria evoluzionistica di Darwin all'educazione, sostenendo che dovesse sviluppare l'adattamento dell'individuo all'ambiente, curando sia l'efficienza fisica che la razionalità scientifica :cite[1]."
+    },
+    {
+      "domanda": "Quale importante riforma propose Comenio riguardo all'uso delle lingue nell'insegnamento?",
+      "opzioni": ["L'uso della madrelingua nei primi anni di scuola", "L'uso esclusivo del greco antico", "L'abolizione dello studio del latino", "L'insegnamento del solo latino ecclesiastico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Comenio incoraggiò l'uso della lingua madre (ceco, nel suo caso) nei primi anni di scuola, contrapponendosi alla pratica allora dominante di insegnare tutto in latino fin dall'inizio :cite[4]."
+    },
+    {
+      "domanda": "Quale opera di Comenio, titolo che significa 'La porta delle lingue aperta', rivoluzionò l'insegnamento del latino?",
+      "opzioni": ["Janua Linguarum Reserata", "Orbis Pictus", "Didactica Magna", "Schola Ludus"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La 'Janua Linguarum Reserata' (1631) di Comenio presentava testi in lingua madre e latino su due colonne affiancate, rendendo molto più intuitivo e efficace l'apprendimento della lingua classica :cite[4]."
+    },
+    
+    {
+      "domanda": "Quale studioso, citato nelle Indicazioni Nazionali, ha elaborato la teoria ecologica dello sviluppo?",
+      "opzioni": ["Urie Bronfenbrenner", "Lev Vygotskij", "Jerome Bruner", "Albert Bandura"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Urie Bronfenbrenner, i cui studi sono richiamati nelle Indicazioni Nazionali, ha formulato la teoria ecologica dello sviluppo, che descrive il bambino come inserito in una serie di sistemi ambientali concentrici che ne influenzano la crescita (microsistema, mesosistema, esosistema, macrosistema) :cite[5]."
+    },
+    {
+      "domanda": "Quale pedagogista è noto per aver teorizzato il concetto di 'Zona di Sviluppo Prossimale'?",
+      "opzioni": ["Lev Vygotskij", "Jean Piaget", "John Dewey", "Jerome Bruner"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lev Vygotskij ha teorizzato la 'Zona di Sviluppo Prossimale' (ZSP), definita come la distanza tra il livello di sviluppo attuale del bambino e il livello di sviluppo potenziale che può raggiungere con l'aiuto di un adulto o di un pari più competente :cite[5]."
+    },
+    {
+      "domanda": "Quale autore, nel suo romanzo 'Le avventure di Telemaco', propose un modello di formazione per il futuro principe?",
+      "opzioni": ["Fénelon", "Rousseau", "Voltaire", "Diderot"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Fénelon, scrittore e pedagogista francese, ne 'Le avventure di Telemaco' (1699) utilizzò il genere del romanzo di formazione per delineare l'educazione ideale di un sovrano, unendo istruzione morale e politica :cite[1]."
+    },
+    {
+      "domanda": "Quale pedagogista è celebre per aver introdotto il concetto di 'scaffolding' nell'educazione?",
+      "opzioni": ["Jerome Bruner", "Lev Vygotskij", "John Dewey", "Jean Piaget"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Jerome Bruner ha sviluppato il concetto di 'scaffolding' (impalcatura), riferendosi all'aiuto temporaneo fornito da un adulto o un pari più esperto per permettere al bambino di risolvere un problema o acquisire una competenza che da solo non riuscirebbe a raggiungere :cite[5]."
+    }
+  ]
+}

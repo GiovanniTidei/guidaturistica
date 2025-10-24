@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Regioni d'Italia</title>
+    <title>Quiz PNNR3</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { 
@@ -139,7 +139,7 @@
     <div class="container">
         <!-- Menu regioni -->
         <div id="menu" class="menu-section">
-            <h1 class="display-4 mb-3 text-center" style="color: #667eea; font-weight: bold;">🇮🇹 Quiz Guida Turistica</h1>
+            <h1 class="display-4 mb-3 text-center" style="color: #667eea; font-weight: bold;">🇮🇹 Quiz PNNR3</h1>
             <div class="text-center mb-4">
                 <span id="loading-indicator" class="badge bg-info">
                     <span class="loading-spinner"></span> Caricamento dati...
@@ -191,11 +191,7 @@
     <script>
         let quizData = {};
         let regioni = [
-            "Abruzzo", "Basilicata", "Calabria", "Campania", "Emilia",
-            "Friuli", "Lazio", "Liguria", "Lombardia", "Marche",
-            "Molise", "Piemonte", "Puglia", "Sardegna", "Sicilia",
-            "Toscana", "Umbria", "Aosta", "Veneto",
-            "Trento","Bolzano", "Normativa"
+            "Inglese", "Pedagogia", "Psicopedagogia", "Metodologie"
         ];
 
         let currentRegion = null;
@@ -204,13 +200,12 @@
         let totalQuestions = 0;
         let isGeneralTest = false;
 
-        // Lista di tutti i file JSON da caricare
+        // Lista di tutti i file JSON da caricare (rimosso quiz-data.json)
         const jsonFiles = [
-            'quiz-data.json',
-            'quiz-data2.json', 
-            'quiz-data3.json',
-            'quiz-data4.json',
-            'quiz-data5.json'
+            'inglese.json',
+            'psicopedagogia.json',
+            'metodologie.json',
+            'pedagogia.json'
         ];
 
         // Nuova: mescola opzioni e aggiorna rispostaCorretta per ogni domanda
@@ -245,12 +240,10 @@
             try {
                 let allData = {};
                 let loadedFiles = 0;
-                let totalDomande = 0;
-                let totalRegioni = 0;
 
                 // Aggiorna l'indicatore di caricamento
-                document.getElementById('loading-indicator').innerHTML = 
-                    `<span class="loading-spinner"></span> Caricamento file 0/${jsonFiles.length}...`;
+                document.getElementById('loading-indicator').innerHTML =
+                    `<span class="loading-spinner"></span> Caricamento...`;
 
                 // Carica tutti i file JSON in parallelo
                 const promises = jsonFiles.map(async (file, index) => {
@@ -262,11 +255,11 @@
                         }
                         const data = await response.json();
                         loadedFiles++;
-                        
-                        // Aggiorna progresso
-                        document.getElementById('loading-indicator').innerHTML = 
-                            `<span class="loading-spinner"></span> Caricamento file ${loadedFiles}/${jsonFiles.length}...`;
-                        
+
+                        // Aggiorna progresso (senza numeri)
+                        document.getElementById('loading-indicator').innerHTML =
+                            `<span class="loading-spinner"></span> Caricamento...`;
+
                         return data;
                     } catch (error) {
                         console.warn(`Errore nel caricamento di ${file}:`, error);
@@ -277,19 +270,15 @@
                 // Attendi che tutti i file siano caricati
                 const results = await Promise.all(promises);
 
-                // Unisci tutti i dati
+                // Unisci tutti i dati (senza contare/mostrare totali)
                 results.forEach((data, index) => {
                     if (data && typeof data === 'object') {
                         for (const region in data) {
                             if (allData[region]) {
-                                // Se la regione esiste già, unisci le domande
                                 allData[region] = [...allData[region], ...data[region]];
                             } else {
-                                // Nuova regione
                                 allData[region] = data[region];
-                                totalRegioni++;
                             }
-                            totalDomande += data[region].length;
                         }
                         console.log(`File ${jsonFiles[index]} caricato con successo`);
                     }
@@ -300,24 +289,26 @@
                 // Applica randomizzazione
                 quizData = randomizeQuizOptions(quizData);
 
-                // Nascondi indicatore di caricamento e mostra info
+                // Nascondi indicatore di caricamento (non mostro più totali)
                 document.getElementById('loading-indicator').style.display = 'none';
-                document.getElementById('data-info').style.display = 'inline-block';
-                document.getElementById('data-info').textContent = 
-                    `${totalDomande} domande in ${totalRegioni} regioni da ${loadedFiles} file`;
+                // Mantengo data-info nascosta (non mostrare contatori)
+                const dataInfoEl = document.getElementById('data-info');
+                if (dataInfoEl) dataInfoEl.style.display = 'none';
 
-                // Abilita il pulsante del test generale
-                document.getElementById('general-test-btn').disabled = false;
-                document.getElementById('general-test-btn').innerHTML = 
-                    `🎯 TEST GENERALE (${Math.min(80, totalDomande)} domande casuali)`;
+                // Abilita il pulsante del test generale e imposta testo semplice
+                const generalBtn = document.getElementById('general-test-btn');
+                if (generalBtn) {
+                  generalBtn.disabled = false;
+                  generalBtn.innerHTML = `🎯 TEST GENERALE`;
+                }
 
                 generateRegionButtons();
 
-                console.log(`Caricamento completato: ${loadedFiles}/${jsonFiles.length} file, ${totalDomande} domande, ${totalRegioni} regioni`);
+                console.log(`Caricamento completato: ${loadedFiles}/${jsonFiles.length} file`);
 
             } catch (error) {
                 console.error('Errore nel caricamento dei dati:', error);
-                document.getElementById('loading-indicator').innerHTML = 
+                document.getElementById('loading-indicator').innerHTML =
                     '❌ Errore nel caricamento. Controlla la console.';
             }
         }
@@ -390,33 +381,58 @@
         function startGeneralTest() {
             isGeneralTest = true;
             currentRegion = 'generale';
-            
-            // Raccoglie tutte le domande da tutte le regioni
-            let allQuestions = [];
-            for (let region in quizData) {
-                allQuestions = allQuestions.concat(quizData[region].map(q => ({...q, region: region})));
+
+            // mappa: file/chiave -> numero di quesiti richiesti
+            // Aggiornato per ottenere 50 domande totali: inglese 10, pedagogia 10, psicopedagogia 15, metodologie 15
+            const desired = {
+                'inglese': 10,
+                'pedagogia': 10,
+                'psicopedagogia': 15,
+                'metodologie': 15
+            };
+            const targetTotal = Object.values(desired).reduce((a,b)=>a+b,0);
+
+            // raccoglie campioni per ciascuna chiave
+            let selected = [];
+            for (const key in desired) {
+                const pool = Array.isArray(quizData[key]) ? quizData[key].slice() : [];
+                if (pool.length === 0) continue;
+                const sample = shuffleArray(pool).slice(0, desired[key]).map(q => ({ ...q, region: key }));
+                selected = selected.concat(sample);
             }
 
-            if (allQuestions.length === 0) {
+            // se mancano domande, riempi con elementi disponibili da tutte le regioni (evita duplicati per 'domanda')
+            if (selected.length < targetTotal) {
+                let pool = [];
+                for (const r in quizData) {
+                    if (Array.isArray(quizData[r])) {
+                        pool = pool.concat(quizData[r].map(q => ({ ...q, region: r })));
+                    }
+                }
+                const existing = new Set(selected.map(q => q.domanda));
+                const remaining = pool.filter(q => !existing.has(q.domanda));
+                selected = selected.concat(shuffleArray(remaining).slice(0, targetTotal - selected.length));
+            }
+
+            if (selected.length === 0) {
                 alert('Non ci sono domande disponibili al momento');
                 return;
             }
 
-            // Mescola tutte le domande e prende max 40
-            allQuestions = shuffleArray(allQuestions);
-            const numQuestions = Math.min(80, allQuestions.length);
-            currentQuestions = allQuestions.slice(0, numQuestions);
-            
+            // mescola l'insieme finale e imposta il test
+            selected = shuffleArray(selected);
+            currentQuestions = selected;
             score = 0;
             totalQuestions = currentQuestions.length;
 
             document.getElementById('menu').style.display = 'none';
             document.getElementById('test-section').style.display = 'block';
-            
-            document.getElementById('test-title').textContent = '🎯 Test Generale';
-            document.getElementById('test-subtitle').textContent = `${numQuestions} domande casuali da tutte le regioni`;
+
+            document.getElementById('test-title').textContent = '🎯 Test PNRR3';
+            // sottotitolo semplificato: solo numero di domande
+            document.getElementById('test-subtitle').textContent = `${totalQuestions} domande`;
             updateScore();
-            
+
             renderQuestions();
             window.scrollTo(0, 0);
         }

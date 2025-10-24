@@ -1,0 +1,983 @@
+{
+  "psicopedagogia": [
+    {
+      "domanda": "Secondo la prospettiva bio-psico-sociale dell'ICF, la disabilità è definita come:",
+      "opzioni": ["Il risultato dell'interazione tra condizioni di salute e fattori contestuali", "Un deficit esclusivamente medico da curare", "Una condizione personale immutabile", "Un problema esclusivamente sociale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'ICF dell'OMS supera il modello medico della disabilità, considerando le barriere ambientali come fattori determinanti"
+    },
+    {
+      "domanda": "Quale principio fonda l'Universal Design for Learning (UDL)?",
+      "opzioni": ["Progettare percorsi accessibili per tutti fin dall'inizio", "Creare adattamenti solo per gli studenti con disabilità", "Standardizzare l'insegnamento per l'alunno medio", "Utilizzare tecnologie avanzate solo per alcuni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'UDL anticipa le barriere all'apprendimento progettando flessibilità nei mezzi di rappresentazione, azione/espressione e coinvolgimento"
+    },
+    {
+      "domanda": "Nella gestione della classe inclusiva, quale strategia è più efficace per prevenire i comportamenti problema?",
+      "opzioni": ["La proattività attraverso setting strutturati e relazioni positive", "Le sanzioni punitive immediate", "L'isolamento dell'alunno problematico", "L'ignorare sistematicamente i comportamenti inadeguati"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Un ambiente prevedibile, relazioni di fiducia e insegnamento esplicito delle competenze sociali prevengono molte difficoltà comportamentali"
+    },
+    {
+      "domanda": "Secondo Vygotskij, quale concetto è cruciale per l'apprendimento degli alunni con BES?",
+      "opzioni": ["La Zona di Sviluppo Prossimale e il scaffolding", "L'adattamento dei contenuti solo semplificandoli", "L'esclusione dalle attività complesse", "La valutazione basata sul confronto con i pari"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Identificare la ZSP e fornire il giusto scaffolding permette di promuovere lo sviluppo potenziale di ogni studente"
+    },
+    {
+      "domanda": "Quale approccio risulta più efficace per studenti con DSA?",
+      "opzioni": ["Didattica metacognitiva e strumenti compensativi", "Insistere sulle modalità tradizionali di studio", "Ridurre gli obiettivi di apprendimento", "Assegnare più compiti a casa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Insegnare strategie di apprendimento e l'uso consapevole di strumenti permette di aggirare le difficoltà specifiche"
+    },
+    {
+      "domanda": "Cosa si intende per 'curricolo inclusivo'?",
+      "opzioni": ["Un percorso che valorizza le diversità come risorsa per tutti", "Un programma separato per alunni con disabilità", "La riduzione dei contenuti per alcuni studenti", "L'eliminazione delle verifiche standardizzate"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il curricolo inclusivo è flessibile, plurale e progettato per rispondere alla variabilità di tutti gli studenti"
+    },
+    {
+      "domanda": "Secondo le Linee Guida per l'integrazione degli alunni stranieri, quale approccio privilegiare?",
+      "opzioni": ["L'italiano L2 e l'educazione interculturale trasversale", "L'inserimento immediato senza supporto linguistico", "La separazione in gruppi omogenei per provenienza", "L'insegnamento solo della lingua italiana"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'approccio integrato combina l'apprendimento della lingua veicolare con la valorizzazione del plurilinguismo e della diversità culturale"
+    },
+    {
+      "domanda": "Quale strategia rispetta il principio della 'speciale normalità' nell'inclusione?",
+      "opzioni": ["Personalizzare gli interventi nel contesto ordinario", "Creare percorsi completamente separati", "Aspettare che l'alunno raggiunga la norma", "Standardizzare tutti gli interventi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La 'speciale normalità' significa offrire sostegni specializzati nell'ambito delle attività comuni a tutti"
+    },
+    {
+      "domanda": "Nella psicologia dell'apprendimento, cosa si intende per 'stili di apprendimento'?",
+      "opzioni": ["Le preferenze individuali nell'approcciare i compiti di apprendimento", "Capacità innate immodificabili", "Livelli di intelligenza predeterminati", "Categorie rigide di classificazione degli studenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli stili di apprendimento descrivono tendenze preferenziali, ma è importante non cristallizzarle in etichette"
+    },
+    {
+      "domanda": "Quale contributo della teoria dell'attaccamento è rilevante per la relazione educativa?",
+      "opzioni": ["L'importanza di una base sicura per l'esplorazione e l'apprendimento", "La necessità di distacco emotivo dell'insegnante", "L'indifferenza verso le dinamiche affettive", "La focalizzazione esclusiva sulle performance"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Una relazione di attaccamento sicuro con l'insegnante favorisce la sicurezza emotiva necessaria per apprendere"
+    },
+    {
+      "domanda": "Cosa caratterizza un Piano Didattico Personalizzato (PDP) efficace?",
+      "opzioni": ["La co-progettazione con la famiglia e la valutazione degli esiti", "La compilazione burocratica standardizzata", "La segnalazione solo dei deficit dell'alunno", "L'assegnazione di voti di consolazione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Un PDP è uno strumento dinamico e partecipato, che definisce obiettivi, strategie e criteri di verifica condivisi"
+    },
+    {
+      "domanda": "Secondo la ricerca evidence-based, quale fattore influisce maggiormente sul successo scolastico in contesti svantaggiati?",
+      "opzioni": ["La qualità dell'insegnamento e le alte aspettative", "Le risorse economiche della scuola", "Il background socio-culturale degli studenti", "La dotazione tecnologica delle aule"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Un insegnamento di qualità e la fiducia nelle potenzialità degli studenti possono compensare gli svantaggi di partenza"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per gli alunni plusdotati?",
+      "opzioni": ["Arricchimento curricolare e approfondimento", "Accelerazione forzata dei programmi", "Assegnazione di compiti aggiuntivi senza guida", "Normaliizzazione forzata alle prestazioni medie"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'arricchimento qualitativo offre complessità e profondità, rispondendo ai bisogni intellettuali senza isolamento"
+    },
+    {
+      "domanda": "Nella gestione dei conflitti in classe, quale strategia risulta più educativa?",
+      "opzioni": ["La mediazione tra pari e il problem solving cooperativo", "La punizione immediata del presunto colpevole", "L'intervento autoritario dell'insegnante", "L'ignorare il conflitto sperando si risolva"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La mediazione educa all'ascolto, all'empatia e alla ricerca congiunta di soluzioni, sviluppando competenze sociali"
+    },
+    {
+      "domanda": "Cosa si intende per 'index for inclusion'?",
+      "opzioni": ["Uno strumento per autovalutare e sviluppare la cultura inclusiva della scuola", "Un indice statistico sulla presenza di alunni con disabilità", "Un elenco di risorse per il sostegno", "Un test per misurare il QI degli studenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Index for Inclusion è un framework che guida le scuole nel miglioramento attraverso la partecipazione di tutta la comunità"
+    },{
+      "domanda": "Secondo Vygotskij, cosa si intende per 'Zona di Sviluppo Prossimale'?",
+      "opzioni": ["La differenza tra ciò che un bambino può fare da solo e ciò che può fare con l'aiuto di un adulto o pari più competente", "L'area del cervello dedicata all'apprendimento linguistico", "Il periodo ottimale per l'acquisizione del linguaggio", "La fase di sviluppo in cui il pensiero astratto diventa possibile"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La ZSP è il concetto vygotskijano che definisce il potenziale di apprendimento immediatamente successivo a quello già consolidato"
+    },
+    {
+      "domanda": "Quale concetto di Bruner è espresso dall'espressione 'impalcatura' (scaffolding)?",
+      "opzioni": ["Il supporto temporaneo fornito dall'adulto per raggiungere obiettivi altrimenti inaccessibili", "La struttura rigida e immutabile del curricolo", "L'architettura degli edifici scolastici", "La sequenza fissa delle tappe di sviluppo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lo scaffolding è l'aiuto temporaneo che viene gradualmente rimosso man mano che l'apprendimento diventa autonomo"
+    },
+    {
+      "domanda": "Secondo Piaget, in quale stadio dello sviluppo il bambino acquisisce il pensiero operatorio concreto?",
+      "opzioni": ["Dai 7 agli 11 anni circa", "Dalla nascita ai 2 anni", "Dai 2 ai 7 anni", "Dagli 11 anni in poi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nello stadio operatorio concreto il bambino acquisisce le operazioni mentali reversibili ma le applica solo a oggetti concreti"
+    },
+    {
+      "domanda": "Quale crisi psicosociale caratterizza secondo Erikson l'adolescenza?",
+      "opzioni": ["Identità vs. confusione di ruoli", "Fiducia vs. sfiducia", "Iniziativa vs. senso di colpa", "Integrità vs. disperazione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "In adolescenza il compito principale è formare una identità coerente, superando la confusione dei ruoli"
+    },
+    {
+      "domanda": "Secondo Bruner, quale modalità di rappresentazione caratterizza il primo stadio di sviluppo?",
+      "opzioni": ["Esecutiva (attraverso l'azione)", "Iconica (attraverso immagini)", "Simbolica (attraverso linguaggio)", "Astratta (attraverso concetti)"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La modalità esecutiva è basata sull'azione diretta sul mondo ed è tipica della prima infanzia"
+    },
+    {
+      "domanda": "Quale concetto vygotskijano sottolinea l'importanza del linguaggio nell'apprendimento?",
+      "opzioni": ["Il linguaggio come strumento di mediazione semiotica", "Il linguaggio come espressione di bisogni fisiologici", "Il linguaggio come capacità innata e predeterminata", "Il linguaggio come semplice imitazione di modelli"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Per Vygotskij il linguaggio media il rapporto con la realtà e trasforma i processi mentali"
+    },
+    {
+      "domanda": "Secondo Piaget, cosa avviene durante il processo di accomodamento?",
+      "opzioni": ["La modifica degli schemi mentali per incorporare nuove esperienze", "L'applicazione di schemi esistenti a nuove situazioni", "La ripetizione meccanica di comportamenti", "La memorizzazione passiva di informazioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'accomodamento è il processo di ristrutturazione degli schemi per adattarli alle nuove informazioni"
+    },
+    {
+      "domanda": "Quale stadio di Erikson caratterizza la prima infanzia (1-3 anni)?",
+      "opzioni": ["Autonomia vs. vergogna e dubbio", "Fiducia vs. sfiducia", "Iniziativa vs. senso di colpa", "Industriosità vs. inferiorità"],
+      "rispostaCorretta": 0,
+      "spiegazione": "In questa fase il bambino sviluppa l'autonomia attraverso il controllo motorio e sfiducia"
+    },
+    {
+      "domanda": "Secondo Bruner, quale principio guida l'insegnamento per scoperte?",
+      "opzioni": ["L'apprendimento come processo attivo di costruzione di significati", "La trasmissione verticale di conoscenze certe", "La ripetizione meccanica di procedure", "L'accumulo passivo di informazioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bruner enfatizza il learning by doing e la scoperta guidata come motori di un apprendimento significativo"
+    },
+    {
+      "domanda": "Quale concetto di Vygotskij descrive l'origine sociale dei processi psicologici superiori?",
+      "opzioni": ["La legge della doppia formazione", "Il determinismo biologico", "L'innatismo delle strutture cognitive", "L'apprendimento per condizionamento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Secondo questa legge, le funzioni psichiche compaiono prima a livello sociale (interpsicologico) e poi individuale (intrapsicologico)"
+    },
+    {
+      "domanda": "Secondo Piaget, cosa caratterizza lo stadio preoperatorio?",
+      "opzioni": ["L'egocentrismo e l'irreversibilità del pensiero", "Il pensiero logico-astratto", "L'intelligenza senso-motoria", "Le operazioni mentali reversibili"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel preoperatorio il bambino non può decentrarsi dal proprio punto di vista né invertire mentalmente le operazioni"
+    },
+    {
+      "domanda": "Quale crisi psicosociale di Erikson caratterizza l'età scolare (6-12 anni)?",
+      "opzioni": ["Industriosità vs. inferiorità", "Identità vs. confusione", "Generatività vs. stagnazione", "Intimità vs. isolamento"],
+      "rispostaCorretta": 0,
+      "spiegazione": "In questa fase il bambino sviluppa il senso di competenza attraverso il successo nelle attività scolastiche"
+    },
+    {
+      "domanda": "Secondo Bruner, quale è la funzione del 'formato' nell'acquisizione del linguaggio?",
+      "opzioni": ["Strutturare interazioni ripetitive che facilitano l'apprendimento", "Insegnare esplicitamente le regole grammaticali", "Correggere immediatamente ogni errore", "Esporre il bambino a lunghi monologhi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I formati sono routine interattive prevedibili che creano un contesto ottimale per l'acquisizione linguistica"
+    },
+    {
+      "domanda": "Quale concetto vygotskijano enfatizza il ruolo della cultura nell'apprendimento?",
+      "opzioni": ["Gli strumenti psicologici e tecnici della cultura", "L'adattamento biologico all'ambiente", "La maturazione neurologica predeterminata", "L'apprendimento per prove ed errori"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Vygotskij sostiene che la cultura fornisce strumenti (linguaggio, scrittura, concetti) che trasformano il pensiero"
+    },
+    {
+      "domanda": "Secondo Piaget, cosa permette il passaggio da uno stadio di sviluppo al successivo?",
+      "opzioni": ["L'equilibrazione tra assimilazione e accomodamento", "La semplice accumulazione di esperienze", "L'insegnamento diretto degli adulti", "La maturazione biologica isolata"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'equilibrazione è il processo dinamico di autoregolazione che spiega il progresso cognitivo"
+    },
+    {
+      "domanda": "Quale stadio di Erikson caratterizza la giovane età adulta?",
+      "opzioni": ["Intimità vs. isolamento", "Identità vs. confusione", "Generatività vs. stagnazione", "Integrità vs. disperazione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "In questa fase il compito principale è formare relazioni intime stabili, superando l'isolamento"
+    },
+    {
+      "domanda": "Secondo Bruner, cosa caratterizza la modalità di rappresentazione simbolica?",
+      "opzioni": ["L'uso di sistemi simbolici come il linguaggio e la matematica", "La rappresentazione attraverso immagini mentali", "L'apprendimento attraverso azioni fisiche", "La percezione diretta degli oggetti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La modalità simbolica permette di rappresentare la realtà attraverso simboli astratti e arbitrari"
+    },
+    {
+      "domanda": "Quale concetto di Vygotskij descrive l'appropriazione degli strumenti culturali?",
+      "opzioni": ["L'internalizzazione dei segni", "Il riflesso condizionato", "L'istinto di esplorazione", "L'adattamento sensomotorio"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'internalizzazione è il processo attraverso cui le funzioni psichiche sociali diventano proprietà della mente individuale"
+    },
+    {
+      "domanda": "Secondo Piaget, cosa caratterizza lo stadio senso-motorio?",
+      "opzioni": ["L'intelligenza pratica basata su percezione e azione", "Il pensiero astratto e ipotetico", "Le operazioni logiche su oggetti concreti", "La capacità di ragionamento formale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel senso-motorio l'intelligenza è pratica e legata all'azione diretta sul mondo, senza rappresentazione mentale"
+    },
+    {
+      "domanda": "Quale contributo di Erikson è particolarmente rilevante per l'educazione degli adulti?",
+      "opzioni": ["Il concetto di educabilità per tutto l'arco della vita", "La fissazione alle fasi infantili dello sviluppo", "L'irrilevanza delle esperienze passate", "La determinazione esclusiva biologica dello sviluppo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Erikson estende lo sviluppo psicosociale a tutto il ciclo vitale, aprendo alla prospettiva dell'educazione permanente"
+    },
+    {
+      "domanda": "Quale struttura cerebrale è responsabile del controllo delle attività motorie e del linguaggio?",
+      "opzioni": [
+        "Lobo frontale",
+        "Lobo occipitale",
+        "Lobo parietale",
+        "Lobo temporale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il lobo frontale controlla le attività motorie e la produzione del linguaggio, oltre alle funzioni di attenzione e organizzazione del pensiero."
+    },
+    {
+      "domanda": "Secondo la teoria della Gestalt, quale principio spiega la tendenza a percepire elementi vicini come appartenenti allo stesso gruppo?",
+      "opzioni": [
+        "Principio di vicinanza",
+        "Principio di somiglianza",
+        "Principio di chiusura",
+        "Principio di continuità"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il principio di vicinanza afferma che tendiamo ad accorpare visivamente elementi vicini tra loro, percependo gruppi piuttosto che elementi singoli."
+    },
+    {
+      "domanda": "Quale psicologo ha elaborato il modello della memoria che prevede registro sensoriale, memoria a breve termine e memoria a lungo termine?",
+      "opzioni": [
+        "Atkinson e Shiffrin",
+        "Ebbinghaus",
+        "Broadbent",
+        "Shallice"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Atkinson e Shiffrin proposero nel 1968 il modello HIP che distingue tre sistemi di memoria: registro sensoriale, MBT e MLT."
+    },
+    {
+      "domanda": "A quale età compare generalmente la fase della lallazione nello sviluppo del linguaggio?",
+      "opzioni": [
+        "Intorno al 7° mese",
+        "Al 4° mese",
+        "Al 1° mese",
+        "Tra i 10 e 20 mesi"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La lallazione inizia verso la metà del primo anno di vita, caratterizzata dalla produzione di suoni ripetitivi come 'ba-ba', 'da-da'."
+    },
+    {
+      "domanda": "Secondo Chomsky, quale dispositivo innato permette l'acquisizione del linguaggio?",
+      "opzioni": [
+        "LAD (Language Acquisition Device)",
+        "LASS (Language Acquisition Support System)",
+        "EQF (European Qualifications Framework)",
+        "MOI (Modelli Operativi Interni)"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Chomsky ipotizzò l'esistenza di un LAD, dispositivo innato per l'acquisizione del linguaggio, che contiene i principi della Grammatica Universale."
+    },
+    {
+      "domanda": "Quale tipo di condizionamento prevede che un comportamento venga appreso attraverso premi e punizioni?",
+      "opzioni": [
+        "Condizionamento operante",
+        "Condizionamento classico",
+        "Condizionamento rispondente",
+        "Condizionamento pavloviano"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il condizionamento operante di Skinner si basa sull'apprendimento attraverso rinforzi positivi (premi) e negativi (punizioni)."
+    },
+    {
+      "domanda": "Secondo Piaget, quale stadio dello sviluppo è caratterizzato dal pensiero egocentrico e dall'incapacità di decentramento?",
+      "opzioni": [
+        "Stadio pre-operatorio",
+        "Stadio senso-motorio",
+        "Stadio delle operazioni concrete",
+        "Stadio delle operazioni formali"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nello stadio pre-operatorio (2-6/7 anni) il bambino mostra egocentrismo intellettuale e incapacità di assumere il punto di vista altrui."
+    },
+    {
+      "domanda": "Quale psicologo ha elaborato la teoria dello sviluppo psico-sociale in otto stadi?",
+      "opzioni": [
+        "Erik Erikson",
+        "Jean Piaget",
+        "Lawrence Kohlberg",
+        "Lev Vygotskij"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Erik Erikson ha sviluppato la teoria degli otto stadi dello sviluppo psico-sociale, che copre l'intero arco della vita."
+    },
+    {
+      "domanda": "Secondo Bowlby, quale tipo di attaccamento si sviluppa quando il bambino percepisce protezione e sicurezza dalla figura di riferimento?",
+      "opzioni": [
+        "Attaccamento sicuro",
+        "Attaccamento insicuro",
+        "Attaccamento evitante",
+        "Attaccamento disorganizzato"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'attaccamento sicuro si sviluppa quando il bambino percepisce dalla figura di riferimento protezione, affetto e senso di sicurezza."
+    },
+    {
+      "domanda": "Quale procedura sperimentale ha sviluppato Mary Ainsworth per studiare l'attaccamento?",
+      "opzioni": [
+        "Strange Situation Procedure",
+        "Puzzle-box",
+        "Skinner-box",
+        "Doppio cieco"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Mary Ainsworth ha creato la Strange Situation Procedure per valutare la qualità dell'attaccamento attraverso otto fasi di separazione e ricongiungimento."
+    },
+    {
+      "domanda": "Secondo Gardner, quale tipo di intelligenza riguarda la capacità di usare il proprio corpo in modo differenziato?",
+      "opzioni": [
+        "Intelligenza cinestetica",
+        "Intelligenza linguistica",
+        "Intelligenza logico-matematica",
+        "Intelligenza spaziale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'intelligenza cinestetica o procedurale consiste nella capacità di usare il proprio corpo in modi differenziati per fini espressivi e concreti."
+    },
+    {
+      "domanda": "Quale stile cognitivo caratterizza un soggetto che si basa maggiormente sui dati forniti e ha bisogno di frequenti conferme?",
+      "opzioni": [
+        "Stile dipendente dal campo",
+        "Stile indipendente dal campo",
+        "Stile convergente",
+        "Stile divergente"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il soggetto campo-dipendente si basa maggiormente sui dati forniti, è più legato alle situazioni stimolo e ha necessità di conferme frequenti."
+    },
+    {
+      "domanda": "Secondo Feuerstein, quale programma sviluppa la modificabilità cognitiva?",
+      "opzioni": [
+        "PAS (Programma di Arricchimento Strumentale)",
+        "LAD (Language Acquisition Device)",
+        "SSP (Strange Situation Procedure)",
+        "MOI (Modelli Operativi Interni)"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Feuerstein ha elaborato il PAS per sviluppare la modificabilità cognitiva attraverso l'azione di un mediatore esperto."
+    },
+    {
+      "domanda": "Quale teoria di Kelly considera la personalità come un organismo dinamico che elabora 'costrutti mentali'?",
+      "opzioni": [
+        "Teoria dei costrutti personali",
+        "Teoria dell'attaccamento",
+        "Teoria dello sviluppo morale",
+        "Teoria dell'apprendimento sociale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Kelly ha sviluppato la teoria dei costrutti personali, secondo cui la personalità elabora schemi mentali per conoscere e interpretare gli eventi."
+    },
+    {
+      "domanda": "Secondo Bronfenbrenner, quale sistema include le relazioni tra microsistemi come casa e scuola?",
+      "opzioni": [
+        "Mesosistema",
+        "Microsistema",
+        "Esosistema",
+        "Macrosistema"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il mesosistema è la zona di relazione tra due o più microsistemi, come le connessioni tra casa e scuola."
+    },
+    {
+      "domanda": "Quale tipo di pensiero, secondo de Bono, è generativo e consente di essere creativi?",
+      "opzioni": [
+        "Pensiero laterale",
+        "Pensiero verticale",
+        "Pensiero convergente",
+        "Pensiero riflessivo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pensiero laterale è generativo, esplorativo, può 'fare dei salti' e consente di essere creativi, a differenza del pensiero verticale che è logico e sequenziale."
+    },
+    {
+      "domanda": "Secondo Guilford, quale parametro del pensiero divergente misura l'abbondanza delle idee prodotte?",
+      "opzioni": [
+        "Fluidità",
+        "Flessibilità",
+        "Originalità",
+        "Elaborazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La fluidità è il parametro quantitativo del pensiero divergente, basato sull'abbondanza delle idee prodotte."
+    },
+    {
+      "domanda": "Quale neurotrasmettitore è principalmente coinvolto nei processi di apprendimento e memoria?",
+      "opzioni": [
+        "Glutammato",
+        "Dopamina",
+        "Serotonina",
+        "GABA"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il glutammato è il principale neurotrasmettitore eccitatorio del sistema nervoso centrale, cruciale per i processi di apprendimento e memoria."
+    },
+    {
+      "domanda": "Secondo Vygotskij, quale concetto rappresenta la differenza tra il livello attuale e potenziale di sviluppo?",
+      "opzioni": [
+        "Zona di sviluppo prossimale",
+        "Pensiero egocentrico",
+        "Interiorizzazione",
+        "Mediazione didattica"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La zona di sviluppo prossimale è la differenza tra il livello attuale di sviluppo e quello potenziale che può essere raggiunto con l'aiuto di un adulto o di pari più capaci."
+    },
+    {
+      "domanda": "Quale tipo di memoria ha capacità illimitata e conserva le informazioni per tempi lunghi?",
+      "opzioni": [
+        "Memoria a lungo termine",
+        "Memoria a breve termine",
+        "Registro sensoriale",
+        "Memoria di lavoro"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La memoria a lungo termine ha capacità illimitata e conserva le informazioni per tempi lunghi, se non in modo permanente."
+    },
+    {
+      "domanda": "Secondo la teoria dell'apprendimento sociale di Bandura, l'apprendimento avviene principalmente attraverso:",
+      "opzioni": [
+        "Osservazione di modelli",
+        "Condizionamento classico",
+        "Condizionamento operante",
+        "Prove ed errori"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bandura sostiene che l'apprendimento avviene non solo attraverso esperienze dirette ma anche osservando il comportamento di altre persone considerate come modelli."
+    },
+    {
+      "domanda": "Quale principio della percezione spiega la tendenza a completare forme non complete?",
+      "opzioni": [
+        "Principio di chiusura",
+        "Principio di vicinanza",
+        "Principio di somiglianza",
+        "Principio di continuità"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il principio di chiusura afferma che tendiamo a 'completare' forme, immagini e figure non complete, percependo unità anche quando gli elementi sono discontinui."
+    },
+    {
+      "domanda": "Secondo Kohlberg, a quale livello dello sviluppo morale appartiene l'orientamento al contratto sociale?",
+      "opzioni": [
+        "Livello post-convenzionale",
+        "Livello pre-convenzionale",
+        "Livello convenzionale",
+        "Livello autonomo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il livello post-convenzionale include stadi rappresentati dall'esigenza di sottoscrivere un contratto sociale e di orientarsi seguendo la propria coscienza."
+    },
+    {
+      "domanda": "Quale tipo di intelligenza, secondo Gardner, riguarda la capacità di discriminare i propri sentimenti?",
+      "opzioni": [
+        "Intelligenza intrapersonale",
+        "Intelligenza interpersonale",
+        "Intelligenza emotiva",
+        "Intelligenza esistenziale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'intelligenza intrapersonale implica capacità di accesso alla propria vita affettiva e di discriminare i propri sentimenti."
+    },
+    {
+      "domanda": "Secondo Bruner, quali sono le tre forme di rappresentazione attraverso cui avviene lo sviluppo cognitivo?",
+      "opzioni": [
+        "Azione, immagine e linguaggio",
+        "Percezione, memoria e pensiero",
+        "Sensazione, elaborazione e risposta",
+        "Input, elaborazione e output"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bruner identifica tre forme di rappresentazione: l'azione (enattiva), l'immagine (iconica) e il linguaggio (simbolica), che coesistono conservando la propria autonomia."
+    },
+    {
+      "domanda": "Quale concetto di Winnicott indica oggetti come peluche che il bambino usa nei momenti di distacco?",
+      "opzioni": [
+        "Oggetti transizionali",
+        "Oggetti soggettivi",
+        "Modelli operativi interni",
+        "Strumenti psicologici"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli oggetti transizionali (animali di peluche, pezzi di stoffa) aiutano il bambino nel passaggio dalla fase fusionale a quella soggettiva."
+    },
+    {
+      "domanda": "Secondo la prospettiva funzionalista, chi ha studiato le variabili che influenzano la percezione?",
+      "opzioni": [
+        "Jerome Bruner",
+        "Max Wertheimer",
+        "Hermann von Helmholtz",
+        "Donald Broadbent"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Jerome Bruner, nell'ambito funzionalista, ha studiato le variabili che si frappongono fra la presentazione dello stimolo e la risposta dell'individuo."
+    },
+    {
+      "domanda": "Quale tipo di apprendimento presuppone la capacità di mettere in relazione due o più concetti?",
+      "opzioni": [
+        "Apprendimento di principi",
+        "Apprendimento per S-R",
+        "Apprendimento per discriminazione",
+        "Concatenazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'apprendimento di principi o regole presuppone l'acquisizione del livello precedente di apprendimento, in quanto richiede di saper mettere in relazione due o più concetti."
+    },
+    {
+      "domanda": "Secondo Selman, a quale livello di role-taking il bambino riesce a cogliere la soggettività degli altri?",
+      "opzioni": [
+        "Livello 1 (stadio oggettivo)",
+        "Livello 0 (stadio egocentrico)",
+        "Livello 2 (stadio auto-riflessivo)",
+        "Livello 3 (stadio reciproco)"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel Livello 1 (6-8 anni) il bambino riesce a cogliere la soggettività degli altri e riconosce che le persone possono interpretare uno stesso evento in maniera differente."
+    },
+    {
+      "domanda": "Quale caratteristica del cervello permette ai circuiti nervosi di mutare in ragione delle stimolazioni esterne?",
+      "opzioni": [
+        "Plasticità",
+        "Specializzazione",
+        "Simmetria",
+        "Lateralizzazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La plasticità è la capacità dei circuiti nervosi di mutare le loro caratteristiche funzionali e strutturali in ragione delle stimolazioni sensoriali esterne."
+    },
+    {
+      "domanda": "Secondo Dewey, qual è il principio fondamentale dell'apprendimento?",
+      "opzioni": [
+        "Learning by doing",
+        "Trial and error",
+        "Stimulus-response",
+        "Nature vs nurture"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Dewey sostiene il principio del 'learning by doing' (imparare facendo), secondo cui il processo cognitivo è sempre rivolto al controllo dell'esperienza."
+    },
+    {
+      "domanda": "Quale tipo di memoria conserva le informazioni per pochissimo tempo (decimi di secondo)?",
+      "opzioni": [
+        "Registro sensoriale",
+        "Memoria a breve termine",
+        "Memoria di lavoro",
+        "Memoria a lungo termine"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il registro sensoriale riceve gli stimoli tramite gli organi di senso e li trattiene per pochissimo tempo (decimi di secondo)."
+    },
+    {
+      "domanda": "Secondo Goleman, quale tipo di intelligenza emotiva riguarda l'empatia e la valorizzazione degli altri?",
+      "opzioni": [
+        "Intelligenza emotiva sociale",
+        "Intelligenza emotiva personale",
+        "Intelligenza interpersonale",
+        "Intelligenza intrapersonale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'intelligenza emotiva sociale si riferisce a quelle caratteristiche che permettono di relazionarsi positivamente con gli altri, come empatia e valorizzazione degli altri."
+    },
+    {
+      "domanda": "Quale stadio di Erikson è caratterizzato dalla crisi tra identità e confusione dei ruoli?",
+      "opzioni": [
+        "Adolescenza (13-20 anni)",
+        "Fanciullezza (6-12 anni)",
+        "Età adulta (20-35 anni)",
+        "Tarda età (oltre 60 anni)"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nell'adolescenza (13-20 anni) il compito evolutivo fondamentale è la formazione di un'identità stabile, con crisi tra identità e confusione dei ruoli."
+    },
+    {
+      "domanda": "Secondo la teoria cognitivista, la mente umana funziona come:",
+      "opzioni": [
+        "Un elaboratore di informazioni",
+        "Una tabula rasa",
+        "Un sistema di riflessi condizionati",
+        "Un insieme di pulsioni inconsce"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "I cognitivisti considerano la mente umana come un elaboratore di informazioni, simile a un computer che processa input e produce output."
+    },
+    {
+      "domanda": "Quale principio della Gestalt spiega la tendenza a percepire figure simmetriche e regolari?",
+      "opzioni": [
+        "Principio della buona forma",
+        "Principio di vicinanza",
+        "Principio di somiglianza",
+        "Principio di chiusura"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il principio della buona forma o pregnanza afferma che l'individuo tende a percepire più intuitivamente le figure simmetriche, regolari e stabili."
+    },
+    {
+      "domanda": "Secondo Piaget, quale processo permette di incorporare nuovi dati in schemi mentali preesistenti?",
+      "opzioni": [
+        "Assimilazione",
+        "Accomodamento",
+        "Adattamento",
+        "Equilibrazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'assimilazione è il processo in virtù del quale i dati ricavati dall'esperienza vengono incorporati in schemi mentali preesistenti senza modificazione di questi ultimi."
+    },
+    {
+      "domanda": "Quale tipo di intelligenza, secondo Gardner, riguarda la sensibilità ai suoni e ai ritmi?",
+      "opzioni": [
+        "Intelligenza musicale",
+        "Intelligenza linguistica",
+        "Intelligenza spaziale",
+        "Intelligenza naturalistica"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'intelligenza musicale ha a che fare con i principali elementi costitutivi della musica, come tono e ritmo, e con la competenza nel distinguere il timbro."
+    },
+    {
+      "domanda": "Secondo Vygotskij, qual è la differenza tra linguaggio egocentrico e linguaggio interiore?",
+      "opzioni": [
+        "Il linguaggio interiore è abbreviato e predicativo",
+        "Il linguaggio egocentrico serve per comunicare",
+        "Il linguaggio interiore è socializzato",
+        "Il linguaggio egocentrico declina dopo i 3 anni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il linguaggio interiore si distingue per essere abbreviato, frammentato e predicativo (viene omesso il soggetto), non avendo funzione comunicativa."
+    },
+    {
+      "domanda": "Quale tipo di attenzione seleziona gli stimoli significativi scremando quelli privi di interesse?",
+      "opzioni": [
+        "Attenzione selettiva",
+        "Attenzione divisa",
+        "Attenzione sostenuta",
+        "Attenzione esecutiva"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'attenzione selettiva opera un sistema di filtraggio che seleziona gli stimoli significativi e screma quelli privi di interesse."
+    },
+    {
+      "domanda": "Secondo la teoria dell'attaccamento, i Modelli Operativi Interni (MOI) definiscono:",
+      "opzioni": [
+        "I comportamenti relazionali futuri",
+        "Le capacità cognitive di base",
+        "Lo sviluppo del linguaggio",
+        "Le abilità motorie fini"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "I Modelli Operativi Interni (MOI) definiscono i comportamenti relazionali futuri in base al tipo di legame con la figura di riferimento."
+    },
+    {
+      "domanda": "Quale stadio di sviluppo secondo Piaget è caratterizzato dall'acquisizione del concetto di permanenza dell'oggetto?",
+      "opzioni": [
+        "Stadio senso-motorio",
+        "Stadio pre-operatorio",
+        "Stadio delle operazioni concrete",
+        "Stadio delle operazioni formali"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nello stadio senso-motorio (0-2 anni), verso la fine del periodo, il bambino acquisisce completamente il concetto di 'permanenza' dell'oggetto."
+    },
+    {
+      "domanda": "Secondo Bruner, quale fattore influenza la struttura della conoscenza umana?",
+      "opzioni": [
+        "La cultura",
+        "La genetica",
+        "L'istinto",
+        "Il condizionamento"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Per Bruner, la struttura della conoscenza umana è influenzata dalla cultura attraverso i suoi simboli e le sue convenzioni."
+    },
+    {
+      "domanda": "Quale tipo di apprendimento è considerato il più complesso?",
+      "opzioni": [
+        "Problem solving",
+        "Apprendimento per S-R",
+        "Concatenazione",
+        "Apprendimento per discriminazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il problem solving è il tipo più complesso di apprendimento, che rappresenta la naturale estensione dell'apprendimento di regole."
+    },
+    {
+      "domanda": "Secondo la teoria delle intelligenze multiple, quanti tipi di intelligenza ha inizialmente identificato Gardner?",
+      "opzioni": [
+        "Sette",
+        "Cinque",
+        "Otto",
+        "Dieci"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gardner ha inizialmente ipotizzato l'esistenza di sette forme di intelligenza, a cui ha successivamente aggiunto l'intelligenza naturalistica e quella esistenziale."
+    },
+    {
+      "domanda": "Quale concetto di Morin rappresenta l'insieme di elementi che danno senso a un evento?",
+      "opzioni": [
+        "Contesto",
+        "Globale",
+        "Multidimensionale",
+        "Complessità"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il contesto è l'insieme di elementi, idee e fatti che danno senso a un evento, importante per determinare il senso e interpretare."
+    },
+    {
+      "domanda": "Secondo la prospettiva ecologica di Bronfenbrenner, quale sistema include leggi e norme sociali?",
+      "opzioni": [
+        "Macrosistema",
+        "Microsistema",
+        "Mesosistema",
+        "Esosistema"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il macrosistema è il contesto sociale di riferimento, composto dalle leggi, norme e valori della società in cui il bambino è inserito."
+    },
+    {
+      "domanda": "Quale tipo di pensiero, secondo Guilford, produce una gamma di possibili soluzioni alternative?",
+      "opzioni": [
+        "Pensiero divergente",
+        "Pensiero convergente",
+        "Pensiero laterale",
+        "Pensiero verticale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il pensiero divergente è la capacità di produrre una gamma di possibili soluzioni alternative per una data questione, particolarmente importante per la creatività."
+    },
+    {
+      "domanda": "Secondo le neuroscienze, quale scoperta di Rizzolatti ha rivoluzionato la comprensione dell'apprendimento imitativo?",
+      "opzioni": [
+        "Neuroni specchio",
+        "Plasticità sinaptica",
+        "Neurogenesi",
+        "Lateralizzazione"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La scoperta dei neuroni specchio da parte di Rizzolatti ha permesso di comprendere i meccanismi neurofisiologici dell'apprendimento imitativo."
+    },
+    {
+      "domanda": "Quale periodo dello sviluppo è definito da Erikson come caratterizzato dalla generatività vs stagnazione?",
+      "opzioni": [
+        "35-60 anni",
+        "20-35 anni",
+        "13-20 anni",
+        "Oltre 60 anni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella fase 35-60 anni, secondo Erikson, il compito evolutivo è la generatività vs stagnazione, relativa alla capacità produttiva nel lavoro e nella cura della famiglia."
+    },
+     {
+      "domanda": "Quale parte del cervello è composta da circa 100 miliardi di neuroni nell'essere umano?",
+      "opzioni": [
+        "L'intero cervello",
+        "Solo la corteccia cerebrale",
+        "Il sistema limbico",
+        "Il cervelletto"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il cervello nell'insieme è composto da circa 100 miliardi di cellule nervose (neuroni), non solo specifiche aree."
+    },
+    {
+      "domanda": "Quante sinapsi sono approssimativamente presenti nella corteccia cerebrale?",
+      "opzioni": [
+        "100.000 miliardi",
+        "1 milione",
+        "10 miliardi",
+        "100 milioni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella corteccia sono presenti almeno 100.000 miliardi di sinapsi, continuamente attive per regolare il comportamento e il pensiero."
+    },
+    {
+      "domanda": "Quale lobo cerebrale è principalmente responsabile della percezione visiva?",
+      "opzioni": [
+        "Lobo occipitale",
+        "Lobo frontale",
+        "Lobo temporale",
+        "Lobo parietale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il lobo occipitale è specializzato nella percezione visiva, come indicato nella mappa funzionale del cervello."
+    },
+    {
+      "domanda": "Secondo gli studi di René Spitz, cosa produce danni spesso irreversibili nello sviluppo del bambino?",
+      "opzioni": [
+        "Assenza di stimolazione nel periodo critico",
+        "Eccessiva stimolazione sensoriale",
+        "Alimentazione scorretta",
+        "Esercizio fisico insufficiente"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Spitz studiò la deprivazione delle cure materne, dimostrando che l'assenza di stimolazione nel periodo critico produce danni irreversibili."
+    },
+    {
+      "domanda": "Cosa si intende per 'plasticità' del sistema nervoso?",
+      "opzioni": [
+        "La capacità di mutare caratteristiche in base alle stimolazioni",
+        "La rigidità delle connessioni neurali",
+        "La velocità di trasmissione degli impulsi",
+        "La dimensione del cervello"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La plasticità implica la capacità dei circuiti nervosi di mutare caratteristiche funzionali e strutturali in ragione delle stimolazioni sensoriali esterne."
+    },
+    {
+      "domanda": "Quale teoria sulla percezione dei colori fu formulata da Hermann von Helmholtz?",
+      "opzioni": [
+        "Esistenza di recettori sensibili a rosso, azzurro e verde",
+        "Percezione basata solo sulla luminosità",
+        "Teoria del contrasto simultaneo",
+        "Percezione innata dei colori primari"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Helmholtz sostenne l'esistenza di recettori differenti, sensibili agli spettri cromatici del rosso, dell'azzurro e del verde."
+    },
+    {
+      "domanda": "Secondo la teoria della Gestalt, quale principio spiega perché vediamo parentesi quadre invece di colonne separate?",
+      "opzioni": [
+        "Principio della buona forma",
+        "Principio di vicinanza",
+        "Principio di somiglianza",
+        "Principio di chiusura"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il principio della buona forma afferma che l'individuo tende a percepire più intuitivamente le figure simmetriche, regolari e stabili."
+    },
+    {
+      "domanda": "Cosa studiava Jerome Bruner nella prospettiva funzionalista?",
+      "opzioni": [
+        "Le variabili tra stimolo e risposta",
+        "I riflessi condizionati",
+        "La struttura del cervello",
+        "Lo sviluppo del linguaggio nei primati"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Bruner metteva in luce le variabili che si frappongono fra la presentazione dello stimolo e la risposta dell'individuo."
+    },
+    {
+      "domanda": "Secondo Broadbent, su cosa basa la sua azione il filtro attentivo?",
+      "opzioni": [
+        "Finalità, compiti e aspettative del soggetto",
+        "Solo sull'intensità dello stimolo",
+        "Esclusivamente su fattori genetici",
+        "Sulle emozioni momentanee"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il filtro attentivo agirebbe in relazione alle finalità, ai compiti e alle aspettative del soggetto."
+    },
+    {
+      "domanda": "Quale modello di memoria prevede RS, MBT e MLT?",
+      "opzioni": [
+        "Modello di Atkinson e Shiffrin",
+        "Modello associativo di Ebbinghaus",
+        "Modello pluri-componenti",
+        "Modello della Gestalt"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Atkinson e Shiffrin proposero il modello con Registro Sensoriale (RS), Memoria a Breve Termine (MBT) e Memoria a Lungo Termine (MLT)."
+    },
+    {
+      "domanda": "Cosa usava Ebbinghaus per studiare la memoria 'pura'?",
+      "opzioni": [
+        "Liste di sillabe senza senso",
+        "Immagini complesse",
+        "Brani musicali",
+        "Racconti letterari"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Ebbinghaus usava liste di sillabe senza senso (presentazione seriale) per studiare la memoria come capacità pura, non influenzata da conoscenze pregresse."
+    },
+    {
+      "domanda": "A quale età i bambini sono in grado di distinguere fonemi simili come /pa/ e /ba/?",
+      "opzioni": [
+        "A 2-3 settimane di vita",
+        "A 6 mesi",
+        "A 1 anno",
+        "A 2 anni"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli esperimenti mostrano che a due-tre settimane i neonati sono in grado di percepire come differenti fonemi molto simili."
+    },
+    {
+      "domanda": "Cosa caratterizza la fase della lallazione?",
+      "opzioni": [
+        "Produzione di suoni ripetitivi senza significato",
+        "Prime parole olofrastiche",
+        "Uso di frasi complesse",
+        "Comunicazione esclusivamente non verbale"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La lallazione è caratterizzata dalla produzione di una vasta gamma di suoni privi di significato, con catene ripetitive come /ba-ba/, /da-da/."
+    },
+    {
+      "domanda": "Cosa sono le 'olofrasi' nel linguaggio infantile?",
+      "opzioni": [
+        "Parole uniche che comunicano un intero messaggio",
+        "Frasi complesse con soggetto e verbo",
+        "Suoni della lallazione",
+        "Errori di pronuncia"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le olofrasi sono parole uniche usate per comunicare un intero messaggio, come 'mamma' che può significare 'ecco la mamma', 'dov'è la mamma?' ecc."
+    },
+    {
+      "domanda": "Cosa avviene tra i 18 e i 24 mesi nel sviluppo linguistico?",
+      "opzioni": [
+        "Inizio della produzione di frasi composte da più parole",
+        "Comparsa della lallazione",
+        "Scomparsa del linguaggio egocentrico",
+        "Acquisizione completa della grammatica"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Fra i 18 e i 24 mesi i bambini iniziano a produrre frasi composte da più parole, passando dal linguaggio telegrafico a strutture più complesse."
+    },
+    {
+      "domanda": "Secondo Chomsky, cosa permette al bambino di costruire frasi nuove?",
+      "opzioni": [
+        "Dispositivo innato per l'acquisizione del linguaggio (LAD)",
+        "Semplice imitazione degli adulti",
+        "Condizionamento operante",
+        "Apprendimento per prove ed errori"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Chomsky ipotizza un LAD (Language Acquisition Device) innato che permette di riconoscere regolarità negli input e costruire la grammatica della comunità linguistica."
+    },
+    {
+      "domanda": "Cosa intende Vygotskij per 'pensiero verbale'?",
+      "opzioni": [
+        "L'area di sovrapposizione tra pensiero e linguaggio",
+        "Il pensiero completamente indipendente dal linguaggio",
+        "Il linguaggio puramente espressivo",
+        "Il pensiero astratto maturo"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "Per Vygotskij, il pensiero verbale corrisponde all'area di sovrapposizione tra i due circoli del pensiero e del linguaggio."
+    },
+    {
+      "domanda": "Cosa studia la prossemica?",
+      "opzioni": [
+        "Le modalità di percezione dello spazio nella comunicazione",
+        "I movimenti del corpo durante il parlato",
+        "Le espressioni facciali universali",
+        "Il tono della voce nelle diverse culture"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La prossemica, coniata da Hall, studia le modalità con cui l'uomo percepisce lo spazio personale e sociale nella comunicazione interpersonale."
+    },
+    {
+      "domanda": "Quale distanza interpersonale secondo Hall caratterizza i rapporti intimi?",
+      "opzioni": [
+        "Distanza intima (0-45 cm)",
+        "Distanza personale (45-120 cm)",
+        "Distanza sociale (120-360 cm)",
+        "Distanza pubblica (oltre 360 cm)"
+      ],
+      "rispostaCorretta": 0,
+      "spiegazione": "La distanza intima (0-45 cm) comporta un coinvolgimento notevole con l'altro e contatto fisico, caratteristica dei rapporti intimi."
+    },
+    {
+      "domanda": "Cosa sono i 'cinemi' secondo Birdwhistell?",
+      "opzioni": [
+        "Movimenti e posizioni elementari del corpo",
+        "Unità minime del linguaggio verbale",
+        "Pattern cerebrali dell'apprendimento",
+        "Stadi dello sviluppo cognitivo"
+      ],
+      "spiegazione": "Birdwhistell individuò una cinquantina di movimenti e posizioni elementari del corpo (cinemi) che costituiscono il repertorio della comunicazione non verbale."
+    }
+    
+  ]
+}

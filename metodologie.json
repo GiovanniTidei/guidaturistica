@@ -1,0 +1,513 @@
+{
+  "metodologie": [
+    {
+      "domanda": "Nell'ambito del PNRR, quale metodologia risulta maggiormente coerente con lo sviluppo delle competenze digitali?",
+      "opzioni": ["Flipped Classroom con utilizzo di piattaforme e-learning", "Lezione frontale tradizionale con supporto PowerPoint", "Interrogazioni orali senza supporti tecnologici", "Esercitazioni esclusivamente cartacee"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Flipped Classroom integrata con piattaforme e-learning sviluppa autonomia e competenze digitali, allineandosi agli obiettivi PNRR"
+    },
+    {
+      "domanda": "Secondo gli studi più recenti nel campo delle neuroscienze educative, quale approccio risulta più efficace per la memoria a lungo termine?",
+      "opzioni": ["Spaced repetition e retrieval practice", "Studio intensivo concentrato in una sola sessione", "Lettura ripetuta dei contenuti", "Sottolineatura passiva del testo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le evidenze neuroscientifiche dimostrano che spaced repetition e retrieval practice potenziano significativamente la ritenzione a lungo termine"
+    },
+    {
+      "domanda": "Nella progettazione di un'Unità di Apprendimento per competenze, quale elemento è fondamentale secondo le Indicazioni Nazionali?",
+      "opzioni": ["La definizione di compiti autentici e situazioni problema", "L'elenco cronologico degli argomenti da trattare", "La scelta di un unico libro di testo di riferimento", "La programmazione rigida senza flessibilità"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I compiti autentici permettono di valutare la competenza attraverso prestazioni in contesti reali o simulati"
+    },
+    {
+      "domanda": "Quale tra questi rappresenta un principio del modello EAS (Episodi di Apprendimento Situato)?",
+      "opzioni": ["Fase operativa di produzione e ristrutturazione cognitiva", "Lezione frontale continua senza interruzioni", "Valutazione esclusivamente sommativa finale", "Apprendimento mnemonico nozionistico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il modello EAS prevede tre fasi: preparatoria, operatoria e ristrutturativa, con forte enfasi sull'operatività"
+    },
+    {
+      "domanda": "Nell'ambito dell'inclusione scolastica, quale metodologia risulta più efficace per studenti con BES?",
+      "opzioni": ["Universal Design for Learning (UDL)", "Approccio standardizzato per tutta la classe", "Programmazione differenziata solo per alcuni studenti", "Esclusione dalle attività complesse"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'UDL progetta percorsi accessibili a tutti fin dall'inizio, riducendo la necessità di adattamenti successivi"
+    },
+    {
+      "domanda": "Secondo il framework DigCompEdu, quale competenza digitale del docente riguarda la creazione di contenuti didattici innovativi?",
+      "opzioni": ["Creazione e modifica di risorse digitali", "Utilizzo base della posta elettronica", "Navigazione su internet", "Gestione dei dispositivi hardware"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'area 3 del DigCompEdu si focalizza sulla creazione e modifica di risorse digitali per l'apprendimento"
+    },
+    {
+      "domanda": "Quale caratteristica distingue il Service Learning dalle tradizionali attività di volontariato?",
+      "opzioni": ["L'integrazione curricolare e la riflessione guidata", "L'assenza di qualsiasi valutazione", "La separazione dal percorso di studi", "La mancanza di obiettivi formativi espliciti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Service Learning unisce sistematicamente servizio alla comunità e apprendimento curricolare"
+    },
+    {
+      "domanda": "Nella didattica per scenari, quale fase è fondamentale per la progettazione?",
+      "opzioni": ["La definizione di un contesto problematico significativo", "La scelta casuale degli argomenti da trattare", "L'assegnazione di compiti senza contesto", "La programmazione rigida senza flessibilità"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lo scenario didattico si costruisce attorno a un contesto problematico che motiva l'apprendimento"
+    },
+    {
+      "domanda": "Secondo Vygotskij, quale concetto è centrale per l'apprendimento efficace?",
+      "opzioni": ["La Zona di Sviluppo Prossimale", "L'apprendimento meccanico ripetitivo", "Lo sviluppo autonomo senza mediazione", "La valutazione esclusivamente quantitativa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La ZSP definisce l'area in cui l'apprendimento è possibile con il supporto di un pari più competente o dell'insegnante"
+    },
+    {
+      "domanda": "Quale metodologia utilizza prevalentemente il debate come strategia didattica?",
+      "opzioni": ["Apprendimento attraverso l'argomentazione strutturata", "Studio individuale e mnemonico", "Lezione frontale tradizionale", "Esercitazioni pratiche senza discussione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il debate sviluppa competenze trasversali attraverso l'argomentazione regolamentata su temi controversi"
+    },
+    {
+      "domanda": "Nella flipped classroom, cosa caratterizza il momento fuori dall'aula?",
+      "opzioni": ["Studio autonomo dei contenuti attraverso materiali digitali", "Svolgimento di verifiche scritte", "Attività laboratoriali complesse", "Discussioni di gruppo guidate dal docente"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella flipped classroom, la fruizione dei contenuti base avviene autonomamente a casa, mentre in classe si lavora sulla loro applicazione"
+    },
+    {
+      "domanda": "Quale strumento è più appropriato per la valutazione formativa delle competenze?",
+      "opzioni": ["Rubriche di valutazione con descrittori analitici", "Questionari a risposta multipla standardizzati", "Interrogazioni orali tradizionali", "Test di velocità di esecuzione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le rubriche rendono trasparenti i criteri di valutazione e permettono un feedback formativo specifico"
+    },
+    {
+      "domanda": "Secondo il costruttivismo, qual è il ruolo principale dello studente?",
+      "opzioni": ["Costruttore attivo della propria conoscenza", "Ricettore passivo di informazioni", "Ripetitore meccanico di contenuti", "Esecutore di compiti senza comprensione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il costruttivismo vede l'apprendimento come processo attivo di costruzione di significato"
+    },
+    {
+      "domanda": "Quale caratteristica definisce l'apprendimento cooperativo rispetto al lavoro di gruppo tradizionale?",
+      "opzioni": ["Interdipendenza positiva e responsabilità individuale", "Divisione casuale dei compiti", "Valutazione esclusivamente del prodotto finale", "Assenza di ruoli definiti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nell'apprendimento cooperativo, l'interdipendenza positiva garantisce che il successo di ciascuno dipenda dal successo di tutti"
+    },
+    {
+      "domanda": "Nella progettazione per competenze, cosa si intende per 'compito autentico'?",
+      "opzioni": ["Un'attività significativa che simula contesti reali", "Un esercizio ripetitivo sul libro di testo", "Una verifica scritta tradizionale", "Un compito a casa senza specifiche"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il compito autentico richiede di mobilitare conoscenze e abilità per risolvere problemi complessi in contesti realistici"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per sviluppare il pensiero critico secondo le ricerche contemporanee?",
+      "opzioni": ["Inquiry-Based Learning e problem solving", "Memorizzazione di definizioni", "Lettura passiva di testi", "Ripetizione meccanica di procedure"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'IBL stimola la formulazione di domande, la ricerca e l'analisi critica delle informazioni"
+    },
+    {
+      "domanda": "Nella didattica digitale integrata, quale aspetto è cruciale per l'accessibilità?",
+      "opzioni": ["Principi di Universal Design for Learning", "Utilizzo esclusivo di formati proprietari", "Tecnologie avanzate senza formazione", "Contenuti solo testuali senza multimedia"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'UDL garantisce che i materiali digitali siano accessibili e utilizzabili da tutti gli studenti"
+    },
+    {
+      "domanda": "Quale metodologia si basa sull'apprendimento attraverso la realizzazione di prodotti concreti?",
+      "opzioni": ["Project-Based Learning", "Lezione frontale tradizionale", "Interrogazione orale standard", "Esercitazioni ripetitive"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il PBL organizza l'apprendimento attorno alla realizzazione di un progetto complesso che culmina in un prodotto finale"
+    },
+    {
+      "domanda": "Secondo le linee guida PNRR per l'innovazione didattica, quale competenza è prioritaria?",
+      "opzioni": ["Competenza digitale e STEM", "Calligrafia perfetta", "Memorizzazione di date storiche", "Conoscenza enciclopedica nozionistica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il PNRR investe strategicamente su competenze digitali e STEM per preparare gli studenti alle sfide del futuro"
+    },
+    {
+      "domanda": "Quale caratteristica distingue la valutazione autentica da quella tradizionale?",
+      "opzioni": ["Focus su prestazioni in contesti reali o simulati", "Utilizzo esclusivo di test standardizzati", "Valutazione solo del prodotto finale", "Mancanza di criteri espliciti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La valutazione autentica osserva la capacità di applicare conoscenze e abilità in situazioni significative e realistiche"
+    }, {
+      "domanda": "Secondo il modello TPACK, cosa si intende per 'Conoscenza Tecnologico-Pedagogica del Contenuto'?",
+      "opzioni": ["L'integrazione sinergica di tecnologia, pedagogia e contenuto disciplinare", "La conoscenza separata delle tre componenti", "L'uso della tecnologia senza considerare la pedagogia", "La scelta dei contenuti senza mediazione tecnologica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il modello TPACK enfatizza l'integrazione delle tre dimensioni per una didattica efficace"
+    },
+    {
+      "domanda": "Quale metodologia si basa sull'apprendimento attraverso la risoluzione di problemi complessi e aperti?",
+      "opzioni": ["Problem-Based Learning", "Lecture-based learning", "Rote learning", "Memory-based instruction"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il PBL parte da problemi complessi per attivare l'apprendimento autonomo e la ricerca di soluzioni"
+    },
+    {
+      "domanda": "Nella gamification, quale elemento è fondamentale per motivare gli studenti?",
+      "opzioni": ["Meccaniche di gioco come punti, badge e classifiche", "Assenza totale di competizione", "Valutazione solo finale senza feedback", "Attività monotone e ripetitive"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le meccaniche di gioco creano engagement e motivazione intrinseca"
+    },
+    {
+      "domanda": "Cosa caratterizza il 'Design Thinking' applicato alla didattica?",
+      "opzioni": ["Processo iterativo di empathize, define, ideate, prototype, test", "Approccio lineare e sequenziale rigido", "Soluzioni preconfezionate senza creatività", "Focus esclusivo sul prodotto finale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Design Thinking è un processo creativo e iterativo centrato sull'utente"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per sviluppare il pensiero computazionale?",
+      "opzioni": ["Coding e robotica educativa", "Esercizi di copiatura dalla lavagna", "Memorizzazione di algoritmi", "Lettura passiva di manuali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il coding attivo sviluppa capacità di problem solving e scomposizione dei problemi"
+    },
+    {
+      "domanda": "Nella didattica inclusiva, cosa si intende per 'curricolo verticale'?",
+      "opzioni": ["Progressione coerente delle competenze attraverso i cicli scolastici", "Programmazione isolata per classe", "Contenuti slegati tra i diversi anni", "Assenza di continuità educativa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il curricolo verticale garantisce progressione e continuità nell'apprendimento"
+    },
+    {
+      "domanda": "Quale strategia è più efficace per il potenziamento delle soft skills?",
+      "opzioni": ["Project work collaborativo", "Lezione frontale tradizionale", "Interrogazioni individuali", "Esercizi standardizzati"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il project work sviluppa teamwork, comunicazione e problem solving"
+    },
+    {
+      "domanda": "Cosa distingue l'approccio EAS dalla lezione tradizionale?",
+      "opzioni": ["Fase operatoria di manipolazione attiva dei contenuti", "Trasmissione unidirezionale del sapere", "Assenza di produzione da parte degli studenti", "Valutazione esclusivamente sommativa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Gli EAS privilegiano l'operatività e la costruzione attiva della conoscenza"
+    },
+    {
+      "domanda": "Quale metodologia utilizza scenari reali per l'apprendimento delle lingue straniere?",
+      "opzioni": ["Task-Based Language Teaching", "Traduzione grammaticale", "Memorizzazione di liste di vocaboli", "Esercizi di ripetizione meccanica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il TBLT focalizza sull'uso comunicativo della lingua in contesti reali"
+    },
+    {
+      "domanda": "Nella valutazione per competenze, cosa si intende per 'rubrica analitica'?",
+      "opzioni": ["Griglia con descrittori specifici per diversi livelli di performance", "Giudizio globale senza criteri", "Voto numerico senza commenti", "Valutazione comparativa tra studenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le rubriche analitiche descrivono precisamente i criteri di valutazione"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per studenti con DSA?",
+      "opzioni": ["Didattica metacognitiva e multisensoriale", "Approccio uniforme per tutta la classe", "Esclusione dalle attività complesse", "Semplificazione eccessiva dei contenuti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La didattica metacognitiva sviluppa consapevolezza dei processi di apprendimento"
+    },
+    {
+      "domanda": "Cosa caratterizza il 'cooperative learning strutturato'?",
+      "opzioni": ["Interdipendenza positiva e responsabilità individuale", "Divisione casuale dei compiti", "Lavoro individuale in gruppo", "Assenza di obiettivi comuni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La strutturazione garantisce che tutti i membri contribuiscano al successo comune"
+    },
+    {
+      "domanda": "Quale tecnologia è più adatta per creare ambienti di apprendimento immersivi?",
+      "opzioni": ["Realtà virtuale e aumentata", "Lavagna tradizionale", "Libri di testo cartacei", "Audio cassette"],
+      "rispostaCorretta": 0,
+      "spiegazione": "RV e RA creano esperienze di apprendimento coinvolgenti e contestualizzate"
+    },
+    {
+      "domanda": "Nella flipped classroom, qual è il ruolo del docente in classe?",
+      "opzioni": ["Facilitatore e tutor dell'apprendimento", "Trasmettitore principale di contenuti", "Osservatore passivo", "Valutatore solo finale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il docente diventa facilitatore del processo di apprendimento attivo"
+    },
+    {
+      "domanda": "Quale metodologia promuove l'apprendimento tra pari di età diverse?",
+      "opzioni": ["Tutoring verticale", "Lezione frontale", "Apprendimento individualizzato", "Studio autonomo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il tutoring verticale favorisce scambi tra studenti di età diverse"
+    },
+    {
+      "domanda": "Cosa si intende per 'digital storytelling' in ambito educativo?",
+      "opzioni": ["Narrazione multimediale che integra testo, immagini e audio", "Lettura passiva di storie digitali", "Scrittura tradizionale senza supporti digitali", "Racconto orale senza registrazione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lo storytelling digitale sviluppa competenze narrative e digitali"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per la valutazione formativa?",
+      "opzioni": ["Feedback tempestivo e costruttivo", "Giudizi generici senza specifiche", "Valutazione solo sommativa", "Commenti negativi senza proposte"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il feedback formativo guida il miglioramento continuo"
+    },
+    {
+      "domanda": "Nell'apprendimento per scoperta, qual è il ruolo dello studente?",
+      "opzioni": ["Esploratore attivo della conoscenza", "Ricettore passivo", "Ripetitore di informazioni", "Esecutore di istruzioni"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'apprendimento per scoperta valorizza l'esplorazione autonoma"
+    },
+    {
+      "domanda": "Quale strategia è più efficace per il CLIL?",
+      "opzioni": ["Scaffolding linguistico e concettuale", "Immersione totale senza supporto", "Traduzione letterale dei contenuti", "Focus esclusivo sulla grammatica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lo scaffolding supporta l'apprendimento sia linguistico che disciplinare"
+    },
+    {
+      "domanda": "Cosa caratterizza la 'didattica breve'?",
+      "opzioni": ["Unità di apprendimento concentrate e intensive", "Programmazione estesa nel tempo", "Approccio lento e graduale", "Trattazione superficiale degli argomenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La didattica breve focalizza su obiettivi specifici in tempi ridotti"
+    },
+    {
+      "domanda": "Quale metodologia utilizza il movimento corporeo per l'apprendimento?",
+      "opzioni": ["Total Physical Response", "Apprendimento sedentario", "Lezione frontale statica", "Studio esclusivamente al banco"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il TPR integra movimento e apprendimento, soprattutto per le lingue"
+    },
+    {
+      "domanda": "Nella progettazione didattica, cosa si intende per 'compito di realtà'?",
+      "opzioni": ["Attività che simula situazioni del mondo reale", "Esercizio astratto senza contesto", "Compito puramente teorico", "Verifica standardizzata"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I compiti di realtà collegano l'apprendimento alla vita reale"
+    },
+    {
+      "domanda": "Quale approccio è più efficace per lo sviluppo del pensiero critico?",
+      "opzioni": ["Philosophy for Children", "Memorizzazione di teorie", "Ripetizione meccanica", "Apprendimento acritico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Philosophy for Children sviluppa capacità di ragionamento e dialogo"
+    },
+    {
+      "domanda": "Cosa distingue l'apprendimento significativo da quello meccanico?",
+      "opzioni": ["Collegamento con conoscenze pregresse", "Memorizzazione senza comprensione", "Ripetizione automatica", "Assenza di connessioni cognitive"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'apprendimento significativo crea reti di conoscenze interconnesse"
+    },
+    {
+      "domanda": "Quale tecnologia supporta meglio l'apprendimento collaborativo a distanza?",
+      "opzioni": ["Piattaforme di collaborative learning", "Email singole", "Blog personali", "Documenti non condivisi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le piattaforme collaborative permettono lavoro sincrono e asincrono di gruppo"
+    },
+    {
+      "domanda": "Nella didattica delle scienze, quale approccio è più efficace?",
+      "opzioni": ["Inquiry-based science education", "Trasmissione dogmatica di teorie", "Esperimenti dimostrativi passivi", "Studio puramente teorico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'IBSE sviluppa competenze scientifiche attraverso l'indagine"
+    },
+    {
+      "domanda": "Quale metodologia utilizza l'arte per l'apprendimento interdisciplinare?",
+      "opzioni": ["Visual Thinking Strategies", "Approccio esclusivamente verbale", "Studio separato delle discipline", "Apprendimento mnemonico"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le VTS sviluppano osservazione, interpretazione e pensiero critico"
+    },
+    {
+      "domanda": "Cosa caratterizza l'apprendimento adattivo?",
+      "opzioni": ["Personalizzazione del percorso in base alle performance", "Approccio standardizzato per tutti", "Percorso rigido e predefinito", "Assenza di differenziazione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'apprendimento adattivo si modella sulle necessità del singolo studente"
+    },
+    {
+      "domanda": "Quale strategia è più efficace per la comprensione del testo?",
+      "opzioni": ["Insegnamento esplicito delle strategie di lettura", "Lettura passiva senza guida", "Sottolineatura meccanica", "Rilettura ripetuta"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le strategie metacognitive migliorano la comprensione testuale"
+    },
+    {
+      "domanda": "Nella didattica della matematica, quale approccio sviluppa il problem solving?",
+      "opzioni": ["Apprendimento per problemi aperti", "Esercizi ripetitivi meccanici", "Memorizzazione di formule", "Applicazione acritica di procedure"],
+      "rispostaCorretta": 0,
+      "spiegazione": "I problemi aperti stimolano ragionamento e creatività matematica"
+    },
+    {
+      "domanda": "Secondo il modello SAMR, quale livello descrive l'uso della tecnologia per svolgere compiti precedentemente inconcepibili?",
+      "opzioni": ["Ridefinizione (Redefinition)", "Modifica (Modification)", "Ampliamento (Augmentation)", "Sostituzione (Substitution)"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il livello 'Ridefinizione' del modello SAMR permette la creazione di nuove attività, prima impossibili, che trasformano l'esperienza di apprendimento."
+    },
+    {
+      "domanda": "Nell'ambito della didattica inclusiva, a quale principio si riferisce direttamente la proposta di fornire 'multiple means of action and expression'?",
+      "opzioni": ["Universal Design for Learning (UDL)", "Mastery Learning", "Programmed Instruction", "Direct Instruction"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'UDL promuove l'inclusione progettando fin dall'inizio molteplici mezzi di coinvolgimento, rappresentazione e azione/espressione."
+    },
+    {
+      "domanda": "Quale metodo, ispirato a Mario Lodi, valorizza la parola del bambino come strumento di apprendimento collettivo?",
+      "opzioni": ["Il 'Metodo Dadà' di strumento didattico", "Il 'Cooperative Learning' strutturato", "La 'Lezione Frontale Partecipata'", "Il 'Circle Time' di discussione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il 'Metodo Dadà' si basa sulla creazione collettiva di storie a partire da parole suggerite dai bambini, sviluppando lingua orale, scrittura e socialità."
+    },
+    {
+      "domanda": "In una prospettiva vygotskijana, quale strumento è più efficace per favorire l'apprendimento nella Zona di Sviluppo Prossimale?",
+      "opzioni": ["Il scaffolding fornito da un pari più competente", "La ripetizione meccanica individuale", "La lettura autonoma di un manuale", "L'ascolto passivo di una lezione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Lo scaffolding, o impalcatura, fornisce un supporto temporaneo che aiuta lo studente a risolvere problemi oltre le sue capacità attuali, in linea con il concetto di ZSP."
+    },
+    {
+      "domanda": "Cosa caratterizza principalmente un compito autentico?",
+      "opzioni": ["La richiesta di applicare conoscenze in un contesto reale o simulato", "La presenza di una sola risposta corretta", "L'essere svolto esclusivamente in forma scritta individuale", "La valutazione basata solo sulla velocità di esecuzione"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il compito autentico valuta la competenza attraverso prestazioni significative che richiedono l'applicazione integrata di saperi in situazioni complesse e vicine al reale."
+    },
+    {
+      "domanda": "Quale approccio didattico utilizza il debate come strategia principale per sviluppare il pensiero critico?",
+      "opzioni": ["Apprendimento attraverso l'argomentazione strutturata", "Didattica trasmissiva", "Apprendimento mnemonico", "Educazione diretta"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il debate è una metodologia che struttura il confronto dibattimentale su temi controversi, allenando la ricerca, l'argomentazione e la confutazione."
+    },
+    {
+      "domanda": "Secondo le Indicazioni Nazionali, quale documento descrive il percorso per sviluppare una competenza attraverso un'Unità di Apprendimento?",
+      "opzioni": ["La situazione problema e il compito di realtà", "L'elenco degli argomenti del libro di testo", "La programmazione giornaliera delle lezioni frontali", "La scheda di verifica sommativa finale"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il cuore della progettazione per competenze è la definizione di una situazione problema significativa che si conclude con un compito di realtà."
+    },
+    {
+      "domanda": "Nell'ambito del DigCompEdu, quale area riguarda specificamente la capacità di proteggere i dati sensibili degli studenti?",
+      "opzioni": ["Gestione, protezione e condivisione delle risorse digitali", "Creazione e modifica di risorse digitali", "Valutazione e feedback attraverso strumenti digitali", "Favorire l'apprendimento personalizzato"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Area 2 del framework DigCompEdu include la competenza di gestire e proteggere i dati sensibili, rispettando norme come il GDPR."
+    },
+    {
+      "domanda": "Quale strategia di 'formative assessment' è più efficace per regolare il processo di insegnamento-apprendimento in itinere?",
+      "opzioni": ["Il feedback formativo descrittivo e tempestivo", "La verifica sommativa in fondo all'unità", "Il voto numerico senza commenti", "La classifica di merito degli studenti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il feedback formativo, essendo descrittivo e fornito durante il processo, informa sia l'allievo sul da farsi sia l'insegnante sull'efficacia della propria azione."
+    },
+    {
+      "domanda": "Il 'Coding unplugged' si riferisce a:",
+      "opzioni": ["Attività per sviluppare il pensiero computazionale senza usare dispositivi digitali", "La programmazione di robot educativi complessi", "L'insegnamento della grammatica attraverso il computer", "L'uso di software proprietario per il coding"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il 'Coding unplugged' avvicina al pensiero computazionale attraverso attività concrete e giochi, rendendo i concetti accessibili anche in assenza di tecnologia."
+    },
+    {
+      "domanda": "Quale metodo, associato a Célestin Freinet, utilizza la stampa a scuola per produrre testi liberi?",
+      "opzioni": ["La Tipografia a scuola", "Il Metodo globale di decifrazione", "L'Apprendimento situato", "Il Mastery Learning"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Tecnica della Tipografia di Freinet motiva alla scrittura attraverso la pubblicazione di un giornale scolastico, dando valore reale alla parola dei bambini."
+    },
+    {
+      "domanda": "Nel modello TPACK, la conoscenza 'Pedagogical Content Knowledge' (PCK) riguarda:",
+      "opzioni": ["Le migliori strategie per insegnare un contenuto specifico", "La padronanza avanzata di uno strumento tecnologico", "La conoscenza enciclopedica della materia", "La capacità di gestire la disciplina in classe"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La PCK è l'insieme delle conoscenze su come rappresentare e formulare i contenuti disciplinari per renderli comprensibili agli allievi."
+    },
+    {
+      "domanda": "Quale pratica didattica è esemplificativa dell''Embodied Cognition' (apprendimento incarnato)?",
+      "opzioni": ["L'utilizzo del movimento corporeo per apprendere concetti astratti", "Lo studio mnemonico di definizioni", "L'ascolto passivo di una conferenza", "La risoluzione di esercizi standardizzati"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L''Embodied Cognition' sostiene che i processi cognitivi siano profondamente radicati nelle interazioni del corpo con l'ambiente. L'uso del movimento facilita l'apprendimento."
+    },
+    {
+      "domanda": "La 'Gamification' in didattica si distingue dal 'Game-Based Learning' perché:",
+      "opzioni": ["Applica meccaniche di gioco in contesti non ludici", "Utilizza esclusivamente videogiochi commerciali", "Sostituisce completamente i libri di testo", "Non prevede l'assegnazione di punteggi"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Gamification applica elementi tipici del gioco (punti, badge, classifiche) per motivare e coinvolgere in attività didattiche, che non sono di per sé giochi."
+    },
+    {
+      "domanda": "Secondo il costruttivismo sociale di Vygotskij, l'apprendimento è principalmente:",
+      "opzioni": ["Un processo sociale e collaborativo di costruzione della conoscenza", "Una ricezione passiva di informazioni dall'esperto", "Il risultato di un condizionamento stimolo-risposta", "Un'attività puramente individuale e interna"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Per Vygotskij, l'apprendimento avviene prima a livello interpsicologico (tra le persone) e poi intrapsicologico (dentro l'individuo), attraverso la mediazione sociale."
+    },
+    {
+      "domanda": "Nella progettazione di un'attività secondo l'IBL (Inquiry-Based Learning), la fase iniziale è tipicamente:",
+      "opzioni": ["La sollecitazione della curiosità e la formulazione di domande di ricerca", "La consegna di una lezione frontale esaustiva", "La somministrazione di una verifica di ingresso", "La distribuzione di un libro di testo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'IBL inizia stimolando la curiosità e le domande degli studenti, che diventeranno la guida per tutto il processo di indagine successivo."
+    },
+    {
+      "domanda": "Quale strumento è più funzionale per una valutazione autentica delle competenze in un progetto?",
+      "opzioni": ["Una rubrica di valutazione (rubric) con descrittori analitici", "Un questionario a risposta multipla", "Una prova a tempo di velocità di esecuzione", "Una classifica degli studenti in base al voto"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le rubriche rendono trasparenti i criteri di valutazione e permettono di giudicare prestazioni complesse sulla base di diversi livelli di padronanza."
+    },
+    {
+      "domanda": "L'approccio 'Jigsaw' (Apprendimento a Mosaico) è una specifica applicazione del:",
+      "opzioni": ["Cooperative Learning", "Problem-Based Learning", "Flipped Classroom", "Direct Instruction"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel Jigsaw, ogni membro del gruppo diventa 'esperto' di una parte del materiale, creando un'interdipendenza positiva per ricostruire l'intera conoscenza."
+    },
+    {
+      "domanda": "Secondo il principio della 'classe capovolta' (Flipped Classroom), dove avviene tipicamente la prima esposizione ai contenuti?",
+      "opzioni": ["A casa, attraverso materiali selezionati dal docente", "In classe, con la lezione frontale del docente", "In laboratorio, attraverso esperimenti pratici", "In biblioteca, con ricerche autonome e non guidate"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nella Flipped Classroom, lo studio dei contenuti base avviene a casa (es. con video), mentre il tempo in classe è dedicato ad attività collaborative, esercitazioni e personalizzazione."
+    },
+    {
+      "domanda": "Cosa si intende per 'Atelier' nella prospettiva educativa reggiana?",
+      "opzioni": ["Un ambiente-laboratorio che promuove i 'cento linguaggi' dei bambini", "Un'aula dedicata esclusivamente all'informatica", "La stanza dei docenti per la preparazione delle lezioni", "Un'aula con banchi disposti in file ordinate"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'Atelier è un ambiente di ricerca dove i bambini esplorano, sperimentano e si esprimono attraverso molteplici materiali e linguaggi (pittura, creta, ecc.)."
+    },
+    {
+      "domanda": "Quale documento europeo fornisce un quadro di riferimento per le competenze digitali dei cittadini (DigComp) e degli educatori (DigCompEdu)?",
+      "opzioni": ["Il framework elaborato dal Centro Comune di Ricerca (JRC) della Commissione Europea", "Il Quadro Comune Europeo di Riferimento per le Lingue (QCER)", "Le Raccomandazioni del Consiglio d'Europa sul Lifelong Learning", "Il trattato di Maastricht sull'Unione Europea"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il DigComp e il DigCompEdu sono framework sviluppati dal JRC della Commissione Europea per definire e promuovere le competenze digitali."
+    },
+    {
+      "domanda": "Nell'ambito della didattica digitale, quale modello aiuta a valutare il livello di integrazione della tecnologia nelle attività?",
+      "opzioni": ["Il modello SAMR (Sostituzione, Ampliamento, Modifica, Ridefinizione)", "Il modello IMC (Integrated Marketing Communication)", "La teoria della Gestalt", "Il modello ADDIE per la progettazione didattica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il modello SAMR fornisce una tassonomia per classificare come la tecnologia è utilizzata, da un semplice sostituto di strumenti tradizionali fino alla ridefinizione di compiti prima impensabili."
+    },
+    {
+      "domanda": "La 'Zone of Proximal Development' (ZPD) di Vygotskij è definita come:",
+      "opzioni": ["La distanza tra il livello di sviluppo attuale e il livello di sviluppo potenziale sotto la guida di un adulto o in collaborazione con pari più capaci", "L'area del cervello dedicata all'apprendimento delle lingue straniere", "Il tempo massimo di attenzione che un bambino può mantenere in un'attività", "La fase dello sviluppo cognitivo in cui il pensiero astratto diventa possibile"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Zona di Sviluppo Prossimale è un concetto chiave vygotskijano che individua l'area di sviluppo immediatamente successiva a quella già consolidata, dove l'apprendimento è più efficace."
+    },
+    {
+      "domanda": "Quale strategia è centrale nel 'Mastery Learning' (Apprendimento per la Padronanza)?",
+      "opzioni": ["La fornitura di feedback correttivi e tempo aggiuntivo per il raggiungimento degli obiettivi da parte di tutti", "L'avanzamento del programma alla stessa velocità per tutta la classe", "La selezione precoce degli studenti più talentuosi", "L'uso esclusivo di lezioni frontali per trasmettere contenuti"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Mastery Learning si basa sull'idea che, fornendo condizioni adeguate (come feedback e tempo), la maggior parte degli studenti possa padroneggiare i contenuti."
+    },
+    {
+      "domanda": "Il 'Service Learning' si caratterizza per:",
+      "opzioni": ["L'integrazione curricolare tra apprendimento in aula e servizio solidale alla comunità", "L'organizzazione di gite scolastiche di piacere", "Lo svolgimento di stage aziendali retribuiti", "L'insegnamento delle buone maniere a scuola"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Il Service Learning è una proposta pedagogica che unisce il servizio alla comunità (service) con l'apprendimento curricolare (learning) in un unico progetto."
+    },
+    {
+      "domanda": "Nella didattica delle scienze, l'approccio IBSE (Inquiry-Based Science Education) enfatizza:",
+      "opzioni": ["L'apprendimento attraverso l'indagine e la scoperta guidata", "La memorizzazione di leggi e teorie scientifiche", "La sola esecuzione di esperimenti dimostrativi", "Lo studio puramente teorico dei manuali"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'IBSE pone gli studenti nella posizione di investigatori che, guidati dal docente, formulano domande, raccolgono dati e costruiscono le loro spiegazioni scientifiche."
+    },
+    {
+      "domanda": "Quale tipo di intelligenza, nella teoria delle intelligenze multiple di Gardner, riguarda la capacità di comprendere sé stessi e i propri sentimenti?",
+      "opzioni": ["Intelligenza intrapersonale", "Intelligenza interpersonale", "Intelligenza naturalistica", "Intelligenza logico-matematica"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'intelligenza intrapersonale consiste nella capacità di formare un modello accurato di sé stessi e di usarlo per operare efficacemente nella vita."
+    },
+    {
+      "domanda": "La 'Didattica Breve' ha come obiettivo principale:",
+      "opzioni": ["Trattare nuclei fondanti di una disciplina in tempi ristretti con approcci intensivi", "Coprire l'intero programma ministeriale in metà tempo", "Insegnare solo nozioni essenziali e tralasciare i dettagli", "Sostituire completamente i libri di testo con dispense"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La Didattica Breve, associata a studiosi come Marco Guastavigna, mira a selezionare e insegnare in modo intensivo i concetti chiave (nuclei fondanti) di una disciplina."
+    },
+    {
+      "domanda": "Quale pratica si ispira al concetto di 'ambiente di apprendimento' di Loris Malaguzzi?",
+      "opzioni": ["La progettazione di spazi scolastici come 'terzo insegnante'", "L'utilizzo esclusivo di aule tradizionali con cattedra centrale", "La standardizzazione di tutte le aule di una scuola", "L'assenza di qualsiasi materiale strutturato in classe"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nell'approccio reggiano, l'ambiente è considerato un 'terzo insegnante'. È curato, propositivo e ricco di materiali che invitano all'esplorazione e alla ricerca."
+    },
+    {
+      "domanda": "Nel 'Problem-Based Learning' (PBL), il problema viene presentato agli studenti:",
+      "opzioni": ["All'inizio del percorso di apprendimento, per attivare la ricerca di soluzioni", "Alla fine dell'unità, per verificare le conoscenze acquisite", "Dopo aver studiato tutta la teoria necessaria", "Come esercitazione aggiuntiva e facoltativa"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Nel PBL, il problema è il punto di partenza che motiva e orienta tutto il processo di apprendimento. Gli studenti imparano i contenuti per risolvere il problema."
+    }, {
+      "domanda": "Quale caratteristica distingue principalmente una rubrica valutativa analitica da una olistica?",
+      "opzioni": ["La scomposizione della prestazione in criteri specifici con descrittori per diversi livelli", "La valutazione globale senza scomposizione in criteri", "L'assegnazione di un solo voto complessivo", "L'assenza di descrittori di performance"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le rubriche analitiche descrivono livelli di performance per ciascun criterio, mentre quelle olistiche forniscono un giudizio globale"
+    },
+    {
+      "domanda": "Nella costruzione di una rubrica valutativa, quale elemento è fondamentale per renderla uno strumento di valutazione autentica?",
+      "opzioni": ["La trasparenza dei criteri e dei descrittori comunicata agli studenti", "La segretezza dei criteri di valutazione", "L'uso di linguaggio tecnico incomprensibile agli studenti", "La valutazione solo del prodotto finale senza considerare il processo"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La trasparenza permette agli studenti di autovalutarsi e comprendere cosa ci si aspetta da loro, rendendo la rubrica uno strumento formativo"
+    },
+    {
+      "domanda": "Quale vantaggio principale offrono le rubriche valutative nella didattica per competenze?",
+      "opzioni": ["La possibilità di valutare prestazioni complesse attraverso indicatori osservabili", "La velocità di correzione rispetto ad altri strumenti", "L'eliminazione della soggettività del docente", "La sostituzione completa delle verifiche scritte"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Le rubriche rendono misurabili aspetti complessi delle competenze attraverso descrittori che guidano l'osservazione"
+    },
+    {
+      "domanda": "Secondo i modelli più accreditati, quanti livelli di performance dovrebbe ideally avere una rubrica ben strutturata?",
+      "opzioni": ["Da 3 a 5 livelli per mantenere chiarezza e distinguibilità", "Almeno 10 livelli per massima precisione", "Solo 2 livelli (sufficiente/non sufficiente)", "Un numero variabile in base all'umore del docente"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Troppi livelli rendono la rubrica confusa, troppo pochi la rendono poco discriminatoria. 3-5 livelli sono ottimali"
+    },
+    {
+      "domanda": "In una rubrica per la valutazione di un progetto interdisciplinare, quale criterio sarebbe più appropriato?",
+      "opzioni": ["Integrazione coerente delle diverse discipline coinvolte", "Bellezza grafica del prodotto finale", "Velocità di esecuzione del lavoro", "Uso di materiali costosi e tecnologici"],
+      "rispostaCorretta": 0,
+      "spiegazione": "L'integrazione disciplinare è un criterio fondamentale per valutare la capacità di sintesi e connessione in un progetto interdisciplinare"
+    }
+  ]
+ 
+}

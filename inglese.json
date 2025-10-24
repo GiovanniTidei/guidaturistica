@@ -1,0 +1,359 @@
+{
+  "inglese": [
+    {
+      "domanda": "By the time the lecture ended, I ______ all my notes.",
+      "opzioni": ["had used", "have used", "was using", "would use"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Si usa il Past Perfect per un'azione completata prima di un'altra nel passato"
+    },
+    {
+      "domanda": "If the teacher ______ earlier, we could have discussed the project.",
+      "opzioni": ["knew", "had known", "would know", "has known"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Il Third Conditional richiede 'if + past perfect' e 'could + have + past participle'"
+    },
+    {
+      "domanda": "The new educational software ______ by the IT department last month.",
+      "opzioni": ["is installed", "was installed", "has been installed", "had installed"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Voce passiva al Simple Past per un'azione completata nel passato"
+    },
+    {
+      "domanda": "Students are encouraged to ______ their assignments on time.",
+      "opzioni": ["hand in", "hand out", "hand over", "hand off"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Hand in' significa consegnare, 'hand out' distribuire"
+    },
+    {
+      "domanda": "He ______ rather not disclose the test results immediately.",
+      "opzioni": ["could", "would", "should", "might"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Would rather' è l'espressione idiomatica fissa per esprimere preferenze"
+    },
+    {
+      "domanda": "The headmaster demanded that the report ______ by Friday.",
+      "opzioni": ["was finished", "be finished", "must be finished", "is finished"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dopo 'demanded' si usa il congiuntivo (base form 'be')"
+    },
+    {
+      "domanda": "______ the complexity of the topic, the teacher explained it very clearly.",
+      "opzioni": ["Despite", "Although", "However", "In spite"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Despite' è seguito direttamente da un nome o frase nominale"
+    },
+    {
+      "domanda": "I look forward to ______ from the selection committee soon.",
+      "opzioni": ["hear", "hearing", "be heard", "have heard"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Look forward to' richiede il gerundio"
+    },
+    {
+      "domanda": "The school trip was cancelled ______ the bad weather.",
+      "opzioni": ["because", "due to", "since", "for"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Due to' è seguito da una frase nominale, 'because' da una verbo"
+    },
+    {
+      "domanda": "This is the school ______ my father used to teach.",
+      "opzioni": ["which", "who", "where", "when"],
+      "rispostaCorretta": 2,
+      "spiegazione": "Si usa 'where' per relative clause che specifica un luogo"
+    },
+    {
+      "domanda": "By next June, I ______ in this school for ten years.",
+      "opzioni": ["will work", "have worked", "will have worked", "will be working"],
+      "rispostaCorretta": 2,
+      "spiegazione": "Future Perfect per azioni che saranno completate entro un momento futuro"
+    },
+    {
+      "domanda": "Had I known about the meeting, I ______ attended.",
+      "opzioni": ["would have", "will have", "would", "had"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Periodo ipotetico del terzo tipo con inversione 'Had I known... would have'"
+    },
+    {
+      "domanda": "The teacher asked the students ______ during the exam.",
+      "opzioni": ["not to talk", "to not talk", "don't talk", "not talking"],
+      "rispostaCorretta": 0,
+      "spiegazione": "La forma corretta dopo 'asked' è 'not + to + infinito'"
+    },
+    {
+      "domanda": "______ his extensive experience, he wasn't selected for the position.",
+      "opzioni": ["Although", "Despite", "However", "Whereas"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Despite' introduce un contrasto seguito da nome/frase nominale"
+    },
+    {
+      "domanda": "The new curriculum needs ______ by the end of the month.",
+      "opzioni": ["to approve", "approving", "to be approved", "being approved"],
+      "rispostaCorretta": 2,
+      "spiegazione": "Forma passiva dopo 'needs' per esprimere necessità"
+    },
+    {
+      "domanda": "She's the teacher ______ methods are being studied by researchers.",
+      "opzioni": ["whose", "which", "who", "whom"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Whose' indica possesso nella relative clause"
+    },
+    {
+      "domanda": "I wish I ______ more time to prepare the lesson.",
+      "opzioni": ["have", "had", "would have", "had had"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dopo 'wish' si usa il simple past per esprimere desideri sul presente"
+    },
+    {
+      "domanda": "The students ______ have completed the assignment by tomorrow.",
+      "opzioni": ["must", "ought", "should", "are supposed to"],
+      "rispostaCorretta": 3,
+      "spiegazione": "'Are supposed to' esprime un obbligo o aspettativa istituzionale"
+    },
+    {
+      "domanda": "Not only ______ the material, but he also explained it clearly.",
+      "opzioni": ["he understood", "did he understand", "understood he", "does he understand"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dopo 'Not only' si usa l'inversione soggetto-verbo"
+    },
+    
+    {
+      "domanda": "Not until the end of the course ______ the importance of continuous assessment.",
+      "opzioni": ["the students understood", "did the students understand", "understood the students", "the students did understand"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dopo 'Not until' in posizione iniziale si usa l'inversione soggetto-verbo ausiliare"
+    },
+    {
+      "domanda": "Were the committee ______ more time, a thorough evaluation would have been possible.",
+      "opzioni": ["to have", "have had", "had had", "having"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Struttura formale con 'Were + soggetto + to have' per esprimere condizione ipotetica"
+    },
+    {
+      "domanda": "The proposal put forth by the department head is ______ to the board's approval.",
+      "opzioni": ["subjected", "subject", "subjective", "subjecting"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Be subject to' è espressione fissa che significa 'sottostare a, dipendere da'"
+    },
+    {
+      "domanda": "______ had the results been published than complaints started pouring in.",
+      "opzioni": ["No sooner", "Hardly", "Scarcely", "Only"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'No sooner... than' è la struttura corretta per esprimere immediata successione"
+    },
+    {
+      "domanda": "The minister's remarks were ______ to the ongoing debate about educational reform.",
+      "opzioni": ["pertaining", "pertinent", "persistent", "perceptive"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Pertinent' significa rilevante o attinente, mentre 'pertaining' richiederebbe 'to'"
+    },
+    {
+      "domanda": "Had it not been for the timely intervention, the situation ______ deteriorated further.",
+      "opzioni": ["would have", "will have", "had", "has"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Periodo ipotetico misto con inversione 'Had it not been... would have'"
+    },
+    {
+      "domanda": "The researchers' findings, ______ which the new methodology is based, have been widely acclaimed.",
+      "opzioni": ["in", "on", "upon", "at"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Based on' è la preposizione corretta in questo contesto accademico"
+    },
+    {
+      "domanda": "Such ______ the complexity of the issue that a simple solution proved elusive.",
+      "opzioni": ["was", "were", "is", "has been"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Struttura 'Such + be + soggetto + that' per enfasi, con accordo al singolare"
+    },
+    {
+      "domanda": "The committee insisted that the applicant ______ given a second chance.",
+      "opzioni": ["be", "was", "is", "would be"],
+      "rispostaCorretta": 0,
+      "spiegazione": "Congiuntivo presente dopo 'insisted that' in contesti formali"
+    },
+    {
+      "domanda": "______ consequence of the new policy, several amendments had to be made.",
+      "opzioni": ["As a", "In", "For", "By"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'As a consequence of' è l'espressione formale corretta per indicare causalità"
+    },
+    {
+      "domanda": "The curriculum development team can't have ______ aware of the implications.",
+      "opzioni": ["been", "being", "be", "were"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Can't have been' esprime deduzione logica negativa sul passato"
+    },
+    {
+      "domanda": "Only by implementing these measures ______ to address the learning gaps effectively.",
+      "opzioni": ["we will be able", "will we be able", "we are able", "are we able"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Dopo 'Only by' in posizione iniziale si usa l'inversione soggetto-verbo ausiliare"
+    },
+    {
+      "domanda": "The board members were ______ odds over the allocation of resources.",
+      "opzioni": ["in", "on", "at", "with"],
+      "rispostaCorretta": 2,
+      "spiegazione": "'At odds' è espressione idiomatica che significa in disaccordo"
+    },
+    {
+      "domanda": "______ the overwhelming evidence, the proposal was rejected.",
+      "opzioni": ["Despite", "In spite", "Although", "Nevertheless"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Despite' è corretto prima di frase nominale, 'In spite' richiederebbe 'of'"
+    },
+    {
+      "domanda": "The report leaves much ______ in terms of practical implementation.",
+      "opzioni": ["to be desired", "to desire", "desiring", "desired"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Leave much to be desired' è espressione idiomatica che significa essere insoddisfacente"
+    },
+    {
+      "domanda": "Had I been ______ of the deadline, I would have submitted the application earlier.",
+      "opzioni": ["apprised", "comprehended", "acknowledged", "realized"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Apprised' significa informato ed è formale, spesso usato in contesti burocratici"
+    },
+    {
+      "domanda": "The new regulations are bound ______ significant changes in teaching methods.",
+      "opzioni": ["to bringing", "to bring", "to have brought", "bringing"],
+      "rispostaCorretta": 1,
+      "spiegazione": "'Be bound to' + infinito esprime certezza riguardo al futuro"
+    },
+    {
+      "domanda": "______ no circumstances should confidential student data be disclosed.",
+      "opzioni": ["Under", "In", "On", "At"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Under no circumstances' è l'espressione fissa con inversione obbligatoria"
+    },
+    {
+      "domanda": "The assessment criteria, all of ______ were clearly defined, left no room for ambiguity.",
+      "opzioni": ["which", "them", "that", "whom"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'All of which' introduce una relative clause non restrittiva in contesto formale"
+    },
+    {
+      "domanda": "So compelling ______ the research findings that immediate action was deemed necessary.",
+      "opzioni": ["were", "was", "had been", "have been"],
+      "rispostaCorretta": 1,
+      "spiegazione": "Inversione dopo 'So compelling' con accordo al singolare ('the research findings' come concetto unitario)"
+    },  {
+      "domanda": "The teacher's explanation was particularly ______, making the complex topic easy to understand.",
+      "opzioni": ["lucid", "vague", "obscure", "ambiguous"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Lucid' significa chiaro e comprensibile, adatto al contesto"
+    },
+    {
+      "domanda": "The school implemented ______ measures to reduce energy consumption.",
+      "opzioni": ["frugal", "thrifty", "economical", "austerity"],
+      "rispostaCorretta": 2,
+      "spiegazione": "'Economical' si riferisce all'uso efficiente delle risorse, mentre 'frugal' e 'thrifty' sono per persone"
+    },
+    {
+      "domanda": "The research findings were ______ by multiple independent studies.",
+      "opzioni": ["corroborated", "refuted", "contradicted", "disputed"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Corroborated' significa confermato o validato da prove aggiuntive"
+    },
+    {
+      "domanda": "The new teaching method proved to be ______ in improving student engagement.",
+      "opzioni": ["efficacious", "efficient", "effective", "effusive"],
+      "rispostaCorretta": 2,
+      "spiegazione": "'Effective' significa che produce il risultato desiderato, 'efficacious' è più formale e medico"
+    },
+    {
+      "domanda": "There was ______ agreement among the faculty members about the new policy.",
+      "opzioni": ["unanimous", "unilateral", "universal", "unified"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Unanimous' indica completo accordo tra tutte le persone coinvolte"
+    },
+    {
+      "domanda": "The student's argument was ______ and well-supported by evidence.",
+      "opzioni": ["cogent", "tenuous", "specious", "fallacious"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Cogent' significa convincente e ben argomentato"
+    },
+    {
+      "domanda": "The curriculum committee decided to ______ the outdated content from the syllabus.",
+      "opzioni": ["expunge", "include", "incorporate", "integrate"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Expunge' significa rimuovere o cancellare completamente"
+    },
+    {
+      "domanda": "The professor's ______ style made even the most difficult concepts accessible.",
+      "opzioni": ["abstruse", "esoteric", "recondite", "lucid"],
+      "rispostaCorretta": 3,
+      "spiegazione": "'Lucid' è l'opposto di abstruse, esoteric e recondite che significano oscuro/difficile"
+    },
+    {
+      "domanda": "The school faced ______ challenges in implementing the new technology.",
+      "opzioni": ["myriad", "limited", "scant", "meager"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Myriad' significa numerosissimi, un gran numero"
+    },
+    {
+      "domanda": "The teacher displayed remarkable ______ in handling the diverse learning needs.",
+      "opzioni": ["versatility", "rigidity", "inflexibility", "dogmatism"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Versatility' significa capacità di adattarsi a diverse situazioni"
+    },
+    {
+      "domanda": "The research paper provided ______ evidence for the theory.",
+      "opzioni": ["irrefutable", "questionable", "dubious", "debatable"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Irrefutable' significa che non può essere confutato o messo in discussione"
+    },
+    {
+      "domanda": "The educational reform had a ______ impact on student performance.",
+      "opzioni": ["tangible", "intangible", "elusive", "ephemeral"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Tangible' significa reale, misurabile, concretamente percettibile"
+    },
+    {
+      "domanda": "The committee reached a ______ after hours of debate.",
+      "opzioni": ["consensus", "dissensus", "discord", "dissent"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Consensus' significa accordo generale tra i membri di un gruppo"
+    },
+    {
+      "domanda": "The teacher's feedback was ______ but constructive.",
+      "opzioni": ["candid", "deceptive", "evasive", "equivocal"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Candid' significa franco e diretto, anche se potenzialmente critico"
+    },
+    {
+      "domanda": "The new software was ______ with the existing school systems.",
+      "opzioni": ["compatible", "incompatible", "discordant", "incongruous"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Compatible' significa in grado di funzionare insieme senza problemi"
+    },
+    {
+      "domanda": "The student showed ______ improvement over the semester.",
+      "opzioni": ["marked", "subtle", "imperceptible", "negligible"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Marked' significa evidente, notevole, chiaramente visibile"
+    },
+    {
+      "domanda": "The professor had a ______ knowledge of medieval literature.",
+      "opzioni": ["profound", "superficial", "cursory", "shallow"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Profound' significa approfondito, esteso e completo"
+    },
+    {
+      "domanda": "The school adopted a ______ approach to discipline.",
+      "opzioni": ["holistic", "fragmentary", "partial", "piecemeal"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Holistic' significa completo che considera tutti gli aspetti"
+    },
+    {
+      "domanda": "The research findings were ______ across different cultural contexts.",
+      "opzioni": ["consistent", "inconsistent", "variable", "erratic"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Consistent' significa uniforme e costante in diverse situazioni"
+    },
+    {
+      "domanda": "The teacher maintained ______ in the classroom despite the disruptions.",
+      "opzioni": ["decorum", "chaos", "disarray", "tumult"],
+      "rispostaCorretta": 0,
+      "spiegazione": "'Decorum' significa comportamento appropriato e mantenimento dell'ordine"
+    }
+  ]
+ 
+}
