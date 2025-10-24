@@ -37,13 +37,13 @@
       "spiegazione": "Il castello è legato alla leggenda della Regina Giovanna ed è oggi meta turistica e set cinematografico."
     },
     {
-      "domanda": "Quale famiglia volle la costruzione del Castello Piccolomini di Celano?",
+      "domanda": "Quale famiglia volle la costruzione del Castello Piccolomini di Celano (AQ)?",
       "opzioni": ["Famiglia Piccolomini", "Famiglia Medici", "Famiglia Farnese", "Famiglia Borgia"],
       "rispostaCorretta": 0,
       "spiegazione": "Il Castello Piccolomini (XV sec.) fu voluto da Antonio Piccolomini, nipote di Papa Pio II, e unisce eleganza quattrocentesca a funzionalità militare."
     },
     {
-      "domanda": "Quale museo ospita oggi il Castello Piccolomini?",
+      "domanda": "Quale museo ospita oggi il Castello Piccolomini a Celano (AQ)?",
       "opzioni": ["Museo d'Arte Sacra della Marsica", "Museo Archeologico", "Museo della Transumanza", "Museo di Storia Naturale"],
       "rispostaCorretta": 0,
       "spiegazione": "Il castello ospita il Museo d'Arte Sacra della Marsica con reperti dal Neolitico al Medioevo, tra cui la Madonna di Luco (XIII sec.)."
@@ -133,10 +133,10 @@
       "spiegazione": "L'abbazia conserva la cripta con capitelli scolpiti e tracce di pitture sacre (XI-XII sec.), oltre a un mosaico pavimentale tardoantico."
     },
     {
-      "domanda": "Quale popolazione italica fondò Iuvanum?",
-      "opzioni": ["Carvini", "Vestini", "Peligni", "Marrucini"],
-      "rispostaCorretta": 0,
-      "spiegazione": "Il Parco Archeologico di Iuvanum (II sec. a.C.) fu antica città dei Carvini nel cuore della Maiella."
+      "domanda": "Dove si trova il sito archeologico di Iuvanum??",
+      "opzioni": ["Nella provincia di L'Aquila, all'ombra del Gran Sasso", "Nelle campagne di Montenerodomo, in provincia di Chieti", "Sulle colline vicino a Pescara, lungo la costa adriatica", "In provincia di Teramo, ai piedi del Monte Gorzano"],
+      "rispostaCorretta": 1,
+      "spiegazione": "uvanum è un sito archeologico di epoca romana posto nello splendido scenario della Majella orientale, e si trova nelle campagne di Montenerodomo, in provincia di Chieti. I monumentali resti dell’antica Iuvanum costituiscono uno dei più importanti siti archeologici della regione. Dell’insediamento originario, dei Sanniti-Carricini, rimane il santuario arcaico, con due templi affiancati, e il piccolo teatro con scena e gradini in pietra. All’età romana risale invece la gran parte dei resti archeologici oggi visitabili: strade lastricate, la grande piazza centrale (il foro), pavimentata con lastre di pietra e circondata da botteghe ed edifici pubblici, e poco distanti le terme. A ridosso del sito, un moderno edificio ospita il Museo Archeologico, che dispone di un percorso appositamente pensato per gli ipovedenti, e il Museo della Storia e Trasformazione del Paesaggio. Sono resti di un insediamento romano successivo alla guerra sociale (91-88 a.c.) un foro, un tempio e una basilica e si pensa che il nome derivi dal fatto che il centro fosse abitato inizialmente da iuvenes"
     },
     {
       "domanda": "Quali strutture si conservano nel Parco di Iuvanum?",
@@ -151,7 +151,7 @@
       "spiegazione": "Peltuinum, città vestina poi romana, sorgeva lungo il Tratturo Magno, importante via della transumanza."
     },
     {
-      "domanda": "Quale via romana attraversava Peltuinum?",
+      "domanda": "Quale via romana attraversava il parco archeologico di Peltuinum?",
       "opzioni": ["Via Claudia Nova", "Via Appia", "Via Flaminia", "Via Salaria"],
       "rispostaCorretta": 0,
       "spiegazione": "Il parco conserva tratti del lastricato della Via Claudia Nova, oltre al teatro e al tempio italico-romano."
@@ -168,12 +168,7 @@
       "rispostaCorretta": 0,
       "spiegazione": "Corfinium ospitò la prima monetazione con il nome Italia, simbolo della rivolta dei popoli italici contro Roma."
     },
-    {
-      "domanda": "Quale reperto scultoreo è stato rinvenuto nelle Terme Romane di Vasto?",
-      "opzioni": ["Venere di Vasto", "Ercole in riposo", "Diana cacciatrice", "Apollo del Belvedere"],
-      "rispostaCorretta": 0,
-      "spiegazione": "Dagli scavi delle Terme Romane di Vasto è emersa la 'Venere di Vasto' (II sec. d.C.), testimonianza del lusso dell'antica Histonium."
-    },
+    
     {
       "domanda": "A quale popolazione apparteneva l'antica Histonium?",
       "opzioni": ["Frentani", "Vestini", "Peligni", "Sanniti"],
@@ -235,22 +230,17 @@
       "spiegazione": "La basilica custodisce il misterioso 'Velo della Veronica', un velo di bisso con l'immagine di Cristo di origine inspiegabile."
     },
     {
-      "domanda": "Quale materiale compone il Velo della Veronica?",
+      "domanda": "Quale materiale compone il Velo della Veronica conservato nella Basilica del Volto Santo a Manoppello?",
       "opzioni": ["Bisso", "Lino", "Seta", "Cotone"],
       "rispostaCorretta": 0,
       "spiegazione": "Il velo è realizzato in bisso, una pregiata fibra marina, e mostra un'immagine di Cristo simile alla Sindone."
     },
+    
     {
-      "domanda": "Quale antico popolo fondò l'insediamento di Chieti?",
-      "opzioni": ["Marrucini", "Vestini", "Peligni", "Sanniti"],
-      "rispostaCorretta": 0,
-      "spiegazione": "Il centro storico di Chieti conserva stratificazioni dall'antica Teate Marrucinorum (IV sec. a.C.), città dei Marrucini."
-    },
-    {
-      "domanda": "Quale importante reperto è esposto nel Museo Archeologico di Chieti?",
+      "domanda": "Quale importante reperto è esposto nel Museo archeologico nazionale d'Abruzzo di Villa Frigerj?",
       "opzioni": ["Guerriero di Capestrano", "Ercole epitebanio", "Venere di Vasto", "Tavola di Heraclea"],
       "rispostaCorretta": 0,
-      "spiegazione": "Il Museo Archeologico Nazionale di Chieti espone il Guerriero di Capestrano e altri importanti reperti abruzzesi."
+      "spiegazione": "Il Museo archeologico nazionale d'Abruzzo di Villa Frigerj espone il Guerriero di Capestrano e altri importanti reperti abruzzesi."
     }
   ,
     {
@@ -269,10 +259,10 @@
       "domanda": "Quale importante reperto epigrafico romano è conservato nella sezione archeologica del Museo Nazionale d'Abruzzo?",
       "opzioni": ["Calendario Amiternino", "Tavola di Heraclea", "Cippo graccano", "Lex Aquilia"],
       "rispostaCorretta": 0,
-      "spiegazione": "Nella sezione archeologica si conserva il Calendario Amiternino in marmo, databile al I secolo d.C., insieme a rilievi con gladiatori."
+      "spiegazione": "Nella sezione archeologica si conserva il Calendario Amiternino in marmo (riportava le festività religiose e pagane dell'epoca, insieme a informazioni giuridiche sui giorni, come quelli fasti, nefasti o legati ai comizi.), databile al I secolo d.C., insieme a rilievi con gladiatori."
     },
     {
-      "domanda": "Quale opera trecentesca di Saturnino Gatti è esposta nel museo?",
+      "domanda": "Quale opera trecentesca di Saturnino Gatti è esposta nel Museo Nazionale d'Abruzzo?",
       "opzioni": ["Cristo ebbro", "Madonna di Fossa", "Trittico di Beffi", "San Sebastiano"],
       "rispostaCorretta": 0,
       "spiegazione": "Il museo vanta capolavori come il trecentesco Cristo ebbro di Saturnino Gatti, importante esempio di scultura medievale abruzzese."
@@ -302,25 +292,25 @@
       "spiegazione": "Al primo piano si trovano i materiali delle popolazioni italiche dell'Abruzzo: Vestini, Peligni, Marrucini, Carricini, Frentani, Sabini ed Equi."
     },
     {
-      "domanda": "Quale opera della sezione medievale è definita 'ultimo esempio di gotico-romanico in Abruzzo'?",
+      "domanda": "Quale opera della sezione medievale del Museo nazionale d'Abruzzo è definita 'ultimo esempio di gotico-romanico in Abruzzo'?",
       "opzioni": ["Cristo deposto in legno policromo da Penne", "Madonna de Ambro", "Madonna di Lettopalena", "Dormitio Virginis"],
       "rispostaCorretta": 0,
       "spiegazione": "Un'opera significativa è il Cristo deposto in legno policromo da Penne, fine XIII secolo, ultimo esempio di gotico-romanico in Abruzzo."
     },
     {
-      "domanda": "Quale trittico quattrocentesco è attribuito a Leonardo di Sabino?",
+      "domanda": "Quale trittico quattrocentesco è attribuito a Leonardo di Sabino nella sezione 'dal medioevo al novecento' del Museo Nazionale d'Abruzzo?",
       "opzioni": ["Trittico di Beffi (1410-1415)", "Trittico di Andrea De Litio", "Polittico di San Giovanni", "Pala della Sacra Parentela"],
       "rispostaCorretta": 0,
       "spiegazione": "Nel Quattrocento emergono pitture su fondo oro zecchino come il celebre trittico di Beffi (1410-1415), attribuito a Leonardo di Sabino."
     },
     {
-      "domanda": "Quali artisti napoletani del Seicento sono rappresentati nel museo?",
+      "domanda": "Quali artisti napoletani del Seicento sono rappresentati nella sezione 'arte dal medioevo al novecento' del Museo Nazionale d'Abruzzo?",
       "opzioni": ["Mattia Preti, Jusepe de Ribera, Massimo Stanzione", "Caravaggio, Artemisia Gentileschi, Salvator Rosa", "Guido Reni, Guercino, Domenichino", "Tiziano, Tintoretto, Veronese"],
       "rispostaCorretta": 0,
       "spiegazione": "Nel Seicento sono esposte tele di artisti napoletani come Mattia Preti, Bernardo Cavallino, Jusepe de Ribera, Andrea Vaccaro, Massimo Stanzione."
     },
     {
-      "domanda": "Quale opera ottocentesca di Francesco Paolo Michetti è esposta?",
+      "domanda": "Quale opera ottocentesca di Francesco Paolo Michetti è esposta nella sezione 'arte dal medioevo al novecento' del Museo nazionale d'Abruzzo?",
       "opzioni": ["I morticelli (1880)", "La lavandaia (1888)", "Il ciabattino", "Madonna del Carmine"],
       "rispostaCorretta": 0,
       "spiegazione": "Tra le acquisizioni moderne ottocentesche sono esposti Francesco Paolo Michetti ('I morticelli' 1880) e Pasquale Celommi ('La lavandaia' 1888)."
@@ -335,7 +325,7 @@
       "domanda": "Quale collezione privata arricchisce il Museo di Villa Frigerj?",
       "opzioni": ["Collezione Pansa", "Collezione Frigerj", "Collezione Riccio", "Collezione De Litio"],
       "rispostaCorretta": 0,
-      "spiegazione": "Il museo conserva la ricca collezione Pansa composta da bronzetti, vetri, gioielli e oggetti di uso quotidiano."
+      "spiegazione": "Il museo conserva la ricca collezione Pansa composta da bronzetti, vetri, gioielli e oggetti di uso quotidiano di epoca preromana e romana."
     },
     {
       "domanda": "Quali reperti numismatici sono ospitati a Villa Frigerj?",
