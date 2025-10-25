@@ -454,13 +454,13 @@
       "spiegazione": "L'Abbazia di San Michele (VIII sec.), grotta-santuario longobarda, sorge sulle pendici del vulcano spento del Vulture."
     },
     {
-      "domanda": "Quale famoso poeta romano era originario di Venosa?",
+      "domanda": "Quale famoso poeta romano era originario di Venosa (Potenza)?",
       "opzioni": ["Orazio", "Virgilio", "Ovidio", "Catullo"],
       "rispostaCorretta": 0,
       "spiegazione": "Venosa fu città natale di Orazio e importante municipio romano, con un parco archeologico che include Terme, anfiteatro e la SS. Trinità."
     },
     {
-      "domanda": "Come è chiamata la cattedrale normanna incompiuta di Venosa?",
+      "domanda": "Come è chiamata la cattedrale normanna incompiuta di Venosa (Potenza)?",
       "opzioni": ["L'Incompiuta", "Il Duomo Nuovo", "La Cattedrale Abbandonata", "La Chiesa di San Lorenzo"],
       "rispostaCorretta": 0,
       "spiegazione": "Notevole è l'Incompiuta, cattedrale normanna mai terminata, che rappresenta un esempio eccezionale di stratificazione romana, longobarda e medievale."
@@ -490,7 +490,7 @@
       "spiegazione": "Grumentum fu nodo viario fondamentale sulla Via Herculea durante le guerre puniche, con un'urbanistica tipicamente romana in area lucana."
     },
     {
-      "domanda": "Quale importante reperto bronzeo è conservato nel Museo della Siritide?",
+      "domanda": "Quale importante reperto bronzeo è conservato nel Museo Archeologico nazionale della Siritide, a Policoro (mt)?",
       "opzioni": ["Tavola bronzea di Heraclea", "Statua di Apollo", "Scudo sannita", "Elmo daunio"],
       "rispostaCorretta": 0,
       "spiegazione": "Il museo espone la Tavola bronzea di Heraclea, testo in greco su confini sacri, e corredi daunii dall'antica Siris (VII sec. a.C.)."
@@ -502,7 +502,7 @@
       "spiegazione": "Il parco comprende l'antica Siris (VII sec. a.C.), colonia greca poi confluita in Heraclea (IV sec. a.C.), con resti del tempio di Demetra."
     },
     {
-      "domanda": "Quale dea era venerata nel Santuario della Valle d'Ansanto?",
+      "domanda": "Quale dea era venerata nel Santuario della Valle d'Ansanto (prov Benevento)?",
       "opzioni": ["Mefitis", "Demetra", "Era", "Atena"],
       "rispostaCorretta": 0,
       "spiegazione": "La Valle d'Ansanto era sede del culto della dea Mefitis (VI sec. a.C.), divinità legata alle emissioni gassose sulfuree e ai rituali di passaggio."
@@ -514,13 +514,13 @@
       "spiegazione": "L'area sulfurea con emissioni gassose era ritenuta sacra da Sanniti e Romani, che vi depositavano ex voto in terracotta e bronzetti."
     },
     {
-      "domanda": "Quali reperti fossili si trovano nei Calanchi di Montalbano Jonico?",
+      "domanda": "Quali reperti fossili si trovano nei Calanchi di Montalbano Jonico (provincia di Matera)?",
       "opzioni": ["Fossili di balene ed elefanti antichi", "Fossili di dinosauri", "Fossili di ammoniti", "Fossili di orsi delle caverne"],
       "rispostaCorretta": 0,
       "spiegazione": "I calanchi, formazioni argillose erose, creano un paesaggio lunare ricco di fossili pliocenici come balene ed elefanti antichi."
     },
     {
-      "domanda": "Cosa sono i 'grigi' nei Calanchi di Montalbano?",
+      "domanda": "Cosa sono i 'grigi' nei Calanchi di Montalbano (provincia di Matera)?",
       "opzioni": ["Stratificazioni geologiche", "Tipi di piante", "Specie di uccelli", "Formazioni rocciose"],
       "rispostaCorretta": 0,
       "spiegazione": "I 'grigi' sono stratificazioni geologiche visibili fondamentali per studi paleoclimatici, in un equilibrio fragile tra erosione e biodiversità."
@@ -532,7 +532,7 @@
       "spiegazione": "Il museo è intitolato a Dinu Adamesteanu, considerato il padre dell'archeologia lucana moderna, e offre un viaggio completo nella storia del territorio dalla preistoria all'epoca romana."
     },
     {
-      "domanda": "Da quale importante sito provengono i reperti dell'età del Bronzo esposti nella sezione preistorica?",
+      "domanda": "Da quale importante sito provengono i reperti dell'età del Bronzo esposti nella sezione preistorica del Museo Archeologico Nazionale della Basilicata 'Dinu Adamesteanu' di Potenza?",
       "opzioni": ["Toppo Daguzzo e San Francesco", "Murgecchia e Murgia Timone", "Timmari e Trasano", "Rossano di Vaglio"],
       "rispostaCorretta": 0,
       "spiegazione": "La sezione preistorica espone eccezionali corredi funerari dell'età del Bronzo da Toppo Daguzzo e San Francesco, con vasi d'impasto e ornamenti in bronzo e ambra che testimoniano antiche reti di scambio."
@@ -562,13 +562,13 @@
       "spiegazione": "La sezione di arte sacra è dominata dalla grande pala d'altare del Giudizio Universale, opera di Francesco da Matera del 1540, proveniente dalla distrutta chiesa di San Francesco."
     },
     {
-      "domanda": "Quale importante collezione privata forma il nucleo originario del museo?",
+      "domanda": "Quale importante collezione privata forma il nucleo originario del museo Museo Nazionale d'Arte Medievale e Moderna della Basilicata di Matera?",
       "opzioni": ["Collezione Camillo d'Errico", "Collezione Domenico Ridola", "Collezione Dinu Adamesteanu", "Collezione Carlo Levi"],
       "rispostaCorretta": 0,
       "spiegazione": "Il nucleo originario del museo è la collezione Camillo d'Errico, composta da oltre 400 dipinti di scuola napoletana, fiamminga e veneta dal Cinquecento all'Ottocento."
     },
     {
-      "domanda": "Quale celebre opera di Carlo Levi è esposta nella sezione di arte contemporanea?",
+      "domanda": "Quale celebre opera di Carlo Levi è esposta nella sezione di arte contemporanea del Museo Nazionale d'Arte Medievale e Moderna della Basilicata - Matera?",
       "opzioni": ["Lucania 61", "Cristo si è fermato a Eboli", "I Sassi di Matera", "Il mondo dei vinti"],
       "rispostaCorretta": 0,
       "spiegazione": "Spicca il grande trittico di Carlo Levi, Lucania 61, dipinto per il palazzo stesso, che rappresenta una sintesi poetica e potente del suo sguardo sulla civiltà contadina."
